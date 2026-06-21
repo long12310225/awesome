@@ -1,0 +1,535 @@
+$ powershell -Command "Write-Host '=== Files remaining ==='; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.md' -or \$_.Extension -eq '.ps1' -or \$_.Extension -eq '.js' -or \$_.Extension -eq '.json' } | ForEach-Object { Write-Host \$_.FullName.Replace('G:\work\github\awesome\','') }"
+[exit 0]
+=== Files remaining ===
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+\$_.Extension : 无法将“\$_.Extension”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+所在位置 行:1 字符: 185
++ ... ; Get-ChildItem -Recurse -File | Where-Object { \$_.Extension -eq '.m ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\$_.Extension:S
+
+[… truncated 163680 chars …]

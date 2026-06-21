@@ -1,0 +1,370 @@
+# 精彩的游戏重制版 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+积极维护开源游戏重制版。
+
+大多数游戏都需要原始资产。不需要付费资源的卡片会标有：flower_playing_cards:。
+
+如果您也对克隆和类似游戏（0 A.D. 等）感兴趣，请查看[开源游戏克隆](https://osgameclones.com/)。
+
+---
+
+## 内容
+- [Action](#action)
+- [Adventure](#adventure)
+- [Arcade](#arcade)
+- [FPS](#fps)
+- [Online](#online)
+- [RPG](#rpg)
+- [Platformer](#platformer)
+- [Racing](#racing)
+- [Simulator](#simulator)
+- [Strategy](#strategy)
+
+## 行动
+- [Carnage3D](https://github.com/codenamecpp/carnage3d) - 重新实现侠盗猎车手。
+- [donut](https://github.com/plowteam/donut) - 用现代 C++ 和现代 OpenGL 重新实现《辛普森一家：打与逃》。
+- [Heretic2R](https://github.com/m-x-d/Heretic2R) - Heretic II（1998，Raven Software）逆向工程源端口。
+- [heretic2](https://github.com/0lvin/heretic2) - Heretic2 游乐场沙盒。
+- [OpenJK](https://github.com/JACoders/OpenJK) - Raven Software 致力于维护和改进 Jedi Academy 和 Jedi Outcast 的社区努力。
+- [Speed-Academy](https://github.com/kugelrund/Speed-Academy) - 单人游戏《星球大战绝地武士：绝地学院》的源端口。
+- [Speed-Outcast](https://github.com/kugelrund/Speed-Outcast) - 《星球大战绝地武士 II：绝地流亡者》单人游戏的源端口。
+- [OpenLara](https://github.com/XProger/OpenLara) - 经典的古墓丽影开源引擎。
+- [OpenMB](https://github.com/cookgreen/OpenMB) - Taleworlds 的《骑马与砍杀》系列的角色扮演游戏引擎。
+- [OpenRW](https://openrw.org/) - Rockstar Games 的 Grand Theft Auto III 的跨平台、开源重新实现。
+- [remc2](https://github.com/turican0/remc2) - 通过 Assembler 对 Magic Carpet 2 进行逆向工程。
+- [Rigel Engine](https://github.com/lethal-guitar/RigelEngine) - 用 C++ 对经典 DOS 游戏 Duke Nukem II 进行现代重新实现。
+- [San Andreas Unity](https://github.com/GTA-ASM/SanAndreasUnity) - 在 Unity 中重新实现 GTA：圣安地列斯游戏引擎。
+- [TOMB5](https://github.com/TOMB5/TOMB5) - 古墓丽影：编年史反汇编翻译为 C 源代码。
+- [TR1X](https://github.com/LostArtefacts/TR1X) - 经典古墓丽影 I 游戏的开源实现。
+
+## 冒险
+- [DetectiveDS](https://github.com/RustyPixelsUK/DetectiveDS) - 任天堂 DS 版原版 C64 经典《侦探游戏》的重制版。
+- [Dusklight](https://github.com/TwilitRealm/dusklight) - 黄昏之光是暮光公主的逆向工程重新实现。
+- [lba1-classic](https://github.com/LBALab/lba1-classic) - 小小大冒险：特温森的冒险最终版
+- [lba2-classic-community](https://github.com/LBALab/lba2-classic-community) - 小小大冒险2引擎源代码。
+- [lba2remake](https://github.com/LBALab/lba2remake) - A Little Big Adventure 2 / Twinsen's Odyssey 在 JavaScript / Three.js / React 中重新实现。
+- [ScummVM](https://github.com/scummvm/scummvm) - 允许您运行某些经典的图形点击式冒险游戏，例如《Maniac Mansion》和《Monkey Island》。
+- [twin-e](https://github.com/LBALab/twin-e) - TwinEngine：一个小小大冒险引擎。
+- [timeco](https://github.com/LBALab/timeco) - 时间突击队重新实施
+
+## 街机
+- [AcidDrop](https://github.com/lostjared/AcidDrop) - 经典 Atari 2600 游戏“Acid Drop”的重制版。
+- [Barbarian](http://barbarian.1987.free.fr/indexEN.htm) - 《野蛮人：终极战士》的开源克隆。
+- [Battle City](https://github.com/vgrichina/battlecity) - Namco 1985 年 Battle City（Famicom 版本）的浏览器重新实现，由完整注释的 6502 反汇编构建而成。可在 https://battle-city.berry.app 上玩。 :花牌:
+- [C-Dogs SDL](https://github.com/cxong/cdogs-sdl) - 经典的头顶跑轰游戏。 :花牌:
+- [Crimsonland](https://github.com/banteg/crimson) - 忠实地从头开始重写双摇杆射击游戏《猩红之地》。
+- [Mr.Boom](https://github.com/Javanaise/mrboom-libretro) - RetroArch/Libretro 的 8 人炸弹人克隆版。
+- [OpenClonk](https://github.com/openclonk/openclonk) - 多人动作游戏，您可以控制小型灵活的类人生物。
+- [OpenJazz](https://github.com/AlisterT/openjazz) - 经典 Jazz Jackrabbit™ 游戏的免费开源版本。
+- [Open Kick-Off](https://github.com/ssenegas/kickoff) - 重写邪教足球游戏 Kick Off 2 的尝试。:flower_playing_cards:
+- [openomf](https://github.com/omf2097/openomf) - 《One Must Fall 2097》重制版。
+- [OpenTyrian](https://github.com/opentyrian/opentyrian) - Tyrian 从 Turbo Pascal 到 C 的开源移植。:flower_playing_cards:
+- [Retro-Arcade-Remakes](https://github.com/danywaked/Retro-Arcade-Remakes) - C++ 复古街机重制版展示了干净的 OOP 设计、游戏循环、碰撞系统和状态管理。
+- [SpaceRox.MX2](https://github.com/lostjared/SpaceRox.MX2) - 使用 MX2 的 2D 小行星风格游戏。
+- [Taisei](https://github.com/taisei-project/taisei) - 粉丝制作的东方系列的开源克隆。 :花牌:
+- [The Great Escape in C](https://github.com/dpt/The-Great-Escape-in-C) - 便携式 C 中的经典 ZX Spectrum 游戏《大逃亡》：flower_playing_cards：
+- [Zelda Classic](https://github.com/ArmageddonGames/ZeldaClassic) - 一款游戏和编辑工具，可让您创建自定义《塞尔达传说》任务。
+- [WarhawkDS](https://github.com/RustyPixelsUK/WarhawkDS) - Warhawk DS 在本机汇编程序中将 C64 游戏 Warhawk 重制到 Nintendo DS。
+
+## FPS
+- [4TAK](https://github.com/qbism/4TAK) - 基于q2pro-rerelease和q2pro的客户端和服务器
+- [Aleph One](https://github.com/Aleph-One-Marathon/alephone) - Bungie Marathon 2 游戏引擎的开源延续。
+- [Allegiance](https://github.com/FreeAllegiance/Allegiance) - 《Allegiance》是一款 RTS 和 FPS 太空战斗游戏。
+- [BetterSpades](https://github.com/xtreme8000/BetterSpades/) - 在旧机器上运行的黑桃 A 开源实现。
+- [Barrett](https://github.com/lunarmeadow/barrett/) - 适用于现代系统的先进且功能齐全的 Triad 源端口的崛起。
+- [BStone](https://github.com/bibendovsky/bstone) - 《布莱克·斯通：黄金外星人》和《布莱克·斯通：星球大战》的源端口。
+- [CatacombGL](https://github.com/ArnoAnsems/CatacombGL) - Catacomb 3D 和 Catacomb Adventure 系列的 Windows 源移植版。
+- [Chasm-Reverse](https://github.com/Panzerschrek/Chasm-Reverse) - “PanzerChasm”是“ActionForms”使用原始游戏数据（CSM​​.BIN 文件）对游戏“Chash: - The Rift”进行的免费娱乐。
+- [Chocolate Doom](https://github.com/chocolate-doom/chocolate-doom) - 源端口是极简主义的，历史准确的，包括Heretic和Hexen以及Strife的端口。 :花牌:
+- [Chocolate Quake](https://github.com/Henrique194/chocolate-quake) - 一个纯粹的 Quake 源端口，恢复了 v1.09 及更早版本的原始外观和感觉。
+- [ClassiCube](https://github.com/ClassiCube/ClassiCube) - 从头开始用 C 语言编写的 Minecraft Classic 兼容客户端。 :花牌:
+- [Crispy Doom](https://github.com/fabiangreffrath/crispy-doom) - 基于 Chocolate Doom 的解除限制的增强分辨率 Doom 源端口。
+- [dhewm3](https://github.com/dhewm/dhewm3) - 《毁灭战士 3》的源端口。
+- [DOOM64-EX-Plus-Enhanced](https://github.com/Styd051/DOOM64-EX-Plus-Enhanced) - Doom 64 EX+ 引擎的分支，其主要目标是展示 Doom 64 引擎如果没有受到 N64 控制台的限制的话会是什么样子。
+- [DOOM64EXUltra](https://github.com/StevenSYS/DOOM64EXUltra) - DOOM 64 EX+ 的一个分支，包含新内容和修复
+- [Doom Legacy](https://sourceforge.net/projects/doomlegacy/) - 最流行的《DOOM》源端口之一，通过 TCP/IP 网络、OpenGL 渲染器等功能对其进行了增强。:flower_playing_cards:
+- [DoomRetro](https://github.com/bradharding/doomretro) - 适用于 Windows PC 的经典、精致的 DOOM 源端口。 :花牌:
+- [Doomsday Engine](https://github.com/skyjake/Doomsday-Engine) - id Software 的 DOOM I/II 和 Raven Software 的 Heretic 和 Hexen 的源端口。 :花牌:
+- [DSDA-Doom](https://github.com/kraflab/dsda-doom) - prboom+ 的继承者，带有用于演示录制和播放的额外工具，重点关注速度运行和生活质量。
+- [DukeGDX](https://gitlab.com/m210/DukeGDX) - 《毁灭公爵》3D 端口。
+- [ericw-tools](https://github.com/ericwa/ericw-tools) - Quake/Hexen 2 地图编译工具。
+- [ECWolf](https://bitbucket.org/ecwolf/ecwolf/src/master/) - 基于 Wolf4SDL 的 Wolfenstein 3D 移植版。
+- [EDGE-classic](https://github.com/edge-classic/EDGE-classic) - 跨平台 OpenGL Doom 源端口，具有强大的模组功能。
+- [Eduke32](https://voidpoint.io/terminx/eduke32) - Duke Nukem 3D 和 BUILD 引擎的源移植。
+- [ezQuake](https://github.com/ezQuake/ezquake-source) - ezQuake 结合了所有现代 QuakeWorld 客户端的功能，使 QuakeWorld 更易于启动和玩。
+- [FreeCS](https://sourceforge.net/projects/freecs-1-5/) - 在 FTEQW 引擎上运行的 Counter-Strike 1.5 的免费软件重新实现。 :花牌:
+- [Freedoom](https://github.com/freedoom/freedoom) - 基于经典 DOOM 引擎的免费软件 FPS。 :花牌:
+- [FTEQW](https://fte.triptohell.info/) - 适用于 Quake 1、QuakeWorld、Quake 2、Hexen II 和 Quake III Arena 的 FPS 引擎。
+- [ew-progs](https://code.idtech.space/two-guys/ew-progs) - 永恒之战：光之影的 progs 源代码。
+- [ew-engine](https://code.idtech.space/two-guys/ew-engine) - 永恒之战：光之影的引擎源代码。
+- [heavymetal](https://github.com/sp00nznet/heavymetal) - 针对现代 Windows 11 x86-64 的 Heavy Metal: FAKK2 (2000) 的静态重新编译。
+- [Hexen II: Hammer of Thyrion](https://sourceforge.net/p/uhexen2/code/HEAD/tree/) - Hexen II 游戏的跨平台移植。
+- [idTech4A++ (Harmattan Edition)](https://github.com/glKarin/com.n0n3m4.diii4a) - Android/Windows/Linux 上的 DOOM III/Quake 4/Prey(2006) GLES，Android 上的 DOOM 3 BFG/The Dark Mod/RTCW/Quake 1 2 3/GZDOOM/ETW/RealRTCW/OpenJK/SeriousSam/Skin Deep。
+- [ioquake3](https://github.com/ioquake/ioq3) - 免费软件 FPS 引擎，可用于玩 Quake 3，或制作您自己的游戏。
+- [iortcw](https://github.com/iortcw/iortcw) - 《重返德军总部》的源港。
+- [ironwail](https://github.com/andrei-drexler/ironwail) - 高性能 QuakeSpasm 前叉。
+- [jfsw](https://github.com/jonof/jfsw/) - 3D Realms 游戏《暗影武士》的移植版。
+- [jftekwar](https://github.com/jonof/jftekwar) - Capstone Software 游戏“TekWar”的无承诺移植。
+- [jfwhaven](https://github.com/jonof/jfwhaven) - Capstone Software 游戏“Witchaven”的无承诺移植版。
+- [lilium-arena](https://github.com/clover-moe/lilium-arena) - Lilium Arena - 与 Quake 3 Arena 1.32 兼容。
+- [lilium-salvation](https://github.com/clover-moe/lilium-salvation) - [黑暗救赎]的引擎替代品(https://mangledeyestudios.itch.io/dark-salvation)
+- [lilium-voyager](https://github.com/clover-moe/lilium-voyager) - 《星际迷航航海者：精英部队全息匹配》（多人游戏）的引擎替代品。
+- [mint-arena](https://github.com/clover-moe/mint-arena) - Spearmint Quake 3 和 Team Arena 游戏代码。
+- [mint-metal](https://github.com/zturtleman/mint-metal) - 不完整（无法用于实际目的）重金属 F.A.K.K.² / American McGee 的爱丽丝留兰香游戏代码。
+- [NBlood](https://github.com/nukeykt/NBlood) - 经典 FPS Blood 的移植。
+- [NearChuckle](https://github.com/rohit-n/NearChuckle) - 《孤岛惊魂 1》的 Linux 移植版。
+- [Oblivion-Reconstructed](https://github.com/themuffinator/Oblivion-Reconstructed) - 原始 Quake II 的逆向工程 Oblivion 扩展包源代码。
+- [OmegA-engine](https://github.com/Bishop-333/OmegA-engine) - 基于 Quake3e 的现代 OpenArena 引擎
+- [OmegA-mod](https://github.com/Bishop-333/OmegA-mod) - OpenArena 的 OmegA 模组
+- [OpenChasm](https://github.com/alexey-lysiuk/OpenChasm) - Chasm: The Rift 游戏的免费软件重建。
+- [Odamex](https://github.com/odamex/odamex) - 在线多人《DOOM》移植版重点关注原始游戏玩法，同时提供广泛的增强功能。 :花牌:
+- [OpenMoHAA](https://github.com/openmoh/openmohaa) - 开放重新实施《荣誉勋章：盟军突击》，包括先锋和突破扩展。
+- [openQ4](https://github.com/themuffinator/openQ4) - QUAKE 4 的现代二进制替代品。
+- [openQ4-game](https://github.com/themuffinator/openQ4-game) - openQ4 游戏库
+- [OpenSpades](https://github.com/yvt/openspades) - 体素 FPS 黑桃 A 的兼容客户端。
+- [qk1](https://git.sr.ht/~ft/qk1) - 针对类 Unix 操作系统和 9front 的现代化 Quake。
+- [qk1](https://github.com/qwx9/qk1) - 地震 1 和 plan9 的 quakeworld 端口。
+- [q2tools-220](https://github.com/qbism/q2tools-220) - Quake 2 地图编译器工具，支持 v220 地图、自动 phong、增强功能和修复。
+- [Q2RTXPerimental](https://github.com/PolyhedronStudio/Q2RTXPerimental) - 我在 Quake II 中实现 NVIDIA RTX 光线追踪的“实验”分支
+- [qfusion](https://github.com/Warsow/qfusion) - 这是 Warsow 的 qfusion 分支，是 id Tech 2 派生的游戏引擎。
+- [quake3-rust-edition](https://github.com/Oli97430/quake3-rust-edition) - id Tech 3 在 Rust 中重新构想 — 具有延迟补偿、TDM、演示和超广泛支持的多人 FPS。
+- [Quake3e](https://github.com/ec-/Quake3e) - 改进的雷神之锤 III 竞技场引擎。
+- [quakeforge](https://github.com/quakeforge/quakeforge) - QuakeForge 源自 Id Software 于 1999 年 12 月发布的原始 Quake 引擎，可用于玩原始 Quake 和 QuakeWorld 游戏和模组（包括许多现代模组）。
+- [QL-SRP](https://github.com/themuffinator/QL-SRP) - QUAKE LIVE 源重建项目 [WIP]
+- [QuakeSpasm](https://sourceforge.net/projects/quakespasm/) - 现代的跨平台 Quake 游戏引擎。
+- [Raze](https://github.com/ZDoom/Raze) - 构建由 GZDoom 技术支持的引擎端口。目前支持《毁灭公爵 3D》、《血色》、《暗影武士》、《乡下人横冲直撞》和《Powerslave/Exhumed》。
+- [RBDOOM-3-BFG](https://github.com/RobertBeckebans/RBDOOM-3-BFG) - Doom 3 BFG 版，带有柔和阴影、清理源代码、Linux 和 64 位支持。
+- [realice](https://github.com/FWGS/realice) - 重金属 F.A.K.K. 2 / American McGee 的 Alice 逆向工程。
+- [REBLIVION](https://github.com/themuffinator/REBLIVION) - Quake II: Rerelease 的非官方移植和增强的 Oblivion 扩展包。
+- [RedneckGDX](https://gitlab.com/m210/RedneckGDX) - 乡巴佬横冲直撞的港口。
+- [SeriousSamClassic-VK](https://github.com/tx00100xt/SeriousSamClassic-VK) - Serious Sam Classic 的开源游戏引擎，支持 Vulkan。
+- [SeriousSamAlphaRemake](https://github.com/tx00100xt/SeriousSamAlphaRemake) - 基于 Serious Sam Alpha Remake 开源项目。
+- [spearmint](https://github.com/clover-moe/spearmint) - Spearmint — 更新的 id Tech 3 引擎，用于延续经典并创造新游戏。
+- [SurrealEngine](https://github.com/dpjudas/SurrealEngine) - 该项目的目标是重新实现足够多的原始虚幻引擎，以使虚幻竞技场 (UT99) 地图可玩。
+- [Taradino](https://github.com/fabiangreffrath/taradino) - 《三合会崛起》的 SDL2 移植版。
+- [The Eternity Engine](https://github.com/team-eternity/eternity) - 高级 DOOM 源端口。 :花牌:
+- [The Force Engine](https://github.com/luciusDXL/TheForceEngine) - 适用于现代系统的 Jedi 引擎以及使用该引擎的游戏 - 《黑暗力量》和《亡命之徒》。
+- [Tremulous110e](https://github.com/Artevilli/Tremulous110e) - 基于ioquake3改进的Tremulous 1.1.0引擎
+- [tremulous](https://github.com/justinl1996/tremulous) - 基于 GrangerHub/tremulous 的最新 Tremulous
+- [Tyrquake](https://github.com/libretro/tyrquake) - 提尔奎克的 Libretro 港口。
+- [UZDoom](https://github.com/UZDoom/UZDoom) - 基于 DOOM 引擎的 Modder 友好 OpenGL 和 Vulkan 源端口。 :花牌:
+- [MadnessPatch](https://github.com/Wemino/MadnessPatch) - 该补丁修复了《爱丽丝：疯狂归来》PC 版中的各种问题。
+- [VorpalFix](https://github.com/Wemino/VorpalFix) - 该补丁解决了 2011 年美国麦吉的《爱丽丝》重制版的各种技术问题并提高了生活质量。
+- [vkQuake](https://github.com/Novum/vkQuake) - 基于 QuakeSpasm 的 Vulkan Quake 端口。
+- [xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) - Xash3D FWGS 引擎
+- [Yamagi Quake II](https://github.com/yquake2/yquake2) - 增强了 id Software 的 Quake II 客户端，重点关注离线和合作游戏。
+- [Zandronum](https://zandronum.com/) - 面向多人游戏的端口，基于 Skulltag，适用于《毁灭战士》和《毁灭战士 II》。还运行Heretic、Hexen 和Strife。 :花牌:
+
+## 在线
+- [2006rebotted](https://github.com/dginovker/2006rebotted) - 2006 RuneScape 2 仿真服务器。 :花牌:
+- [2004scape](https://2004scape.org) - 2004 年 RuneScape 2 的免费开源重制版。:flower_playing_cards:
+- [2009scape](https://2009scape.org) - 2009 年 RuneScape 2 的免费开源重制版。:flower_playing_cards:
+- [ACEmulator](https://emulator.ac) - 一个自定义的、完全从头开始的开源服务器模拟器，用于基于 C# 构建的 Asheron’s Call。 :花牌:
+- [FreeSO](https://github.com/riperiperi/FreeSO) - 重新实现《模拟人生 Online》，主要针对移动设备。 :花牌:
+- [Meridian 59](https://github.com/Meridian59/Meridian59) - 第一个 3D MMORPG，于 1996 年发布，并于 2012 年开源。Meridian 59 的原始代码库。
+- [Opengate](https://sourceforge.net/projects/opengate/) - 重制版《跳跃门》。
+- [OpenRSC](https://gitlab.com/open-runescape-classic/core) - 基于记录的数据和视频，使用 Java 开源准确的 RuneScape Classic (2001-2003) 游戏服务器。 :花牌:
+- [RSC-C](https://github.com/2003scape/rsc-c) - 用便携式 C 重写 RuneScape Classic (2001-2003) 游戏客户端。:flower_playing_cards:
+- [RuneLite](https://github.com/runelite/runelite) - 开源 Old School RuneScape (OSRS) 客户端。 :花牌:
+- [Ryzom Core](https://github.com/ryzom/ryzomcore) - Ryzom Core 包含用于制作商业 MMORPG Ryzom 的完整代码（客户端、服务器、工具）。 :花牌:
+- [Space Station 14](https://github.com/space-wizards/space-station-14) - 《空间站 14》是《空间站 13》的翻拍版。
+- [VoxeLibre](https://git.minetest.land/VoxeLibre/VoxeLibre) - 基于 Luanti 引擎的稳定、可修改且免费的 Minecraft 克隆。 :花牌:
+- [Netrek](https://sourceforge.net/projects/netrek/) - Netrek是一款以星际迷航为主题的多人战斗模拟游戏。最多 16 名玩家被分成两支队伍，为争夺银河系的统治权而互相战斗。
+
+## 角色扮演游戏
+- [Abyss Engine](https://github.com/AbyssEngine/AbyssEngine) - Abyss Engine 是一款游戏引擎，旨在运行类似于 2000 年代风格的 ARPG（例如《暗黑破坏神 II》）的游戏。
+- [Amber](https://github.com/Pyrdacor/Amber) - 琥珀三部曲的引擎
+- [Ambermoon.net](https://github.com/Pyrdacor/Ambermoon.net) - 用 C# 重写 Ambermoon
+- [Arianne RPG](https://sourceforge.net/projects/arianne/) - Arianne 是一个开发像 Stendhal 这样的多人在线游戏的引擎
+- [Arx Libertatis](https://github.com/arx/ArxLibertatis) - 第一人称角色扮演游戏 Arx Fatalis 的跨平台移植。
+- [Barony](https://github.com/TurningWheel/Barony) - Barony 的开源版本。
+- [BtBuilder](https://github.com/dulsi/btbuilder) - Bard's Tale Construction Set 的开源实现。
+- [castarook](https://github.com/SamoraCletus/castarook) - 体验 3D 国际象棋与 RPG 战斗、动态地形和骰子驱动的战斗，在生动的游戏世界中融合策略和角色扮演元素。
+- [ChaosEsqueAnthology](https://sourceforge.net/projects/chaosesqueanthology/) - 一款免费的 PC 3D 游戏，不限制玩家。战斗、建造、收获
+- [Daggerfall Unity](https://github.com/Interkarma/daggerfall-unity) - 在 Unity 引擎中重新创建 Daggerfall。
+- [Devilution](https://github.com/diasurgical/devilution) - 暗黑破坏神原始源代码的重构形式。
+- [DevilutionX](https://github.com/diasurgical/devilutionX) - Diablo 为现代操作系统构建。
+- [DGEngine](https://github.com/dgengin/DGEngine) - 暗黑破坏神游戏引擎的实现。
+- [Exult](https://github.com/exult/exult) - 为现代操作系统重新创建 Ultima 7 的项目。
+- [Falltergeist](https://github.com/falltergeist/falltergeist) - 用 C++ 和 SDL 编写的跨平台 Fallout 2 游戏引擎。
+- [Freeablo](https://github.com/wheybags/freeablo) - Diablo 引擎的开源实现。
+- [FreeFT](https://github.com/nadult/FreeFT) - 受《辐射战术》启发的实时等距动作游戏引擎。
+- [GemRB](https://github.com/gemrb/gemrb) - 无限引擎的便携式开源重新实现（博德之门、冰风谷等都使用）。
+- [OpenEnroth](https://github.com/OpenEnroth/OpenEnroth) - 使用原始数据和代码重制《魔法门》VI-VIII 引擎。
+- [OpenGothic](https://github.com/Try/OpenGothic) - 哥特2：乌鸦之夜的重新实现。
+- [OpenMW](https://github.com/OpenMW/openmw) - 重新实现晨风游戏引擎。
+- [OpenNox](https://github.com/noxworld-dev/opennox) - 扩展 Nox 引擎的合作项目。
+- [OpenTESArena](https://github.com/afritz1/OpenTESArena) - Bethesda Softworks 对《上古卷轴：竞技场》的现代引擎重新实现。
+- [OpenVIII](https://github.com/MaKiPL/OpenVIII) - 最终幻想 VIII 引擎在 C# 中的实现。
+- [REGoth](https://github.com/REGoth-project/REGoth-bs) - zEngine 的开源重新实现，它是 Gothic 和 Gothic II 背后的引擎。
+- [Riiablo](https://github.com/collinsmith/riiablo) - 使用 Java 和 LibGDX 重制了《暗黑破坏神 II》。
+- [sfall](https://github.com/phobos2077/sfall) - 针对经典游戏《辐射 2》的一组引擎修改。
+- [Shockolate](https://github.com/Interrupt/systemshock) - 同样出色的《系统震撼》，新的美味。
+- [Thirdeye](https://github.com/psi29a/thirdeye) - 重新实现运行 Eye of the Beholder 3 和 Dungeon Hack 的 AESOP。
+- [UAlbion](https://github.com/csinkers/ualbion) - 1995 年《阿尔比恩》的翻拍版。
+- [UnderworldGodot](https://github.com/hankmorgan/UnderworldGodot) - Godot 引擎中的 Ultima Underworld 和 Ultima Underworld 2 引擎再现。
+- [WitchavenGDX](https://gitlab.com/m210/WitchavenGDX) - 巫师之家 Java 端口。
+- [xoreos](https://github.com/xoreos/xoreos) - BioWare 的 Aurora 引擎及其衍生产品的实施（被《无冬之夜》、《巫师》等所使用）。
+- [Zelda3](https://github.com/snesrev/zelda3) - 这是《塞尔达传说 3 - 众神的三角力量》的逆向克隆版。
+- [zorkClone](https://github.com/vatbub/zorkClone) - 由 Infocom 开发的原始 Zork 游戏的重新实现。
+
+## 平台游戏
+- [Alive Reversing](https://github.com/AliveTeam/alive_reversing) - 重新实现《奇异世界：安倍出走》。
+- [BanjoRecomp](https://github.com/BanjoRecomp/BanjoRecomp) - 使用 N64 制作的 Banjo-Kazooie 的 PC 端口：重新编译。
+- [Commander Genius](https://gitlab.com/Dringgstein/Commander-Genius) - Commander Keen Games 的现代口译员。 :花牌:
+- [Ghostship](https://github.com/HarbourMasters/Ghostship) - 《超级马里奥 64》的 PC 版重新实现。
+- [Jak Project](https://github.com/open-goal/jak-project) - 该项目的目标是将原三部曲（Jak 1 -> Jak 3）移植到 PC 上。
+- [Jazz² Resurrection](https://github.com/deathkiller/jazz2) - 重新实现 Jazz Jackrabbit 2。
+- [Lionheart Remake](https://github.com/b3dgs/lionheart-remake) - Lionheart Amiga 游戏的 Java 重制版。
+- [ManicMinerLL](https://github.com/RustyPixelsUK/ManicMinerLL) - 使用为其他官方计算机发布版本创建的关卡将 Manic Miner 重新设计到 DS 上。
+- [NXEngine-evo](https://github.com/nxengine/nxengine-evo) - 重写了杰作跳跃和奔跑平台游戏《Doukutsu Monogatari》（也称为《洞穴物语》）。
+- [Omnispeak](https://github.com/sulix/omnispeak) - 重新实现《再见银河》中的指挥官基恩。
+- [Prince-Monogame](https://github.com/salvadorc17/Prince-Monogame) - 《波斯王子 2》的单游戏实现。
+- [SDLPoP](https://github.com/NagyD/SDLPoP) - 波斯王子港，基于DOS版本的反汇编。
+- [sm64js](https://github.com/sm64jsarchive/sm64jsarchive) - 用 JavaScript 重新实现《超级马里奥 64》。
+- [The Secret Chronicles of Dr. M](https://github.com/secretchronicles/TSC) - 改编自《秘密马里奥编年史》。 :花牌:
+- [UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) - 通过静态重新编译过程创建的 Xbox 360 版 Sonic Unleashed 的非官方 PC 端口。
+- [VVVVV](https://github.com/TerryCavanagh/vvvvvv) - 源代码为VVVVVV。
+
+## 赛车
+- [Reburn 3](https://github.com/reburndev/reburn3) - 《Burnout 3：Takedown》的开源重新实现正在进行中。
+- [dRally](https://github.com/urxp/dRally) - 开源引擎/死亡拉力赛 [1996]
+- [DreeRally](https://github.com/enriquesomolinos/DreeRally) - 死亡拉力赛引擎重新实现。
+- [dethrace](https://github.com/dethrace-labs/dethrace) - 对 1997 年游戏“Carmageddon”进行逆向工程
+- [hi-octane202x](https://github.com/woalexan/hi-octane202x) - Hi-Octane 带有使用 Irrlicht 引擎的关卡编辑器。
+- [HiOctaneTools](https://github.com/movAX13h/HiOctaneTools) - 用于检查和修改 Bullfrog (1995) 游戏 Hi-Octane 级别的工具。
+- [Open76](https://github.com/rob518183/Open76) - Interstate '76 发动机重新实施
+- [OpenNFS](https://github.com/OpenNFS/OpenNFS) - 尝试重现经典的极品飞车游戏 (1-6)。
+- [tube64](https://github.com/rep-stosw/tube64) - DOS 游戏 Tube 的 64 位版本（Bullfrog，1994）
+- [SpagettiKart](https://github.com/HarbourMasters/SpaghettiKart) - 重新实现 PC 版《马里奥赛车 64》。
+- [Vangers](https://github.com/KranX/Vangers) - 赛车/角色扮演混合游戏由其创建者开源，用 C++ 编写。
+- [Vange-rs](https://github.com/kvark/vange-rs) - 该项目的想法是复制 Vangers 的旧外观和行为，但具有图形的本机硬件加速。
+- [wipEout Rewrite](https://github.com/phoboslab/wipeout-rewrite) - 这是 1995 年 PSX 游戏 wipEout 的重新实现。 :花牌:
+- [retruxx](https://github.com/mindflower/retruxx) - 逆向工程硬卡车启示录。
+
+## 模拟器
+- [Descent3](https://github.com/DMJC/Descent3) - Outrage Entertainment 的《血统 3》
+- [DXX-Rebirth](https://github.com/dxx-rebirth/dxx-rebirth) - 适用于 Windows、macOS、Linux 的 Descent 和 Descent 2 引擎的源端口。
+- [dxx-redux](https://github.com/dxx-redux/dxx-redux) - 基于 DXX-Retro 的下降 1&2 源端口。
+- [dxx-vr](https://github.com/DMJC/dxx-vr) - 基于DXX-Retro的Descent 1&2 VR源端口
+- [FLUF](https://codeberg.org/TheStarport/FLUF) - 自由职业者通用框架
+- [freelancer-retold](https://codeberg.org/TheStarport/freelancer-retold) - 对 2003 年游戏《自由职业者》的战役和游戏玩法进行了重新设计。
+- [forsaken-3ds](https://github.com/colbyshores/forsaken-3ds) - 任天堂 3DS 移植版《遗落之族》 (1998)
+- [ForsakenX](https://github.com/ForsakenX/forsaken) - 被遗弃的游戏引擎。
+- [ForsakenW](https://github.com/ForsakenW/forsaken) - 被遗忘者的源代码。
+- [Free Stars: The Ur-Quan Masters](https://sc2.sourceforge.net/) - 经典 Star Control 2 的开源版本。
+- [FS2Open](https://github.com/scp-fs2open/fs2open.github.com) - FreeSpace2 源代码项目。
+- [Librelancer](https://github.com/Librelancer/Librelancer) - 重新实现 2003 年太空游戏 Freelancer。
+- [Endless Sky](https://github.com/endless-sky/endless-sky) - 太空探索、贸易和战斗游戏。
+
+## 策略
+- [aeon](https://github.com/lordbasilaiassistant-sudo/aeon) - 开源浏览器上帝游戏和文明模拟游戏，其中每个生物都是一个真实的、不断进化的神经网络。 WorldBox（上帝沙盒）和 Civ（深度进展）的融合 - 在生存中领导人民或在创意中塑造世界。人工生命、基因进化、新兴社会。
+- [1oom](https://github.com/1oom-fork/1oom) - 1oom 是 Master of Orion Classic (1993) 游戏引擎游戏，需要原始文件才能运行。
+- [Allure](https://github.com/LixieWulf/Allure) - 一个大型 HJSON 模组，专注于快速动作、沉浸式 RTS 游戏。包括传说包。
+- [Ancient Beast](https://github.com/FreezingMoon/AncientBeast) - 《魔法门之英雄无敌 III》的精神继承者，专注于战斗；基于匹配的电子竞技。
+- [Antares](https://github.com/arescentral/antares) - 《战神》重制版，一款战术太空战斗游戏。
+- [Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason) - 基于 Recoil RTS 引擎构建的开源 RTS 游戏
+- [CivOne](https://github.com/SWY1985/CivOne) - 席德·梅尔的文明的实施。
+- [Unciv](https://github.com/yairm210/Unciv) - Civ V 的开源 Android/桌面重制版。
+- [OpenCiv3](https://github.com/C7-Game/OpenCiv3) - OpenCiv3 是由粉丝社区使用 Godot 引擎和 C# 构建的开源、跨平台、面向模组、现代化的文明 III 重制版。
+- [freeciv](https://github.com/freeciv/freeciv) - Freeciv 是一款免费开源的帝国建设策略游戏，其灵感源自人类文明史。
+- [freecivworld](https://github.com/freecivworld/freecivworld) - Freecivworld.net 是 Freeciv 的 3D 版本。
+- [CzechDraughts](https://github.com/david-soliar/CzechDraughts) - 作为 C# 控制台应用程序实现的跨平台捷克跳棋 (Česká Dáma) 游戏。
+- [CorsixTH](https://github.com/CorsixTH/CorsixTH) - 主题医院的克隆，支持现代操作系统、高分辨率等等。
+- [Cortex Command Community Project Source](https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source) - 社区推动的努力继续开发 Cortex Command。
+- [ChaosGame](https://github.com/0Mart00/ChaosGame) - 从头开始构建的混乱 2D 即时战略游戏。使用随机技能指挥部队，解锁先进科技树，并在战术攻击中生存下来。
+- [durer-jatekok](https://github.com/a-gondolkodas-orome/durer-jatekok) - 丢勒大赛历届策略游戏的在线版本
+- [Dune-II---The-Maker](https://github.com/stefanhendriks/Dune-II---The-Maker) - 经典《沙丘 2 - 王朝建设》（Westwood Studios 制作）的重制版，并进行了多项增强。例如：更高的屏幕分辨率、缩放、多选、战斗游戏等。
+- [Dune Legacy](https://sourceforge.net/projects/dunelegacy/) - Westood Studios 的 Dune2 的更新克隆，它使用原始游戏中的数据文件。
+- [Evolution-RTS](https://github.com/EvolutionRTS/Evolution-RTS) - Evolution RTS 是一款使用 Spring 引擎设计的免费开源 RTS 游戏。
+- [fheroes2](https://github.com/ihhub/fheroes2) - 免费实现《魔法门之英雄无敌 II》游戏引擎。
+- [EmperorReborn](https://github.com/azmawee/EmperorReborn) - 在 Windows 10 和 11 上畅玩《Emperor: Battle for Dune》，支持真正的 16:9 宽屏、全屏和多人游戏。 Westwood Dune RTS 的免费开源启动器和修补程序。
+- [Flame](https://github.com/DiaLight/Flame) - 《地下城守护者 II》部分重新编译并修复了错误。
+- [freeserf.net](https://github.com/Pyrdacor/freeserf.net) - 用 C# 编写的《工人物语 1》克隆
+- [FreeCol](https://sourceforge.net/projects/freecol/) - 基于老游戏《殖民》的回合制策略游戏。
+- [galaxyofdrones](https://github.com/0wum0/galaxyofdrones) - 一款开源多人太空策略游戏。
+- [GeneralsGameCode](https://github.com/TheSuperHackers/GeneralsGameCode) - 命令与征服：将军 - 零时
+- [GLSMAC](https://github.com/afwbkbc/glsmac) - Sid Meier 的 Alpha Centauri（+ Alien Crossfire）的非官方开源 OpenGL/SDL2 重新实现。
+- [grenzmark](https://github.com/JobbeDeluxe/grenzmark) - 《Grenzmark》是《戈多 4》的重制版《工人物语 II》、《回归根源》和《广域》
+- [green-turkiye](https://github.com/zsdani68-cell/green-turkiye) - 通过这款旨在激发行动和促进可持续发展的引人入胜的策略游戏，提高土耳其人对环境污染的认识。
+- [grid-wars](https://github.com/loosecannons/grid-wars) - AI生成的TRON主题3D六角策略游戏（ Three.js ）：单人对战MCP+在线多人。未经测试——使用风险自负。
+- [hex-tactics](https://github.com/CesarAugustusGroB/game-hex-tactics) - PIXI.js + React 六角网格战术战斗沙箱 - 程序化战略/战术世界、纯功能战斗引擎、5 种运动模式和防守高度编队系统。
+- [invazion](https://github.com/Nadawoo/invazion) - Azimutant（以前称为“InvaZion”）是一款受 Hordes.fr/Die2Nite 启发的协作游戏。
+- [Jagged Alliance Stracciatella](https://github.com/ja2-stracciatella/ja2-stracciatella) - 使《铁血联盟 2》可在多种平台上使用。
+- [JS.Hawkoniwa-Island](https://github.com/masaru-star/JS.Hakoniwa-Island) - A homemade island development game inspired by "箱庭諸島". Supports auto-save.
+- [Julius](https://github.com/bvschaik/julius) - 凯撒三世的重新实现。
+- [KaM Remake](https://github.com/Kromster80/kam_remake) - 从头开始用 Delphi 编写的《骑士与商人》的 RTS 游戏重制版。
+- [KeeperFX](https://github.com/dkfans/keeperfx) - 《地下城守护者》的开源重制版和粉丝扩展。
+- [KeeperRL](https://github.com/miki151/keeperrl) - 受矮人要塞启发的 Roguelike 地下城建造者。
+- [kiomet](https://github.com/SoftbearStudios/kiomet) - Kiomet.com 实时策略游戏（存储库提交可能滞后于游戏更新）
+- [machines](https://github.com/WiredForWar/machines) - 机器社区分叉：战争连线
+- [maxr](https://github.com/maxr-dot-org/maxr) - 一款回合制策略游戏。
+- [mc2](https://github.com/alariq/mc2) - Mech Commander 2 开源引擎 + OpenGL Linux 端口。
+- [MegaGlest](https://github.com/MegaGlest/megaglest-source) - MegaGlest 实时策略游戏引擎（跨平台，3-d）。
+- [Mindustry](https://github.com/Anuken/Mindustry) - 用Java编写的自动化塔防RTS
+- [openage](https://github.com/SFTtech/openage) - 帝国时代 II 引擎的克隆。
+- [OpenApocalypse](https://github.com/OpenApoc/OpenApoc) - 重建《X-COM：天启》引擎。
+- [openblack](https://github.com/openblack/openblack) - 重新实现黑白。
+- [OpenDungeonsPlus](https://github.com/tomluchowski/OpenDungeonsPlus) - 受地下城守护者启发的开源游戏 - 黑暗、潮湿和危险......
+- [OpenE2140](https://github.com/OpenE2140/OpenE2140) - 基于[OpenRA引擎]的地球2140重制版(https://github.com/OpenRA/OpenRA)
+- [OpenDUNE](https://github.com/OpenDUNE/OpenDUNE) - 流行游戏《沙丘 II》的重现。
+- [Open Fodder](https://github.com/OpenFodder/openfodder) - Cannon Fodder 的开源实现。
+- [OPHD](https://github.com/OutpostUniverse/OPHD) - OutpostHD - Sierra On-Line 的 Outpost 的开源重制版.
+- [OpenHV](https://github.com/OpenHV/OpenHV) - 硬真空的开源实现。 :花牌:
+- [OpenKrush](https://github.com/IceReaper/OpenKrush) - 基于 [OpenRA 引擎](https://github.com/OpenRA/OpenRA) 的 KKnD（Krush、Kill 'n' Destroy）和 KKnD2 的重制版
+- [OpenLoco](https://github.com/OpenLoco/OpenLoco) - 重新实现克里斯·索耶的运动。
+- [Open Panzer](https://github.com/nicupavel/openpanzer) - HTML5 装甲一般 2. :flower_playing_cards:
+- [OpenRA](https://github.com/OpenRA/OpenRA) - 使用.NET/mono 和 OpenGL 实现红色警报引擎。可在 Windows、Linux 和 macOS 上运行。
+- [OpenRAG-Skill](https://github.com/Kiki276/OpenRAG-Skill) - 使用仅提示输入和聊天内源材料在克劳德代码中启用证据优先检索增强生成。
+- [OpenCrystalCaves](https://github.com/OpenCrystalCaves/OpenCrystalCaves) - OCC 是游戏三部曲 Crystal Caves 的非官方开源引擎重新实现。
+- [OpenLRR](https://github.com/vs49688/OpenLRR) - LEGO Rock Raiders 的开源重新实现
+- [OpenFrontIO](https://github.com/openfrontio/OpenFrontIO) - 基于浏览器的在线 RTS 游戏
+- [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - 重现《过山车大亨 2》。
+- [Open-Realms-of-Stars](https://github.com/tuomount/Open-Realms-of-Stars) - 4X策略游戏。
+- [OpenSA](https://github.com/Dzierzan/OpenSA) - 基于[OpenRA引擎]的Swarm Assault重制版(https://github.com/OpenRA/OpenRA)
+- [OpenSAGE](https://github.com/OpenSAGE/OpenSAGE) - SAGE 的 C# 重新实现，SAGE 是许多 EA Pacific 游戏所使用的游戏引擎，包括《命令与征服：将军》和《中土之战》。
+- [opensage-adk](https://github.com/luann8331/opensage-adk) - 使用自制工具、分层内存和沙盒执行软件工程任务来构建人工智能代理
+- [OpenSC2K](https://github.com/nicholas-ochoa/OpenSC2K) - Maxis 重制版《模拟城市 2000》。
+- [OpenTPW](https://github.com/OpenTPW/OpenTPW) - Bullfrog 的 Sim 主题公园/主题公园世界 (1999) 的开源重新实现。
+- [OpenTTD](https://github.com/OpenTTD/OpenTTD) - OpenTTD 是一款交通模拟游戏，基于 Chris Sawyer 编写的流行游戏 Transport Tycoon Deluxe。 :花牌:
+- [OpenXcom](https://github.com/SupSuper/OpenXcom) - 《幽浮：未知敌人》和《X-COM：来自深处的恐怖》的克隆。
+- [OutpostHD](https://github.com/OutpostUniverse/OPHD) - 重制塞拉在线的前哨站。
+- [Ozymandias](https://github.com/dalerank/Ozymandias) - Julius/Augustus 引擎中 Pharaoh 的开源重新实现。
+- [parabellum](https://github.com/andreapavoni/parabellum) - 尝试构建用 #Rust 编写的 #Travian 3.x 克隆。
+- [permafrost-engine](https://github.com/eduard-permyakov/permafrost-engine) - 一个基于Everglory的C语言编写的OpenGL RTS游戏引擎
+- [Pillage-First-Ask-Questions-Later](https://github.com/jurerotar/Pillage-First-Ask-Questions-Later) - 一款开源单人 Travian 另类浏览器策略游戏，灵感来自 [Travian T4](https://ts4.x1.europe.travian.com/) 和 [Travian Kingdoms](https://www.kingdoms.com/)
+- [Race into Space](https://github.com/raceintospace/raceintospace) - Interplay 的巴兹·奥尔德林的太空竞赛版本。
+- [Rescue Max!](https://sourceforge.net/projects/rescue/) - 一款 2D 空间实时动作/策略游戏。你控制着一艘飞船，在太空中飞行，与敌人战斗，并在途中结交朋友。主要目标是从行星上营救人们并将他们带到星际基地。它是用java1.4编写的。
+- [Return To The Roots](https://github.com/Return-To-The-Roots/s25client) - 用 C++ 编写的《工人物语 II》重制版。
+- [Rotp-Fusion](https://github.com/BrokenRegistry/Rotp-Fusion) - Remnants of the Precursors 由 Ray Fowler 创建，是 1993 年原版 Master of Orion 的开源现代化版本。
+- [rise-of-legions](https://github.com/BrokenGamesUG/rise-of-legions) - 《军团崛起》是 MOBA、塔防和牌组构建的混合体 - 具有快节奏、易于上手的拔河策略。单人游戏或带朋友进行合作或 2v2，收集卡牌，构建你的套牌并粉碎你的敌人。
+- [Scorched Earth Online War](https://sourceforge.net/projects/seow/) - ArmA 2 中 IL-2 Sturmovik 和 Iron Front 的在线战争系统
+- [Seven Kingdoms: Ambition](https://sourceforge.net/projects/seven-kingdoms-ambition/) - 7K:AA（七国：远古对手）的增强版。
+- [Shattered Paradise](https://github.com/ABrandau/Shattered-Paradise-SDK) - 基于[OpenRA引擎]的《命令与征服泰伯利亚之日》重制版(https://github.com/OpenRA/OpenRA)
+- [simutrans](https://github.com/simutrans/simutrans) - Simutrans 是一款免费软件和开源交通模拟器。 :花牌:
+- [singularity](https://github.com/addictgamer/singularity-game-fork) - 真实人工智能的模拟。生存、成长、学习。
+- [Syndicate Wars](https://github.com/swfans/syndwarsfx) - Syndicate Wars Fan Expansion，经典 Bullfrog 游戏的开源重制版。
+- [Romanov's Vengeance](https://github.com/MustaphaTR/Romanovs-Vengeance) - 基于[OpenRA引擎]的《命令与征服：红色警戒2》重制版(https://github.com/OpenRA/OpenRA)
+- [Sourcehold](https://github.com/sourcehold/Sourcehold) - Firefly Studios 实施要塞。
+- [Stone Kingdoms](https://gitlab.com/stone-kingdoms/stone-kingdoms) - 一款基于 Firefly 工作室原作《要塞》的 LÖVE 制作的即时战略游戏。
+- [terra-concordia-public](https://github.com/terraconcordiagame/terra-concordia-public) - Terra Concordia 的新闻资料包、发行说明和社区资源 — NCB 公司的数字欧洲游戏。
+- [TheOldWorld](https://github.com/Towhidul-Islam5797/TheOldWorld) - 2D 等距 RTS 游戏
+- [thinker](https://github.com/induktio/thinker) - 改进了 SMACX 的游戏引擎功能。
+- [Transarctica-2](https://github.com/SembeiNorimaki/Transarctica-2) - 经典游戏 Transarctica 的重制版（开发中）
+- [triplea](https://github.com/triplea-game/triplea) - TripleA 是一款回合制策略游戏和棋盘游戏引擎，类似于 Axis & Allies 或 Risk。
+- [ufoai](https://github.com/gorsing/ufoai) - 不明飞行物:外星人入侵
+- [Ugh-Guys-](https://github.com/atxgreene/Ugh-Guys-) - 一款基于浏览器的星际争霸风格的非对称 RTS，背景设定在洪水前的神话世界中 — Three.js + Vite、三个派系、战争迷雾、寻路和人工智能对手。 100% 程序化，无外部资产。
+- [Unvanquished](https://github.com/Unvanquished/Unvanquished) - Unvanquished 是一款由 Daemon 游戏引擎提供支持的免费开源 FPS/RTS 混合游戏。历史上以《颤栗》为基础，作为对其数十年工作的延续。
+- [VanillaConquer](https://github.com/TheAssemblyArmada/Vanilla-Conquer/) - 《命令与征服》和《红色警戒》原版发行源基于重制版源代码移植移植。
+- [vaultfront](https://github.com/VaultSparkStudios/vaultfront) - VaultFront 是一个浏览器 RTS 和 OpenFrontIO 的派生 AGPL 分支，本身是从 WarFront.io 发展而来的。在 ChatGPT 5.4 和 Codex 的帮助下创建。
+- [VCMI](https://github.com/vcmi/vcmi) - 《魔法门之英雄无敌 III》的引擎。
+- [vera20k](https://github.com/Yrvera/vera20k) - 红色警戒 2：尤里的复仇 — 用 Rust 从头开始​​重建，适合大型多人战斗。
+- [wages-of-war](https://github.com/suhteevah/wages-of-war) - ***Wages of War: The Business of Battle* (1996) 引擎的洁净室开源 Rust 逆向工程。**
+- [war1](https://github.com/acoto87/war1) - 用 C 语言编写的《魔兽争霸：兽人与人类》重制版
+- [War8](https://github.com/qFlavius/War8) - 使用 C++ 和 SFML 构建的回合制抽象棋盘游戏，基于 Nicolae Oprişiu 的“Olimpiada Jocurilor Raşionale”（“理性游戏奥林匹克”，第 10 章）中的“Război în 8”。包括 PvP、PvC、CvC、回合计时器、HUD、排行榜、主题和简单/硬 AI。
+- [Wargus](https://github.com/Wargus/wargus) - 魔兽争霸 2 Mod，允许您使用 Stratagus 引擎玩魔兽争霸 2。
+- [WarKingdoms](https://github.com/skyteks/WarKingdoms) - Unity RTS 原型（魔兽争霸 3 风格）
+- [Warzone 2100](https://github.com/Warzone2100/warzone2100) - 免费开源实时策略游戏。 :花牌:
+- [WazzaP's Boss Generals Mod](https://github.com/ItsWazzaP/wazzaps-boss-generals) - 《C&C Generals Zero Hour》的 WazzaP Boss Generals mod 官方存储库
+- [Zed Online](https://sourceforge.net/projects/zedonline/) - 1996 年经典游戏 Z 的重制版。
+- [Zero-K](https://github.com/ZeroK-RTS/Zero-K) - 在 Spring/Recoil 引擎上运行的开源 RTS 游戏

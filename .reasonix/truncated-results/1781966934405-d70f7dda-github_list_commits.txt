@@ -1,0 +1,652 @@
+[
+  {
+    "sha": "5a20b7dc70e68086c6bea69d5dd1ded4f8252469",
+    "node_id": "C_kwDOCPOAodoAKDVhMjBiN2RjNzBlNjgwODZjNmJlYTY5ZDVkZDFkZWQ0ZjgyNTI0Njk",
+    "commit": {
+      "author": {
+        "name": "Masumi Kawasaki",
+        "email": "geeknees@gmail.com",
+        "date": "2022-01-08T07:58:07Z"
+      },
+      "committer": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2022-01-08T20:32:54Z"
+      },
+      "message": "add Hardhat",
+      "tree": {
+        "sha": "8b3eb04fdbd904397236b512cf34d3a6c8bbcd00",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/8b3eb04fdbd904397236b512cf34d3a6c8bbcd00"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/5a20b7dc70e68086c6bea69d5dd1ded4f8252469",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/5a20b7dc70e68086c6bea69d5dd1ded4f8252469",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/5a20b7dc70e68086c6bea69d5dd1ded4f8252469",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/5a20b7dc70e68086c6bea69d5dd1ded4f8252469/comments",
+    "author": {
+      "login": "geeknees",
+      "id": 701242,
+      "node_id": "MDQ6VXNlcjcwMTI0Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/701242?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/geeknees",
+      "html_url": "https://github.com/geeknees",
+      "followers_url": "https://api.github.com/users/geeknees/followers",
+      "following_url": "https://api.github.com/users/geeknees/following{/other_user}",
+      "gists_url": "https://api.github.com/users/geeknees/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/geeknees/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/geeknees/subscriptions",
+      "organizations_url": "https://api.github.com/users/geeknees/orgs",
+      "repos_url": "https://api.github.com/users/geeknees/repos",
+      "events_url": "https://api.github.com/users/geeknees/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/geeknees/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7e48d1dbdf13b0831881d4cb338642654c6c6201",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/7e48d1dbdf13b0831881d4cb338642654c6c6201",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/7e48d1dbdf13b0831881d4cb338642654c6c6201"
+      }
+    ]
+  },
+  {
+    "sha": "7e48d1dbdf13b0831881d4cb338642654c6c6201",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OjdlNDhkMWRiZGYxM2IwODMxODgxZDRjYjMzODY0MjY1NGM2YzYyMDE=",
+    "commit": {
+      "author": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T11:31:22Z"
+      },
+      "committer": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T11:31:22Z"
+      },
+      "message": "update swarm",
+      "tree": {
+        "sha": "e70d97684a33a7226cbfc4c82b23c95fab34b107",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/e70d97684a33a7226cbfc4c82b23c95fab34b107"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/7e48d1dbdf13b0831881d4cb338642654c6c6201",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/7e48d1dbdf13b0831881d4cb338642654c6c6201",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/7e48d1dbdf13b0831881d4cb338642654c6c6201",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/7e48d1dbdf13b0831881d4cb338642654c6c6201/comments",
+    "author": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2262c81b6f1c2e0ce5892da84faf3f096b44762a",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/2262c81b6f1c2e0ce5892da84faf3f096b44762a",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/2262c81b6f1c2e0ce5892da84faf3f096b44762a"
+      }
+    ]
+  },
+  {
+    "sha": "2262c81b6f1c2e0ce5892da84faf3f096b44762a",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OjIyNjJjODFiNmYxYzJlMGNlNTg5MmRhODRmYWYzZjA5NmI0NDc2MmE=",
+    "commit": {
+      "author": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T11:09:08Z"
+      },
+      "committer": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T11:09:08Z"
+      },
+      "message": "update license info",
+      "tree": {
+        "sha": "352cc5b98e3e1f494a086f0a845e256603174eba",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/352cc5b98e3e1f494a086f0a845e256603174eba"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/2262c81b6f1c2e0ce5892da84faf3f096b44762a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/2262c81b6f1c2e0ce5892da84faf3f096b44762a",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/2262c81b6f1c2e0ce5892da84faf3f096b44762a",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/2262c81b6f1c2e0ce5892da84faf3f096b44762a/comments",
+    "author": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7"
+      }
+    ]
+  },
+  {
+    "sha": "413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OjQxM2E1ZTI0NDU0ZTMzZTBiNGY3YTdiYzJmMzcyN2M0OTkxYzhmZTc=",
+    "commit": {
+      "author": {
+        "name": "Manuel Möhlmann",
+        "email": "mail@manmoe.com",
+        "date": "2019-10-24T12:24:21Z"
+      },
+      "committer": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T10:22:33Z"
+      },
+      "message": "fix dead links",
+      "tree": {
+        "sha": "26d0357cd7b19376a21134d27982865901514293",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/26d0357cd7b19376a21134d27982865901514293"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/413a5e24454e33e0b4f7a7bc2f3727c4991c8fe7/comments",
+    "author": {
+      "login": "quitschibo",
+      "id": 1839915,
+      "node_id": "MDQ6VXNlcjE4Mzk5MTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1839915?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/quitschibo",
+      "html_url": "https://github.com/quitschibo",
+      "followers_url": "https://api.github.com/users/quitschibo/followers",
+      "following_url": "https://api.github.com/users/quitschibo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/quitschibo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/quitschibo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/quitschibo/subscriptions",
+      "organizations_url": "https://api.github.com/users/quitschibo/orgs",
+      "repos_url": "https://api.github.com/users/quitschibo/repos",
+      "events_url": "https://api.github.com/users/quitschibo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/quitschibo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c790927d9bb7373cf4c8d60304d31a5b14590ba1",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/c790927d9bb7373cf4c8d60304d31a5b14590ba1",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/c790927d9bb7373cf4c8d60304d31a5b14590ba1"
+      }
+    ]
+  },
+  {
+    "sha": "c790927d9bb7373cf4c8d60304d31a5b14590ba1",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OmM3OTA5MjdkOWJiNzM3M2NmNGM4ZDYwMzA0ZDMxYTViMTQ1OTBiYTE=",
+    "commit": {
+      "author": {
+        "name": "Manuel Möhlmann",
+        "email": "mail@manmoe.com",
+        "date": "2019-10-24T11:30:35Z"
+      },
+      "committer": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T10:22:33Z"
+      },
+      "message": "add some more resources",
+      "tree": {
+        "sha": "7590f5a06f6e2109439ca12d74a817f00ea606d2",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/7590f5a06f6e2109439ca12d74a817f00ea606d2"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/c790927d9bb7373cf4c8d60304d31a5b14590ba1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/c790927d9bb7373cf4c8d60304d31a5b14590ba1",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/c790927d9bb7373cf4c8d60304d31a5b14590ba1",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/c790927d9bb7373cf4c8d60304d31a5b14590ba1/comments",
+    "author": {
+      "login": "quitschibo",
+      "id": 1839915,
+      "node_id": "MDQ6VXNlcjE4Mzk5MTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1839915?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/quitschibo",
+      "html_url": "https://github.com/quitschibo",
+      "followers_url": "https://api.github.com/users/quitschibo/followers",
+      "following_url": "https://api.github.com/users/quitschibo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/quitschibo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/quitschibo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/quitschibo/subscriptions",
+      "organizations_url": "https://api.github.com/users/quitschibo/orgs",
+      "repos_url": "https://api.github.com/users/quitschibo/repos",
+      "events_url": "https://api.github.com/users/quitschibo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/quitschibo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "31c5a29cc6d2d795a667d4f489616fc78ce6b4b9",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/31c5a29cc6d2d795a667d4f489616fc78ce6b4b9",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/31c5a29cc6d2d795a667d4f489616fc78ce6b4b9"
+      }
+    ]
+  },
+  {
+    "sha": "31c5a29cc6d2d795a667d4f489616fc78ce6b4b9",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OjMxYzVhMjljYzZkMmQ3OTVhNjY3ZDRmNDg5NjE2ZmM3OGNlNmI0Yjk=",
+    "commit": {
+      "author": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-10-25T08:57:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-10-25T08:57:19Z"
+      },
+      "message": "Merge pull request #7 from quitschibo/license-fix\n\nAdd license file",
+      "tree": {
+        "sha": "988accd03bdf8ad55af79b4fc013058cc04c4db0",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/988accd03bdf8ad55af79b4fc013058cc04c4db0"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/31c5a29cc6d2d795a667d4f489616fc78ce6b4b9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdsrjvCRBK7hj4Ov3rIwAAdHIIAAl9J/vf+g/hAPcvfBvMpl2o\ndXTWdvEDWbSBbGJBDUnbAROX0FmgrNBoEoj+XlZKdyytqQDEERe13alZEZklr+Iy\nP9XbHz/cPaoVOwm2CwPUIhWmDv74mmo6Quki76gOXG+MuYU5FWhHhEzTn21LA2Re\nLpimpNrbDHwtgiGEvuLfEjhVDfaAkRhFdOneKvRAKfqq2/be5Pp+/Tx8aGcQwlpF\nIn+OSxeSw4fN67UilBUvRmmwgrHKNXvsmoYYb2VjLGl3ngI8nL4YM19QzL+U/TjZ\nWign8VkzvT8Hiy9AFEQVJ8QquiJoKuMvBv4J5w8THHdDrG0tas1Q6QsfJKOflRY=\n=TYBA\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 988accd03bdf8ad55af79b4fc013058cc04c4db0\nparent 350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6\nparent 07e2fb041b7ed065855700013d76335ccbd560f0\nauthor Thomas Tumiel <ttumiel@gmail.com> 1571993839 +0200\ncommitter GitHub <noreply@github.com> 1571993839 +0200\n\nMerge pull request #7 from quitschibo/license-fix\n\nAdd license file",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/31c5a29cc6d2d795a667d4f489616fc78ce6b4b9",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/31c5a29cc6d2d795a667d4f489616fc78ce6b4b9",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/31c5a29cc6d2d795a667d4f489616fc78ce6b4b9/comments",
+    "author": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6"
+      },
+      {
+        "sha": "07e2fb041b7ed065855700013d76335ccbd560f0",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/07e2fb041b7ed065855700013d76335ccbd560f0",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/07e2fb041b7ed065855700013d76335ccbd560f0"
+      }
+    ]
+  },
+  {
+    "sha": "07e2fb041b7ed065855700013d76335ccbd560f0",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OjA3ZTJmYjA0MWI3ZWQwNjU4NTU3MDAwMTNkNzYzMzVjY2JkNTYwZjA=",
+    "commit": {
+      "author": {
+        "name": "Manuel Möhlmann",
+        "email": "mail@manmoe.com",
+        "date": "2019-10-24T12:49:43Z"
+      },
+      "committer": {
+        "name": "Manuel Möhlmann",
+        "email": "mail@manmoe.com",
+        "date": "2019-10-24T12:49:43Z"
+      },
+      "message": "add license file",
+      "tree": {
+        "sha": "988accd03bdf8ad55af79b4fc013058cc04c4db0",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/988accd03bdf8ad55af79b4fc013058cc04c4db0"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/07e2fb041b7ed065855700013d76335ccbd560f0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/07e2fb041b7ed065855700013d76335ccbd560f0",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/07e2fb041b7ed065855700013d76335ccbd560f0",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/07e2fb041b7ed065855700013d76335ccbd560f0/comments",
+    "author": {
+      "login": "quitschibo",
+      "id": 1839915,
+      "node_id": "MDQ6VXNlcjE4Mzk5MTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1839915?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/quitschibo",
+      "html_url": "https://github.com/quitschibo",
+      "followers_url": "https://api.github.com/users/quitschibo/followers",
+      "following_url": "https://api.github.com/users/quitschibo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/quitschibo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/quitschibo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/quitschibo/subscriptions",
+      "organizations_url": "https://api.github.com/users/quitschibo/orgs",
+      "repos_url": "https://api.github.com/users/quitschibo/repos",
+      "events_url": "https://api.github.com/users/quitschibo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/quitschibo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "quitschibo",
+      "id": 1839915,
+      "node_id": "MDQ6VXNlcjE4Mzk5MTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1839915?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/quitschibo",
+      "html_url": "https://github.com/quitschibo",
+      "followers_url": "https://api.github.com/users/quitschibo/followers",
+      "following_url": "https://api.github.com/users/quitschibo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/quitschibo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/quitschibo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/quitschibo/subscriptions",
+      "organizations_url": "https://api.github.com/users/quitschibo/orgs",
+      "repos_url": "https://api.github.com/users/quitschibo/repos",
+      "events_url": "https://api.github.com/users/quitschibo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/quitschibo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6"
+      }
+    ]
+  },
+  {
+    "sha": "350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+    "node_id": "MDY6Q29tbWl0MTUwMTc1OTA1OjM1MGI2NjA4YWExNzFjYjVkY2RiYzNmNjhkNGY1MGNkZGMxYmYyYzY=",
+    "commit": {
+      "author": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-02-15T08:23:26Z"
+      },
+      "committer": {
+        "name": "Thomas Tumiel",
+        "email": "ttumiel@gmail.com",
+        "date": "2019-02-15T08:23:26Z"
+      },
+      "message": "token bonding curves and snark updates",
+      "tree": {
+        "sha": "09fe394f4355b579903aca33289336eadf33201f",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/trees/09fe394f4355b579903aca33289336eadf33201f"
+      },
+      "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/git/commits/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+    "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6",
+    "comments_url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/350b6608aa171cb5dcdbc3f68d4f50cddc1bf2c6/comments",
+    "author": {
+      "login": "ttumiel",
+      "id": 13222731,
+      "node_id": "MDQ6VXNlcjEzMjIyNzMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13222731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttumiel",
+      "html_url": "https://github.com/ttumiel",
+      "followers_url": "https://api.github.com/users/ttumiel/followers",
+      "following_url": "https://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github
+
+[…truncated 92234 chars — raise BridgeOptions.maxResultChars, or call the tool with a narrower scope (filter, head, pagination)…]
+
+s://api.github.com/users/ttumiel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttumiel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttumiel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttumiel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttumiel/orgs",
+      "repos_url": "https://api.github.com/users/ttumiel/repos",
+      "events_url": "https://api.github.com/users/ttumiel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttumiel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c5eb0dab44ce7d1c610bd9d580dbaa62857ed44",
+        "url": "https://api.github.com/repos/ttumiel/Awesome-Ethereum/commits/2c5eb0dab44ce7d1c610bd9d580dbaa62857ed44",
+        "html_url": "https://github.com/ttumiel/Awesome-Ethereum/commit/2c5eb0dab44ce7d1c610bd9d580dbaa62857ed44"
+      }
+    ]
+  }
+]

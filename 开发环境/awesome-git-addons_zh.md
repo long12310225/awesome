@@ -1,0 +1,2069 @@
+# 很棒的 git 插件 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+扩展/增强 git CLI 的精选插件列表。
+
+```
+$ git bla
+Something awesome happens!
+```
+
+> _“你不必知道一切。你只需要知道在必要时在哪里可以找到它。” （约翰·布伦纳）_
+
+受到 [awesome](https://github.com/sindresorhus/awesome) 列表的启发。
+
+**注意**：某些命令可能无法在安装后立即运行。您可能需要运行安装后脚本或手动配置别名才能使其正常工作。
+
+
+## 目录
+
+- [Git 附加功能](#git-extras)
+- [Git 流程](#gitflow-avh-edition)
+- [起来](#git-up)
+- [Hub](#hub)
+- [git部署](#git-deploy)
+- [git 卡尔](#git-cal)
+- [Git 钩子](#git-hooks)
+- [Git 合并](#git-imerge)
+- [Git 问题](#git-issue)
+- [Git 大文件存储](#git-lfs)
+- [立即使用 Git](#git-now)
+- [git+](#git-plus)
+- [git测试](#git-test)
+- [Legit](#legit)
+- [合并时的 Git](#git-when-merged)
+- [git回放](#git-playback)
+- [Git 分支状态](#git-branch-status)
+- [git 打开](#git-open)
+- [提交我的](#git-my)
+- [吉特墨水](#git-ink)
+- [递归责备](#recursive-blame)
+- [Git 超级责怪](#hyper-blame)
+- [Git 词责备](#git-word-blame)
+- [吉特之火](#git-fire)
+- [吉特镇](#git-town)
+- [Git 责怪别人](#git-blame-someone-else)
+- [差异如此花哨](#diff-so-fancy)
+- [git 统计](#git-stats)
+- [git 的秘密](#git-secret)
+- [Git 的秘密](#git-secrets)
+- [git-fixup](#git-fixup)
+- [git-recent](#git-recent)
+- [git-interactive-rebase-tool](#git-interactive-rebase-tool)
+- [git-fiddle](#git-fiddle)
+- [git-user](#git-user)
+- [gitsome](#gitsome)
+- [吉特猎犬](#git-hound)
+- [git-recall](#git-recall)
+- [git-standup](#git-standup)
+- [Commitizen](#commitizen)
+- [git-fresh](#git-fresh)
+- [git-fs](#git-fs)
+- [git 网址](#git-url)
+- [Git 签名](#git-signatures)
+- [Git 简介](#git-profile)
+- [git 修改](#git-revise)
+- [filter-repo](#filter-repo)
+- [git-jump](#git-jump)
+- [git-project](#git-project)
+- [git-branchcut](#git-branchcut)
+- [git-exfiltrate](#git-exfiltrate)
+- [git-spend](#git-spend)
+
+
+## git-extras
+
+### 壁球
+
+```
+$ git squash fixed-cursor-styling "Fixed cursor styling"
+$ git squash 95b7c52
+$ git squash HEAD~3
+```
+
+### 总结
+
+```
+$ git summary
+
+ project  : git
+ repo age : 10 years
+ active   : 11868 days
+ commits  : 40530
+ files    : 2825
+ authors  :
+ 15401	Junio C Hamano                  38.0%
+  1844	Jeff King                       4.5%
+```
+
+### 行摘要
+
+```
+$ git line-summary
+
+ project  : gulp
+ lines    : 3900
+ authors  :
+ 1040 Contra                    26.7%
+  828 Sindre Sorhus             21.2%
+```
+
+### 努力
+
+```
+$ git effort
+
+  file                                          commits    active days
+
+  .gitattributes............................... 3          3
+  .gitignore................................... 265        226
+  .mailmap..................................... 47         40
+```
+
+### 作者
+
+```
+$ git authors
+Contra <contra@maricopa.edu>
+Eric Schoffstall <contra@wearefractal.com>
+Sindre Sorhus <sindresorhus@gmail.com>
+```
+
+### 变更日志
+
+```
+$ git changelog
+## 3.9.0
+
+- add babel support
+- add transpiler fallback support
+- add support for some renamed transpilers (livescript, etc)
+- add JSCS
+- update dependecies (liftoff, interpret)
+- documentation tweaks
+
+## 3.8.11
+
+- fix node 0.12/iojs problems
+- add node 0.12 and iojs to travis
+- update dependencies (liftoff, v8flags)
+- documentation tweaks
+```
+
+### 提交-自
+
+```
+$ git commits-since yesterday
+... changes since yesterday
+TJ Holowaychuk - Fixed readme
+```
+
+### 计数
+
+```
+$ git count
+total 855
+```
+
+### 创建分支
+
+```
+$ git create-branch development
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/tj/git-extras.git
+ * [new branch]      HEAD -> development
+Branch development set up to track remote branch development from origin.
+Switched to a new branch 'development'
+```
+
+### 删除分支
+
+```
+$ git delete-branch integration
+Deleted branch integration (was bfb8522).
+Deleted remote-tracking branch remote/integration (was bfb8522).
+To git@github.com:remote/gulp.git
+ - [deleted]         integration
+```
+
+### 删除子模块
+
+```
+$ git delete-submodule lib/foo
+```
+
+### 删除标签
+
+```
+$ git delete-tag v0.1.1
+Deleted tag 'v0.1.1' (was 9fde751)
+To https://github.com/tj/git-extras.git
+ - [deleted]         v0.1.1
+```
+
+### 删除合并分支
+
+```
+$ git delete-merged-branches
+Deleted feature/themes (was c029ab3).
+Deleted feature/live_preview (was a81b002).
+Deleted feature/dashboard (was 923befa).
+```
+
+### 新鲜枝
+
+```
+$ git fresh-branch docs
+Removing .DS_Store
+Removing .editorconfig
+Removing .gitignore
+```
+
+### 内疚
+
+```
+$ git guilt `git log --until="3 weeks ago" --format="%H" -n 1` HEAD
+Paul Schreiber                +++++++++++++++++++++++++++++++++++++++++++++(349)
+spacewander                   +++++++++++++++++++++++++++++++++++++++++++++(113)
+Mark Eissler                  ++++++++++++++++++++++++++
+```
+
+### 合并到
+
+```
+$ git merge-into master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Updating 9fde751..e62edfa
+Fast-forward
+ 234 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 234
+Switched to branch 'development'
+```
+
+### 嫁接
+
+```
+$ git graft development
+Your branch is up-to-date with 'origin/master'.
+Merge made by the 'recursive' strategy.
+ package.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Deleted branch development (was 64b3563).
+```
+
+### 别名
+
+```
+$ git alias last "cat-file commit HEAD"
+$ git alias
+last = cat-file commit HEAD
+```
+
+### 忽略
+
+```
+$ git ignore build "*.o" "*.log"
+... added 'build'
+... added '*.o'
+... added '*.log'
+```
+
+### 信息
+
+```
+$ git info
+
+    ## Remote URLs:
+
+    origin              git@github.com:sampleAuthor/git-extras.git (fetch)
+    origin              git@github.com:sampleAuthor/git-extras.git (push)
+
+    ## Remote Branches:
+
+    origin/HEAD -> origin/master
+    origin/myBranch
+
+    ## Local Branches:
+
+    myBranch
+    * master
+
+    ## Most Recent Commit:
+
+    commit e3952df2c172c6f3eb533d8d0b1a6c77250769a7
+    Author: Sample Author <sampleAuthor@gmail.com>
+
+    Added git-info command.
+
+    Type 'git log' for more commits, or 'git show <commit id>' for full commit details.
+
+    ## Configuration (.git/config):
+
+    color.diff=auto
+    color.status=auto
+```
+
+### 叉子
+
+```
+$ git fork LearnBoost/expect.js
+```
+
+### 释放
+
+```
+$ git release 0.1.0
+... releasing 0.1.0
+On branch development
+Your branch is up-to-date with 'origin/development'.
+nothing to commit, working directory clean
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/tj/git-extras.git
+   9fde751..e62edfa  master -> master
+Counting objects: 1, done.
+Writing objects: 100% (1/1), 166 bytes | 0 bytes/s, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To https://github.com/tj/git-extras.git
+ * [new tag]         0.1.0 -> 0.1.0
+... complete
+```
+
+### 贡献
+
+```
+$ git contrib visionmedia
+visionmedia (18):
+  Export STATUS_CODES
+  Replaced several Array.prototype.slice.call() calls with Array.prototype.unshift.call()
+  Moved help msg to node-repl
+```
+
+### 重复
+
+```
+$ git repl
+
+git> ls-files
+History.md
+Makefile
+```
+
+### 撤消
+
+```
+$ git undo
+Unstaged changes after reset:
+M	package.json
+M	readme.md
+```
+
+### gh-页面
+
+```
+$ git gh-pages
+```
+
+### SCP
+
+```
+$ git scp staging HEAD
+```
+
+### 设置
+
+```
+$ git setup
+Initialized empty Git repository in /GitHub/test/gulp/.git/
+[master (root-commit) 9469797] Initial commit
+ 69 files changed, 3900 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .gitignore
+ create mode 100644 .jscsrc
+```
+
+### 触摸
+
+```
+$ git touch index.js
+```
+
+### 抹杀
+
+```
+$ git obliterate secrets.json
+Rewrite 2357a4334051a6d1733037406ab7538255030d0b (1/981)rm 'secrets.json'
+Rewrite b5f62b2746c23150917d346bd0c50c467f01eb03 (2/981)rm 'secrets.json'
+Rewrite 3cd94f3395c2701848f6ff626a0a4f883d8a8433 (3/981)rm 'secrets.json'
+```
+
+### 功能|重构|bug|琐事
+
+```
+$ git feature dependencies
+$ git feature finish dependencies
+Already up-to-date.
+Deleted branch feature/dependencies (was f0fc4c7).
+Deleted remote-tracking branch origin/feature/dependencies (was f0fc4c7).
+To git@github.com:stevemao/gulp.git
+ - [deleted]         feature/dependencies
+```
+
+### 本地提交
+
+```
+$ git local-commits
+commit 5f00a3c1bb71876ebdca059fac96b7185dea5467
+Merge: 7ad3ef9 841af4e
+Author: Blaine Bublitz <blaine@iceddev.com>
+Date:   Thu Aug 20 11:35:15 2015 -0700
+
+    Merge pull request #1211 from JimiHFord/patch-1
+
+    Update guidelines.md
+
+commit 841af4ee7aaf55b505354d0e86d7fb876d745e26
+Author: Jimi Ford <JimiHFord@users.noreply.github.com>
+Date:   Thu Aug 20 11:55:38 2015 -0400
+
+    Update guidelines.md
+
+    fixed typo
+```
+
+### 归档文件
+
+```
+$ git archive-file
+Building archive on branch "master"
+Saved to "gulp.v3.9.0-36-g47cb6b0.zip" ( 60K)
+```
+
+### 失踪
+
+```
+$ git missing master
+< d14b8f0 only on current checked out branch
+> 97ef387 only on master
+```
+
+### 锁
+
+```
+$ git lock config/database.yml
+```
+
+### 锁定
+
+```
+$ git locked
+config/database.yml
+```
+
+### 解锁
+
+```
+$ git unlock config/database.yml
+```
+
+### 重置文件
+
+```
+$ git reset-file README.md HEAD^
+Reset 'README.md' to HEAD^
+```
+
+### 公关
+
+```
+$ git pr 226
+From https://github.com/tj/git-extras
+ * [new ref]       refs/pulls/226/head -> pr/226
+Switched to branch 'pr/226'
+```
+
+### 根
+
+```
+$ git root
+/GitHub/git
+```
+
+### 三角洲
+
+```
+$ git delta
+README.md
+```
+
+### 合并仓库
+
+```
+$ git merge-repo git@github.com:tj/git-extras.git master .
+git fetch git@github.com:tj/git-extras.git master
+warning: no common commits
+remote: Counting objects: 3507, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 3507 (delta 1), reused 0 (delta 0), pack-reused 3502
+Receiving objects: 100% (3507/3507), 821.12 KiB | 286.00 KiB/s, done.
+Resolving deltas: 100% (1986/1986), done.
+From github.com:tj/git-extras
+ * branch            master     -> FETCH_HEAD
+Added dir 'git-merge-repo.E95m0gj'
+No local changes to save
+```
+
+### 心理数据库
+
+```
+$ git psykorebase master
+$ git psykorebase --continue
+$ git psykorebase master feature
+```
+
+
+## gitflow（AVH版）
+
+### 流程初始化
+
+```
+$ git flow init
+
+Which branch should be used for bringing forth production releases?
+   - changelog
+   - master
+Branch name for production releases: [master]
+
+Which branch should be used for integration of the "next release"?
+   - changelog
+Branch name for "next release" development: [master]
+Production and integration branches should differ.
+```
+
+### 流量特征
+
+```
+$ git flow feature
+$ git flow feature start awesome-feature
+$ git flow feature finish awesome-feature
+$ git flow feature delete awesome-feature
+
+$ git flow feature publish awesome-feature
+$ git flow feature pull remote awesome-feature
+```
+
+### 流量释放
+
+```
+$ git flow release
+$ git flow release start awesome-release
+$ git flow release finish awesome-release
+$ git flow release delete awesome-release
+```
+
+### 流程修补程序
+
+```
+$ git flow hotfix
+$ git flow hotfix start awesome-release
+$ git flow hotfix finish awesome-release
+$ git flow hotfix delete awesome-release
+```
+
+### 流量支持
+
+```
+$ git flow support
+```
+
+
+## git-up
+
+```
+$ git up
+Fetching origin
+4.0       fast-forwarding...
+changelog ahead of upstream
+master    fast-forwarding...
+returning to 4.0
+```
+
+
+## 枢纽
+
+### 克隆
+
+```
+$ git clone schacon/ticgit
+> git clone git://github.com/schacon/ticgit.git
+
+$ git clone -p schacon/ticgit
+> git clone git@github.com:schacon/ticgit.git
+
+$ git clone resque
+> git clone git@github.com/YOUR_USER/resque.git
+```
+
+### 远程添加
+
+```
+$ git remote add rtomayko
+> git remote add rtomayko git://github.com/rtomayko/CURRENT_REPO.git
+
+$ git remote add -p rtomayko
+> git remote add rtomayko git@github.com:rtomayko/CURRENT_REPO.git
+
+$ git remote add origin
+> git remote add origin git://github.com/YOUR_USER/CURRENT_REPO.git
+```
+
+### 获取
+
+```
+$ git fetch mislav
+> git remote add mislav git://github.com/mislav/REPO.git
+> git fetch mislav
+
+$ git fetch mislav,xoebus
+> git remote add mislav ...
+> git remote add xoebus ...
+> git fetch --multiple mislav xoebus
+```
+
+### 择优挑选
+
+```
+$ git cherry-pick https://github.com/mislav/REPO/commit/SHA
+> git remote add -f --no-tags mislav git://github.com/mislav/REPO.git
+> git cherry-pick SHA
+
+$ git cherry-pick mislav@SHA
+> git remote add -f --no-tags mislav git://github.com/mislav/CURRENT_REPO.git
+> git cherry-pick SHA
+
+$ git cherry-pick mislav@SHA
+> git fetch mislav
+> git cherry-pick SHA
+```
+
+### 上午
+
+```
+$ git am https://github.com/github/hub/pull/55
+[ downloads patch via API ]
+> git am /tmp/55.patch
+
+$ git am --ignore-whitespace https://github.com/davidbalbert/hub/commit/fdb9921
+[ downloads patch via API ]
+> git am --ignore-whitespace /tmp/fdb9921.patch
+```
+
+### 申请
+
+```
+$ git apply https://gist.github.com/8da7fb575debd88c54cf
+[ downloads patch via API ]
+> git apply /tmp/gist-8da7fb575debd88c54cf.txt
+```
+
+### 叉子
+
+```
+$ git fork
+[ repo forked on GitHub ]
+> git remote add -f YOUR_USER git@github.com:YOUR_USER/CURRENT_REPO.git
+```
+
+### 拉取请求
+
+```
+$ git pull-request
+[ opens text editor to edit title & body for the request ]
+[ opened pull request on GitHub for "YOUR_USER:feature" ]
+```
+
+### 结账
+
+```
+$ git checkout https://github.com/github/hub/pull/73
+> git remote add -f --no-tags -t feature mislav git://github.com/mislav/hub.git
+> git checkout --track -B mislav-feature mislav/feature
+```
+
+### 合并
+
+```
+$ git merge https://github.com/github/hub/pull/73
+> git fetch git://github.com/mislav/hub.git +refs/heads/feature:refs/remotes/mislav/feature
+> git merge mislav/feature --no-ff -m 'Merge pull request #73 from mislav/feature...'
+```
+
+### 创造
+
+```
+$ git create
+[ repo created on GitHub ]
+> git remote add origin git@github.com:YOUR_USER/CURRENT_REPO.git
+```
+
+### 初始化
+
+```
+$ git init -g
+> git init
+> git remote add origin git@github.com:YOUR_USER/REPO.git
+```
+
+### 推
+
+```
+$ git push origin,staging,qa bert_timeout
+> git push origin bert_timeout
+> git push staging bert_timeout
+> git push qa bert_timeout
+```
+
+### 浏览
+
+```
+$ git browse
+> open https://github.com/YOUR_USER/CURRENT_REPO
+```
+
+### 比较
+
+```
+$ git compare refactor
+> open https://github.com/CURRENT_REPO/compare/refactor
+```
+
+### 子模块
+
+```
+$ git submodule add wycats/bundler vendor/bundler
+> git submodule add git://github.com/wycats/bundler.git vendor/bundler
+```
+
+### ci状态
+
+```
+$ git ci-status
+success
+```
+
+
+## git 部署
+
+```
+$ git remote add production "user@example.com:/apps/mynewapp"
+$ git deploy setup -r "production"
+$ git deploy init
+$ git push production master
+```
+
+
+## git-cal
+
+![68747470733a2f2f7261772e6769746875622e636f6d2f6b34727468696b2f6769742d63616c2f6d61737465722f73637265656e73686f74732f696d67322e706e67](https://cloud.githubusercontent.com/assets/6316590/12465623/17d828ea-c023-11e5-8077-2e9a284defd6.png)
+
+
+## git钩子
+
+```
+$ git hooks --install
+$ git hooks
+Git hooks ARE installed in this repository.
+
+Listing User, Project, and Global hooks:
+---
+/Users/stevemao/.git_hooks:
+
+/GitHub/git-hooks/git_hooks:
+commit-msg/signed-off-by 	- Checks commit message for presence of Signed-off-by line.
+pre-commit/bsd 	- Check for the BSD license.
+
+/GitHub/git-hooks/.githooks:
+```
+
+
+## git-imerge
+
+### 图像开始
+
+```
+$ git imerge start --name=next --goal=merge --first-parent 4.0
+Attempting automerge of 1-1...success.
+Attempting automerge of 1-29...success.
+Attempting automerge of 1-44...success.
+Attempting automerge of 1-51...success.
+```
+
+### 合并合并
+
+```
+$ git imerge merge 4.0
+Attempting automerge of 1-1...success.
+Attempting automerge of 1-6...success.
+Attempting automerge of 1-9...success.
+Attempting automerge of 1-10...success.
+```
+
+### 合并变基
+
+```
+$ git imerge rebase 4.0
+The following commits on the to-be-merged branch are merge commits:
+    8e4931ae15971a14897cf347ac50b7d7fe125ac4
+    d7c772142ce663a20210db73d9ad17cc8d59e0d6
+    856df83c77b33029d2ddfb8eecd08efedeadc027
+```
+
+### 合并继续
+
+```
+$ git add --all
+$ git commit
+[imerge/next e442618] imerge 'next': manual merge 10-26
+$ git imerge continue
+Merge has been recorded for merge 10-26.
+Attempting automerge of 10-27...success.
+Attempting automerge of 10-42...failure.
+Attempting automerge of 10-34...failure.
+Attempting automerge of 10-30...success.
+Recording autofilled block MergeState('next', tip1='master', tip2='4.0', goal='merge')[18:20,34:58].
+Merge is complete!
+```
+
+### 图像处理
+
+```
+$ git imerge finish
+Previous HEAD position was fcbe161... imerge 'next': automatic merge 19-57
+Switched to branch 'next'
+[next 23362e6] Merge 4.0 into master (using imerge)
+ Date: Wed Sep 2 10:59:56 2015 +1000
+```
+
+### 图像合并图
+
+```
+$ git imerge diagram
+********************
+*????????.?????????|
+*????????.?????????|
+*????????.?????????|
+*????????...-------+
+*????????.*|#???????
+```
+
+### 合并列表
+
+```
+$ git imerge list
+* next
+```
+
+### 合并初始化
+
+```
+$ git imerge init --name=next --goal=merge --first-parent 4.0
+```
+
+### 合并记录
+
+```
+$ git imerge record
+Merge has been recorded for merge 10-26.
+Attempting automerge of 10-27...success.
+Attempting automerge of 10-42...failure.
+Attempting automerge of 10-34...failure.
+```
+
+### 图像自动填充
+
+```
+$ git imerge autofill
+Attempting automerge of 1-1...success.
+Attempting automerge of 1-29...success.
+Attempting automerge of 1-44...success.
+```
+
+### 图像简化
+
+```
+$ git imerge simplify
+Previous HEAD position was 4d19598... imerge 'next': automatic merge 20-57
+Switched to branch 'next'
+[next 6c308aa] Merge 4.0 into master (using imerge)
+ Date: Wed Sep 2 13:37:31 2015 +1000
+```
+
+### 合并删除
+
+```
+$ git imerge remove
+```
+
+### 合并父项
+
+```
+$ git imerge reparent
+67ebc0e6517ac791de6699453b71d2c7fd81ffcd
+```
+
+
+## git 问题
+
+### 初始化问题存储库
+
+```
+$ git issue init
+Initialized empty Issues repository in /home/dds/src/gi/.issues
+$ git issue new -s 'New issue entered from the command line'
+Added issue e6a95c9
+```
+
+### 创建一个新问题（打开编辑器窗口）
+
+```
+$ git issue new
+Added issue 7dfa5b7
+```
+
+### 列出未解决的问题
+
+```
+$ git issue list
+7dfa5b7 An issue entered from the editor
+e6a95c9 New issue entered from the command line
+```
+
+### 添加问题评论（打开编辑器窗口）
+
+```
+$ git issue comment e6a95c9
+Added comment 8c0d5b3
+```
+
+### 为问题添加标签
+
+```
+$ git issue tag e6a9 urgent
+Added tag urgent
+```
+
+### 添加两个标签
+
+```
+$ git issue tag e6a9 gui crash
+Added tag gui
+Added tag crash
+```
+
+### 删除标签
+
+```
+$ git issue tag -r e6a9 urgent
+Removed tag urgent
+```
+
+### 分配问题
+
+```
+$ git issue assign e6a9 joe@example.com
+Assigned to joe@example.com
+```
+
+### 添加问题观察者
+
+```
+$ git issue watcher e6a9 jane@example.com
+Added watcher jane@example.com
+```
+
+### 列出标记为 gui 的问题
+
+```
+$ git issue list gui
+e6a95c9 New issue entered from the command line
+```
+
+### 将问题存储库推送到服务器
+
+```
+$ git issue git remote add origin git@github.com:dspinellis/gi-example.git
+$ git issue git push -u origin master
+Counting objects: 60, done.
+Compressing objects: 100% (50/50), done.
+Writing objects: 100% (60/60), 5.35 KiB | 0 bytes/s, done.
+Total 60 (delta 8), reused 0 (delta 0)
+To git@github.com:dspinellis/gi-example.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+```
+
+### 从服务器克隆问题存储库
+
+```
+$ git issue clone git@github.com:dspinellis/gi-example.git my-issues
+Cloning into '.issues'...
+remote: Counting objects: 60, done.
+remote: Compressing objects: 100% (42/42), done.
+remote: Total 60 (delta 8), reused 60 (delta 8), pack-reused 0
+Receiving objects: 100% (60/60), 5.35 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (8/8), done.
+Checking connectivity... done.
+Cloned git@github.com:dspinellis/gi-example.git into my-issues
+```
+
+### 列出未解决的问题
+
+```
+$ git issue list
+7dfa5b7 An issue entered from the editor
+e6a95c9 New issue entered from the command line
+```
+
+### 创建新问题
+
+```
+$ git issue new -s 'Issue added on another host'
+Added issue abc9adc
+```
+
+### 将更改推送到服务器
+
+```
+$ git issue push
+Counting objects: 7, done.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 767 bytes | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To git@github.com:dspinellis/gi-example.git
+   d6be890..740f9a0  master -> master
+```
+
+### 显示在其他主机上添加的问题
+
+```
+$ git issue show 7dfa5b7
+issue 7dfa5b7f4591ecaa8323716f229b84ad40f5275b
+Author: Diomidis Spinellis <dds@aueb.gr>
+Date:   Fri, 29 Jan 2016 01:03:24 +0200
+Tags:   open
+
+    An issue entered from the editor
+
+    Here is a longer description.
+```
+
+### 显示问题和评论
+
+```
+$ git issue show -c e6a95c9
+issue e6a95c91b31ded8fc229a41cc4bd7d281ce6e0f1
+Author: Diomidis Spinellis <dds@aueb.gr>
+Date:   Fri, 29 Jan 2016 01:03:20 +0200
+Tags:   open urgent gui crash
+Watchers:       jane@example.com
+Assigned-to: joe@example.com
+
+    New issue entered from the command line
+
+comment 8c0d5b3d77bf93b937cb11038b129f927d49e34a
+Author: Diomidis Spinellis <dds@aueb.gr>
+Date:   Fri, 29 Jan 2016 01:03:57 +0200
+
+    First comment regarding the issue.
+```
+
+### 拉入远程更改（在原始主机上）
+
+```
+$ git issue pull
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 0), reused 7 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+From github.com:dspinellis/gi-example
+   d6be890..740f9a0  master     -> origin/master
+Updating d6be890..740f9a0
+Fast-forward
+ issues/ab/c9adc61025a3cb73b0c67470b65cefc133a8d0/description | 1 +
+ issues/ab/c9adc61025a3cb73b0c67470b65cefc133a8d0/tags        | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 issues/ab/c9adc61025a3cb73b0c67470b65cefc133a8d0/description
+ create mode 100644 issues/ab/c9adc61025a3cb73b0c67470b65cefc133a8d0/tags
+```
+
+### 列出未解决的问题
+
+```
+$ git issue list
+7dfa5b7 An issue entered from the editor
+abc9adc Issue added on another host
+e6a95c9 New issue entered from the command line
+```
+
+### 子命令自动完成
+
+```
+$ git issue [Tab]
+assign   clone    comment  git      init     log      pull     show     watcher
+attach   close    edit     help     list     new      push     tag
+```
+
+### 问题Sha自动完成
+
+```
+$ git issue show [Tab]
+7dfa5b7 - An issue entered from the editor
+e6a95c9 - New issue entered from the command line
+```
+
+
+## git-lfs
+
+```
+$ git lfs track "*.mp3"
+Tracking *.mp3
+
+$ git lfs track "*.zip"
+Tracking *.zip
+
+$ git lfs track
+Listing tracked paths
+    *.mp3 (.gitattributes)
+    *.zip (.gitattributes)
+
+$ git lfs untrack "*.zip"
+Untracking *.zip
+
+$ git lfs track
+Listing tracked paths
+    *.mp3 (.gitattributes)
+```
+
+
+## git-now
+
+```
+$ git now
+[master 1bd9ce8] [from now] 2015/08/27 10:39:10
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git log
+commit 1bd9ce878a76140f7db95afd9cfd4d7befbc7243
+Author: Steve Mao <maochenyan@gmail.com>
+Date:   Thu Aug 27 10:39:10 2015 +1000
+
+    [from now] 2015/08/27 10:39:10
+
+    diff --git a/package.json b/package.json
+    index 8768569..540523a 100644
+    --- a/package.json
+    +++ b/package.json
+    @@ -1,7 +1,7 @@
+     {
+       "name": "gulp",
+       "description": "The streaming build system",
+    -  "version": "3.9.0",
+    +  "version": "3.10.0",
+       "homepage": "http://gulpjs.com",
+       "repository": "gulpjs/gulp",
+       "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+```
+
+
+## git+
+
+### 多
+
+```
+$ git multi
+--------------------------------------------------------------------------------
+Executing git status -s
+--------------------------------------------------------------------------------
+chalk:
+	 M package.json
+
+gulp:
+	 D index.js
+```
+
+### 关系
+
+```
+$ git relation origin/4.0
+HEAD and origin/4.0 DIVERGED, common point is 657213a52d5e9c19b85df6a42f76341a98c08ae8
+
+Commits from 657213a52d5e9c19b85df6a42f76341a98c08ae8 to HEAD:
+Error retrieving log 657213a52d5e9c19b85df6a42f76341a98c08ae8..HEAD
+```
+
+### 老树枝
+
+```
+$ git old-branches -d 10
+Branch 4.0 is older than 10 days (139.86)!
+```
+
+### 最近的
+
+```
+$ git recent
+      3.64 days: master
+     11.63 days: dev
+```
+
+
+## git测试
+
+```
+$ git test -v
+4.0 ^origin/4.0 ^origin/master will test        2 commits
+iter commit  tree    result
+0000 57af4b0 f5ef0d8 pass (cached)
+0001 10ed389 434370f pass
+```
+
+
+## 合法的
+
+### 分支机构
+
+```
+$ git branches
+   4.0                        (published)
+   development                (unpublished)
+   everything-is-not-awesome  (published)
+*  master                     (published)
+   old-master                 (published)
+```
+
+### 同步
+
+```
+$ git sync
+Pulling commits from the server.
+First, rewinding head to replay your work on top of it...
+Fast-forwarded 4.0 to origin/4.0.
+Pushing commits to the server.
+```
+
+### 开关
+
+```
+$ git switch master
+Saving local changes.
+Saved working directory and index state On developement: Legit: stashing before switching branches.
+HEAD is now at f0fc4c7 Merge branch 'development'
+Switching to master.
+Your branch is up-to-date with 'origin/master'.
+Restoring local changes.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   package.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped stash@{0} (86f5dc9066ff9f69c01c77e2f5a55643ad19f8f2)
+```
+
+### 发布
+
+```
+$ git publish
+   4.0                        (published)
+   changelog                  (published)
+   everything-is-not-awesome  (published)
+*  master                     (unpublished)
+Branch None not found, using current branch master
+Publishing master.
+Branch master set up to track remote branch master from origin.
+```
+
+### 取消发布
+
+```
+$ git unpublish master
+Unpublishing master.
+```
+
+
+## 合并时的 git
+
+```
+$ git when-merged a2c9e695ecf3600f21fa731e705fd1a0503632d9
+refs/heads/master                      5a2ec1b1a6633f830bd4a2b1daab578c062e6975
+$ git when-merged HEAD
+refs/heads/master                      Commit is directly on this branch.
+```
+
+
+## git 回放
+
+```
+$ git playback README.md
+```
+
+![](https://camo.githubusercontent.com/9abe1d2de474dbc0d1ad4f48acf9e954ff0d0b30/68747470733a2f2f7261772e6769746875622e636f6d2f6a69616e6c692f6769742d706c61796261636b2f6d61737465722f616e696d6174696f6e2e676966)
+
+
+## git 分支状态
+
+```
+$ git branch-status
+ 4.0       [57 ahead and 38 behind master]    [up to date with origin/4.0]
+ master    [current branch]                   [1 ahead of origin/master]
+```
+
+
+## git 打开
+
+```
+$ git open
+> open https://github.com/REMOTE_ORIGIN_USER/CURRENT_REPO/tree/CURRENT_BRANCH
+
+$ git open upstream
+> open https://github.com/REMOTE_UPSTREAM_USER/CURRENT_REPO/tree/CURRENT_BRANCH
+
+$ git open upstream master
+> open https://github.com/REMOTE_UPSTREAM_USER/CURRENT_REPO/tree/master
+```
+
+
+## 吉特我的
+
+```
+$ git my
+
++------------------------------------------------------------------------------+
+| your name's remote branches in git@repo:repopath/reponame.git                |
++------------------------------------------------------------------------------+
+
+   local copy?  in master?  branch name
+  ................[merged]. EC-242
+  .....[local]....[merged]. commonjs-lazyload
+  .....[local]............. enqueue-gpt
+  ......................... defunct-ios-app-nag
+  .....[local]............. factor-bundles
+```
+
+
+## git-ink
+
+```
+$ git ink
+
+• enqueue-gpt ........................................... 2015-08-31
+• factor-bundles ........................................ 2015-10-14
+    - Pull out more modules into node_modules
+    - Works but does not provide any gains
+• hbsfy ................................................. 2015-10-21
+✓ master ................................................ 2015-10-22
+• nda-ads4 .............................................. 2015-10-22
+• remove-equalize_content_height ........................ 2015-10-21
+• remove-exorcise ....................................... 2015-10-21
+    - Need to DRY up exorcise function
+    - Does not map properly when uglified
+    - Need to undo postCSS mapping changes
+• rm-convert_dates-order ................................ 2015-10-22
+• sass-lint ............................................. 2015-10-14
+    - module does not work
+```
+
+
+## 递归责备
+
+```
+$ git recursive-blame version package.json
+
+Commit: 247479d017f138c26be27c64a0ce27f5f21fc0af
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Tue Oct 13 15:58:13 2015 -0700 (7 weeks ago)
+Path:   package.json
+Match:  1 of 1
+
+    chore(release): bump angular version to alpha.42
+
+1) {
+2)   "name": "angular",
+3)   "version": "2.0.0-alpha.42",
+4)   "branchPattern": "2.0.*",
+5)   "description": "Angular 2 - a web framework for modern web apps",
+6)   "homepage": "https://github.com/angular/angular",
+7)   "bugs": "https://github.com/angular/angular/issues",
+
+Next action [r,n,p,c,d,q,?]? r
+
+Commit: bb9d299b3860f6d579192828451ccd7ace70e1d8
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Oct 13 12:28:03 2015 -0700 (7 weeks ago)
+Path:   package.json
+Match:  1 of 1
+
+    chore(release): bump angular version to alpha.41
+
+1) {
+2)   "name": "angular",
+3)   "version": "2.0.0-alpha.41",
+4)   "branchPattern": "2.0.*",
+5)   "description": "Angular 2 - a web framework for modern web apps",
+6)   "homepage": "https://github.com/angular/angular",
+7)   "bugs": "https://github.com/angular/angular/issues",
+```
+
+
+## 过度责备
+
+
+```
+$ git hyper-blame -i 3ddda43c ipsum.txt
+c6eb3bfa (lorem 2014-08-11 23:15:57 +0000  1) LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
+134200d1 (lorem 2014-04-10 08:54:46 +0000 2*) ADIPISCING ELIT, SED DO EIUSMOD TEMPOR
+a34a1d0d (ipsum 2014-04-11 11:25:04 +0000 3*) INCIDIDUNT UT LABORE ET DOLORE MAGNA
+134200d1 (lorem 2014-04-10 08:54:46 +0000 4*) ALIQUA. UT ENIM AD MINIM VENIAM, QUIS
+c6eb3bfa (lorem 2014-08-11 23:15:57 +0000  5) NOSTRUD EXERCITATION ULLAMCO LABORIS
+0f0d17bd (dolor 2014-06-02 11:31:48 +0000 6*) NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.
+```
+
+
+## git-word-责备
+
+
+```
+$ git word-blame README.md
+results in /tmp/word-blame-output/
+ - author_stats.tsv
+ - commit_stats.tsv
+ - word-blame-by-commit.html
+ - word-blame-by-author.html
+ - text-output
+```
+
+![git word-blame on this README](https://user-images.githubusercontent.com/1469823/57202569-0247eb00-6fa7-11e9-8549-f55d81299fab.png)
+
+
+
+## git-fire
+
+```
+$ git fire
+Switched to a new branch 'fire-master-maochenyan@gmail.com-1451379915'
+On branch fire-master-maochenyan@gmail.com-1451379915
+nothing to commit, working directory clean
+Counting objects: 2, done.
+Writing objects: 100% (2/2), 168 bytes | 0 bytes/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To git@bitbucket.org:maochenyan/fire.git
+ * [new branch]      fire-master-maochenyan@gmail.com-1451379915 -> fire-master-maochenyan@gmail.com-1451379915
+Branch fire-master-maochenyan@gmail.com-1451379915 set up to track remote branch fire-master-maochenyan@gmail.com-1451379915 from origin.
+
+
+Leave building!
+```
+
+
+## 吉特镇
+
+### git 黑客
+
+```
+$ git hack my-branch
+[main] git fetch --prune --tags
+
+[main] git rebase origin/main
+
+[main] git branch my-branch main
+
+[main] git checkout my-branch
+```
+
+### git同步
+
+```
+$ git sync
+[my-branch] git fetch --prune --tags
+
+[my-branch] git checkout main
+
+[main] git rebase origin/main
+
+[main] git checkout my-branch
+
+[my-branch] git merge --no-edit main
+
+[my-branch] git push -u origin my-branch
+ * [new branch]      my-branch -> my-branch
+Branch 'my-branch' set up to track remote branch 'my-branch' from 'origin'.
+```
+
+### git 新拉请求
+
+```
+$ git new-pull-request
+[my-branch] git fetch --prune --tags
+
+[my-branch] git checkout main
+
+[main] git rebase origin/main
+
+[main] git checkout my-branch
+
+[my-branch] git merge --no-edit origin/my-branch
+
+[my-branch] git merge --no-edit main
+
+open <url to create pull request for current branch>
+```
+
+### git 船
+
+```
+[my-branch] git fetch --prune --tags
+
+[my-branch] git checkout main
+
+[main] git rebase origin/main
+
+[main] git checkout my-branch
+
+[my-branch] git merge --no-edit origin/my-branch
+
+[my-branch] git merge --no-edit main
+
+[my-branch] git checkout main
+
+[main] git merge --squash my-branch
+
+[main] git commit
+ 1 file changed, 2 insertions(+)
+
+[main] git push
+
+[main] git push origin :my-branch
+ - [deleted]         my-branch
+
+[main] git branch -D my-branch
+Deleted branch my-branch (was 55cb0f7).
+```
+
+## git 责怪别人
+
+```
+$ git blame-someone-else 'Steve Mao <maochenyan@gmail.com>' 2efb4e3a061a2e8aaa58033e9c13c3e0e5fcde4b
+Steve Mao  is now the author of 2efb4e3. You're officially an asshole.
+```
+
+
+## 差异如此奇特
+
+```
+$ git dsf
+```
+
+![diff-highlight vs diff-so-fancy](https://user-images.githubusercontent.com/3429760/32387617-44c873da-c082-11e7-829c-6160b853adcb.png)
+
+
+## git 统计信息
+
+![](http://i.imgur.com/PpM0i3v.png)
+
+
+## git 秘密
+
+### git 秘密初始化
+
+```
+$ git secret init
+'.gitsecret/' created.
+```
+
+### git 秘密告诉
+
+```
+$ git secret tell my@email.com
+done. my@email.com added as a person who knows the secret.
+cleaning up...
+```
+
+### git 秘密添加
+
+```
+$ git secret add hideme.txt
+1 items added.
+```
+
+### git 秘密列表
+
+```
+$ git secret list
+hideme.txt
+```
+
+### git 秘密隐藏
+
+```
+$ git secret hide
+done. all 1 files are hidden.
+```
+
+### git秘密揭秘
+
+```
+$ git secret reveal
+
+You need a passphrase to unlock the secret key for
+user: "Test User <my@email.com>"
+2048-bit RSA key, ID #######, created 2015-01-01 (main key ID #######)
+
+gpg: gpg-agent is not available in this session
+File `hideme.txt' exists. Overwrite? (y/N) y
+done. all 1 files are revealed.
+```
+
+
+## git 秘密
+
+> 防止您将密码和其他敏感信息提交到 git 存储库。
+
+待定 - 公关欢迎！
+
+
+## git 修复
+
+```
+$ git diff --cached -U0
+diff --git a/README.md b/README.md
+index 0c700d1..7a57cef 100644
+--- a/README.md
++++ b/README.md
+@@ -1330 +1330 @@ $ git secret hide
+-done. all 1 files are hidden.
++done. all 3 files are hidden.
+$ git fixup 6d623f6525dd94b4aaea6f6ae2e7a59edc39bdb8
+24aa3d9c10cc02fe813dc83d1ac792cc2e7d705d [F] add screenshot of git-stats <maochenyan@gmail.com>
+6d623f6525dd94b4aaea6f6ae2e7a59edc39bdb8 [L] changed gif with text <mail@sobolevn.me>
+```
+
+
+## git-最近的
+
+```
+$ git recent
+```
+
+![git-recent screenshot](https://cloud.githubusercontent.com/assets/39191/17446638/039d4cee-5aff-11e6-9e11-4294f0020513.png)
+
+## git-interactive-rebase-工具
+
+```
+$ git rebase -i master
+```
+
+![git-interactive-rebase-tool screenshot](https://raw.githubusercontent.com/MitMaro/git-interactive-rebase-tool/master/docs/assets/images/git-interactive-rebase-demo.gif)
+
+## git-fiddle
+
+```
+$ git fiddle -h
+git-fiddle
+
+Edit commit meta information during an *interactive* rebase.
+
+`git-fiddle(1)' is a lightweight wrapper around `git-rebase(1)' that
+annotates each commit with it's *author* date, the author name, as well
+as the commit message. Changes to any of these will then be applied
+using an 'exec' script during the git-rebase sequence.
+
+Usage:
+  $SCRIPT [--[no-]-fiddle-messages] [args...]
+
+Options:
+  --[no-]fiddle-messages Do not edit commit messages. Useful for quick edits
+                         to author or date. This value can also be set using
+                         `git config fiddle.messages`.
+  [args...]              These arguments are passed verbatim to git-rebase.
+```
+
+
+## git 用户
+
+```
+# add a work profile for Henry
+$ git user add work "Dr. Henry Jekyll" henry@jekyll.com
+Added profile 'work'
+
+# add a personal profile for Edward
+$ git user add home "Edward Hyde" hyde@night.com
+Added profile 'home'
+
+# list out our saved profiles
+$ git user list
+Global Profile:
+  User: Henry <hjekyll@gmail.com>
+
+Saved Profiles:
+  home: Edward Hyde <hyde@night.com>
+  work: Dr. Henry Jekyll <henry@jekyll.com>
+
+# set the current git repository user to the home profile
+$ git user set home
+The user for the 'project' repository has been set too 'Edward Hyde <hyde@night.com>'
+
+# list profiles again, notice how the current repository profile is now set
+$ git user
+Project Profile:
+  Path: /path/to/git/project
+  User: Edward Hyde <hyde@night.com>
+
+Saved Profiles:
+  home: Edward Hyde <hyde@night.com>
+  work: Dr. Henry Jekyll <henry@jekyll.com>
+```
+
+
+## 吉特索姆
+
+待定 - 公关欢迎！
+
+
+## 吉特猎犬
+
+待定 - 公关欢迎！
+
+
+## git 召回
+
+![](https://camo.githubusercontent.com/eb306717b95724c33dd0de91faa535a4818cc7d0/687474703a2f2f696d6775722e636f6d2f7a7577324c71572e676966)
+
+```
+$ git recall
+# By default (without options), the command will display commits from yesterday and
+# for the current user.
+
+$ git recall -d 5 -a "Doge"
+# Show all Doge's commits from 5 days ago.
+
+$ git recall -d 5 -a "all"
+# Show commits of all contributors from 5 days ago.
+
+$ git recall -f
+# Fetch commits beforehand.
+```
+
+
+## git-standup
+
+```
+$ git standup
+2f50b39c - docs(commit messages): use commitizen to generate Conventional Commits (12 hours ago) <Steve Mao>
+9af3600e - fix tests (12 hours ago) <Steve Mao>
+7f17ba97 - docs: title case (12 hours ago) <Steve Mao>
+a6d6203c - do not scroll when search is open (12 hours ago) <Steve Mao>
+53fe681a - chore(pkg): add repo url (12 hours ago) <Steve Mao>
+5e952ac0 - subtitle should be generic (13 hours ago) <Steve Mao>
+adbc5423 - add ci/cd to readme. (13 hours ago) <Steve Mao>
+a1097116 - add versioning to readme (14 hours ago) <Steve Mao>
+6b6e7465 - add test coverage (15 hours ago) <Steve Mao>
+```
+
+
+## 承诺
+
+```
+$ git cz
+cz-cli@2.9.6, cz-conventional-changelog@1.2.0
+
+
+Line 1 will be cropped at 100 characters. All other lines will be wrapped after 100 characters.
+
+? Select the type of change that you're committing: (Use arrow keys)
+❯ feat:     A new feature
+  fix:      A bug fix
+  docs:     Documentation only changes
+  style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi
+-colons, etc)
+  refactor: A code change that neither fixes a bug nor adds a feature
+  perf:     A code change that improves performance
+  test:     Adding missing tests or correcting existing tests
+```
+
+
+## git-fresh
+
+待定 - 公关欢迎！
+
+## git-fs
+
+```
+$ git fs
+Mounting readonly filesystem on ./git/fs
+```
+
+## git-url
+
+### git 网址
+
+```
+$ cd ~/github/git-url.git
+$ git url
+Encoding... INPUT is next paragraph:
+
+Protocol:  https
+Site:      github.com
+Repo:      zdharma/git-url
+Revision:  master
+
+gitu://ҝjȩMżEäḝЃȣϟṈӛŀї
+
+$ git url -r v1.0
+Encoding... INPUT is next paragraph:
+
+Protocol:  https
+Site:      github.com
+Repo:      zdharma/git-url
+Revision:  v1.0
+
+gitu://ŪĪАϔEäḝЃȣϟṈӛŀї
+
+$ git url -q -p lib/common.sh	# -q - quiet, -p - path
+gitu://eḶȸṋ0oǗȟЗÛjȩMżEäḝЃȣϟṈӛŀї
+
+$ git url //eḶȸṋ0oǗȟЗÛjȩMżEäḝЃȣϟṈӛŀї
+Decoding... OUTPUT is:
+
+Protocol:  https
+Site:      github.com
+Repo:      zdharma/git-url
+Revision:  master
+File:      lib/common.sh
+
+https://github.com/zdharma/git-url
+```
+
+### git guclone
+
+```
+$ git guclone ŪĪАϔEäḝЃȣϟṈӛŀї
+Cloning URL https://github.com/zdharma/git-url for revision v1.0
+
+Cloning into 'git-url'...
+remote: Counting objects: 144, done.
+remote: Compressing objects: 100% (111/111), done.
+remote: Total 144 (delta 71), reused 102 (delta 32), pack-reused 0
+Receiving objects: 100% (144/144), 116.43 KiB | 125.00 KiB/s, done.
+Resolving deltas: 100% (71/71), done.
+
+Checking out revision/reference v1.0... OK
+HEAD is at: 5d10a204, created directory git-url
+```
+
+
+## git 签名
+
+### 签名添加--push
+
+```
+$ git signatures add --push v1.0.0
+Updated tag 'v1.0.0' (was 4de5afd)
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 906 bytes | 906.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To git@github.com:jsmith/test-signatures
+   4b5300d..5b1f2cd  refs/notes/signatures -> refs/notes/signatures
+ + 4de5afd...5b1f2cd v1.0.0 -> v1.0.0 (forced update)
+```
+
+
+### 签名验证
+
+```
+$ git signatures verify v1.0.0
+```
+
+
+### 签名验证 --min-count 2
+
+```
+$ git signatures verify --min-count 2 v1.0.0
+Failed to find enough verified signatures to satisfy: min_count=2
+
+Signature verification could fail simply because your local gnupg
+keychain and trustdb does not contain the required keys.
+
+For detailed signature status run:
+
+> git signatures show
+```
+
+
+### 签名展示
+
+```
+$ git signatures show v1.0.0
+ Public Key ID    | Status     | Trust     | Date                         | Signer Name
+=======================================================================================================================
+01234567890ABCDEF | VALIDSIG   | ULTIMATE  | Sat Nov 10 13:16:10 EST 2018 | Steve Mao <maochenyan@gmail.com>
+ ```
+
+## git-配置文件
+### 添加工作资料
+```
+$ git profile add work
+Name: Name Surname
+Email: name@work-domain.com
+Signing Key:
+Profile work added successfully
+```
+
+### 添加个人资料
+```
+$ git profile add home -n "Name Surname" -e name@gmail.com
+Profile home added successfully
+```
+
+### 列出我们保存的个人资料
+```
+$ git profile list
+Existing profiles:
+work
+home
+```
+
+### 将当前 git 存储库用户设置为 home 配置文件
+```
+$ git profile use work
+```
+目前成功的话不会有任何输出
+
+## git 修改
+
+待定 - 公关欢迎！
+
+## 过滤器仓库
+
+待定 - 公关欢迎！
+
+## git跳转
+
+交互式 UI 和 Git 分支的模糊搜索。
+
+![git-jump interface demo](https://raw.githubusercontent.com/mykolaharmash/git-jump/main/img/demo.gif)
+
+## git 项目
+```
+git project open shoppinglist
+```
+```
+git project add shoppinglist milk
+```
+```
+$ git project board
+
+ Project: shoppinglist
++-----------+------+
+|   OPEN    | DONE |
++-----------+------+
+| something | love |
++-----------+------+
+| coffee    |      |
++-----------+      +
+| sugar     |      |
++-----------+      +
+| milk      |      |
++-----------+------+
+```
+
+```
+$ git project status
+
+Project: shoppinglist
+  0|  ⭐  something
+  1|  ⭐  coffee
+  2|  ⭐  sugar
+  3|  ⭐  milk
+  4|  ✅  love
+```
+
+## git-branchcut
+### 删除带有字符串模式的分支
+```
+$ git branchcut execute -p "feature/*"
+Switched to branch 'main'
+Deleted branch feature/test (was 257725f).
+Deleted branch feature/impl (was 8120c0b).
+```
+
+### 删除具有日偏移量的分支
+```
+$ git branchcut execute -o 7
+Switched to branch 'main'
+Deleted branch bugfix/test (was e2afad6).
+Deleted branch too-old-branch (was 1d3f82d).
+```
+
+## git 渗透
+### 将大树枝分成较小的树枝
+
+假设有一个假设项目，您对两个软件组件进行更改
+一个功能分支中的文件夹，您可以使用此工具来创建两个分支
+两者都有保存下来的历史。
+
+```
+git checkout feature-branch
+./git-exfiltrate master feature-branch-extracted "component-folder/*"
+```
+
+将仅使用以下内容创建“feature-branch-extracted”分支
+功能分支中的“组件文件夹”发生了变化。
+
+```
+*   e01009e  (main)
+|
+| * ce4ca64  (feature-branch-extracted)
+| |  component-folder/1 | 20 +
+| * f3bf092
+| |  component-folder/1 | 20 +
+* | 4b2ebd6
+|/
+|
+| * d4c374e  (feature-branch)
+| |  component-folder/1 | 20 +
+| |  different-component-folder/2 | 100 -
+| * 4724dbb
+| |  component-folder/1 | 20 +
+| |  different-component-folder/2 | 100 -
+|/
+* 927799f
+* 219e9b2
+```
+
+## git 支出
+
+收集并汇总提交消息中找到的“/spend <duration>”指令。
+
+```
+$ git spend sum
+3 weeks 2 days 1 hour 37 minutes
+```
+
+### 按作者、范围等过滤
+
+```
+$ git spend sum --author stevemao --author antoine@goutenoir.com --since tags/v1.0.0
+1 week 3 hours
+```
+
+
+## 许可证
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+在法律允许的范围内，[Steve Mao](https://github.com/stevemao) 已放弃本作品的所有版权以及相关或邻接权。

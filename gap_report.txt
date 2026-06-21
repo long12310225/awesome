@@ -1,0 +1,811 @@
+Local File                                                        Local Sz Local H2 | Repo H2     Status
+====================================================================================================
+平台/awesome-nodejs_zh.md                                               4891       5 |       6         OK
+杂项/awesome-cross-platform-nodejs_zh.md                                4752       4 |       9         OK
+平台/frontend-dev-bookmarks_zh.md                                       2439       7 |       7         OK
+平台/awesome-ios_zh.md                                                  5195      11 |      76     GAP=65
+平台/awesome-android_zh.md                                              8674      17 |       6         OK
+平台/awesome-IoT-hybrid_zh.md                                           4031       7 |       7         OK
+平台/awesome-electron_zh.md                                             2063       5 |      13         OK
+平台/awesome-cordova_zh.md                                              5202       9 |       7         OK
+平台/awesome-react-native_zh.md                                         2449       7 |      15         OK
+平台/awesome-xamarin_zh.md                                              3237       8 |      29     GAP=21
+平台/awesome-linux_zh.md                                                2057       5 |       8         OK
+平台/awesome-linux-containers_zh.md                                     4541      10 |      15         OK
+平台/awesome-ebpf_zh.md                                                 1669       5 |      13         OK
+平台/Awesome-Arch_zh.md                                                 1854       5 |      12         OK
+平台/awesome-appimage_zh.md                                            25197       5 |       5         OK
+平台/awesome-omarchy_zh.md                                              1576       5 |      10         OK
+平台/awesome-macos-screensavers_zh.md                                   1577       5 |      13         OK
+平台/awesome-mac_zh.md                                                  4516       8 |      29     GAP=21
+平台/open-source-mac-os-apps_zh.md                                      2163       5 |       6         OK
+平台/awesome-watchos_zh.md                                             12612       0 |       0         OK
+平台/awesome-jvm_zh.md                                                 13050      17 |      17         OK
+平台/awesome-salesforce_zh.md                                           4523       9 |      15         OK
+平台/awesome-aws_zh.md                                                  6144      13 |      15         OK
+平台/awesome-windows_zh.md                                              6251      13 |      39     GAP=26
+平台/awesome-powertoys-run-plugins_zh.md                                1359       5 |       7         OK
+平台/awesome-ipfs_zh.md                                                 1721       5 |      11         OK
+平台/awesome-fuse_zh.md                                                 6666       8 |       7         OK
+平台/awesome-heroku_zh.md                                               3334       8 |      15         OK
+平台/awesome-raspberry-pi_zh.md                                         1572       5 |       7         OK
+平台/awesome-qt_zh.md                                                   2084       6 |      13         OK
+平台/Awesome-WebExtensions_zh.md                                        2098       5 |       8         OK
+平台/awesome-smart-tv_zh.md                                             1599       5 |      11         OK
+平台/awesome-gnome_zh.md                                                1967       5 |       6         OK
+平台/awesome-kde_zh.md                                                  1675       5 |       7         OK
+平台/awesome-dotnet_zh.md                                               4573      11 |     113    GAP=102
+平台/awesome-dotnet-core_zh.md                                          1959       5 |      12         OK
+平台/awesome-roslyn_zh.md                                               2340       5 |      11         OK
+平台/awesome-amazon-alexa_zh.md                                         2213       5 |      21     GAP=16
+平台/awesome-digitalocean_zh.md                                         1180       5 |      11         OK
+平台/awesome-flutter_zh.md                                              2411       7 |      16         OK
+平台/awesome-home-assistant_zh.md                                       3348       8 |      18     GAP=10
+平台/awesome-ibmcloud_zh.md                                             1030       5 |      13         OK
+平台/awesome-firebase_zh.md                                             2371       9 |      12         OK
+平台/awesome-ros2_zh.md                                                 3656       8 |      17         OK
+平台/awesome-adafruitio_zh.md                                           1919       4 |      11         OK
+平台/awesome-cloudflare_zh.md                                           1332       5 |      10         OK
+平台/awesome-actions-on-google_zh.md                                    1942       5 |      11         OK
+平台/awesome-esp_zh.md                                                  2147       5 |       5         OK
+平台/awesome-deno_zh.md                                                 3525       7 |      12         OK
+平台/awesome-dos_zh.md                                                  1901       5 |       7         OK
+平台/awesome-nix_zh.md                                                  2099       5 |      15     GAP=10
+平台/awesome-integration_zh.md                                          7995       3 |       5         OK
+平台/awesome-nodered_zh.md                                              1884       5 |       6         OK
+平台/awesome-low-code_zh.md                                             1812       4 |       9         OK
+平台/awesome-capacitor_zh.md                                            2256       5 |      16     GAP=11
+平台/awesome-arcgis-developer_zh.md                                    34048      15 |      15         OK
+平台/awesome-ble_zh.md                                                  2590       6 |      17     GAP=11
+平台/awesome-uno-platform_zh.md                                         8621      13 |      13         OK
+平台/awesome-google-cloud_zh.md                                         2213       7 |      11         OK
+平台/awesome-firebase-genkit_zh.md                                     25500      10 |      10         OK
+平台/awesome-backstage_zh.md                                            2264       5 |       9         OK
+编程语言/awesome-javascript_zh.md                                         3323       7 |      73     GAP=66
+编程语言/awesome-promises_zh.md                                           2131       5 |       4         OK
+编程语言/awesome-standard_zh.md                                           1877       5 |      10         OK
+编程语言/js-must-watch_zh.md                                              1700       5 |      12         OK
+编程语言/jstips_zh.md                                                    10206       1 |       1         OK
+编程语言/awesome-network-js_zh.md                                         1762       5 |       3         OK
+编程语言/awesome-micro-npm-packages_zh.md                                 2564       5 |       6         OK
+编程语言/awesome-mad-science_zh.md                                        1879       7 |      15         OK
+编程语言/maintenance-modules_zh.md                                          48       0 |       1         OK
+编程语言/awesome-npm_zh.md                                                2014       4 |      11         OK
+编程语言/awesome-ava_zh.md                                                2160       5 |       8         OK
+编程语言/awesome-eslint_zh.md                                             2489       5 |      11         OK
+编程语言/awesome-fp-js_zh.md                                              1735       5 |       7         OK
+编程语言/awesome-observables_zh.md                                        2548       8 |       8         OK
+编程语言/awesome-npm-scripts_zh.md                                        1949       4 |      12         OK
+编程语言/30-seconds-of-code_zh.md                                         1356       2 |       2         OK
+编程语言/awesome-ponyfills_zh.md                                          1801       4 |      10         OK
+编程语言/awesome-swift_zh.md                                              3913      10 |      12         OK
+编程语言/Awesome-Swift-Playgrounds_zh.md                                  1182       5 |      14         OK
+编程语言/awesome-python_zh.md                                             7729      12 |       5         OK
+编程语言/awesome-asyncio_zh.md                                           13108      12 |      12         OK
+编程语言/awesome-python-scientific-audio_zh.md                           11506       5 |       9         OK
+编程语言/awesome-circuitpython_zh.md                                      2624       5 |      19     GAP=14
+编程语言/awesome-python-data-science_zh.md                                1838       5 |      33     GAP=28
+编程语言/awesome-python-typing_zh.md                                      1445       5 |      10         OK
+编程语言/awesome-micropython_zh.md                                        1801       5 |      10         OK
+编程语言/awesome-rust_zh.md                                               4254       5 |       7         OK
+编程语言/awesome-pest_zh.md                                               1600       5 |       4         OK
+编程语言/awesome-haskell_zh.md                                            5290      12 |      40     GAP=28
+编程语言/awesome-purescript_zh.md                                         2181       5 |      17     GAP=12
+编程语言/awesome-go_zh.md                                                 4092       7 |      87     GAP=80
+编程语言/awesome-scala_zh.md                                              3801      10 |      11         OK
+编程语言/awesome-scala-native_zh.md                                       1746       5 |      16     GAP=11
+编程语言/awesome-ruby_zh.md                                               6071      14 |     110     GAP=96
+编程语言/awesome-clojure_zh.md                                            3851       9 |      55     GAP=46
+编程语言/awesome-clojurescript_zh.md                                      1950       5 |       4         OK
+编程语言/awesome-elixir_zh.md                                             5351      13 |      95     GAP=82
+编程语言/awesome-elm_zh.md                                                2754       8 |      26     GAP=18
+编程语言/awesome-erlang_zh.md                                             3813      10 |      35     GAP=25
+编程语言/Julia.jl_zh.md                                                   2029       5 |       6         OK
+编程语言/awesome-lua_zh.md                                                1801       5 |       5         OK
+编程语言/awesome-c_zh.md                                                  4343      10 |      38     GAP=28
+编程语言/awesome-cpp_zh.md                                                5923      13 |      70     GAP=57
+编程语言/awesome-R_zh.md                                                  4813      10 |      38     GAP=28
+编程语言/awesome-r-learning-resources_zh.md                               1712       5 |       8         OK
+编程语言/awesome-d_zh.md                                                  3288      10 |      48     GAP=38
+编程语言/awesome-cl_zh.md                                               198546      33 |      33         OK
+编程语言/awesome-common-lisp-learning_zh.md                               1932       5 |      10         OK
+编程语言/awesome-perl_zh.md                                               3797       9 |      47     GAP=38
+编程语言/awesome-groovy_zh.md                                             1531       5 |      25     GAP=20
+编程语言/awesome-dart_zh.md                                               1892       5 |      26     GAP=21
+编程语言/awesome-java_zh.md                                               2394       6 |       4         OK
+编程语言/awesome-rxjava_zh.md                                             1943       5 |       8         OK
+编程语言/awesome-j2me_zh.md                                               1636       5 |      10         OK
+编程语言/awesome-kotlin_zh.md                                             2973      10 |       1         OK
+编程语言/awesome-ocaml_zh.md                                              3172       9 |      44     GAP=35
+编程语言/awesome-coldfusion_zh.md                                         1686       5 |      14         OK
+编程语言/awesome-fortran_zh.md                                            2314       5 |      18     GAP=13
+编程语言/awesome-php_zh.md                                                4578      11 |       2         OK
+编程语言/awesome-composer_zh.md                                           2146       5 |      13         OK
+编程语言/awesome-pascal_zh.md                                             2216       9 |      44     GAP=35
+编程语言/awesome-AutoHotkey_zh.md                                         2087       5 |       8         OK
+编程语言/awesome-AutoIt_zh.md                                             2297       5 |       6         OK
+编程语言/awesome-crystal_zh.md                                            2961       8 |      59     GAP=51
+编程语言/awesome-frege_zh.md                                              3574       7 |       7         OK
+编程语言/awesome-cmake_zh.md                                              2386       5 |      10         OK
+编程语言/awesome-actionscript3_zh.md                                      1350       5 |      11         OK
+编程语言/awesome-eta_zh.md                                                1502       5 |       7         OK
+编程语言/awesome-idris_zh.md                                              1405       5 |       2         OK
+编程语言/awesome-ada_zh.md                                                2177       5 |      15     GAP=10
+编程语言/awesome-qsharp_zh.md                                             2230       5 |      10         OK
+编程语言/awesome-imba_zh.md                                               1372       5 |       6         OK
+编程语言/awesome-vala_zh.md                                               1865       5 |       6         OK
+编程语言/awesome-coq_zh.md                                                1641       5 |       3         OK
+编程语言/awesome-v_zh.md                                                  1860       5 |       4         OK
+编程语言/awesome-move_zh.md                                               2525       7 |      19     GAP=12
+编程语言/awesome-esolangs_zh.md                                           2096       5 |       7         OK
+编程语言/awesome-vba_zh.md                                                2539       5 |      11         OK
+编程语言/awesome-fsharp_zh.md                                             3349       9 |      29     GAP=20
+前端开发/es6-tools_zh.md                                                  1208       5 |      19     GAP=14
+前端开发/awesome-wpo_zh.md                                                4424      10 |      35     GAP=25
+前端开发/tools_zh.md                                                      2331       5 |       2         OK
+前端开发/awesome-css_zh.md                                                3761       9 |      23     GAP=14
+前端开发/critical-path-css-tools_zh.md                                    1590       5 |      11         OK
+前端开发/scalable-css-reading-list_zh.md                                  1736       5 |       5         OK
+前端开发/must-watch-css_zh.md                                            10659       0 |       0         OK
+前端开发/css-protips_zh.md                                                1582       5 |       4         OK
+前端开发/awesome-css-frameworks_zh.md                                     2093       6 |      10         OK
+前端开发/awesome-react_zh.md                                              5813      14 |       0         OK
+前端开发/awesome-relay_zh.md                                              1823       5 |      14         OK
+前端开发/awesome-react-hooks_zh.md                                        2312       5 |       7         OK
+前端开发/awesome-web-components_zh.md                                     1902       5 |      19     GAP=14
+前端开发/awesome-polymer_zh.md                                            2567       6 |      15         OK
+前端开发/awesome-angular_zh.md                                            3528       9 |      15         OK
+前端开发/awesome-backbone_zh.md                                           1997       5 |       7         OK
+前端开发/awesome-html5_zh.md                                              4979      10 |      23     GAP=13
+前端开发/awesome-svg_zh.md                                                2580       4 |       4         OK
+前端开发/awesome-canvas_zh.md                                             1585       5 |       6         OK
+前端开发/awesome-knockout_zh.md                                           1826       5 |       6         OK
+前端开发/awesome-dojo_zh.md                                               1880       5 |      13         OK
+前端开发/Inspire_zh.md                                                    1691       4 |       8         OK
+前端开发/awesome-ember_zh.md                                              2119       5 |       3         OK
+前端开发/awesome-android-ui_zh.md                                         2925       5 |       2         OK
+前端开发/awesome-ios-ui_zh.md                                             2736       5 |       0         OK
+前端开发/awesome-meteor_zh.md                                             5651      13 |      40     GAP=27
+前端开发/BEM-resources_zh.md                                              1569       5 |       5         OK
+前端开发/awesome-flexbox_zh.md                                            2632       7 |      15         OK
+前端开发/typography_zh.md                                                 1948       5 |       8         OK
+前端开发/awesome-a11y_zh.md                                               2447       1 |       1         OK
+前端开发/awesome-material_zh.md                                           2199       6 |       1         OK
+前端开发/awesome-d3_zh.md                                                 2004       5 |       6         OK
+前端开发/awesome-emails_zh.md                                             1703       5 |      14         OK
+前端开发/awesome-jquery_zh.md                                             1737       5 |      12         OK
+前端开发/jquery-tips-everyone-should-know_zh.md                           1555       5 |       4         OK
+前端开发/awesome-webaudio_zh.md                                           1754       5 |       5         OK
+前端开发/offline-first_zh.md                                              1964       5 |      12         OK
+前端开发/awesome-static-website-services_zh.md                            3696       9 |      20     GAP=11
+前端开发/awesome-cyclejs_zh.md                                            1774       5 |       6         OK
+前端开发/awesome-text-editing_zh.md                                       1552       4 |       5         OK
+前端开发/motion-ui-design_zh.md                                           1707       5 |      13         OK
+前端开发/awesome-vue_zh.md                                                4007       9 |       5         OK
+前端开发/awesome-marionette_zh.md                                         1939       5 |       6         OK
+前端开发/awesome-aurelia_zh.md                                           28697       3 |       3         OK
+前端开发/awesome-charting_zh.md                                           1927       4 |       5         OK
+前端开发/awesome-ionic_zh.md                                              2184       6 |      21     GAP=15
+前端开发/awesome-chrome-devtools_zh.md                                    2575       5 |       8         OK
+前端开发/awesome-postcss_zh.md                                            1967       0 |       0         OK
+前端开发/awesome-draft-js_zh.md                                           2162       4 |      10         OK
+前端开发/awesome-service-workers_zh.md                                    1613       5 |       9         OK
+前端开发/awesome-progressive-web-apps_zh.md                               1717       5 |       9         OK
+前端开发/awesome-choo_zh.md                                               4044       1 |       1         OK
+前端开发/awesome-redux_zh.md                                              2262       6 |      10         OK
+前端开发/awesome-browserify_zh.md                                         1614       5 |      11         OK
+前端开发/awesome-sass_zh.md                                               1854       5 |      13         OK
+前端开发/awesome-ant-design_zh.md                                         1541       5 |      20     GAP=15
+前端开发/awesome-less_zh.md                                               2673       8 |      17         OK
+前端开发/awesome-webgl_zh.md                                              1872       5 |      11         OK
+前端开发/awesome-preact_zh.md                                             1091       4 |       1         OK
+前端开发/progressive-enhancement-resources_zh.md                          1551       5 |       9         OK
+前端开发/awesome-nextjs_zh.md                                             1966       5 |      13         OK
+前端开发/awesome-lit_zh.md                                                1529       5 |      23     GAP=18
+前端开发/awesome-jamstack_zh.md                                           3471       8 |      15         OK
+前端开发/awesome-wordpress-gatsby_zh.md                                   1642       5 |      10         OK
+前端开发/awesome-mobile-web-development_zh.md                             1835       5 |       9         OK
+前端开发/awesome-storybook_zh.md                                          2406       5 |       8         OK
+前端开发/awesome-blazor_zh.md                                             2374       6 |      20     GAP=14
+前端开发/awesome-pagespeed-metrics_zh.md                                  1819       5 |       7         OK
+前端开发/awesome-tailwindcss_zh.md                                        2252       5 |       6         OK
+前端开发/awesome-seed-rs_zh.md                                            5455       9 |       9         OK
+前端开发/awesome-web-performance-budget_zh.md                             1521       5 |      13         OK
+前端开发/awesome-web-animation_zh.md                                      3731       9 |      11         OK
+前端开发/awesome-yew_zh.md                                                1669       5 |      11         OK
+前端开发/awesome-material-ui_zh.md                                        1895       5 |      10         OK
+前端开发/awesome-building-blocks-for-web-apps_zh.md                       2206       8 |      22     GAP=14
+前端开发/awesome-svelte_zh.md                                             2369       7 |      12         OK
+前端开发/awesome-design-systems_zh.md                                     1928       5 |      10         OK
+前端开发/awesome-inertiajs_zh.md                                          3161       4 |       4         OK
+前端开发/awesome-mdbootstrap_zh.md                                        1673       5 |      11         OK
+前端开发/awesome-master-css_zh.md                                         3172       8 |       9         OK
+前端开发/awesome-hydrogen_zh.md                                           3104      10 |      11         OK
+前端开发/awesome-tiny-js_zh.md                                           10604      15 |      16         OK
+前端开发/awesome-frontend-gis_zh.md                                       1877       5 |      11         OK
+前端开发/awesome-webgpu_zh.md                                             2972       7 |      14         OK
+前端开发/awesome-webassembly_zh.md                                        3351       5 |       5         OK
+后端开发/awesome-flask_zh.md                                              2193       5 |       5         OK
+后端开发/awesome-docker_zh.md                                             2139       8 |      23     GAP=15
+后端开发/awesome-vagrant_zh.md                                            2299       6 |      12         OK
+后端开发/awesome-pyramid_zh.md                                            2860      11 |      35     GAP=24
+后端开发/awesome-play1_zh.md                                              1736       5 |       1         OK
+后端开发/awesome-cakephp_zh.md                                            2657       4 |       6         OK
+后端开发/awesome-symfony_zh.md                                            2391       6 |      23     GAP=17
+后端开发/awesome-symfony-education_zh.md                                  1236       5 |      16     GAP=11
+后端开发/awesome-laravel_zh.md                                            3575       9 |      22     GAP=13
+后端开发/Awesome-Laravel-Education_zh.md                                  2307       6 |      15         OK
+后端开发/awesome-tall-stack_zh.md                                         1181       5 |       6         OK
+后端开发/awesome-rails_zh.md                                              2220       6 |       6         OK
+后端开发/awesome-rails-gem_zh.md                                          3526       9 |      20     GAP=11
+后端开发/awesome-phalcon_zh.md                                            1506       5 |      27     GAP=22
+后端开发/htaccess_zh.md                                                   1589       5 |       6         OK
+后端开发/nginx-resources_zh.md                                            3243       9 |      15         OK
+后端开发/awesome-dropwizard_zh.md                                         1789       5 |       9         OK
+后端开发/awesome-lumen_zh.md                                              1579       5 |      11         OK
+后端开发/awesome-serverless_zh.md                                         2059       6 |      11         OK
+后端开发/awesome-wicket_zh.md                                             1867       5 |       6         OK
+后端开发/vertx-awesome_zh.md                                              2115       5 |      34     GAP=29
+杂项/awesome-terraform_zh.md                                            5782      12 |      22     GAP=10
+后端开发/awesome-vapor_zh.md                                              1664       5 |       8         OK
+后端开发/awesome-dash_zh.md                                               1583       5 |      12         OK
+后端开发/awesome-fastapi_zh.md                                            2543       6 |       6         OK
+后端开发/awesome-cdk_zh.md                                                1912       5 |      12         OK
+后端开发/awesome-iam_zh.md                                                1858       5 |      22     GAP=17
+后端开发/awesome-slim_zh.md                                               1798       5 |       8         OK
+后端开发/awesome-fiber_zh.md                                              2059       4 |       9         OK
+后端开发/awesome-kustomize_zh.md                                          8158       7 |       7         OK
+后端开发/awesome-opentofu_zh.md                                           1440       5 |       8         OK
+后端开发/awesome-reflex_zh.md                                             1655       5 |       8         OK
+计算机科学/awesome-courses_zh.md                                           2212       5 |       0         OK
+计算机科学/awesome-datascience_zh.md                                     128223      12 |      12         OK
+计算机科学/awesome-learn-datascience_zh.md                                 1418       5 |       7         OK
+计算机科学/awesome-machine-learning_zh.md                                  8639      14 |      40     GAP=26
+计算机科学/Machine-Learning-Tutorials_zh.md                               66290      29 |      29         OK
+计算机科学/machine-learning-with-ruby_zh.md                               28254      13 |      13         OK
+计算机科学/Awesome-CoreML-Models_zh.md                                    15478       5 |       5         OK
+计算机科学/awesome-h2o_zh.md                                               1446       5 |       9         OK
+计算机科学/awesome-seml_zh.md                                              1556       5 |       9         OK
+计算机科学/awesome-ai-in-finance_zh.md                                     1833       5 |      14         OK
+计算机科学/awesome-jax_zh.md                                              48701       9 |       9         OK
+计算机科学/awesome-xai_zh.md                                              15728       6 |       6         OK
+计算机科学/awesome-spanish-nlp_zh.md                                       1426       5 |       6         OK
+计算机科学/nlp-with-ruby_zh.md                                            32770      19 |      19         OK
+计算机科学/awesome-qa_zh.md                                                1626       5 |      16     GAP=11
+计算机科学/awesome-nlg_zh.md                                               1660       5 |      14         OK
+计算机科学/awesome-linguistics_zh.md                                       1538       5 |       0         OK
+计算机科学/awesome-cryptography_zh.md                                      1902       5 |       7         OK
+计算机科学/awesome-crypto-papers_zh.md                                     1430       5 |       3         OK
+计算机科学/awesome-computer-vision_zh.md                                   2221       5 |      14         OK
+计算机科学/awesome-deep-learning_zh.md                                     1932       5 |       3         OK
+计算机科学/awesome-tensorflow_zh.md                                        3781       5 |      15     GAP=10
+计算机科学/awesome-tensorflow-js_zh.md                                     1770       5 |       6         OK
+计算机科学/awesome-tensorflow-lite_zh.md                                  41802       8 |       8         OK
+计算机科学/awesome-deep-learning-papers_zh.md                              1756       4 |       5         OK
+计算机科学/awesome-deep-learning-resources_zh.md                           1539       5 |      11         OK
+计算机科学/awesome-deep-vision_zh.md                                       1916       5 |      10         OK
+计算机科学/computer-science_zh.md                                         29260       7 |       7         OK
+计算机科学/awesome-functional-programming_zh.md                            1924       5 |       3         OK
+计算机科学/awesome-msr_zh.md                                               1756       5 |       6         OK
+计算机科学/static-analysis_zh.md                                           4127      11 |       8         OK
+计算机科学/awesome-information-retrieval_zh.md                             1480       5 |      11         OK
+计算机科学/awesome-quantum-computing_zh.md                                 1812       5 |      12         OK
+计算机科学/awesome-theoretical-computer-science_zh.md                     69538      45 |      45         OK
+计算机科学/awesome-conversational-ai_zh.md                                 1653       5 |       6         OK
+计算机科学/awesome-generative-ai_zh.md                                     2083       5 |      11         OK
+计算机科学/awesome-position-based-quantum-cryptography_zh.md               1556       5 |      10         OK
+大数据/awesome-bigdata_zh.md                                             8488      18 |      36     GAP=18
+大数据/awesome-hadoop_zh.md                                              1943       5 |      22     GAP=17
+大数据/awesome-data-engineering_zh.md                                    3152       8 |      18     GAP=10
+大数据/awesome-streaming_zh.md                                           1947       5 |       4         OK
+大数据/awesome-spark_zh.md                                              20566       4 |       4         OK
+大数据/awesome-qlik_zh.md                                                1662       5 |       7         OK
+大数据/awesome-splunk_zh.md                                              7702       8 |       8         OK
+大数据/awesome-network-analysis_zh.md                                    1788       5 |      12         OK
+理论/papers-we-love_zh.md                                               2350       5 |       3         OK
+理论/awesome-talks_zh.md                                                1760       5 |       1         OK
+理论/awesome-algorithms_zh.md                                           1640       5 |       9         OK
+理论/awesome-algorithms-education_zh.md                                 1717       5 |       0         OK
+理论/algovis_zh.md                                                      6521       0 |       0         OK
+理论/awesome-artificial-intelligence_zh.md                              6678       6 |       5         OK
+理论/search-engine-optimization_zh.md                                   2065       5 |      16     GAP=11
+理论/awesome-competitive-programming_zh.md                              1847       5 |      15     GAP=10
+理论/awesome-math_zh.md                                                 1613       5 |      23     GAP=18
+理论/awesome-recursion-schemes_zh.md                                    1883       5 |       9         OK
+理论/awesome-audit-algorithms_zh.md                                     1634       5 |       4         OK
+理论/awesome-agi-cocosci_zh.md                                        574885       7 |       7         OK
+理论/awesome-complexity_zh.md                                           1777       5 |      10         OK
+理论/awesome-vlm-architectures_zh.md                                    4311       9 |     101     GAP=92
+书籍/free-programming-books_zh.md                                       2012       5 |       6         OK
+书籍/GoBooks_zh.md                                                      1767       5 |       6         OK
+书籍/rbooks_zh.md                                                       1707       5 |       0         OK
+书籍/Mind-Expanding-Books_zh.md                                         4098       7 |      23     GAP=16
+书籍/awesome-book-authoring_zh.md                                       1910       5 |      12         OK
+书籍/ElixirBooks_zh.md                                                  1665       5 |       0         OK
+编辑器/sublime-bookmarks_zh.md                                           2274       5 |      10         OK
+编辑器/vim-galore_zh.md                                                  3822      10 |      78     GAP=68
+编辑器/awesome-neovim_zh.md                                              4292      11 |      52     GAP=41
+编辑器/awesome-atom_zh.md                                                1685       6 |       7         OK
+编辑器/awesome-vscode_zh.md                                              6571      10 |     130    GAP=120
+游戏/magictools_zh.md                                                   2164       6 |       8         OK
+游戏/awesome-gametalks_zh.md                                            1180       5 |       8         OK
+游戏/awesome-godot_zh.md                                                1506       5 |      14         OK
+游戏/awesome-open-source-games_zh.md                                    2116       4 |      10         OK
+游戏/awesome-unity_zh.md                                                5465      11 |      20         OK
+游戏/awesome-chess_zh.md                                                1642       5 |       0         OK
+游戏/awesome-love2d_zh.md                                               1964       5 |      28     GAP=23
+游戏/awesome-PICO-8_zh.md                                               1670       5 |       1         OK
+游戏/awesome-gbdev_zh.md                                                1795       5 |      12         OK
+游戏/awesome-construct_zh.md                                            2036       5 |      13         OK
+游戏/awesome-gideros_zh.md                                              1545       5 |       6         OK
+游戏/awesome-minecraft_zh.md                                            2106       4 |      11         OK
+游戏/awesome-computercraft_zh.md                                        1948       5 |       6         OK
+游戏/game-datasets_zh.md                                                1953       5 |       7         OK
+游戏/awesome-haxe-gamedev_zh.md                                         1750       5 |      11         OK
+游戏/awesome-libgdx_zh.md                                               2077       5 |       8         OK
+游戏/awesome-playcanvas_zh.md                                           2079       5 |      16     GAP=11
+游戏/awesome-game-remakes_zh.md                                         2010       4 |      11         OK
+游戏/awesome-flame_zh.md                                                2137       5 |       7         OK
+游戏/awesome-discord-communities_zh.md                                  2037       5 |      21     GAP=16
+游戏/awesome-chip-8_zh.md                                               1475       5 |       7         OK
+游戏/awesome-games-of-coding_zh.md                                      1974       4 |      10         OK
+游戏/awesome-esports_zh.md                                              2039       5 |       7         OK
+游戏/awesome-learn-gamedev_zh.md                                        1947       5 |      14         OK
+游戏/awesome-game-engine-dev_zh.md                                      1670       5 |      11         OK
+游戏/awesome-gamemaker_zh.md                                            2476       6 |      35     GAP=29
+游戏/awesome-game-production_zh.md                                      2179       5 |       9         OK
+游戏/awesome-babylonjs_zh.md                                            2024       5 |      11         OK
+游戏/awesome-roblox_zh.md                                               1705       5 |       8         OK
+开发环境/quick-look-plugins_zh.md                                         6966       3 |       3         OK
+开发环境/awesome-devenv_zh.md                                            15990      17 |      17         OK
+开发环境/awesome-dotfiles_zh.md                                          17924       8 |       8         OK
+开发环境/awesome-shell_zh.md                                              1811       5 |      11         OK
+开发环境/awsm.fish_zh.md                                                  3751       6 |       6         OK
+开发环境/awesome-cli-apps_zh.md                                           5078      11 |      16         OK
+开发环境/awesome-zsh-plugins_zh.md                                        2072       5 |      15     GAP=10
+开发环境/awesome-github_zh.md                                             2372       5 |       4         OK
+开发环境/awesome-browser-extensions-for-github_zh.md                     43033       1 |       1         OK
+开发环境/github-cheat-sheet_zh.md                                        42367       3 |       3         OK
+开发环境/awesome-pinned-gists_zh.md                                       9124       7 |       7         OK
+开发环境/git-cheat-sheet_zh.md                                           14948      17 |      17         OK
+开发环境/tips_zh.md                                                      36125      13 |      13         OK
+开发环境/awesome-git-addons_zh.md                                        46265      56 |      56         OK
+开发环境/awesome-git-hooks_zh.md                                          9708       7 |       7         OK
+开发环境/awesome-ssh_zh.md                                               22198       5 |       5         OK
+开发环境/FOSS-for-Dev_zh.md                                               7362      16 |      16         OK
+开发环境/awesome-hyper_zh.md                                             59354       4 |       4         OK
+开发环境/awesome-powershell_zh.md                                        26364      27 |      27         OK
+开发环境/awesome-alfred-workflows_zh.md                                  12472      15 |      15         OK
+开发环境/terminals-are-sexy_zh.md                                        23453       9 |       9         OK
+开发环境/awesome-actions_zh.md                                            2442       5 |       4         OK
+开发环境/awesome-wezterm_zh.md                                            9113      10 |      10         OK
+娱乐/awesome-scifi_zh.md                                                2171       5 |      10         OK
+娱乐/awesome-fantasy_zh.md                                              2171       4 |       7         OK
+娱乐/awesome-geek-podcasts_zh.md                                        3608       8 |      18     GAP=10
+娱乐/awesome-newsletters_zh.md                                          1854       6 |      23     GAP=17
+娱乐/awesome-it-quotes_zh.md                                            1725      12 |       3         OK
+数据库/awesome-db_zh.md                                                  7013       9 |       9         OK
+数据库/awesome-mysql_zh.md                                               5516      13 |      21         OK
+数据库/awesome-influxdb_zh.md                                           21183      10 |      10         OK
+数据库/awesome-neo4j_zh.md                                               8615      18 |       5         OK
+数据库/awesome-mongodb_zh.md                                             2701       8 |       6         OK
+数据库/awesome-rethinkdb_zh.md                                          19146       1 |       1         OK
+数据库/awesome-tinkerpop_zh.md                                          11830       5 |       5         OK
+数据库/awesome-postgres_zh.md                                            3074       7 |       2         OK
+数据库/awesome-couchdb_zh.md                                            10486      12 |      12         OK
+数据库/awesome-hbase_zh.md                                              11869       4 |       4         OK
+数据库/awesome-nosql-guides_zh.md                                       12679       8 |       8         OK
+数据库/awesome-db-tools_zh.md                                           48389      23 |      23         OK
+数据库/typedb-awesome_zh.md                                              6370      12 |      12         OK
+数据库/awesome-cassandra_zh.md                                          59243       5 |       5         OK
+数据库/awesome-tdengine_zh.md                                            9410      14 |      14         OK
+数据库/awesome-supabase_zh.md                                            2363       5 |      10         OK
+数据库/awesome-pocketbase_zh.md                                         23528      21 |      21         OK
+数据库/awesome-neon_zh.md                                               12582       9 |       9         OK
+媒体/awesome-fonts_zh.md                                                1902       5 |      12         OK
+媒体/codeface_zh.md                                                     1796       4 |       5         OK
+媒体/awesome-stock-resources_zh.md                                      1908       6 |      18     GAP=12
+媒体/awesome-gif_zh.md                                                  1295       4 |      12         OK
+媒体/awesome-music_zh.md                                                1710       5 |      11         OK
+媒体/awesome-opensource-documents_zh.md                                 1670       6 |      10         OK
+媒体/awesome-audio-visualization_zh.md                                  1569       5 |      13         OK
+媒体/awesome-broadcasting_zh.md                                         3096       8 |      28     GAP=20
+媒体/awesome-pixel-art_zh.md                                            1718       5 |       6         OK
+媒体/awesome-ffmpeg_zh.md                                               1899       6 |       9         OK
+媒体/awesome-icons_zh.md                                                1430       4 |       6         OK
+媒体/awesome-audiovisual_zh.md                                          1439       4 |      12         OK
+媒体/awesome-vlc_zh.md                                                  1918       5 |      10         OK
+媒体/awesome-aoip_zh.md                                                 1340       5 |       6         OK
+学习/awesome-workshopper_zh.md                                          1788       6 |       4         OK
+学习/learn-to-program_zh.md                                             2030       5 |       5         OK
+学习/awesome-speaking_zh.md                                             1848       4 |       7         OK
+学习/awesome-tech-videos_zh.md                                          1573       5 |       2         OK
+学习/dive-into-machine-learning_zh.md                                  39223      16 |      16         OK
+学习/awesome-computer-history_zh.md                                     1764       3 |       7         OK
+学习/awesome-programming-for-kids_zh.md                                 1655       5 |       4         OK
+学习/awesome-steam_zh.md                                                1440       1 |       1         OK
+学习/awesome-educational-games_zh.md                                    1828       4 |       8         OK
+学习/awesome-javascript-learning_zh.md                                  2189       6 |      12         OK
+学习/awesome-css-learning_zh.md                                         2216       6 |      10         OK
+学习/awesome-product-management_zh.md                                   2007       5 |      10         OK
+学习/awesome-roadmaps_zh.md                                             2009       6 |      11         OK
+学习/awesome-youtubers_zh.md                                            5331      10 |      18         OK
+学习/awesome-hackathon_zh.md                                            1624       5 |       6         OK
+学习/awesome-certificates_zh.md                                         3597      10 |      27     GAP=17
+安全/awesome-appsec_zh.md                                               1656       5 |      23     GAP=18
+安全/awesome-security_zh.md                                             5219      11 |      18         OK
+安全/awesome-ctf_zh.md                                                  4796      11 |      21     GAP=10
+安全/awesome-cyber-security-university_zh.md                            1996       5 |      10         OK
+安全/awesome-malware-analysis_zh.md                                     1928       5 |      17     GAP=12
+安全/android-security-awesome_zh.md                                     1602       4 |       5         OK
+安全/awesome-hacking_zh.md                                              4849       9 |      21     GAP=12
+安全/awesome-hacking-locations_zh.md                                    4481       9 |      65     GAP=56
+安全/awesome-honeypots_zh.md                                            1724       5 |       8         OK
+安全/awesome-incident-response_zh.md                                    1892       5 |       2         OK
+安全/awesome-vehicle-security_zh.md                                     1657       5 |      15     GAP=10
+安全/awesome-web-security_zh.md                                         3415       7 |      18     GAP=11
+安全/awesome-lockpicking_zh.md                                          1814       5 |       0         OK
+安全/awesome-cybersecurity-blueteam_zh.md                               4267       9 |      21     GAP=12
+安全/awesome-fuzzing_zh.md                                              1644       5 |       6         OK
+安全/awesome-embedded-and-iot-security_zh.md                            1873       5 |      11         OK
+安全/awesome-gdpr_zh.md                                                 2425       7 |      15         OK
+安全/awesome-devsecops_zh.md                                            1792       4 |       4         OK
+安全/awesome-executable-packing_zh.md                                   1754       5 |       6         OK
+安全/awesome-malware-persistence_zh.md                                  2212       5 |       7         OK
+安全/awesome-evm-security_zh.md                                         1654       5 |      11         OK
+安全/awesome-password-cracking_zh.md                                    1739       5 |      13         OK
+安全/awesome-security-card-games_zh.md                                  3256       8 |       8         OK
+安全/awesome-suricata_zh.md                                             1671       5 |      17     GAP=12
+安全/awesome-prompt-injection_zh.md                                     1663       5 |      10         OK
+安全/awesome-detection-engineering_zh.md                                1745       5 |       5         OK
+安全/awesome-annual-security-reports_zh.md                              1758       4 |       6         OK
+安全/awesome-cicd-attacks_zh.md                                         1849       4 |       5         OK
+安全/awesome-openid-connect_zh.md                                       1856       5 |       6         OK
+内容管理系统/awesome-umbraco_zh.md                                          1520       5 |       8         OK
+内容管理系统/awesome-refinerycms_zh.md                                      4262       6 |       6         OK
+内容管理系统/awesome-wagtail_zh.md                                          2054       5 |      10         OK
+内容管理系统/awesome-drupal_zh.md                                           1862       5 |      13         OK
+杂项/awesome_zh.md                                                     81490      28 |       5         OK
+内容管理系统/Awesome-Sitecore_zh.md                                         5166      11 |      61     GAP=50
+内容管理系统/awesome-silverstripe-cms_zh.md                                 2028       5 |       4         OK
+内容管理系统/awesome-directus_zh.md                                        10745       7 |       7         OK
+内容管理系统/awesome-plone_zh.md                                            2020       7 |      21     GAP=14
+内容管理系统/awesome-payload_zh.md                                          2089       5 |       6         OK
+硬件/awesome-robotics_zh.md                                             1484       5 |       0         OK
+硬件/awesome-iot_zh.md                                                  3878       8 |       6         OK
+硬件/awesome-electronics_zh.md                                          2120       5 |      22     GAP=17
+硬件/awesome-beacon_zh.md                                               1505       5 |      19     GAP=14
+硬件/guitarspecs_zh.md                                                  1986       5 |      11         OK
+硬件/awesome-plotters_zh.md                                             1786       5 |      10         OK
+硬件/awesome-robotic-tooling_zh.md                                      1761       5 |      22     GAP=17
+硬件/awesome-lidar_zh.md                                                1592       5 |      10         OK
+硬件/awesome-open-hardware_zh.md                                        1925       5 |      12         OK
+硬件/awesome-adsb_zh.md                                                13930       9 |       9         OK
+硬件/awesome-flying-fpv_zh.md                                           3682      10 |      21     GAP=11
+商业/awesome-open-company_zh.md                                         1440       4 |       6         OK
+商业/PlacesToPostYourStartup_zh.md                                      6371       1 |       1         OK
+商业/awesome-okr_zh.md                                                  2194       6 |      15         OK
+商业/awesome-indie_zh.md                                                1802       5 |       2         OK
+商业/ToolsOfTheTrade_zh.md                                              8242      18 |      89     GAP=71
+商业/awesome-clean-tech_zh.md                                           1797       5 |       5         OK
+商业/awesome-wardley-maps_zh.md                                         1685       5 |      16     GAP=11
+商业/awesome-social-enterprise_zh.md                                    1851       5 |      14         OK
+商业/awesome-engineering-team-management_zh.md                          3463       8 |      30     GAP=22
+商业/awesome-developer-first_zh.md                                      3800      12 |      39     GAP=27
+商业/awesome-billing_zh.md                                              1722       5 |      22     GAP=17
+商业/awesome-engineering-strategy_zh.md                                 2090       5 |      11         OK
+工作/awesome-slack_zh.md                                                3954      10 |      10         OK
+工作/awesome-slack_zh.md                                                3954      10 |      10         OK
+工作/awesome-remote-job_zh.md                                           1587       5 |      22     GAP=17
+工作/awesome-productivity_zh.md                                         1703       5 |       4         OK
+工作/awesome-job-boards_zh.md                                           1389       5 |      16     GAP=11
+工作/awesome-interview-questions_zh.md                                  1999       5 |      14         OK
+工作/awesome-code-review_zh.md                                          2249       6 |       8         OK
+工作/awesome-creative-technology_zh.md                                  1617       4 |      12         OK
+工作/awesome-internships_zh.md                                          3709      11 |      11         OK
+网络/awesome-sdn_zh.md                                                  1582       5 |       3         OK
+网络/awesome-pcaptools_zh.md                                            1752       6 |       0         OK
+网络/awesome-rtc_zh.md                                                  1739       5 |       8         OK
+网络/awesome-snmp_zh.md                                                 1730       4 |       8         OK
+网络/awesome-scapy_zh.md                                                1546       5 |       3         OK
+网络/awesome-cilium_zh.md                                               1430       5 |       8         OK
+去中心化系统/awesome-bitcoin_zh.md                                          2725       7 |      26     GAP=19
+去中心化系统/awesome-ripple_zh.md                                           1511       5 |       1         OK
+去中心化系统/awesome-non-financial-blockchain_zh.md                         1963       5 |       7         OK
+去中心化系统/awesome-mastodon_zh.md                                         1715       5 |      14         OK
+去中心化系统/Awesome-Ethereum_zh.md                                         9599      15 |      15         OK
+去中心化系统/awesome-blockchain-ai_zh.md                                    1713       5 |      11         OK
+去中心化系统/awesome-eosio_zh.md                                            1455       5 |       9         OK
+去中心化系统/awesome-corda_zh.md                                            1809       5 |      13         OK
+去中心化系统/awesome-waves_zh.md                                           22704      10 |      10         OK
+去中心化系统/awesome-substrate_zh.md                                        1792       5 |      16     GAP=11
+去中心化系统/awesome-golem_zh.md                                            1668       5 |      10         OK
+去中心化系统/awesome-stacks-chain_zh.md                                     1536       5 |       7         OK
+去中心化系统/awesome-algorand_zh.md                                         1764       5 |      11         OK
+去中心化系统/awesome-zeronet_zh.md                                         14525       8 |       8         OK
+去中心化系统/awesome-cosmos_zh.md                                          20282      21 |      21         OK
+去中心化系统/awesome-tor_zh.md                                             21783       8 |       8         OK
+去中心化系统/awesome-atproto_zh.md                                         12071       7 |       7         OK
+健康与社会科学/awesome-bioie_zh.md                                           1718       5 |      14         OK
+健康与社会科学/awesome-computational-neuroscience_zh.md                      1859       5 |       4         OK
+健康与社会科学/awesome-diversity_zh.md                                       1754       5 |      11         OK
+健康与社会科学/awesome-digital-history_zh.md                                 1881       5 |       5         OK
+健康与社会科学/empathy-in-engineering_zh.md                                  2621       5 |       3         OK
+健康与社会科学/awesome-healthcare_zh.md                                      1689       5 |       1         OK
+健康与社会科学/awesome-humane-tech_zh.md                                     2098       1 |       1         OK
+健康与社会科学/awesome-mental-health_zh.md                                   1887       5 |      11         OK
+健康与社会科学/awesome-neuroscience_zh.md                                    1880       5 |       5         OK
+健康与社会科学/awesome-digital-humanities_zh.md                              3527       8 |      19     GAP=11
+健康与社会科学/awesome-lucid-dreams_zh.md                                    4113       8 |      17         OK
+健康与社会科学/awesome-neuroimaging_zh.md                                    2207       5 |      11         OK
+健康与社会科学/awesome-transgender_zh.md                                     1612       4 |       9         OK
+事件/awesome-creative-tech-events_zh.md                                 4325       7 |       7         OK
+事件/awesome-italy-events_zh.md                                         2384       6 |      14         OK
+事件/awesome-netherlands-events_zh.md                                   2471       6 |       6         OK
+测试/awesome-testing_zh.md                                             24716      13 |      13         OK
+测试/awesome-regression-testing_zh.md                                   2031       5 |      10         OK
+测试/awesome-selenium_zh.md                                             2744       5 |       2         OK
+测试/awesome-appium_zh.md                                               3327       7 |      15         OK
+测试/awesome-tap_zh.md                                                  2240       5 |       9         OK
+测试/awesome-jmeter_zh.md                                               3448       7 |      23     GAP=16
+测试/awesome-k6_zh.md                                                  18241       9 |       9         OK
+测试/awesome-playwright_zh.md                                           2719       5 |      10         OK
+测试/awesome-quality-assurance-roadmap_zh.md                            2325       6 |       6         OK
+测试/awesome-gatling_zh.md                                              2566       5 |      13         OK
+测试/awesome-coderabbit_zh.md                                           2341       5 |      11         OK
+杂项/awesome-scientific-writing_zh.md                                   2041       5 |       9         OK
+杂项/awesome-json_zh.md                                                 4638      11 |      32     GAP=21
+杂项/awesome-geojson_zh.md                                              4716       9 |       1         OK
+杂项/awesome-json-datasets_zh.md                                        5819      22 |      24         OK
+杂项/awesomeCSV_zh.md                                                  11565      13 |      13         OK
+杂项/discount-for-student-dev_zh.md                                    35034      26 |      26         OK
+杂项/awesome-radio_zh.md                                                1901       5 |       5         OK
+杂项/awesome_zh.md                                                     81490      28 |       5         OK
+杂项/awesome-analytics_zh.md                                            5874      15 |      14         OK
+杂项/awesome-rest_zh.md                                                 1726       5 |      10         OK
+杂项/awesome-ciandcd_zh.md                                              3957       9 |      28     GAP=19
+杂项/services-engineering_zh.md                                         9249       1 |       1         OK
+杂项/free-for-dev_zh.md                                                 7159      12 |      57     GAP=45
+杂项/awesome-answers_zh.md                                              1303       5 |       1         OK
+杂项/awesome-sketch_zh.md                                               7286       9 |       9         OK
+杂项/awesome-projects-boilerplates_zh.md                               15443      15 |      15         OK
+杂项/awesome-readme_zh.md                                               1553       5 |       9         OK
+杂项/awesome-github-wiki_zh.md                                          1517       5 |       6         OK
+杂项/guides_zh.md                                                       9428       7 |       7         OK
+杂项/engineering-blogs_zh.md                                           23822       0 |       0         OK
+杂项/awesome-selfhosted_zh.md                                          10416      29 |       7         OK
+杂项/awesome-foss-apps_zh.md                                            1773       4 |       4         OK
+杂项/awesome-gulp_zh.md                                                 2160       5 |       8         OK
+杂项/amas_zh.md                                                         1930       5 |       1         OK
+杂项/awesome-ama-answers_zh.md                                          2107       4 |       2         OK
+杂项/awesome-OpenSourcePhotography_zh.md                               11591      20 |      20         OK
+杂项/awesome-opengl_zh.md                                               2029       5 |      14         OK
+杂项/awesome-graphql_zh.md                                              3938       8 |      17         OK
+杂项/urban-and-regional-planning-resources_zh.md                       91538      10 |      10         OK
+杂项/awesome-transit_zh.md                                             95228       6 |       6         OK
+杂项/awesome-research_zh.md                                            44479      14 |      14         OK
+杂项/awesome-dataviz_zh.md                                              2239       5 |      18     GAP=13
+杂项/awesome-microservices_zh.md                                        2247       6 |      13         OK
+杂项/Awesome-Unicode_zh.md                                            103195      18 |      18         OK
+杂项/awesome-codepoints_zh.md                                           2404       5 |       8         OK
+杂项/awesome-for-beginners_zh.md                                        3998      11 |      36     GAP=25
+杂项/awesome-katas_zh.md                                                9135       9 |       9         OK
+杂项/toolsforactivism_zh.md                                             9251       8 |       8         OK
+杂项/citizen-science_zh.md                                             22802      14 |      14         OK
+杂项/awesome-mqtt_zh.md                                                45910      12 |      12         OK
+杂项/awesome4girls_zh.md                                               45761       7 |       7         OK
+杂项/awesome-vorpal_zh.md                                               1736       5 |       7         OK
+杂项/awesome-vulkan_zh.md                                               2262       5 |      16     GAP=11
+杂项/awesome-LaTeX_zh.md                                                4318       8 |      21     GAP=13
+杂项/awesome-economics_zh.md                                            2443       5 |       8         OK
+杂项/awesome-funny-markov_zh.md                                         1859       5 |       8         OK
+杂项/Awesome-Bioinformatics_zh.md                                       2363       5 |      11         OK
+杂项/awesome-cheminformatics_zh.md                                      1793       5 |       7         OK
+杂项/Colorful_zh.md                                                     1824       5 |       4         OK
+学习/awesome-steam_zh.md                                                1440       1 |       1         OK
+杂项/bots_zh.md                                                         1644       4 |      12         OK
+杂项/awesome-sre_zh.md                                                  4172      10 |      22     GAP=12
+杂项/awesome-dtrace_zh.md                                               1204       5 |       8         OK
+杂项/awesome-userscripts_zh.md                                          1872       5 |       9         OK
+杂项/awesome-pokemon_zh.md                                              1767       3 |       4         OK
+杂项/awesome-chatops_zh.md                                              2039       5 |      10         OK
+杂项/awesome-falsehood_zh.md                                            2357       4 |      25     GAP=21
+杂项/awesome-ddd_zh.md                                                  1948       5 |      14         OK
+杂项/awesome-quantified-self_zh.md                                     20359      10 |      10         OK
+杂项/awesome-saltstack_zh.md                                            2929       6 |      16     GAP=10
+杂项/awesome-web-design_zh.md                                           1934       5 |      16     GAP=11
+杂项/awesome-creative-coding_zh.md                                      1774       5 |      16     GAP=11
+杂项/awesome-no-login-web-apps_zh.md                                    1818       4 |       2         OK
+杂项/awesome-free-software_zh.md                                        3794      10 |       5         OK
+杂项/awesome-framer_zh.md                                               1477       5 |      13         OK
+杂项/awesome-markdown_zh.md                                             1472       5 |       7         OK
+杂项/awesome-dev-fun_zh.md                                              1975       5 |      18     GAP=13
+杂项/awesome-magento2_zh.md                                             3411      10 |      15         OK
+杂项/awesome-tikz_zh.md                                                 1844       5 |       0         OK
+杂项/awesome-ad-free_zh.md                                              1338       3 |       5         OK
+杂项/awesome-prometheus_zh.md                                           2698       6 |      15         OK
+杂项/awesome-homematic_zh.md                                            2287       5 |      14         OK
+杂项/awesome-ledger_zh.md                                               2838       9 |       9         OK
+杂项/awesome-web-monetization_zh.md                                     1842       5 |       6         OK
+杂项/awesome-uncopyright_zh.md                                          1191       3 |      15     GAP=12
+杂项/awesome-coins_zh.md                                                3872      13 |      17         OK
+杂项/awesome-open-source-supporters_zh.md                               1555       5 |      15     GAP=10
+杂项/awesome-design-principles_zh.md                                    1343       5 |       3         OK
+杂项/awesome-theravada_zh.md                                            1307       4 |      14     GAP=10
+杂项/awesome-inspectit_zh.md                                            1061       4 |       8         OK
+杂项/awesome-maintainers_zh.md                                          5310       1 |       2         OK
+杂项/awesome-calculators_zh.md                                          1198       3 |       4         OK
+杂项/awesome-captcha_zh.md                                              1342       4 |       9         OK
+杂项/awesome-jupyter_zh.md                                             29805      15 |      15         OK
+杂项/awesome-frc_zh.md                                                  3981      11 |      11         OK
+杂项/awesome-speakers_zh.md                                            59149      40 |      40         OK
+杂项/awesome-board-games_zh.md                                          2259       5 |       5         OK
+杂项/awesome-software-patreons_zh.md                                   29208       5 |       5         OK
+杂项/awesome-parasite_zh.md                                             1788       5 |       7         OK
+杂项/awesome-food_zh.md                                                 1054       5 |      12         OK
+杂项/awesome-bitcoin-payment-processors_zh.md                           1397       4 |       4         OK
+杂项/awesome-scientific-computing_zh.md                                 1840       5 |      10         OK
+杂项/awesome-amazon-seller_zh.md                                        1054       4 |       8         OK
+杂项/awesome-agriculture_zh.md                                          1367       5 |      14         OK
+杂项/awesome-product-design_zh.md                                       1751       6 |       9         OK
+杂项/awesome-prisma_zh.md                                               9324      13 |      13         OK
+杂项/awesome-software-architecture_zh.md                                2083       5 |      12         OK
+杂项/awesome-connectivity-info_zh.md                                    1386       5 |       7         OK
+杂项/awesome-stacks_zh.md                                               3150       5 |       7         OK
+杂项/awesome-cytodata_zh.md                                             1438       4 |       6         OK
+杂项/awesome-irc_zh.md                                                  2903       7 |      16         OK
+杂项/awesome-ads_zh.md                                                  2813       6 |      16     GAP=10
+杂项/awesome-earth_zh.md                                                1365       5 |      28     GAP=23
+杂项/awesome-naming_zh.md                                               1527       5 |      12         OK
+杂项/awesome-web-archiving_zh.md                                        1616       4 |       7         OK
+杂项/awesome-wp-cli_zh.md                                               1664       5 |       5         OK
+杂项/awesome-credit-modeling_zh.md                                      1332       5 |       8         OK
+杂项/awesome-ansible_zh.md                                              2042       5 |      10         OK
+杂项/awesome-biological-visualizations_zh.md                            1348       4 |      15     GAP=11
+杂项/awesome-qr-code_zh.md                                              1222       4 |       6         OK
+杂项/awesome-veganism_zh.md                                             1264       4 |      12         OK
+杂项/awesome-translations_zh.md                                         1346       5 |      11         OK
+杂项/awesome-webxr_zh.md                                                1572       4 |      14     GAP=10
+杂项/awesome-cross-platform-nodejs_zh.md                                4752       4 |       9         OK
+杂项/awesome-terraform_zh.md                                            5782      12 |      22     GAP=10
+杂项/software-quality-wiki_zh.md                                         457       1 |       1         OK
+杂项/awesome-maplibre_zh.md                                             1071       3 |      15     GAP=12
+杂项/awesome-tech-ethics_zh.md                                          1298       6 |       7         OK
+杂项/awesome-copilot-agents_zh.md                                       1622       6 |       9         OK
+杂项/awesome_zh.md                                                     81490      28 |       5         OK
+杂项/StumbleUponAwesome_zh.md                                           1940       3 |       1         OK
+杂项/awesome-cli_zh.md                                                  1710       4 |       4         OK
+
+
+=== SUMMARY ===
+Total checked: 130 repos with gap >= 10
+  viatsko/awesome-vscode: 编辑器/awesome-vscode_zh.md (gap=120)
+  quozd/awesome-dotnet: 平台/awesome-dotnet_zh.md (gap=102)
+  markets/awesome-ruby: 编程语言/awesome-ruby_zh.md (gap=96)
+  gokayfem/awesome-vlm-architectures: 理论/awesome-vlm-architectures_zh.md (gap=92)
+  h4cc/awesome-elixir: 编程语言/awesome-elixir_zh.md (gap=82)
+  avelino/awesome-go: 编程语言/awesome-go_zh.md (gap=80)
+  cjbarber/ToolsOfTheTrade: 商业/ToolsOfTheTrade_zh.md (gap=71)
+  mhinz/vim-galore: 编辑器/vim-galore_zh.md (gap=68)
+  sorrycc/awesome-javascript: 编程语言/awesome-javascript_zh.md (gap=66)
+  vsouza/awesome-ios: 平台/awesome-ios_zh.md (gap=65)
+  fffaraz/awesome-cpp: 编程语言/awesome-cpp_zh.md (gap=57)
+  daviddias/awesome-hacking-locations: 安全/awesome-hacking-locations_zh.md (gap=56)
+  veelenga/awesome-crystal: 编程语言/awesome-crystal_zh.md (gap=51)
+  MartinMiles/Awesome-Sitecore: 内容管理系统/Awesome-Sitecore_zh.md (gap=50)
+  razum2um/awesome-clojure: 编程语言/awesome-clojure_zh.md (gap=46)
+  ripienaar/free-for-dev: 杂项/free-for-dev_zh.md (gap=45)
+  rockerBOO/awesome-neovim: 编辑器/awesome-neovim_zh.md (gap=41)
+  hachiojipm/awesome-perl: 编程语言/awesome-perl_zh.md (gap=38)
+  dlang-community/awesome-d: 编程语言/awesome-d_zh.md (gap=38)
+  Fr0sT-Brutal/awesome-pascal: 编程语言/awesome-pascal_zh.md (gap=35)
+  ocaml-community/awesome-ocaml: 编程语言/awesome-ocaml_zh.md (gap=35)
+  bytecauldron/awesome-gamemaker: 游戏/awesome-gamemaker_zh.md (gap=29)
+  vert-x3/vertx-awesome: 后端开发/vertx-awesome_zh.md (gap=29)
+  krzjoa/awesome-python-data-science: 编程语言/awesome-python-data-science_zh.md (gap=28)
+  krispo/awesome-haskell: 编程语言/awesome-haskell_zh.md (gap=28)
+  inputsh/awesome-c: 编程语言/awesome-c_zh.md (gap=28)
+  qinwf/awesome-R: 编程语言/awesome-R_zh.md (gap=28)
+  agamm/awesome-developer-first: 商业/awesome-developer-first_zh.md (gap=27)
+  Urigo/awesome-meteor: 前端开发/awesome-meteor_zh.md (gap=27)
+  josephmisiti/awesome-machine-learning: 计算机科学/awesome-machine-learning_zh.md (gap=26)
+  0pandadev/awesome-windows: 平台/awesome-windows_zh.md (gap=26)
+  drobakowski/awesome-erlang: 编程语言/awesome-erlang_zh.md (gap=25)
+  MunGell/awesome-for-beginners: 杂项/awesome-for-beginners_zh.md (gap=25)
+  davidsonfellipe/awesome-wpo: 前端开发/awesome-wpo_zh.md (gap=25)
+  uralbash/awesome-pyramid: 后端开发/awesome-pyramid_zh.md (gap=24)
+  love2d-community/awesome-love2d: 游戏/awesome-love2d_zh.md (gap=23)
+  philsturgeon/awesome-earth: 杂项/awesome-earth_zh.md (gap=23)
+  kdeldycke/awesome-engineering-team-management: 商业/awesome-engineering-team-management_zh.md (gap=22)
+  phalcon/awesome-phalcon: 后端开发/awesome-phalcon_zh.md (gap=22)
+  yissachar/awesome-dart: 编程语言/awesome-dart_zh.md (gap=21)
+  burningtree/awesome-json: 杂项/awesome-json_zh.md (gap=21)
+  kdeldycke/awesome-falsehood: 杂项/awesome-falsehood_zh.md (gap=21)
+  XamSome/awesome-xamarin: 平台/awesome-xamarin_zh.md (gap=21)
+  jaywcjlove/awesome-mac: 平台/awesome-mac_zh.md (gap=21)
+  kdabir/awesome-groovy: 编程语言/awesome-groovy_zh.md (gap=20)
+  fsprojects/awesome-fsharp: 编程语言/awesome-fsharp_zh.md (gap=20)
+  ebu/awesome-broadcasting: 媒体/awesome-broadcasting_zh.md (gap=20)
+  cicdops/awesome-ciandcd: 杂项/awesome-ciandcd_zh.md (gap=19)
+  igorbarinov/awesome-bitcoin: 去中心化系统/awesome-bitcoin_zh.md (gap=19)
+  sporto/awesome-elm: 编程语言/awesome-elm_zh.md (gap=18)
+  rossant/awesome-math: 理论/awesome-math_zh.md (gap=18)
+  paragonie/awesome-appsec: 安全/awesome-appsec_zh.md (gap=18)
+  oxnr/awesome-bigdata: 大数据/awesome-bigdata_zh.md (gap=18)
+  web-padawan/awesome-lit: 前端开发/awesome-lit_zh.md (gap=18)
+  protontypes/awesome-robotic-tooling: 硬件/awesome-robotic-tooling_zh.md (gap=17)
+  kitspace/awesome-electronics: 硬件/awesome-electronics_zh.md (gap=17)
+  lukasz-madon/awesome-remote-job: 工作/awesome-remote-job_zh.md (gap=17)
+  PanXProject/awesome-certificates: 学习/awesome-certificates_zh.md (gap=17)
+  zudochkin/awesome-newsletters: 娱乐/awesome-newsletters_zh.md (gap=17)
+  youngwookim/awesome-hadoop: 大数据/awesome-hadoop_zh.md (gap=17)
+  kdeldycke/awesome-billing: 商业/awesome-billing_zh.md (gap=17)
+  sitepoint-editors/awesome-symfony: 后端开发/awesome-symfony_zh.md (gap=17)
+  kdeldycke/awesome-iam: 后端开发/awesome-iam_zh.md (gap=17)
+  mhxion/awesome-discord-communities: 游戏/awesome-discord-communities_zh.md (gap=16)
+  aliesbelik/awesome-jmeter: 测试/awesome-jmeter_zh.md (gap=16)
+  miguelmota/awesome-amazon-alexa: 平台/awesome-amazon-alexa_zh.md (gap=16)
+  hackerkid/Mind-Expanding-Books: 书籍/Mind-Expanding-Books_zh.md (gap=16)
+  veggiemonk/awesome-docker: 后端开发/awesome-docker_zh.md (gap=15)
+  candelibas/awesome-ionic: 前端开发/awesome-ionic_zh.md (gap=15)
+  websemantics/awesome-ant-design: 前端开发/awesome-ant-design_zh.md (gap=15)
+  adafruit/awesome-circuitpython: 编程语言/awesome-circuitpython_zh.md (gap=14)
+  rabschi/awesome-beacon: 硬件/awesome-beacon_zh.md (gap=14)
+  addyosmani/es6-tools: 前端开发/es6-tools_zh.md (gap=14)
+  web-padawan/awesome-web-components: 前端开发/awesome-web-components_zh.md (gap=14)
+  awesome-css-group/awesome-css: 前端开发/awesome-css_zh.md (gap=14)
+  componently-com/awesome-building-blocks-for-web-apps: 前端开发/awesome-building-blocks-for-web-apps_zh.md (gap=14)
+  AdrienTorris/awesome-blazor: 前端开发/awesome-blazor_zh.md (gap=14)
+  collective/awesome-plone: 内容管理系统/awesome-plone_zh.md (gap=14)
+  rabbiabram/awesome-fortran: 编程语言/awesome-fortran_zh.md (gap=13)
+  mislavcimpersak/awesome-dev-fun: 杂项/awesome-dev-fun_zh.md (gap=13)
+  javierluraschi/awesome-dataviz: 杂项/awesome-dataviz_zh.md (gap=13)
+  egeerardyn/awesome-LaTeX: 杂项/awesome-LaTeX_zh.md (gap=13)
+  chiraggude/awesome-laravel: 后端开发/awesome-laravel_zh.md (gap=13)
+  diegocard/awesome-html5: 前端开发/awesome-html5_zh.md (gap=13)
+  passy/awesome-purescript: 编程语言/awesome-purescript_zh.md (gap=12)
+  MystenLabs/awesome-move: 编程语言/awesome-move_zh.md (gap=12)
+  johnjago/awesome-uncopyright: 杂项/awesome-uncopyright_zh.md (gap=12)
+  dastergon/awesome-sre: 杂项/awesome-sre_zh.md (gap=12)
+  maplibre/awesome-maplibre: 杂项/awesome-maplibre_zh.md (gap=12)
+  satta/awesome-suricata: 安全/awesome-suricata_zh.md (gap=12)
+  rshipp/awesome-malware-analysis: 安全/awesome-malware-analysis_zh.md (gap=12)
+  carpedm20/awesome-hacking: 安全/awesome-hacking_zh.md (gap=12)
+  fabacab/awesome-cybersecurity-blueteam: 安全/awesome-cybersecurity-blueteam_zh.md (gap=12)
+  neutraltone/awesome-stock-resources: 媒体/awesome-stock-resources_zh.md (gap=12)
+  seriousran/awesome-qa: 计算机科学/awesome-qa_zh.md (gap=11)
+  tindzk/awesome-scala-native: 编程语言/awesome-scala-native_zh.md (gap=11)
+  Matthias84/awesome-flying-fpv: 硬件/awesome-flying-fpv_zh.md (gap=11)
+  marcobiedermann/search-engine-optimization: 理论/search-engine-optimization_zh.md (gap=11)
+  playcanvas/awesome-playcanvas: 游戏/awesome-playcanvas_zh.md (gap=11)
+  nicolesaidy/awesome-web-design: 杂项/awesome-web-design_zh.md (gap=11)
+  vinjn/awesome-vulkan: 杂项/awesome-vulkan_zh.md (gap=11)
+  terkelg/awesome-creative-coding: 杂项/awesome-creative-coding_zh.md (gap=11)
+  keller-mark/awesome-biological-visualizations: 杂项/awesome-biological-visualizations_zh.md (gap=11)
+  riderx/awesome-capacitor: 平台/awesome-capacitor_zh.md (gap=11)
+  dotintent/awesome-ble: 平台/awesome-ble_zh.md (gap=11)
+  tramcar/awesome-job-boards: 工作/awesome-job-boards_zh.md (gap=11)
+  qazbnm456/awesome-web-security: 安全/awesome-web-security_zh.md (gap=11)
+  wardley-maps-community/awesome-wardley-maps: 商业/awesome-wardley-maps_zh.md (gap=11)
+  pehapkari/awesome-symfony-education: 后端开发/awesome-symfony-education_zh.md (gap=11)
+  hothero/awesome-rails-gem: 后端开发/awesome-rails-gem_zh.md (gap=11)
+  substrate-developer-hub/awesome-substrate: 去中心化系统/awesome-substrate_zh.md (gap=11)
+  agarrharr/awesome-static-website-services: 前端开发/awesome-static-website-services_zh.md (gap=11)
+  dh-tech/awesome-digital-humanities: 健康与社会科学/awesome-digital-humanities_zh.md (gap=11)
+  jtoy/awesome-tensorflow: 计算机科学/awesome-tensorflow_zh.md (gap=10)
+  ohenley/awesome-ada: 编程语言/awesome-ada_zh.md (gap=10)
+  lnishan/awesome-competitive-programming: 理论/awesome-competitive-programming_zh.md (gap=10)
+  msub2/awesome-webxr: 杂项/awesome-webxr_zh.md (gap=10)
+  johnjago/awesome-theravada: 杂项/awesome-theravada_zh.md (gap=10)
+  terraform-community-modules/awesome-terraform: 杂项/awesome-terraform_zh.md (gap=10)
+  shuaibiyy/awesome-terraform: 杂项/awesome-terraform_zh.md (gap=10)
+  hbokh/awesome-saltstack: 杂项/awesome-saltstack_zh.md (gap=10)
+  zachflower/awesome-open-source-supporters: 杂项/awesome-open-source-supporters_zh.md (gap=10)
+  cenoura/awesome-ads: 杂项/awesome-ads_zh.md (gap=10)
+  unixorn/awesome-zsh-plugins: 开发环境/awesome-zsh-plugins_zh.md (gap=10)
+  nix-community/awesome-nix: 平台/awesome-nix_zh.md (gap=10)
+  frenck/awesome-home-assistant: 平台/awesome-home-assistant_zh.md (gap=10)
+  jaredthecoder/awesome-vehicle-security: 安全/awesome-vehicle-security_zh.md (gap=10)
+  apsdehal/awesome-ctf: 安全/awesome-ctf_zh.md (gap=10)
+  ayr-ton/awesome-geek-podcasts: 娱乐/awesome-geek-podcasts_zh.md (gap=10)
+  igorbarinov/awesome-data-engineering: 大数据/awesome-data-engineering_zh.md (gap=10)

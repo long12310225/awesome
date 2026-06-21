@@ -1,0 +1,1031 @@
+# 精彩的计算机科学课程 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+
+简介
+------------
+
+互联网上散布着许多大学页面中隐藏的宝藏。此列表旨在揭示那些精彩的计算机科学课程，这些课程提供高质量的材料，即作业、讲座、笔记、阅读材料和考试，可免费在线获取。
+
+目录
+-----------------
+
+- [Algorithms](#algorithms)
+- [人工智能](#artificial-intelligence)
+- [计算机图形学](#computer-graphics)
+- [计算机理论](#cs-theory)
+- [计算机科学简介](#introduction-to-cs)
+- [机器学习](#machine-learning)
+- [Misc](#misc)
+- [编程语言/编译器](#programming-languages--compilers)
+- [Security](#security)
+- [Systems](#systems)
+- [统计/回归](#statistics)
+
+### 传奇
+
+- <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> - 讲座视频
+- <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> - 讲座笔记
+- <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> - 作业/实验
+- <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> - 阅读
+
+
+课程
+-------
+
+### 系统
+
+- [CS 61C](http://www-inst.eecs.berkeley.edu/~cs61c/sp15/) **计算机体系结构（机器结构）中的伟大想法** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="阅读内容" />
+- 本课程涵盖的主题包括：C 和汇编语言编程、高级程序到机器语言的翻译、计算机组织、缓存、性能测量、并行性、CPU 设计、仓库规模计算以及相关主题。
+	- [讲座视频](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_?sort=titleSorter)
+	- [讲义](http://www-inst.eecs.berkeley.edu/~cs61c/sp15/#Calendar)
+	- [Resources](http://www-inst.eecs.berkeley.edu/~cs61c/sp15/#Resources)
+	- [旧考试](https://hkn.eecs.berkeley.edu/exams/course/CS/61C)
+- [CS 107](https://courseware.stanford.edu/pg/courses/lectures/371747) **计算机组织与系统** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- CS107 是斯坦福大学编程入门系列中的第三门课程。本课程将从 C 编程语言一直到微处理器，为您揭开机器的神秘面纱。通过完全了解计算机系统如何执行程序和操作数据，您将成为一名更高效的程序员，特别是在处理调试、性能、可移植性和鲁棒性问题方面。
+	- [讲座视频](https://www.youtube.com/playlist?list=PL08D9FA018A965057&spfreload=10)
+	- [Assignments](http://web.stanford.edu/class/cs107/assignments.html)
+- [CS 140](http://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lectures.php) **操作系统** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程介绍现代操作系统提供的基本功能。该课程分为三个主要部分。课程的第一部分讨论并发性。本课程的第二部分解决内存管理问题。课程的第三个主要部分涉及文件系统。
+	- [讲义](http://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lectures.php)
+	- [Assignments](http://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/projects.php)
+- [6.004](https://6004.mit.edu/) **计算结构** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" />
+- 介绍数字系统的架构，强调各种技术通用的结构原理。多层次实施策略；新原语（例如门、指令、程序、过程）的定义及其使用较低级别元素的机械化。潜在并发分析；优先约束和绩效衡量；管道式和多维系统。指令集设计问题；对当代软件结构的架构支持。 4 工程设计要点。 6.004 介绍了数字系统工程。该课程从 MOS 晶体管开始，发展一系列构建块逻辑门、组合和时序电路、有限状态机、计算机以及最终的完整系统。通过一系列设计实例探索了硬件和软件机制。
+	- [YouTube 播放列表](https://www.youtube.com/watch?v=9DWlqtsNGV0&index=1&list=PLmP5iIyVnKPQ-cO_EENdUgEdlRf0u5LYa)
+	- [讲义](http://computationstructures.org/notes/tradeoffs/notes.html)
+	- [Labs-Assignments](http://computationstructures.org/exercises/cmos/lab.html)
+- [CS 162](http://cs162.eecs.berkeley.edu/) **操作系统和系统编程** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="阅读内容" />
+- 本课程的目的是教授操作系统的设计以及其他高级系统中出现的操作系统概念。我们将涵盖的主题包括操作系统、系统编程、网络和分布式系统以及存储系统的概念，包括多程序系统（进程、进程间通信和同步）、内存分配（分段、分页）、资源分配和调度、文件系统、基本网络（套接字、分层、API、可靠性）、事务、安全性和隐私。
+- 操作系统课程，由加州大学伯克利分校 EECS 主席 [David Culler](http://www.cs.berkeley.edu/~culler/)
+- [讲座视频](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c) 2015年春季讲座
+- [讲座笔记](https://inst.eecs.berkeley.edu/~cs162/sp15/) 2015年春季讲座
+- [CS 168](https://inst.eecs.berkeley.edu/~cs168/fa14/) **互联网简介：架构和协议** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 本课程介绍互联网架构。我们将重点关注有助于互联网可扩展性和稳健性的概念和基本设计原则，并调查该架构中使用的各种协议和算法。主题包括分层、寻址、域内路由、域间路由、可靠传递、拥塞控制以及核心协议（例如 TCP、UDP、IP、DNS 和 HTTP）和网络技术（例如以太网、无线）。
+	- [讲义和作业](https://inst.eecs.berkeley.edu/~cs168/fa14/class.html)
+	- [讨论笔记](https://inst.eecs.berkeley.edu/~cs168/fa14/)
+- [CS 179](http://courses.cms.caltech.edu/cs179/) **GPU 编程** *加州理工学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程将涵盖 GPU 编程技术。课程将介绍NVIDIA的并行计算语言CUDA。除了涵盖 CUDA 编程模型和语法之外，本课程还将讨论 GPU 架构、GPU 上的高性能计算、并行算法、CUDA 库以及 GPU 计算的应用。
+	- [Assignments](http://courses.cms.caltech.edu/cs179/)
+	- [讲义](http://courses.cms.caltech.edu/cs179/)
+- [CS 186](https://sites.google.com/site/cs186spring2015/) **数据库系统简介** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="阅读" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 在CS186的项目作业中，您将编写一个名为SimpleDB的基本数据库管理系统。对于这个项目，您将专注于实现访问磁盘上存储的数据所需的核心模块；在未来的项目中，您将添加对各种查询处理运算符以及事务、锁定和并发查询的支持。
+	- [讲座视频](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBVK2QzAV-R7NMA1ZkaiR2y)
+	- [讲义](https://sites.google.com/site/cs186fall2013/section-notes)
+	- [Projects](https://sites.google.com/site/cs186fall2013/homeworks)
+- [CS 241](https://courses.engr.illinois.edu/cs241/sp2016/index.html) **系统编程（2016 年春季）** *伊利诺伊大学厄巴纳-香槟分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 系统编程是指编写利用操作系统支持程序员的代码。本课程旨在向您介绍系统编程。在本课程结束时，您应该能够熟练地编写充分利用操作系统支持的程序。具体来说，我们需要修复一个操作系统，需要选择一种编程语言来编写程序。我们选择了运行在Linux/UNIX操作系统上的C语言（它实现了程序员和操作系统之间的POSIX标准接口）。
+	- [Assignments](https://courses.engr.illinois.edu/cs241/sp2016/mps.html)
+	- [Labs](https://courses.engr.illinois.edu/cs241/sp2016/labs.html)
+	- [GitHub页面](http://angrave.github.io/sys/#)
+	- [众包书籍](https://github.com/angrave/SystemProgramming/wiki)
+- [CS 425](https://courses.engr.illinois.edu/cs425/fa2016/index.html) **分布式系统** *伊利诺伊大学厄巴纳-香槟分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="阅读内容" />
+- 一系列精彩的讲座和阅读材料，涵盖分布式系统的基本概念，例如矢量时钟、共识和 Paxos。这是 Indranil Gupta 教授的 2016 年版本。
+	- [Lectures](https://courses.engr.illinois.edu/cs425/fa2016/lectures.html)
+	- [Assignments](https://courses.engr.illinois.edu/cs425/fa2016/assignments.html)
+- [CS 452](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/) **实时编程** *滑铁卢大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 用 C 语言编写实时操作系统微内核和应用程序代码来操作模型序列集以响应实时传感器信息。与列车组的通信以 2400 波特率运行，因此向所有传感器询问有关列车可能位置的数据大约需要 61 毫秒。  这使得它特别具有挑战性，因为火车在这段时间内可以移动大约 3 厘米。滑铁卢大学最具挑战性和最耗时的课程之一。
+	- [Assignments](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/assignments/index.html)
+	- [讲义](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/notes/index.html)
+- [CS 2043](http://www.cs.cornell.edu/courses/CS2043/2014sp/) **Unix 工具和脚本** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 类 UNIX 系统越来越多地用于个人计算机、移动电话、Web 服务器和许多其他系统。它们代表了一系列出色的编程环境，对计算机科学家和许多其他领域的人们都很有用，例如计算生物学和计算语言学，其中数据自然地由字符串表示。本课程提供强化培训，培养 Unix 命令行工具和脚本编写技能，从而实现大型且具有挑战性的计算任务的完成和自动化。该课程大纲引导学生从 shell 基础知识和管道，到正则表达式处理工具，再到 shell 脚本和 Python。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS2043/2014sp/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS2043/2014sp/)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS2043/2014sp/)
+- [CS 3410](http://www.cs.cornell.edu/courses/cs3410/2016fa/) **计算机系统组织和编程** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- CS3410 介绍了计算机组织、系统编程和硬件/软件接口。主题包括指令集、计算机算术、数据路径设计、数据格式、寻址模式、内存层次结构（包括高速缓存和虚拟内存）、I/O 设备、基于总线的 I/O 系统和多核架构。学生学习汇编语言编程并设计流水线 RISC 处理器。
+	- [Lectures](http://www.cs.cornell.edu/courses/CS3410/2014sp/schedule.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS3410/2014sp/schedule.html)
+- [CS 4410](http://www.cs.cornell.edu/courses/CS4410/2014fa/) **操作系统** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- CS 4410 涵盖系统编程以及介绍性操作系统设计和实现。我们将介绍操作系统的基础知识，即结构、并发、调度、同步、内存管理、文件系统、安全性和网络。该课程向所有掌握 CS3410/ECE3140 材料的本科生开放。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4410/2014fa/slides/01-intro.pptx)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4410/2014fa/lectures.php)
+- [CS 4414](http://rust-class.org/index.html) **操作系统** *弗吉尼亚大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 课程涵盖的主题包括：分析过程通信和同步；资源管理；虚拟内存管理算法；文件系统；以及网络和分布式系统。本课程的主要目标是提高您构建可扩展、强大且安全的计算系统的能力。它的重点是通过理解现代计算机系统核心抽象的基础来实现这一点。
+	- [Syllabus](http://rust-class.org/pages/syllabus.html)
+	- [Lectures](http://rust-class.org/pages/classes.html)
+- [CS 5412](http://www.cs.cornell.edu/Courses/CS5412/2014sp/) **云计算** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本课程由该领域的一位坚定支持者 Ken Birman 教授教授，有一组精彩的幻灯片供人们浏览。教授的[书](http://www.amazon.com/Guide-Reliable-Distributed-Systems-High-Assurance/dp/1447124154)也是一本瑰宝，被推荐为谷歌关于[分布式系统]教程的必读书籍。设计](http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html)
+	- [Slides](http://www.cs.cornell.edu/Courses/CS5412/2014sp/Syllabus.htm)
+- [CSCE 3613](http://comp.uark.edu/~wingning/csce3613/csce3613.html) **操作系统** *阿肯色大学（费耶特维尔）* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> - 操作系统简介，包括系统结构、进程管理、存储管理、文件、分布式系统和案例研究等主题。
+	- [Syllabus](http://comp.uark.edu/~wingning/csce3613/CSCE3613.pdf)
+	- [Assignments](http://comp.uark.edu/~wingning/csce3613/Homework3613.html)
+	- [讲义](http://comp.uark.edu/~wingning/csce3613/CourseNote3613.html)
+	- [Readings](http://comp.uark.edu/~wingning/csce3613/Link3613.html)
+- [CSCI-UA.0202：操作系统（本科）](http://www.cs.nyu.edu/~mwalfish/classes/15sp/index.html) **操作系统** *NYU* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读数" />
+- 纽约大学的操作系统课程。这是一门基础课程，重点介绍操作系统的基本思想，包括内存管理、进程调度、文件系统等。它还包括一些推荐的阅读材料。此外，还有一系列动手实验材料，帮助您轻松了解操作系统。
+	- [Assignments](http://www.cs.nyu.edu/~mwalfish/classes/15sp/labs.html)
+	- [Lectures](http://www.cs.nyu.edu/~mwalfish/classes/15sp/syllabus.html)
+	- [旧考试](http://www.cs.nyu.edu/~mwalfish/classes/15sp/exams.html)
+- [CSCI 360](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci360/csci360_f14.php) **计算机体系结构 3** *纽约市立大学亨特学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 涵盖缓存设计、总线、内存层次结构、处理器外设接口和多处理器（包括 GPU）的课程。
+- [CSCI 493.66](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci493.66/csci493.66_spr12.php) **UNIX 系统编程（以前称为 UNIX 工具）** *CUNY Hunter College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 主要是关于针对 UNIX API 编写程序的课程，涵盖内核接口和库的所有基本部分，包括文件、进程、终端控制、信号和线程。
+- [CSCI 493.75](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci493.65/csci493.65_spr14.php) **并行计算** *纽约市立大学亨特学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程介绍使用消息传递接口 (MPI) 和 OpenMP 应用程序编程接口的 C 和 C++ 并行算法和并行编程。它还包括对并行架构和互连网络的简要介绍。它既理论又实用，包括设计方法、性能分析和数学概念的材料，以及使用 MPI 和 OpenMP 进行编程的详细信息。
+- [破解内核](https://www.ops-class.org/) **操作系统简介** *纽约州立大学布法罗分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 本课程介绍操作系统的设计和实现。我们研究操作系统是因为它们是解决困难设计问题的成熟而优雅的解决方案的例子：如何安全有效地共享系统资源并提供对应用程序有用的抽象。
+- 对于处理器、内存和磁盘，我们讨论操作系统如何分配每种资源，并探索相关抽象的设计和实现。我们还建立了测试和提高系统性能的技术，并引入了硬件虚拟化的思想。编程作业提供了在现实开发环境中实现核心操作系统组件的实践经验。 [Geoffrey Challen 博士]的课程(https://blue.cse.buffalo.edu/people/gwa/)
+	- [Syllabus](https://www.ops-class.org/courses/buffalo/CSE421_Spring2016/)
+	- [Slides](https://www.ops-class.org/slides/)
+	- [视频讲座](https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3)
+	- [Assignments](https://www.ops-class.org/asst/0/)
+	- [旧考试](https://www.ops-class.org/exams/)
+- [ECE 459](http://patricklam.ca/p4p/) **性能编程** *滑铁卢大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 学习分析、重新架构和实施可处理工业规模输入的软件系统的技术，以及设计和构建关键软件基础设施的技术。通过并行化、多线程、异步 I/O、矢量化和 GPU 编程以及分布式计算来学习性能优化。
+	- [讲座幻灯片](https://github.com/patricklam/p4p-2015/tree/master/lectures)
+- [ECGR4101/5101](https://webpages.uncc.edu/~jmconrad/EducationalMaterials/index.html) **使用瑞萨 RX63N 处理器的嵌入式系统** *北卡罗来纳大学夏洛特分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 介绍使用汇编和 C 程序设计基于微控制器的嵌入式计算机系统。检查实时操作系统及其对性能的影响。将强调计算机工程应用。
+- 本课程的目标是通过展示微控制器的实践经验来巩固和发展学生的计算机组织知识。学生还将检查商业和医疗产品中使用的一些传感器，并学习如何在微控制器系统中连接它们。
+	- [讲座视频](https://www.youtube.com/playlist?list=PLPIqCiMhcdO5gxLJWt_hY5CPMzqg75IU5)
+	- [讲义](https://webpages.uncc.edu/~jmconrad/EducationalMaterials/index.html)
+- [PODC](http://dcg.ethz.ch/lectures/podc_allstars/) **分布式计算原理** *ETH-Zurich* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读材料" title="阅读材料" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 探索基本的算法思想和下界技术，基本上是分布式计算的“珍珠”，包含在易于阅读的讲义中，并结合完整的练习和解决方案。
+	- [Book](http://dcg.ethz.ch/lectures/podc_allstars/lecture/podc.pdf)
+	- [作业和解决方案](http://dcg.ethz.ch/lectures/podc_allstars/)
+- [SPAC](http://homes.cs.washington.edu/~djg/teachingMaterials/spac/) **并行性和并发** *华盛顿大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+- 从技术上讲，这不是一门课程，但 Dan Grossman 教授使用的很棒的材料集合，用于向 UWash 大二学生教授并行性和并发概念
+- [6.824](http://css.csail.mit.edu/6.824/2014/index.html) **分布式系统** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 麻省理工学院的研究生水平 DS 课程，重点是容错、复制和一致性，所有课程均通过 Golang 中出色的实验室作业进行教学！
+	- [Assignments](http://css.csail.mit.edu/6.824/2014/labs/) - 只需执行 `git clone git://g.csail.mit.edu/6.824-golabs-2014 6.824`
+	- [Readings](http://css.csail.mit.edu/6.824/2014/schedule.html)
+- [6.828](http://pdos.csail.mit.edu/6.828/2014/) **操作系统** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 麻省理工学院的操作系统课程专注于操作系统设计的基础知识，包括启动、内存管理、环境、文件系统、多任务处理等。在一系列实验作业中，您将构建 JOS，一个用 C 编写的操作系统外内核。
+	- [Assignments](http://pdos.csail.mit.edu/6.828/2014/labguide.html)
+	- [Lectures](http://pdos.csail.mit.edu/6.828/2014/schedule.html)
+- [视频](http://pdos.csail.mit.edu/6.828/2011/schedule.html) 注意：这些是学生录制的 2011 年课程的视频。这些视频解释了实验室和作业所需的许多概念。
+- [CSEP 552](http://courses.cs.washington.edu/courses/csep552/16wi/) **分布式系统** *华盛顿大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CSEP552 是分布式系统的研究生课程。分布式系统已成为计算机使用方式的许多方面的核心，从网络应用程序到电子商务再到内容分发。本课程将涵盖分布式系统构建的抽象和实现技术，包括客户端服务器计算、网络、云计算、对等系统和分布式存储系统。主题将包括远程过程调用、维护分布式状态的一致性、容错、高可用性和其他主题。我们相信学习材料的最佳方法是构建它，因此将有一系列实践编程项目。
+- 上一课的[讲座](http://courses.cs.washington.edu/courses/csep552/13sp/video/)可供观看。
+- [15-213](http://www.cs.cmu.edu/~213/) **计算机系统概论 (ICS)** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- ICS 课程提供了程序员关于计算机系统如何执行程序、存储信息和通信的观点。它使学生​​能够成为更高效的程序员，特别是在处理性能、可移植性和鲁棒性问题方面。它还可以作为编译器、网络、操作系统和计算机体系结构课程的基础，这些课程需要对系统级问题有更深入的了解。涵盖的主题包括：机器级代码及其通过优化编译器生成、性能评估和优化、计算机算术、内存组织和管理、网络技术和协议以及支持并发计算。
+- 这是每个在CMU想要学习计算机科学的人的必备课程，无论你是什么专业。因为它是CMU（课程编号与CMU的邮政编码相同）！
+	- [讲义](http://www.cs.cmu.edu/~213/schedule.html)
+	- [Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22) 
+	- [Assignments](http://csapp.cs.cmu.edu/public/labs.html)
+- [15-319/619](http://www.cs.cmu.edu/~msakr/15619-s17/reitations.html) **云计算 (ICS)** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 这个基于项目的在线课程侧重于云计算各个方面的技能培养。我们涵盖概念性主题，并通过利用公共云基础设施（Amazon Web Services (AWS)、Microsoft Azure 和 Google Cloud Platform (GCP)）的项目提供实践经验。云计算服务的采用在各种组织和许多领域持续增长。简而言之，云计算是通过网络提供计算即服务，最终用户将分布式资源和服务作为公用设施租用，而不是拥有。
+- 在这些项目中，学生将使用 Amazon Web Services、Microsoft Azure 和 Google Cloud Platform，使用它们租用和配置计算资源，然后编程和部署在这些资源上运行的应用程序。学生将开发和评估虚拟机 (VM) 和容器扩展、弹性和负载平衡解决方案。此外，学生将使用云存储系统，并学习使用批处理、迭代和流处理框架开发不同的应用程序。 15-619 名学生将必须完成一个额外项目，其中需要设计和实施用于查询大数据的完整 Web 服务解决方案。对于额外的项目，学生团队将根据其网络服务的成本和性能进行评估。
+	- [讲义](http://www.cs.cmu.edu/~msakr/15619-s17/recitations.html)
+	- [Videos](http://www.cs.cmu.edu/~msakr/15619-s17/recitations.html) 
+- [15-410](https://www.cs.cmu.edu/~410/) **操作系统设计与实现** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 这个很棒的课程涵盖了操作系统的一些基本主题，例如进程模型、虚拟内存并发、线程、锁定、中断、抢占性、竞争条件。它还涵盖了对典型操作系统主题（文件系统、事务、调度、安全概念和技术、内存一致性）并行编程模型/框架的介绍性理解。
+	- [讲义](https://www.cs.cmu.edu/~410/lecture.html)
+	- [Assignments](https://www.cs.cmu.edu/~410/p1/proj1.html)
+- [15-418](http://15418.courses.cs.cmu.edu/spring2015/) **并行计算机体系结构和编程** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读材料" title="阅读材料" />
+- 本课程的目标是深入了解设计现代并行计算系统所涉及的基本原理和工程权衡，并教授有效利用这些机器所需的并行编程技术。由于编写良好的并行程序需要了解关键的机器性能特征，因此本课程将涵盖并行硬件和软件设计。
+	- [Assignments](http://15418.courses.cs.cmu.edu/spring2015/exercises)
+	- [讲义](http://15418.courses.cs.cmu.edu/spring2015/reading)
+	- [讲座视频](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22a5862643-2416-49ef-b46b-13465d1b6df0%22)
+	- [Readings](http://15418.courses.cs.cmu.edu/spring2015/reading)
+- [15-440](http://www.cs.cmu.edu/~dga/15-440/F12/index.html) **分布式系统** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 介绍分布式系统，重点是通过用 Go 编程语言实现的项目来教授概念。
+	- [Assignments](http://www.cs.cmu.edu/~dga/15-440/F12/assignments.html)
+- [15-721](http://15721.courses.cs.cmu.edu/spring2016/) **数据库系统** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本课程是对现代数据库管理系统内部结构的全面研究。它将涵盖高性能事务处理系统 (OLTP) 和大规模分析系统 (OLAP) 中使用的组件的核心概念和基础知识。课程将强调实施这些想法的效率和正确性。所有课程项目都将在真正的内存中、多核数据库系统的背景下进行。该课程适合软件系统专业的研究生和具有较强系统编程技能的高年级本科生。
+	- [Assignments](http://15721.courses.cs.cmu.edu/spring2016/syllabus.html)
+	- [讲座视频](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbisIGOepfnlbfxeH7TW-8O)
+	- [Readings](http://15721.courses.cs.cmu.edu/spring2016/schedule.html)
+- [15-445/645](http://15445.courses.cs.cmu.edu/fall2017/) **数据库系统** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 与 CMU 15-721 相比，本课程涵盖 DBMS 的基本主题。
+	- [Assignments](http://15445.courses.cs.cmu.edu/fall2017/assignments.html)
+	- [讲座视频](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYutVzTeAds8xUt1rcmyT7x)
+	- [Readings](http://15445.courses.cs.cmu.edu/fall2017/schedule.html)
+- [15-749](http://www.andrew.cmu.edu/course/15-749/) **工程分布式系统** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+- 以项目为中心的分布式系统课程，包含一系列精彩的阅读材料
+	- [Readings](http://www.andrew.cmu.edu/course/15-749/READINGS/)
+- [18-447](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=start) **计算机体系结构简介** *CMU* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 关于计算机体系结构的非常全面的材料 - 绝对不仅仅是“介绍”。在线材料非常人性化，甚至在线提供背诵视频。这是 [Onur Mutlu ] 教授的 Spring'15 版本(http://users.ece.cmu.edu/~omutlu/)
+	- [讲座与背诵](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=schedule)
+- [作业](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=homeworks) 7 个 HW 以及答案集
+	- [Readings](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=readings)
+
+--------
+### 编程语言/编译器
+
+- [CS 75](https://www.cs.swarthmore.edu/~jpolitz/cs75/s16/index.html) **编译器设计原理** *Swathmore College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程以关于[编译器设计增量方法](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)的有影响力的论文为蓝本，教授如何在 OCaml 中构建编译器
+	- [Github 上的课程](https://github.com/compilers-course-materials)
+	- [Notes](https://github.com/compilers-course-materials/cs75-s16-lectures)
+- [CS 91](https://www.cs.swarthmore.edu/~jpolitz/cs91/s15/index.html) **编程语言简介** *斯瓦斯莫尔学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座备注" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 使用 [Pyret](https://www.pyret.org/) 编程语言和 [PAPL](http://papl.cs.brown.edu/2014/) 书籍来了解编程语言的基础知识。
+	- [Labs](https://www.cs.swarthmore.edu/~jpolitz/cs91/s15/s_labs.html)
+- [CIS 194](http://www.seas.upenn.edu/~cis194/) **Haskell 简介** *宾夕法尼亚工程* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 使用 Haskell 作为载体，探索函数式编程的乐趣。本课程的目的是让您使用 Haskell 轻松方便地编写实用程序。
+- [上一篇](http://www.seas.upenn.edu/~cis194/spring13/index.html) 学期也可用，有更多练习
+- [CIS 198](http://cis198-2016s.github.io/) **Rust 编程** *UPenn* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 本课程涵盖了 Rust 如此独特的原因，并将其应用于实际的系统编程问题。涵盖的主题包括特征和泛型；内存安全（移动语义、借用和生命周期）； Rust丰富的宏系统；关闭；和并发性。
+	- [Assignments](https://github.com/cis198-2016s/homework)
+- [CMSC 430](http://www.cs.umd.edu/class/spring2015/cmsc430/) **编译器简介** *马里兰大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CMSC 430 的目标是让学生具备设计、实现和扩展编程语言的能力。在整个课程中，学生将设计和实现几种相关语言，并将探索解析、语法查询、数据流分析、编译为字节码、类型系统和语言互操作。
+	- [讲义](http://www.cs.umd.edu/class/spring2015/cmsc430/Schedule.html)
+	- [Assignments](http://www.cs.umd.edu/class/spring2015/cmsc430/Projects.html)
+- [Corsopl](https://pradella.faculty.polimi.it/PL.html) **编程语言原理** *米兰理工大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> - 讲义 <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> - 阅读
+- 本课程概述了Scheme、Haskell 和Erlang，同时分析了这些语言的异同。因此，解释了许多重要/流行的概念以及它们在不同编程语言中的不同表现。其中包括（纯）函数式编程、面向对象、类型推断和求值顺序。
+- 全面介绍函数式编程，无需任何函数式语言的基础知识。
+- [COS 326](http://www.cs.princeton.edu/~dpw/courses/cos326-12/info.php) **函数式编程** *普林斯顿大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 涵盖使用 OCaml 编程语言的函数式编程概念，例如闭包、尾部调用递归和并行性
+	- [Lectures](http://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php)
+	- [Assignments](http://www.cs.princeton.edu/~dpw/courses/cos326-12/assignments.php)
+- [CS 143](https://web.stanford.edu/class/cs143/) **编译器构建** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- CS143 是斯坦福大学关于编译器构建的实践和理论方面的课程。
+	- [Home](https://web.stanford.edu/class/cs143/)
+	- [Syllabus](https://web.stanford.edu/class/cs143/syllabus.html)
+	- [Lectures](https://web.stanford.edu/class/cs143/)
+	- [Assignments](https://web.stanford.edu/class/cs143/)
+	- [CS143 - 2011](http://www.keithschwarz.com/cs143/WWW/sum2011/)
+- [CS 164](https://sites.google.com/a/bodik.org/cs164/home) **破解你的语言！** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 通过设计和实现特定领域的语言来介绍编程语言。
+	- [讲座视频](https://archive.org/details/ucberkeley-webcast-PL3A16CFC42CA6EF4F)
+	- [作业代码](https://bitbucket.org/cs164_overlord/)
+- [CS 173](http://cs.brown.edu/courses/cs173/2014/) **编程语言** *布朗大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- Krishnamurthi 教授（[HtDP](http://htdp.org/2003-09-26/Book/)的作者）和许多其他[很棒](http://cs.brown.edu/courses/cs173/2012/book/)[书籍](http://papl.cs.brown.edu/2014/index.html)关于编程语言的课程。使用定制设计的 [Pyret](http://www.pyret.org/) 编程语言来教授概念。 2012年举办了一个[在线课程](http://cs.brown.edu/courses/cs173/2012/OnLine/)，其中包含所有讲座视频供您欣赏。
+	- [Videos](http://cs.brown.edu/courses/cs173/2012/Videos/)
+	- [Assignments](http://cs.brown.edu/courses/cs173/2014/assignments.html)
+- [CS 223](https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/) **Elm 中的纯函数式数据结构** *芝加哥大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程基于 Chris Okazaki 的书并使用 Elm 编程语言教授函数式反应式编程和纯函数式数据结构。
+	- [Lectures](https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html)
+	- [Assignments](https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html)
+- [CS 240h](http://www.scs.stanford.edu/14sp-cs240h/) **Haskell 中的功能系统** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 用 Haskell 构建软件系统
+	- [讲座幻灯片](http://www.scs.stanford.edu/14sp-cs240h/slides/)
+- 3 项作业：[Lab1](http://www.scs.stanford.edu/14sp-cs240h/labs/lab1.html)、[Lab2](http://www.scs.stanford.edu/14sp-cs240h/labs/lab2.html)、[Lab3](http://www.scs.stanford.edu/14sp-cs240h/labs/lab3.html)
+- [CS 421](https://courses.engr.illinois.edu/cs421/fa2014/) **编程语言和编译器** *伊利诺伊大学厄巴纳-香槟分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+使用 OCaml 教授函数式编程和编程语言设计的课程。
+	- [Lectures](https://courses.engr.illinois.edu/cs421/fa2014/lectures/index.html)
+	- [Videos](http://recordings.engineering.illinois.edu/ess/portal/section/631edaeb-2a33-4537-b7c8-0c1cba783a4f)
+	- [Assignments](https://courses.engr.illinois.edu/cs421/fa2014/mps/index.html)
+	- [Exams](https://courses.engr.illinois.edu/cs421/fa2014/exams/index.html)
+- [CS 3110](http://www.cs.cornell.edu/Courses/cs3110/2014fa/course_info.php) **数据结构和函数式编程** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 另一门使用 OCaml 教授替代编程范例的课程，尤其是函数式编程和并发编程。
+	- [讲座幻灯片](http://www.cs.cornell.edu/Courses/cs3110/2014fa/lecture_notes.php)
+	- [Assignments](http://www.cs.cornell.edu/Courses/cs3110/2014fa/)
+- [CS 4120](http://www.cs.cornell.edu/courses/CS4120/2013fa/) **编译器简介** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 现代编译器的规范和实现的介绍。涵盖的主题包括词法扫描、解析、类型检查、代码生成和翻译、优化简介以及现代编程语言的编译时和运行时支持。  作为课程的一部分，学生将为面向对象语言构建一个可用的编译器。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4120/2013fa/overview.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4120/2013fa/schedule.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4120/2013fa/homework.html)
+- [CS 4400](https://pl.barzilay.org/) **编程语言** *东北大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="读物"/>
+- 这是一门关于编程语言的研究、设计和实现的课程。
+- 本课程同时进行两个级别：首先，我们将使用一种可以演示各种编程范例的编程语言。其次，使用这种语言，我们将通过实现我们自己的语言来了解编程语言背后的机制。两级方法通常意味着我们经常会看到如何使用某个功能，并继续实现它。
+	- [Syllabus](https://pl.barzilay.org/syllabus.html)
+	- [讲义/资源](https://pl.barzilay.org/resources.html)
+- [CS 4610](http://www.cs.virginia.edu/~weimer/4610/) **编程语言和编译器** *弗吉尼亚大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 使用 OCaml 教授函数式编程和编程语言设计的课程。每个作业都是类似于 Java 的面向对象语言的解释器和编译器的一部分，并且您需要为每个作业使用不同的语言（即从 Python、JS、OCaml、Haskell、Ruby 中选择 4 种）。
+	- [讲义](http://www.cs.virginia.edu/~weimer/4610/lectures.html)
+	- [Assignments](http://www.cs.virginia.edu/~weimer/4610/pa.html)
+- [CS 5114](http://www.cs.cornell.edu/courses/CS5114/2013sp/index.php) **网络编程语言** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本课程介绍用于计算机网络编程的语言。它将检查基于逻辑、函数和分布式语言的最新提案，以及使用自动求解器、模型检查器和证明助手来确定正确性的工具。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS5114/2013sp/syllabus.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS5114/2013sp/syllabus.php)
+- [CS 5142](http://www.cs.cornell.edu/courses/CS5142/2013fa/) **脚本语言** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- Perl、PHP、JavaScript、VisualBasic——它们是就业时经常要求的技能，但我们大多数人没有时间了解它们的全部内容。在本课程中，您将学习如何使用脚本语言进行快速原型设计、Web 编程、数据处理和应用程序扩展。除了涵盖应用于脚本的传统编程语言概念（例如动态类型和范围界定）之外，本课程还探讨传统语言中很少发现的新概念（例如字符串插值、哈希和多语言代码）。通过一系列小项目，您可以使用不同的语言来实现突出脚本编写优点和缺点的编程任务。作为副作用，你可以练习自学新语言。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS5142/2013fa/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS5142/2013fa/#schedule)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS5142/2013fa/#schedule)
+- [CS 5470](http://matt.might.net/teaching/compilers/spring-2015/) **编译器** *犹他大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="读物"/>
+- 如果您是马特教授在他的[精彩博客](http://matt.might.net/articles/) 上撰写的文章的粉丝，您应该尝试一下。该课程涵盖编译器的设计和实现，并探讨解释器、虚拟机和运行时系统等相关主题。除了教授对作弊的机智看法（http://matt.might.net/teaching/compilers/spring-2015/#collaboration）之外，该页面还有大量有关编程语言、解析和编译器的有趣链接。
+	- [讲义](https://www.dropbox.com/sh/zanwtoflw4pcfu8/5pdT6axS3y)
+	- [Projects](http://matt.might.net/teaching/compilers/spring-2015/#projects)
+- [CS 6118](http://www.cs.cornell.edu/courses/CS6118/2012fa/) **类型和语义** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 类型和语义是关于设计和理解编程语言，无论它们是特定领域的还是通用的。此类的目标是提供各种工具来为手头的任何任务设计自定义（编程）语言。其中一部分将是关于语言如何工作的各种见解，以及与学术界和业界合作创建新语言（例如锡兰和科特林）的经验。本课程重点关注类型和语义以及它们之间的相互作用。这意味着类别理论和构造类型理论（例如 Coq 和更丰富的变体）是本课程的辅助主题。该课程还涵盖非常规语义领域，例如经典线性类型理论，以便使学生摆脱传统思维，并提供能够将网络协议、资源敏感计算和并发构造等思维形式化的强大目标。课堂项目是为了学生选择的目的而设计和形式化一种（编程）语言，作业的目的是确保学生有机会练习应用在课堂上学到的技术，然后再在课堂项目中掌握这些技能。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS6118/2012fa/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6118/2012fa/)
+- [CSC 253](http://pgbovine.net/cpython-internals.htm) **CPython 内部原理：通过 Python 解释器源代码进行十小时代码演示** *罗切斯特大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+- 九个讲座介绍了 CPython 的内部结构，CPython 是用 C 语言实现的规范 Python 解释器。它们来自罗切斯特大学 2014 年秋季教授的“动态语言和软件开发”课程。
+- [CSE 341](http://courses.cs.washington.edu/courses/cse341/16sp/) **编程语言** *华盛顿大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 涵盖非命令性范例和语言，例如 Ruby、Racket 和 ML 以及编程语言的基础知识。
+	- [讲座和视频](https://courses.cs.washington.edu/courses/cse341/16sp/#lectures)
+	- [作业和测试](https://courses.cs.washington.edu/courses/cse341/16sp/#homeworks)
+- [CSE P 501](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html) **编译器构建** *华盛顿大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 教授如何理解现代编译器的结构以及用于将代码从高级语言翻译为机器语言的主要算法。做到这一点的最佳方法是实际构建一个可用的编译器，因此将有一个重要的项目来实现一个将用 Java 核心子集编写的程序转换为可执行 x86 汇编语言的编译器。编译器本身将使用扫描器和解析器生成器工具，默认实现语言是Java。
+	- [Lectures](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html)
+	- [作业、测试和解决方案](http://courses.cs.washington.edu/courses/csep501/09au/homework/index.html)
+- [DMFP](http://cs.wheaton.edu/~tvandrun/dmfp/) **离散数学和函数式编程** *惠顿学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- 通过函数式编程教授离散数学概念的课程
+  - [讲座视频](http://cs.wheaton.edu/~tvandrun/dmfp/)
+  - [Assignments](http://cs.wheaton.edu/~tvandrun/dmfp/source.html)
+- [PCPP](http://www.itu.dk/people/sestoft/itu/PCPP/E2015/) **实用并发和并行编程** *哥本哈根 IT 大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 在本理学硕士课程中，您将学习如何在标准共享内存多核硬件上主要使用 Java 编写正确且高效的并发和并行软件。
+- 该课程涵盖了线程、锁和共享内存等基本机制，以及更高级的机制，例如批量数据的并行流、事务内存、消息传递和具有比较和交换功能的无锁数据结构。
+- 它涵盖了原子性、安全性、活性和死锁等概念。
+- 它涵盖了如何衡量和理解并行程序的性能和可扩展性。
+- 它涵盖了查找并发程序中的错误的工具和方法。
+- [6.945](https://groups.csail.mit.edu/mac/users/gjs/6.945/index.html) **高级符号编程的冒险** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 由 SICP 知名人士 Gerald Sussman 授课，本课程涉及大型软件系统的设计和实现的概念和技术，这些系统可以适应设计者未预期的用途。应用程序包括编译器、计算机代数系统、演绎系统和一些人工智能应用程序。
+- [作业](https://groups.csail.mit.edu/mac/users/gjs/6.945/assignments.html)：广泛的编程作业，使用 MIT/GNU 方案。学生应该在Scheme、Common Lisp、Haskell、CAML 或其他“函数式”语言方面拥有丰富的编程经验。
+	- [Readings](https://groups.csail.mit.edu/mac/users/gjs/6.945/readings/)
+- [CS 696](http://www.eli.sdsu.edu/courses/fall15/cs696/index.html) **功能设计和编程** *圣地亚哥州立大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 涵盖使用 Clojure 的函数式编程基础。
+- 主题包括测试、函数式编程、不可变集合和并发性。
+- 还包括涵盖 Clojurescript、[Reagent](Reagent Github) 等的作业。
+- [L28](https://www.cl.cam.ac.uk/teaching/1516/L28/) **高级函数式编程** *剑桥大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读物"/>
+- 该模块旨在教学生如何使用现代类型函数编程语言（例如 OCaml、Haskell）的功能来设计和实现库和 DSL。它的目的是展示这些技术如何提高正确性和效率。希望学习该模块的学生应该具有一定类型函数编程语言的经验并了解类型推断。
+- 本次特别课程由著名的 OCaml 程序员、开源贡献者和现实世界 OCaml 的作者 Anil Madhavapeddy 博士教授。
+
+-------
+
+### 算法
+
+- [CS 61B](http://datastructur.es/sp16/) **数据结构** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 在本课程中，您将学习高级编程技术，包括数据结构、封装、抽象数据类型、接口以及排序和搜索算法，并且您将体验“软件工程”——大型程序的设计和实现。
+- [完整讲座材料](http://datastructur.es/sp16/) 2016 年春季讲座。该网站包含完整材料，包括视频链接、实验、家庭作业、项目。非常适合自学者。对于 Java 来说也是一个好的开始。它还包括一些其他有用的资源，包括 Java 文档、数据结构资源、Git/GitHub 和 Java 开发资源。 [资源](http://datastructur.es/sp16/resources.html)
+- [实验室](http://www.cs.berkeley.edu/~jrs/61b/lab/index.html) 网站中包含实验室和项目的链接。
+	- [讲座视频](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iC2Khb1B5NnbE7SHPQ1-W17)
+- [CS 97SI](http://web.stanford.edu/class/cs97si/) **竞争性编程简介** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 为有兴趣参加 ACM-ICPC 的学生提供跨主题的精彩理论和实践问题存储库。
+	- [讲座和作业](https://github.com/jaehyunp/stanfordacm)
+- [CS 224](http://people.seas.harvard.edu/~minilek/cs224/fall14/index.html) **高级算法** *哈佛大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CS 224 是算法设计的高级课程，我们将涵盖的主题包括 RAM 模型、数据结构、摊销、在线算法、线性规划、半定规划、近似算法、散列、随机算法、快速指数时间算法、图算法和计算几何。
+- [讲座视频](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html) ([Youtube](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf))
+	- [Assignments](http://people.seas.harvard.edu/~minilek/cs224/fall14/hmwk.html)
+- [CS 261](http://theory.stanford.edu/~tim/w16/w16.html) **第二门算法课程** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 网络优化算法：最大流、最小成本流、匹配、分配和最小割问题。线性规划简介。使用 LP 对偶性进行算法设计和分析。 NP 完全问题（例如斯坦纳树、旅行商和调度问题）的近似算法。随机算法。在线算法简介。
+- [讲义、视频和作业](http://theory.stanford.edu/~tim/w16/w16.html) ([Youtube](https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc))
+- [CS 473/573](http://jeffe.cs.illinois.edu/teaching/algorithms/) **基本算法** *伊利诺伊大学厄巴纳-香槟分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 算法类涵盖递归、随机化、摊销、图形算法、网络流和硬度。 Erikson教授的讲义非常全面，可以单独写成一本书。强烈推荐！
+	- [讲义](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/all-algorithms.pdf)
+	- [实验室和考试](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/all-hwex.pdf)
+- [CS 2150](https://github.com/aaronbloomfield/pdr) **程序和数据表示** *弗吉尼亚大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本数据结构课程介绍 C++、链表、堆栈、队列、树、数值表示、哈希表、优先级队列、堆、霍夫曼编码、图形和 x86 汇编。
+	- [Lectures](http://aaronbloomfield.github.io/pdr/slides/)
+	- [Assignments](http://aaronbloomfield.github.io/pdr/labs/)
+- [CS 4820](http://www.cs.cornell.edu/courses/CS4820/2015sp/) **算法分析简介** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本课程开发算法设计和分析中使用的技术，重点关注计算应用中出现的问题。示例应用来自系统和网络、人工智能、计算机视觉、数据挖掘和计算生物学。本课程涵盖四种主要算法设计技术（贪心算法、分而治之、动态规划和网络流）、关注不可判定性的可计算性理论、关注NP完备性的计算复杂性以及解决棘手问题的算法技术，包括结构化特殊情况的识别、近似算法和局部搜索启发式。
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4820/2015sp/lectures/)
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4820/2015sp/syllabus/)
+- [CSCI 104](http://www-scf.usc.edu/~csci104/20142/lectures/) **数据结构和面向对象设计** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> *南加州大学 (USC)*
+	- [Lectures](http://www-scf.usc.edu/~csci104/20142/lectures)
+	- [Labs](http://www-scf.usc.edu/~csci104/20142/labs)
+	- [Assignments](http://www-scf.usc.edu/~csci104/20142/assignments/)
+	- [其他资源](http://www-scf.usc.edu/~csci104/20142/resources.html)
+- [CSCI 135](http://compsci.hunter.cuny.edu/~sweiss/courses/csci135.php) **软件设计与分析 I** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+*纽约市立大学亨特学院*
+- 目前它是对程序开发和问题解决的深入介绍。它的重点是设计、实施和评估小型项目的过程。它不应该是 C++ 编程课程，尽管课程的大部分内容都花在 C++ 的细节上。 C++ 是一种极其庞大且复杂的编程语言，具有许多以意想不到的方式交互的功能。一个人甚至不需要了解一半的语言就能很好地使用它。
+	- [讲座和作业](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci135/csci135_36_fall12.php)
+- [CSCI 235](http://compsci.hunter.cuny.edu/~sweiss/courses/csci235.php) **软件设计与分析 II** *纽约市立大学亨特学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 介绍一些常见问题的算法，例如排序。实际上，它通过递归、指针和异常处理等主题进一步提高学生的编程技能，并提供提高软件工程技能的机会，并为学生提供更高效编程的实践经验。
+	- [讲座和作业](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci235/csci235_f14.php)
+- [CSCI 335](http://compsci.hunter.cuny.edu/~sweiss/courses/csci335.php) **软件设计与分析 III** <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+*纽约市立大学亨特学院*
+- 这包括引入哈希、堆、各种形式的树和图。它还从比前传更高的角度重新审视了递归和排序问题。除此之外，旨在介绍算法分析方法。
+	- [讲座和作业](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci335/csci335_s14.php)
+- [CSE 331](http://courses.cs.washington.edu/courses/cse331/15sp/) **软件设计和实现** *华盛顿大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 探索用现代高级语言设计和构建可靠且可维护的软件系统的概念和技术；程序结构和设计；程序正确性方法，包括测试。
+	- [讲座、作业和考试](http://courses.cs.washington.edu/courses/cse331/15sp/#all)
+- [CSE 373](http://www3.cs.stonybrook.edu/~skiena/373/) **算法分析** *石溪大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+- 谈到算法，Steven Skiena 教授对任何学生来说都不陌生。他的开创性[书籍](http://www.algorist.com/) 被许多人吹捧为[在 Google 获得这份工作](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html) 的最佳选择。此外，他还因在竞争性[编程竞赛](http://www.programming-challenges.com/pg.php?page=index) 中辅导学生而闻名。如果您想温习算法知识，那么本课程不会错。
+	- [讲座视频](http://www.cs.sunysb.edu/~algorith/video-lectures/)
+- [ECS 122A](http://web.cs.ucdavis.edu/~gusfield/cs122f10/) **算法设计与分析** *加州大学戴维斯分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程由 [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) 于 2010 年讲授，是本科生对算法设计和分析的入门课程。它以传统主题为特色，例如 Big Oh 表示法，以及实现特定算法的重要性。还具有排序（线性时间）、图形算法、深度优先搜索、字符串匹配、动态规划、NP 完整性、近似和随机化等功能。
+	- [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs122f10/syll122.pdf)
+	- [讲座视频](http://web.cs.ucdavis.edu/~gusfield/cs122f10/videolist.html)
+	- [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs122f10/)
+- [ECS 222A](http://web.cs.ucdavis.edu/~gusfield/cs222w11/) **研究生水平算法设计与分析** *加州大学戴维斯分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 这是 [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) 在 2011 年对 ECS 122A 本科算法课程的研究生水平补充。它假设本科生已经学习了算法课程，并且在回顾一些本科算法主题时，更多地关注日益复杂和高级的算法。
+	- [讲座视频](http://web.cs.ucdavis.edu/~gusfield/cs222f07/videolist.html)
+	- [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs222w11/syll11.pdf)
+	- [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs222w11/)
+- [6.INT](https://courses.csail.mit.edu/iap/interview/index.php) **黑客谷歌面试** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+- 这门课程在 2009 年麻省理工学院独立活动期间教授，介绍了苹果、谷歌和 Facebook 等高选择性公司的软件工程师面试常见问题的常见解决方案。它们涵盖了时间复杂度、哈希表、二叉搜索树以及您应该在不同课程中已经涵盖的其他常见算法主题，但更深入地介绍了您在课堂上不会学到的东西，例如按位逻辑和解决问题的技巧。
+	- [Handouts](https://courses.csail.mit.edu/iap/interview/materials.php)
+	- [涵盖的主题](https://courses.csail.mit.edu/iap/interview/calendar.php)
+- [6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) **算法简介** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本课程介绍计算问题的数学建模。它涵盖了用于解决这些问题的常见算法、算法范式和数据结构。该课程强调算法和编程之间的关系，并介绍这些问题的基本性能测量和分析技术。
+	- [讲座视频](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
+ 	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/assignments/)
+	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/)
+	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/download-course-materials/)
+	- [旧考试](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/exams/)
+- [6.046J/18.410J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) **算法的设计和分析** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读数" />
+- 这是一门中级算法课程，重点是设计和分析高效算法的教学技术，强调应用方法。主题包括分而治之、随机化、动态规划、贪婪算法、增量改进、复杂性和密码学。本课程假设学生通过学习[6.006](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)知道如何分析简单的算法和数据结构。它向学生介绍计算机算法的设计以及复杂算法的分析。
+	- [讲座视频](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
+ 	- [讲义](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-notes/)
+	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/assignments/)
+	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/download-course-materials/)
+	- [旧考试](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/exams/)
+- [6.851](https://courses.csail.mit.edu/6.851/spring21/index.html) **高级数据结构** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 这是一门高级 DS 课程，在尝试此课程之前，您必须先完成[高级算法](https://courses.csail.mit.edu/6.854/current/) 课程。
+- [讲座](https://courses.csail.mit.edu/6.851/spring21/lectures/) 包含sp2012版本的视频，但没有太大区别。
+- [作业](https://courses.csail.mit.edu/6.851/spring21/psets/) 也包含日历。
+- [6.854/18.415J](https://courses.csail.mit.edu/6.854/current/) **高级算法** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- David Karger 博士的算法高级课程，涵盖摊销、随机化、指纹识别、字级并行性、位缩放、动态编程、网络流、线性编程、固定参数算法和近似算法等主题。
+- **在[NB](http://nb.mit.edu/subscribe?key=D3a8CYpoO2VcR1ZcfaxmR5KbyjCGXd3INNXvL3mxEakYJ7qGJw)上注册**以访问[问题集和讲座](http://nb.mit.edu/)。
+- [6.854J/18.415J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/index.htm) **高级算法** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="阅读内容" />
+- 本课程是算法研究生一年级课程。重点是基础算法和算法设计、分析和实现的高级方法。涵盖的技术包括摊销、随机化、指纹识别、字级并行、位缩放、动态编程、网络流、线性编程、固定参数算法和近似算法。领域包括字符串算法、网络优化、并行算法、计算几何、在线算法、外部存储器、缓存和流算法以及数据结构。计算机科学的几乎每个领域都需要高效的算法。但是要解决的问题类型、什么算法是“高效”的概念，甚至计算模型在不同领域之间可能存在很大差异。在算法的第二堂课中，我们将调查许多广泛应用于高效算法设计的技术，并研究它们在广泛的应用领域和计算模型中的应用。课程的目标是广泛而不是深入。我们的计划是触及以下领域。这是课程中可能涵盖的主题的暂定列表；我们将选择根据学生的背景、兴趣和进步速度自适应地提供材料。
+	- [讲座视频 - 2016 年春季](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+	- [讲义](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/lecture-notes/)
+ 	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/assignments/)
+	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/readings/)
+	- [Resources](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/download-course-materials/)
+- [15-451/651](http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/) **算法** *卡内基梅隆大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 所需的算法类，深入研究所有基本算法及其背后的证明。这是本页上较重的算法课程之一。由 Avrim Blum 和 [Manuel Blum](http://en.wikipedia.org/wiki/Manuel_Blum) 授课，后者因对算法的贡献而获得图灵奖。课程链接包括 Avrim Blum 撰写的一套非常全面的参考笔记。
+- [16s-4102](http://www.cs.virginia.edu/~shelat/16s-4102/) **算法** *弗吉尼亚大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" />
+- [讲座视频和作业](http://www.cs.virginia.edu/~shelat/16s-4102/) ([Youtube](https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos))
+
+-------
+
+### 计算机理论
+
+- [CIS 500](http://www.seas.upenn.edu/~cis500/cis500-f14/index.html) **软件基础** *宾夕法尼亚大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 介绍使用 Coq 证明助手对软件进行形式化验证。主题包括逻辑的基本概念、计算机辅助定理证明、函数式编程、操作语义、霍尔逻辑和静态类型系统。
+	- [讲座和作业](http://www.seas.upenn.edu/~cis500/cis500-f14/index.html#schedule)
+	- [Textbook](http://www.cis.upenn.edu/~bcpierce/sf/current/index.html)
+- [CS 103](http://web.stanford.edu/class/cs103/) **计算数学基础** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CS103 是离散数学、可计算性理论和复杂性理论的第一门课程。在本课程中，我们将探讨计算机能力的极限，探索为什么有些问题比其他问题更难解决，并了解如何用数学确定性进行推理。
+- 所有讲义和作业的链接直接位于课程页面上
+- [CS 173](https://courses.engr.illinois.edu/cs173/fa2014/A-lecture/index.html) **离散结构** *伊利诺伊大学香槟分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读数" />
+- 本课程介绍计算机科学的理论方面。在其中，您将学习如何构造证明、阅读和编写有文字的形式数学、快速介绍关键理论主题并熟悉计算机科学中常用的一系列标准数学概念。
+- [教科书](http://web.engr.illinois.edu/~mfleck/building-blocks/) 由教授撰写。包括教师指南。
+	- [Assignments](https://courses.engr.illinois.edu/cs173/fa2014/A-lecture/Homework/index.html)
+	- [Exams](https://courses.engr.illinois.edu/cs173/fa2014/A-lecture/Exams/index.html)
+- [CS 276](http://www.cs.berkeley.edu/~sanjamg/classes/cs276-fall14/) **密码学基础** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" />
+- 本课程讨论现代密码学的复杂性理论基础，并着眼于该领域的最新成果，例如完全同态加密、不可区分性混淆、MPC 等。
+- [CS 278](http://www.cs.berkeley.edu/~luca/cs278-08/) **复杂性理论** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲义" title="讲义" />
+- 复杂性理论研究生课程，介绍 P 与 NP、随机性的力量、平均情况复杂性、逼近难度等。
+- [CS 374](https://courses.engr.illinois.edu/cs498374/fa2014/) **计算算法和模型（2014 年秋季）** *伊利诺伊大学厄巴纳-香槟分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CS 498 第 374 节（非正式的“CS 374”）涵盖了理论计算机科学的基本工具和技术，包括算法的设计和分析、形式语言和自动机、可计算性和复杂性。具体主题包括常规和上下文无关语言、有限状态自动机、递归算法（包括分而治之、回溯、动态规划和贪婪算法）、基本图算法（包括深度和广度优先搜索、拓扑排序、最小生成树和最短路径）、不可判定性和 NP 完整性。该课程还非常注重清晰的技术沟通。
+	- [Assignments/Exams](https://courses.engr.illinois.edu/cs498374/fa2014/work.html)
+	- [讲义/实验室](https://courses.engr.illinois.edu/cs498374/fa2014/lectures.html)
+	- [讲座视频](http://recordings.engineering.illinois.edu/ess/portal/section/115f3def-7371-4e98-b72f-6efe53771b2a)
+- [CS 3110](http://www.cs.cornell.edu/courses/CS3110/2014fa/) **数据结构和函数式编程** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- CS 3110（原CS 312）是计算机科学课程中继CS 1110/1112和CS 2110之后的第三门编程课程。该课程的目标是帮助学生成为优秀的程序员和软件设计师，能够设计和实现优雅、高效、正确的软件，并且其代码可维护和重用。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS3110/2014fa/course_info.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS3110/2014fa/lecture_notes.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS3110/2014fa/index.php)
+- [CS 3220](http://www.cs.cornell.edu/~bindel/class/cs3220-s12/) **科学计算概论** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 在这个为期一学期的调查课程中，我们介绍了求解线性和非线性方程、插值数据、计算积分和求解微分方程的数值方法，并描述了在解决科学问题时如何明智地使用这些工具（我们希望如此！）。
+	- [Syllabus](http://www.cs.cornell.edu/~bindel/class/cs3220-s12/syllabus.html)
+	- [Lectures](http://www.cs.cornell.edu/~bindel/class/cs3220-s12/lectures.html)
+	- [Assignments](http://www.cs.cornell.edu/~bindel/class/cs3220-s12/assignments.html)
+- [CS 4300](http://www.cs.cornell.edu/courses/CS4300/2013fa/) **信息检索** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 研究用于在大型系统中搜索和发现信息的方法。重点是应用于文本材料的信息检索，但也对其他格式进行了一些讨论。本课程包括搜索、浏览和过滤信息的技术以及分类系统和同义词库的使用。这些技术通过网络搜索和数字图书馆的示例进行了说明。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures/introduction.pdf)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures.htm)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures.htm)
+- [CS 4810](https://www.dsteurer.org/toc13/) **计算理论简介** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="读物"/>
+- 本本科课程广泛介绍了计算机科学的数学基础。我们将研究基本的计算模型，特别是图灵机。目标是了解这些模型可以或不能解决哪些问题。
+	- [Syllabus](https://www.dsteurer.org/toc13/syllabus/)
+	- [Lectures](https://www.dsteurer.org/toc13/lectures/)
+	- [Assignments](https://www.dsteurer.org/toc13/homework/)
+- [CS 6810](https://complexity16.dsteurer.org/) **计算理论** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="读物"/>
+- 本研究生课程对复杂性理论进行了广泛的介绍，包括经典结果和最新发展。复杂性理论旨在理解高效计算的力量（当时间和空间等计算资源有限时）。在这种背景下出现了许多引人注目的概念性问题。这些问题中的大多数（令人惊讶？）都很困难并且远未得到解决。尽管如此，在理解它们（以及它们为何困难）方面已经取得了很多进展。我们将在本课程中了解这些进步。主题将是具有类似随机属性的组合结构，例如扩展图和纠错码。一些例子：
+- 寻找解决方案本质上比验证它更困难吗？
+- 更多的计算资源是否意味着更多的计算能力？
+- 找到近似解比精确解更容易吗？
+- 随机算法比确定性算法更强大吗？
+- 在一般情况下解决问题是否比在最坏情况下更容易？
+- 量子计算机比经典计算机更强大吗？
+	- [Syllabus](https://complexity16.dsteurer.org/syllabus/)
+	- [Lectures](https://complexity16.dsteurer.org/lectures/)
+	- [Assignments](https://complexity16.dsteurer.org/homework/)
+- [CSCE 3193](http://www.csce.uark.edu/~sgauch/3193/S11/index.html) **编程范式** *阿肯色大学（费耶特维尔）* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 不同范式的编程，重点是面向对象编程、网络编程和函数式编程。编程语言、事件驱动编程、并发、软件验证的调查。
+	- [Syllabus](http://www.csce.uark.edu/~sgauch/3193/S11/syllabus.html)
+	- [Notes](http://www.csce.uark.edu/~sgauch/3193/S11/notes/index.html)
+	- [Assignments](http://www.csce.uark.edu/~sgauch/3193/S11/hw/index.html)
+	- [练习考试](http://www.csce.uark.edu/~sgauch/3193/S11/exams/index.html)
+- [6.045](https://stellar.mit.edu/S/course/6/sp15/6.045/index.html) **理论计算机科学的伟大想法** *麻省理工学院* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本课程对理论计算机科学的一些中心思想进行了富有挑战性的介绍。从古代开始，本课程将逐步介绍有限自动机、电路和决策树、图灵机和可计算性、高效算法和可简化性、P 与 NP 问题、NP 完备性、随机性的力量、密码学和单向函数、计算学习理论和量子计算。它检查各种机器可以解决和不能解决的问题类别。它试图解释影响其能力的计算模型之间的关键差异。
+	- [Syllabus](https://stellar.mit.edu/S/course/6/sp15/6.045/courseMaterial/topics/topic1/syllabus/syllabus2015/syllabus2015.pdf)
+	- [讲义](https://stellar.mit.edu/S/course/6/sp15/6.045/materials.html)
+	- [讲座视频](http://stellar.mit.edu/S/course/6/sp15/6.045/special/videos/index.html)
+
+-------
+
+### 计算机科学简介
+
+- [CS 10](https://inst.eecs.berkeley.edu/~cs10/fa14/) **计算的美丽与乐趣** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CS10 是 UCB 的计算机科学入门课程，使用初学者的拖放语言进行教学。学生了解计算的历史、社会影响、伟大原理和未来。他们还学习使用友好的图形语言进行计算机编程的乐趣，并将完成与他们的兴趣相关的实质性团队编程项目。
+- [Snap*!*](http://snap.berkeley.edu)（基于 MIT 的 Scratch）。
+	- [Curriculum](http://bjc.berkeley.edu)
+- [CS 50](https://cs50.harvard.edu/) **计算机科学导论** *哈佛大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- CS50x 是哈佛大学向专业和非专业人士（无论是否有编程经验）介绍计算机科学和编程艺术的知识企业的课程。由 David J. Malan 教授的入门级课程。
+	- [Lectures](http://cs50.tv/2017/fall/#about,lectures)
+	- [问题集](http://cs50.tv/2017/fall/#about,psets)
+- 该课程也可以从 [edX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) 获取。
+- 该课程的开放课件位于[此处](http://cs50.tv)
+- [CS 61A](http://cs61a.org/) **计算机程序的结构和解释 [Python]** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 在 CS 61A 中，我们有兴趣教您编程，而不是教您如何使用一种特定的编程语言。我们考虑一系列控制程序复杂性的技术，例如函数式编程、数据抽象和面向对象编程。掌握特定的编程语言是学习这些通用技术的一个非常有用的副作用。然而，我们希望，一旦您了解了编程的本质，您会发现学习一门新的编程语言只需几天的时间。
+	- [讲座视频](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2014-berkeley.html)
+	- [按类型划分的讲座资源](http://cs61a.org/by_type.html)
+	- [按主题划分的讲座资源](http://cs61a.org/by_topic.html)
+	- [其他资源](http://cs61a.org/articles/resources.html)
+	- [练习题](http://cs61a.org/problems/)
+	- [额外讲座](http://cs61a.org/extra.html)
+- [CS 61AS](http://berkeley-cs61as.github.io/) **计算机程序的结构和解释 [Racket]** *加州大学伯克利分校* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CS61 课程的自定进度版本，但采用 Racket/Scheme 形式。 61AS 是一门很棒的入门课程，它将让您轻松了解未来 CS 课程将涵盖的所有令人惊叹的概念，因此请记住保持开放的心态，享受乐趣，并始终尊重数据抽象
+	- [讲座视频](https://www.youtube.com/course?category=University%2FEngineering%2FComputer%2520Science%2FProgramming%2520Languages&list=EC6D76F0C99A731667)
+	- [作业和笔记](http://berkeley-cs61as.github.io/textbook.html)
+- [CS 101](http://online.stanford.edu/course/computer-science-101-self-paced) **计算机科学 101** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- CS101 向零基础经验的观众教授计算机科学的基本思想。参与者通过简短的“计算机代码”进行游戏和实验，以生动地展现计算机的强大功能和局限性。
+- 注册后可免费观看讲座视频。
+- [CS 106A](https://see.stanford.edu/Course/CS106A) **编程方法** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 本课程是规模最大的入门编程课程，也是斯坦福大学规模最大的课程之一。主题集中于计算机应用工程的介绍，强调现代软件工程原理：面向对象的设计、分解、封装、抽象和测试。编程方法论教授广泛使用的 Java 编程语言以及良好的软件工程原理。
+	- [讲座视频](https://see.stanford.edu/Course/CS106A)
+	- [Assignments](https://see.stanford.edu/Course/CS106A)
+	- [所有材料都在一个 zip 文件中](http://see.stanford.edu/materials/icspmcs106a/ProgrammingMethodologyAllMaterials.zip)
+- [CS 106B](https://see.stanford.edu/Course/CS106B) **编程抽象** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 本课程是编程方法论的自然继承者，涵盖了使用 C++ 编程语言（类似于 C 和 Java）的递归、算法分析和数据抽象等高级编程主题。
+	- [Lectures](https://see.stanford.edu/Course/CS106B)
+	- [Assignments](https://see.stanford.edu/Course/CS106B)
+	- [所有材料都在一个 zip 文件中](http://see.stanford.edu/materials/icspacs106b/ProgrammingAbstractionsAllMaterials.zip)
+- [CS 107](https://see.stanford.edu/Course/CS107) **编程范式** *斯坦福大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="讲座视频" title="讲座视频" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义"/>
+- 主题：C 和 C++ 的高级内存管理功能；命令式范例和面向对象范例之间的差异。函数式范例（使用 LISP）和并发编程（使用 C 和 C++）
+	- [Lectures](https://see.stanford.edu/Course/CS107)
+	- [Assignments](https://see.stanford.edu/Course/CS107)
+- [CS 109](http://otfried.org/courses/cs109/index.html) **使用 Scala 进行编程练习** *KAIST* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程介绍编程和计算机科学的基本概念，例如动态和静态类型、动态内存分配、对象和方法、数字的二进制表示、从命令行使用编辑器和编译器、从命令行运行带参数的程序、使用库以及基本数据结构（例如数组、列表、集合和映射）的使用。本课程我们将使用 Scala。
+- [讲座] (http://otfried.org/courses/cs109/index.html)
+- [作业] (http://otfried.org/courses/cs109/index.html)
+- [CS 1109](http://www.cs.cornell.edu/courses/CS1109/2013su/) **基本编程概念** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" />
+- 本课程介绍使用高级编程语言进行编程和解决问题。它旨在提高您的知识水平，以便轻松地继续学习 CS111x 课程。我们的重点将是通用编程概念：变量、表达式、控制结构、循环、数组、函数、伪代码和算法。您将学习如何分析问题并将您的想法转化为计算机可解释的解决方案。我们将使用 MATLAB；因为它提供了一个高效的环境，并且被所有工程社区广泛使用。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS1109/2013su/syllabus.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS1109/2013su/calendar.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS1109/2013su/calendar.html)
+- [CS 1110](http://www.cs.cornell.edu/courses/CS1110/2014fa/) **使用 Python 计算简介** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 使用 Python 进行编程和解决问题。强调软件开发、风格和测试的原则。主题包括过程和函数、迭代、递归、数组和向量、字符串、过程和函数调用的操作模型、算法、异常、面向对象编程和 GUI（图形用户界面）。每周实验室提供计算机上的指导练习，并有工作人员在场提供帮助。作业使用图形和 GUI 来帮助培养流畅性和理解力。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS1110/2014fa/about/grading.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS1110/2014fa/lectures/index.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS1110/2014fa/assignments/index.php)
+- [CS 1112](http://www.cs.cornell.edu/courses/CS1112/2014fa/) **Matlab 计算简介** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 使用 MATLAB 进行编程和解决问题。强调算法和程序的系统化开发。主题包括迭代、函数、数组和向量、字符串、递归、算法、面向对象编程和 MATLAB 图形。作业旨在培养对复杂性、维度、模糊数据、不精确算术、随机性、模拟和近似作用的理解。无需任何编程经验；需要一些微积分知识。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS1112/2014fa/syllabus.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS1112/2014fa/syllabus.html#schedule)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS1112/2014fa/Exercises/exercises.html)
+	- [Projects](http://www.cs.cornell.edu/courses/CS1112/2014fa/Projects/projects.html)
+- [CS 1115](http://www.cs.cornell.edu/courses/CS1115/2013fa/) **使用 Matlab 图形用户界面的计算科学与工程简介** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读数" />
+- 使用 MATLAB 进行编程和解决问题。强调算法和程序的系统化开发。主题包括迭代、函数、数组和向量、字符串、递归、算法、面向对象编程和 MATLAB 图形。作业旨在培养对复杂性、维度、模糊数据、不精确算术、随机性、模拟和近似作用的理解。无需任何编程经验；需要一些微积分知识。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS1115/2013fa/syllabus.htm)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS1115/2013fa/lecture_slides.htm)
+	- [Projects](http://www.cs.cornell.edu/courses/CS1115/2013fa/projects_and_exams.htm)
+- [CS 1130](http://www.cs.cornell.edu/courses/CS1130/2014sp/) **过渡到面向对象编程** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 使用 Java 介绍面向对象的概念。假设您具备 MATLAB、C、C++ 或 Fortran 等语言的编程知识。欢迎已经学习过 Java 但没有大量接触过 OO 编程的学生。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS1130/2014sp/about/overview.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS1130/2014sp/web-lectures/index.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS1130/2014sp/assignments/index.php)
+- [CS 1133](http://www.cs.cornell.edu/courses/CS1133/2013fa/) **过渡到 Python** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="读物"/>
+- Python 编程语言简介。涵盖 Python 的基本编程结构，包括赋值、条件、迭代、函数、面向对象设计、数组和向量化计算。假设具备 Java、Matlab、C、C++ 或 Fortran 等语言的编程知识。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS1133/2013fa/about/overview.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS1133/2013fa/lectures/index.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS1133/2013fa/assignments/index.php)
+- [CS 1410-2](http://www.eng.utah.edu/~cs1410-20/) 和 [CS2420-20](http://www.eng.utah.edu/~cs2420-20/) **黑客计算机科学 I 和 II** *犹他大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲义" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读物" title="读物" />
+- 本着 SICP 精神的入门课程，由 [Matthew Flatt 教授](http://www.cs.utah.edu/~mflatt/)（Racket 的首席设计师之一和 HtDP 的作者）设计。主要是 Racket 和 C，还有一点 Java，解释了高级函数式编程概念如何与 OOP 程序的设计相关。如果 SICP 有点太多，请在 SICP 之前执行此操作...
+	- [讲座和作业 1](http://www.eng.utah.edu/~cs1410-20/schedule.html)
+	- [讲座和作业2](http://www.eng.utah.edu/~cs2420-20/schedule.html)
+	- [Textbook](http://htdp.org/2003-09-26/Book/curriculum.html)
+	- [球拍语言](http://racket-lang.org/)
+- [CS 2110](http://www.cs.cornell.edu/courses/CS2110/2014fa/index.html) **面向对象编程和数据结构** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读数" />
+- CS 2110 是中级编程课程和计算机科学入门课程。主题包括程序设计和开发、调试和测试、面向对象编程、正确性证明、复杂性分析、递归、常用数据结构、图算法和抽象数据类型。 Java 是主要的编程语言。通过查看[讲座](http://www.cs.cornell.edu/courses/CS2110/2014fa/lecturenotes.html)的链接可以轻松提取课程大纲。
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS2110/2014fa/lecturenotes.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS2110/2014fa/lecturenotes.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS2110/2014fa/assignments.html)
+- [CS 4302](http://courses2.cit.cornell.edu/info4302_2012fa/) **网络信息系统** *康奈尔大学* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="阅读内容" title="读物"/>
+- 本课程将向您介绍在万维网上构建以数据为中心的信息系统的技术，展示此类系统的实际应用，并通过研究公民科学、数据新闻和开放政府等跨领域问题来讨论其设计及其社会和政策背景。课程作业包括讲座和阅读以及每周的家庭作业，以及一个为期一个学期的项目，学生在项目中展示他们在构建以数据为中心的网络信息系统方面的专业知识。
+	- [Syllabus](http://courses2.cit.cornell.edu/info4302_2012fa/course_information.php)
+	- [Lectures](http://courses2.cit.cornell.edu/info4302_2012fa/lectures.php)
+	- [Assignments](http://courses2.cit.cornell.edu/info4302_2012fa/homeworks.php)
+- [CSCE 2004](http://www.csce.uark.edu/~sgauch/2004/S14/index.html) **编程基础 I** *阿肯色大学（费耶特维尔）* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="作业" title="作业" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="讲座笔记" title="讲座笔记" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="读数" title="读数" />
+- 计算机科学或计算机工程专业学生的入门课程。软件开发过程：问题说明、程序设计、实现、测试和文档。编程主题：数据表示、条件和迭代语句、函数、数组、字符串、文件 I/O 和类。在 UNIX 环境中使用 C++。
+	- [Syllabus](http://www.csce.uark.edu/~sgauch/2004/S14/syllabus.html)
+	- [Notes](http://www.csce.uark.edu/~sgauch/2004/S14/notes/index.html)
+	- [Assignments](http://www.csce.uark.edu/~sgauch/2004/S14/hw/index.html)
+	- [练习考试](http://www.csce.uark.edu/~sgauch/2004/S14/index.html)
+- [CSCI E-1](http://cse1.net/lectures) **了解计算机和互联网** *哈佛大学推广学院*
+<img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course is all about understanding: understanding what's going on inside your computer when you flip on the switch, why tech support has you constantly rebooting your computer, how everything you do on the Internet can be watched by others, and how your computer can become infected with a worm just by being turned on. Designed for students who use computers and the Internet every day but don't fully understand how it all works, this course fills in the gaps. Through lectures on hardware, software, the Internet, multimedia, security, privacy, website development, programming, and more, this course "takes the hood off" of computers and the Internet so that students understand how it all works and why. Through discussions of current events, students are exposed also to the latest technologies.
+	- [Lecture Videos](http://cse1.net/lectures)
+	- [Syllabus](http://cse1.net/syllabus)
+	- [Notes / Recaps](http://cse1.net/recaps)
+	- [Assignments](http://cse1.net/psets)
+- [CS-for-all](http://www.cs.hmc.edu/csforall/) **CS for All**  *Harvey Mudd College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This book (and course) takes a unique approach to “Intro CS.” In a nutshell, our objective is to provide an introduction to computer science as an intellectually rich and vibrant field rather than focusing exclusively on computer programming. While programming is certainly an important and pervasive element of our approach, we emphasize concepts and problem-solving over syntax and programming language features.
+	- [Lectures and Other resources](https://www.cs.hmc.edu/twiki/bin/view/ModularCS1)
+- [6.001](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/index.htm) **Structure and Interpretation of Computer Programs** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Teaches big-picture computing concepts using the Scheme programming language. Students will implement programs in a variety of different programming paradigms (functional, object-oriented, logical). Heavy emphasis on function composition, code-as-data, control abstraction with continuations, and syntactic abstraction through macros. An excellent course if you are looking to build a mental framework on which to hang your programming knowledge.
+	- [Lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures)
+	- [Textbook](http://mitpress.mit.edu/sicp/full-text/book/book.html) ([epub](https://github.com/sarabander/sicp), [pdf](https://github.com/sarabander/sicp-pdf))
+	- [IDE](http://www.neilvandyke.org/racket-sicp/)
+- [6.005](http://web.mit.edu/6.005/www/fa16/) **Software Construction, Fall 2016** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course introduces fundamental principles and techniques of software development. Students learn how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; state machines; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions.
+	- [Lectures Notes/Assignments](http://web.mit.edu/6.005/www/fa16/)
+
+
+-------
+
+### Machine Learning
+
+- [DEEPNLP](https://github.com/oxford-cs-deepnlp-2017/) **Deep Learning for Natural Language Processing** *University of Oxford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This is an applied course focussing on recent advances in analysing and generating speech and text using recurrent neural networks. We introduce the mathematical definitions of the relevant machine learning models and derive their associated optimisation algorithms. The course covers a range of applications of neural networks in NLP including analysing latent dimensions in text, transcribing speech to text, translating between languages, and answering questions. This course is organised by Phil Blunsom and delivered in partnership with the **DeepMind Natural Language Research Group**.
+	- [Lectures](https://github.com/oxford-cs-deepnlp-2017/lectures)
+	- Assignments are available on the organisation page titled as "practicals"
+- [CS20si](http://web.stanford.edu/class/cs20si/index.html) **Tensorflow for Deep Learning Research** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course will cover the fundamentals and contemporary usage of the Tensorflow library for deep learning research. We aim to help students understand the graphical computational model of Tensorflow, explore the functions it has to offer, and learn how to build and structure models best suited for a deep learning project. Through the course, students will use Tensorflow to build models of different complexity, from simple linear/logistic regression to convolutional neural network and recurrent neural networks with LSTM to solve tasks such as word embeddings, translation, optical character recognition. Students will also learn best practices to structure a model and manage research experiments.
+	- [Assignments](https://github.com/chiphuyen/tf-stanford-tutorials) available on Github.
+- [COMS 4771](http://www.cs.columbia.edu/~jebara/4771/index.html) **Machine Learning** *Columbia University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Course taught by [Tony Jebara](http://www.cs.columbia.edu/~jebara/resume.html) introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.
+	- [Lectures and Assignments](http://www.cs.columbia.edu/~jebara/4771/handouts.html)
+- [CS 109](http://cs109.github.io/2015/) **Data Science** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries.
+	- [Lectures](http://cm.dce.harvard.edu/2015/01/14328/publicationListing.shtml)
+	- [Slides](http://cs109.github.io/2014/pages/schedule.html)
+	- [Labs and Assignments](http://cs109.github.io/2014/pages/homework.html)
+	- [2014 Lectures](http://cs109.github.io/2014/)
+	- [2013 Lectures](http://cm.dce.harvard.edu/2014/01/14328/publicationListing.shtml) *(slightly better)*
+- [CS 156](https://work.caltech.edu/telecourse.html) **Learning from Data** *Caltech* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This is an introductory course in machine learning (ML) that covers the basic theory, algorithms, and applications. ML is a key technology in Big Data, and in many financial, medical, commercial, and scientific applications. It enables computational systems to adaptively improve their performance with experience accumulated from the observed data. ML has become one of the hottest fields of study today, taken up by undergraduate and graduate students from 15 different majors at Caltech. This course balances theory and practice, and covers the mathematical as well as the heuristic aspects.  
+	- [Lectures](https://work.caltech.edu/lectures.html)
+	- [Homework](https://work.caltech.edu/homeworks.html)
+	- [Textbook](https://work.caltech.edu/textbook.html)
+- [CS 189](http://www.eecs189.org/) **Introduction To Machine Learning** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Introductory ML course covering a wide range of topics: ranging from least squares to convolutional neural networks
+	- [Notes](http://www.eecs189.org/)
+	- [Homework](http://www.eecs189.org/)
+- [CS 224d](http://cs224d.stanford.edu/) **Deep Learning for Natural Language Processing** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Natural language processing (NLP) is one of the most important technologies of the information age. Understanding complex language utterances is also a crucial part of artificial intelligence. Applications of NLP are everywhere because people communicate most everything in language: web search, advertisement, emails, customer service, language translation, radiology reports, etc. There are a large variety of underlying tasks and machine learning models powering NLP applications. Recently, deep learning approaches have obtained very high performance across many different NLP tasks. These models can often be trained with a single end-to-end model and do not require traditional, task-specific feature engineering. In this spring quarter course students will learn to implement, train, debug, visualize and invent their own neural network models. The course provides a deep excursion into cutting-edge research in deep learning applied to NLP.
+	- [Syllabus](http://cs224d.stanford.edu/syllabus.html)
+	- [Lectures and Assignments](http://cs224d.stanford.edu/syllabus.html)
+- [CS 229r](http://people.seas.harvard.edu/~minilek/cs229r/fall15/index.html) **Algorithms for Big Data** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Big data is data so large that it does not fit in the main memory of a single machine, and the need to process big data by efficient algorithms arises in Internet search, network traffic monitoring, machine learning, scientific computing, signal processing, and several other areas. This course will cover mathematically rigorous models for developing such algorithms, as well as some provable limitations of algorithms operating in those models.
+	- [Lectures](http://people.seas.harvard.edu/~minilek/cs229r/fall15/lec.html) ([Youtube](https://www.youtube.com/playlist?list=PL2SOU6wwxB0v1kQTpqpuu5kEJo2i-iUyf))
+	- [Assignments](http://people.seas.harvard.edu/~minilek/cs229r/fall15/hmwk.html)
+- [CS 231n](http://cs231n.stanford.edu/) **Convolutional Neural Networks for Visual Recognition** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" />
+	- Computer Vision has become ubiquitous in our society, with applications in search, image understanding, apps, mapping, medicine, drones, and self-driving cars. This course is a deep dive into details of the deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification. During the 10-week course, students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in computer vision.
+	- [Lecture Notes](http://cs231n.stanford.edu/syllabus.html)
+	- [Lecture Videos](https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
+	- [Github Page](http://cs231n.github.io/)
+- [CS 287](http://www.cs.berkeley.edu/~pabbeel/cs287-fa13/) **Advanced Robotics** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- The course introduces the math and algorithms underneath state-of-the-art robotic systems. The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence. An intended side-effect of the course is to generally strengthen your expertise in these two areas.
+	- [Lectures Notes](http://www.cs.berkeley.edu/~pabbeel/cs287-fa13/#syllabus)
+	- [Assignments](http://www.cs.berkeley.edu/~pabbeel/cs287-fa13/#assignments)
+- [CS 395T](http://www.nr.com/CS395T/) **Statistical and Discrete Methods for Scientific Computing** *University of Texas* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- Practical course in applying modern statistical techniques to real data, particularly bioinformatic data and large data sets. The emphasis is on efficient computation and concise coding, mostly in MATLAB and C++.
+Topics covered include probability theory and Bayesian inference; univariate distributions; Central Limit Theorem; generation of random deviates; tail (p-value) tests; multiple hypothesis correction; empirical distributions; model fitting; error estimation; contingency tables; multivariate normal distributions; phylogenetic clustering; Gaussian mixture models; EM methods; maximum likelihood estimation; Markov Chain Monte Carlo; principal component analysis; dynamic programming; hidden Markov models; performance measures for classifiers; support vector machines; Wiener filtering; wavelets; multidimensional interpolation; information theory.
+	- [Lectures and Assignments](http://wpressutexas.net/forum/)
+- [CS 4780](http://www.cs.cornell.edu/courses/CS4780/2014fa/) **Machine Learning** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course will introduce you to technologies for building data-centric information systems on the World Wide Web, show the practical applications of such systems, and discuss their design and their social and policy context by examining cross-cutting issues such as citizen science, data journalism and open government. Course work involves lectures and readings as well as weekly homework assignments, and a semester-long project in which the students demonstrate their expertise in building data-centric Web information systems.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4780/2014fa/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4780/2014fa/)
+- [CS 4786](http://www.cs.cornell.edu/courses/CS4786/2015sp/index.htm) **Machine Learning for Data Science** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- An introductory course in machine learning, with a focus on data modeling and related methods and learning algorithms for data sciences. Tentative topic list:
+		- Dimensionality reduction, such as principal component analysis (PCA) and the singular value decomposition (SVD), canonical correlation analysis (CCA), independent component analysis (ICA), compressed sensing, random projection, the information bottleneck. (We expect to cover some, but probably not all, of these topics).
+		- Clustering, such as k-means, Gaussian mixture models, the expectation-maximization (EM) algorithm, link-based clustering. (We do not expect to cover hierarchical or spectral clustering.).
+		- Probabilistic-modeling topics such as graphical models, latent-variable models, inference (e.g., belief propagation), parameter learning.
+		- Regression will be covered if time permits.
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4786/2015sp/assignments.htm)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4786/2015sp/lectures.htm)
+- [CVX 101](https://class.stanford.edu/courses/Engineering/CVX101/Winter2014/info) **Convex Optimization** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+ 	- The course concentrates on recognizing and solving convex optimization problems that arise in applications.  Topics addressed include the following.  Convex sets, functions, and optimization problems.  Basics of convex analysis.  Least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems.  Optimality conditions, duality theory, theorems of alternative, and applications.  Interior-point methods.  Applications to signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design, and finance.
+  	- [Textbook](http://web.stanford.edu/~boyd/cvxbook/)
+  	- [Lectures and Assignments](https://class.stanford.edu/courses/Engineering/CVX101/Winter2014/courseware/7206c57866504e83821d00b5d3f80793/)
+- [DS-GA 1008](http://cilvr.cs.nyu.edu/doku.php?id=deeplearning2015:schedule) **Deep Learning** *New York University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- This increasingly popular course is taught through the Data Science Center at NYU. Originally introduced by [Yann Lecun](http://yann.lecun.com/), it is now led by [Zaid Harchaoui](http://www.harchaoui.eu/), although Prof. Lecun is rumored to still stop by from time to time. It covers the theory, technique, and tricks that are used to achieve very high accuracy for machine learning tasks in computer vision and natural language processing. The assignments are in Lua and hosted on Kaggle.
+	- [Course Page](http://cilvr.cs.nyu.edu/doku.php?id=deeplearning2015:schedule)
+	- [Recorded Lectures](http://techtalks.tv/deep-learning-nyu-spring-2015/)
+- [EECS E6893 & EECS E6895](http://www.ee.columbia.edu/~cylin/course/bigdata/) **Big Data Analytics & Advanced Big Data Analytics** *Columbia University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Students will gain knowledge on analyzing Big Data. It serves as an introductory course for graduate students who are expecting to face Big Data storage, processing, analysis, visualization, and application issues on both workplaces and research environments.
+	- Taught by [Dr. Ching-Yung Lin](http://researcher.watson.ibm.com/researcher/view.php?person=us-chingyung)
+	- [Course Site](http://www.ee.columbia.edu/~cylin/course/bigdata/)
+	- Assignments - Assignments are present in the Course Slides
+- [EECS E6894](http://llcao.net/cu-deeplearning15/index.html) **Deep Learning for Computer Vision and Natural Language Processing** *Columbia University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+  - This graduate level research class focuses on deep learning techniques for vision and natural language processing problems. It gives an overview of the various deep learning models and techniques, and surveys recent advances in the related fields. This course uses Theano as the main programming tool. GPU programming experiences are preferred although not required. Frequent paper presentations and a heavy programming workload are expected.
+  - [Readings](http://llcao.net/cu-deeplearning15/reading.html)
+  - [Assignments](http://llcao.net/cu-deeplearning15/programming_problem.html)
+  - [Lecture Notes](http://llcao.net/cu-deeplearning15/index.html) 
+- [EE103](http://stanford.edu/class/ee103/) **Introduction to Matrix Methods** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- The course covers the basics of matrices and vectors, solving linear equations, least-squares methods, and many applications. It'll cover the mathematics, but the focus will be on using matrix methods in applications such as tomography, image processing, data fitting, time series prediction, finance, and many others. EE103 is based on a book that [Stephen Boyd](http://stanford.edu/~boyd/) and [Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/) are currently writing. Students will use a new language called [Julia](http://julialang.org/) to do computations with matrices and vectors.
+	- [Lectures](http://stanford.edu/class/ee103/lectures.html)
+	- [Book](http://stanford.edu/class/ee103/mma.html)
+	- [Assignments](http://stanford.edu/class/ee103/homework.html)
+	- [Code](http://stanford.edu/class/ee103/julia_files)
+- [Fast.ai Introduction to Machine Learning for Coders](http://course.fast.ai/ml.html) *Fast.ai / University of San Francisco* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- There are around 24 hours of lessons, and you should plan to spend around 8 hours a week for 12 weeks to complete the material. The course is based on lessons recorded at the University of San Francisco for the Masters of Science in Data Science program. We assume that you have at least one year of coding experience, and either remember what you learned in high school math, or are prepared to do some independent study to refresh your knowledge. 
+	- [Lecture Videos](http://course.fast.ai/lessonsml1/lessonsml1.html)
+	- [Lecture Notes](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-1-84a1dc2b5236)
+	- [Jupyter Notebooks](https://github.com/fastai/fastai/tree/master/courses/ml1)
+- [Info 290](http://www.ischool.berkeley.edu/courses/i290-abdt) **Analyzing Big Data with Twitter** *UC Berkeley school of information* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" />
+	- In this course, UC Berkeley professors and Twitter engineers provide lectures on the most cutting-edge algorithms and software tools for data analytics as applied to Twitter's data. Topics include applied natural language processing algorithms such as sentiment analysis, large scale anomaly detection, real-time search, information diffusion and outbreak detection, trend detection in social streams, recommendation algorithms, and advanced frameworks for distributed computing.
+	-  [Lecture Videos](http://www.ischool.berkeley.edu/newsandevents/audiovideo/webcast/21963)
+	-  [Previous Years coursepage](http://blogs.ischool.berkeley.edu/i290-abdt-s12/)
+- [Machine Learning: 2014-2015](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) *University of Oxford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- The course focusses on neural networks and uses the [Torch](https://github.com/torch/torch7/wiki/Cheatsheet) deep learning library (implemented in Lua) for exercises and assignments. Topics include: logistic regression, back-propagation, convolutional neural networks, max-margin learning, siamese networks, recurrent neural networks, LSTMs, hand-writing with recurrent neural networks, variational autoencoders and image generation and reinforcement learning
+	- [Lectures and Assignments](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)
+	- [Source code](https://github.com/oxford-cs-ml-2015/)
+- [StatLearning](https://lagunita.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about) **Intro to Statistical Learning** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" />
+	- This is an introductory-level course in supervised learning, with a focus on regression and classification methods. The syllabus includes: linear and polynomial regression, logistic regression and linear discriminant analysis; cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso); nonlinear models, splines and generalized additive models; tree-based methods, random forests and boosting; support-vector machines.
+	- The lectures cover all the material in [An Introduction to Statistical Learning, with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/) which is a more approachable version of the [Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) (or ESL) book.
+- [10-601](http://www.cs.cmu.edu/~ninamf/courses/601sp15/) **Machine Learning** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" />
+	- This course covers the theory and practical algorithms for machine learning from a variety of perspectives. It covers topics such as Bayesian networks, decision tree learning, Support Vector Machines, statistical learning methods, unsupervised learning and reinforcement learning. The course covers theoretical concepts such as inductive bias, the PAC learning framework, Bayesian learning methods, margin-based learning, and Occam's Razor. Short programming assignments include hands-on experiments with various learning algorithms. This course is designed to give a graduate-level student a thorough grounding in the methodologies, technologies, mathematics and algorithms currently needed by people who do research in machine learning.
+	- Taught by one of the leading experts on Machine Learning - **Tom Mitchell**
+	- [Lectures](http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml)
+	- [Project Ideas and Datasets](http://www.cs.cmu.edu/~tom/10701_sp11/proj.shtml)
+- [10-708](http://www.cs.cmu.edu/~epxing/Class/10708-14/index.html) **Probabilistic Graphical Models** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Many of the problems in artificial intelligence, statistics, computer systems, computer vision, natural language processing, and computational biology, among many other fields, can be viewed as the search for a coherent global conclusion from local information. The probabilistic graphical models framework provides a unified view for this wide range of problems, enabling efficient inference, decision-making and learning in problems with a very large number of attributes and huge datasets. This graduate-level course will provide you with a strong foundation for both applying graphical models to complex problems and for addressing core research topics in graphical models.
+	- [Lecture Videos](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)
+	- [Assignments](http://www.cs.cmu.edu/~epxing/Class/10708-14/homework.html)
+	- [Lecture notes](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)
+	- [Readings](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)
+- [11-785](http://deeplearning.cs.cmu.edu/) **Deep Learning** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- The course presents the subject through a series of seminars and labs, which will explore it from its early beginnings, and work themselves to some of the state of the art. The seminars will cover the basics of deep learning and the underlying theory, as well as the breadth of application areas to which it has been applied, as well as the latest issues on learning from very large amounts of data. We will concentrate largely, although not entirely, on the connectionist architectures that are most commonly associated with it. *Lectures* and *Reading Notes* are available on the page.
+- [CS246](http://web.stanford.edu/class/cs246/) **Mining Massive Data Sets** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- The course will discuss data mining and machine learning algorithms for analyzing very large amounts of data. The emphasis will be on Map Reduce as a tool for creating parallel algorithms that can process very large amounts of data.
+	- [Lecture Videos](http://www.mmds.org/#mooc)
+	- [Assignments](http://web.stanford.edu/class/cs246/handouts.html)
+	- [Lecture notes](http://web.stanford.edu/class/cs246/handouts.html)
+	- [Readings](http://www.mmds.org/#book)
+- [CS276](http://web.stanford.edu/class/cs276/index.html) **Information Retrieval and Web Search** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Basic and advanced techniques for text-based information systems: efficient text indexing; Boolean and vector space retrieval models; evaluation and interface issues; Web search including crawling, link-based algorithms, and Web metadata; text/Web clustering, classification; text mining.
+	- [Lecture notes](http://web.stanford.edu/class/cs276/index.html#syllabus)
+	- [Readings](http://web.stanford.edu/class/cs276/index.html#books)
+- [Practical_RL](https://github.com/yandexdataschool/Practical_RL) **Reinforcement Learning in the Wild** *Yandex SDA* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- A course on reinforcement learning in the wild. Taught on-campus in HSE and Yandex SDA (russian) and maintained to be friendly to online students (both english and russian).
+	- [Syllabus](https://github.com/yandexdataschool/Practical_RL#syllabus)
+- [UvA DEEP LEARNING](http://uvadlc.github.io/) **UvA Deep Learning Course** *University of Amsterdam* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course is taught in the MSc program in Artificial Intelligence of the University of Amsterdam. In this course we study the theory of deep learning, namely of modern, multi-layered neural networks trained on big data. The course focuses particularly on computer vision and language modelling, which are perhaps two of the most recognizable and impressive applications of the deep learning theory.
+	- [Lecture Videos & Notes](http://uvadlc.github.io/#lecture)
+	- [Practicals](http://uvadlc.github.io/#practicals)
+	- [Readings](http://uvadlc.github.io/#other-links)
+
+-------
+
+### Security
+- [CIS 4930 / CIS 5930](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/) **Offensive Computer Security** *Florida State University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Course taught by [W. Owen Redwood](http://ww2.cs.fsu.edu/~redwood/) and [Xiuwen Liu](http://www.cs.fsu.edu/~liux/). It covers a wide range of computer security topics, starting from Secure C Coding and Reverse Engineering to Penetration Testing, Exploitation and Web Application Hacking, both from the defensive and the offensive point of view.
+	- [Lectures and Videos](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html)
+	- [Assignments](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/assignments.html)
+- [CS 155](https://crypto.stanford.edu/cs155/) **Computer and Network Security** *Stanford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Principles of computer systems security. Attack techniques and how to defend against them. Topics include: network attacks and defenses, operating system holes, application security (web, email, databases), viruses, social engineering attacks, privacy, and digital rights management. Course projects focus on building reliable code. Recommended: Basic Unix. Primarily intended for seniors and first-year graduate students.
+- [CS 161](http://www-inst.eecs.berkeley.edu/~cs161/sp15/) **Computer Security** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Introduction to computer security. Cryptography, including encryption, authentication, hash functions, cryptographic protocols, and applications. Operating system security, access control. Network security, firewalls, viruses, and worms. Software security, defensive programming, and language-based security. Case studies from real-world systems.
+- [CS 259](https://courseware.stanford.edu/pg/courses/331628/cs259-winter-2013) **Security Modeling and Analysis** *Stanford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- The course will cover a variety of contemporary network protocols and other systems with security properties. The course goal is to give students hands-on experience in using automated tools and related techniques to analyze and evaluate security mechanisms. To understand security properties and requirements, we will look at several network protocols and their properties, including secrecy, authentication, key establishment, and fairness. In parallel, the course will look at several models and tools used in security analysis and examine their advantages and limitations. In addition to fully automated finite-state model checking techniques, we will also study other approaches, such as constraint solving, process algebras, protocol logics, probabilistic model checking, game theory, and executable models based on logic programming.
+- [CS 261](http://www.icir.org/vern/cs261n-Sp14/) **Internet/Network Security** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This class aims to provide a thorough grounding in network security suitable for those interested in conducting research in the area, as well as students more generally interested in either security or networking. We will also look at broader issues relating to Internet security for which networking plays a role.  Topics include: denial-of-service; capabilities; network intrusion detection; worms; forensics; scanning; traffic analysis / inferring activity; architecture; protocol issues; legality and ethics; web attacks; anonymity; honeypots; botnets; spam; the underground economy; research pitfalls. The course is taught with an emphasis on seminal papers rather than bleeding-edge for a given topic.
+- [CS 5430](http://www.cs.cornell.edu/courses/CS5430/2013sp/) **System Security** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="" width="20" height="20" alt="Readings" title="Readings" />
+	- This course discusses security for computers and networked information systems. We focus on abstractions, principles, and defenses for implementing military as well as commercial-grade secure systems.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS5430/2013sp/01.intro.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS5430/2013sp/02.outline.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS5430/2013sp/)
+- [CSCI 4968](https://github.com/RPISEC/MBE) **Modern Binary Exploitation** *Rensselaer Polytechnic Institute* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- This repository contains the materials as developed and used by [RPISEC](http://rpis.ec) to
+teach Modern Binary Exploitation at [Rensselaer Polytechnic Institute](http://rpi.edu) in
+Spring 2015. This was a university course developed and run solely by students to teach
+skills in vulnerability research, reverse engineering, and binary exploitation.
+	- [Lectures Notes](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/)
+	- [Labs](https://github.com/RPISEC/MBE/tree/master/src)
+	- [Projects](https://github.com/RPISEC/MBE/tree/master/src)
+- [CSCI 4976](https://github.com/RPISEC/Malware) **Malware Analysis** *Rensselaer Polytechnic Institute* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- This repository contains the materials as developed and used by [RPISEC](http://rpis.ec) to
+teach Malware Analysis at [Rensselaer Polytechnic Institute](http://rpi.edu) in
+Fall 2015. This was a university course developed and run solely by students, primarily using the
+- [EECS 588](https://www.eecs.umich.edu/courses/eecs588/) **Computer & Network Security** *University of Michigan* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Taught by [J. Alex Halderman](https://jhalderm.com/) who has analyzed the security of Electronic Voting Machines in the [US](https://jhalderm.com/pub/papers/dcvoting-fc12.pdf) and [over](https://jhalderm.com/pub/papers/ivoting-ccs14.pdf) [seas](https://jhalderm.com/pub/papers/evm-ccs10.pdf).
+	- This intensive research seminar covers foundational work and current topics in computer systems security.
+	- [Readings](https://www.eecs.umich.edu/courses/eecs588/readings.html)
+[Practical Malware Analysis](http://www.amazon.com/Practical-Malware-Analysis-Dissecting-Malicious/dp/1593272901)
+book by Michael Sikorski and Andrew Honig, to teach skills in reverse engineering, malicious behaviour, malware,
+and anti-analysis techniques.
+	- [Lectures Notes](https://github.com/RPISEC/Malware/tree/master/Lectures)
+	- [Labs](https://github.com/RPISEC/Malware/tree/master/Labs)
+	- [Projects](https://github.com/RPISEC/Malware/tree/master/Projects)
+- [6.857](https://courses.csail.mit.edu/6.857/2015/) **Computer and Network Security** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Emphasis on applied cryptography and may include: basic notion of systems security, cryptographic hash functions, symmetric cryptography (one-time pad, stream ciphers, block ciphers), cryptanalysis, secret-sharing, authentication codes, public-key cryptography (encryption, digital signatures), public-key attacks, web browser security, biometrics, electronic cash, viruses, electronic voting, Assignments include a group final project. Topics may vary year to year.
+	[Lecture Notes](https://courses.csail.mit.edu/6.857/2015/handouts)
+	[References](https://courses.csail.mit.edu/6.857/2015/references)
+- [6.858](http://css.csail.mit.edu/6.858/2014/) **Computer Systems Security** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="" width="20" height="20" alt="Readings" title="Readings" />
+	- Design and implementation of secure computer systems. Lectures cover threat models, attacks that compromise security, and techniques for achieving security, based on recent research papers. Topics include operating system (OS) security, capabilities, information flow control, language security, network protocols, hardware security, and security in web applications.
+	- Taught by [James Mickens](http://research.microsoft.com/en-us/people/mickens/) and [Nickolai Zeldovich](http://people.csail.mit.edu/nickolai/)
+	- [Video Lectures and Labs](http://css.csail.mit.edu/6.858/2014/schedule.html)
+	- [Quizzes](http://css.csail.mit.edu/6.858/2014/quiz.html)
+	- [Readings](http://css.csail.mit.edu/6.858/2014/reference.html)
+	- [Final Projects](http://css.csail.mit.edu/6.858/2014/projects.html)
+- [18-636](https://courseware.stanford.edu/pg/courses/334553/18636-spring-2013) **Browser Security** *Stanford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- The Web continues to grow in popularity as platform for retail transactions, financial services, and rapidly evolving forms of communication. It is becoming an increasingly attractive target for attackers who wish to compromise users' systems or steal data from other sites. Browser vendors must stay ahead of these attacks by providing features that support secure web applications. This course will study vulnerabilities in existing web browsers and the applications they render, as well as new technologies that enable web applications that were never before possible. The material will be largely based on current research problems, and students will be expected to criticize and improve existing defenses. Topics of study include (but are not limited to) browser encryption, JavaScript security, plug-in security, sandboxing, web mashups, and authentication.
+
+-------
+### Artificial Intelligence
+
+- [CS 188](http://ai.berkeley.edu/home.html) **Introduction to Artificial Intelligence** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision-theoretic modeling paradigm. By the end of this course, you will have built autonomous agents that efficiently make decisions in fully informed, partially observable and adversarial settings. Your agents will draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in this course apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
+	- [Lectures](http://ai.berkeley.edu/lecture_videos.html)
+	- [Projects](http://ai.berkeley.edu/project_overview.html)
+	- [Exams](http://ai.berkeley.edu/exams.html)
+- [CS 4700](http://www.cs.cornell.edu/courses/CS4700/2014fa/) **Foundations of Artificial Intelligence** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course will provide an introduction to computer vision, with topics including image formation, feature detection, motion estimation, image mosaics, 3D shape reconstruction, and object and face detection and recognition. Applications of these techniques include building 3D maps, creating virtual characters, organizing photo and video databases, human computer interaction, video surveillance, automatic vehicle navigation, and mobile computer vision. This is a project-based course, in which you will implement several computer vision algorithms throughout the semester.
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4700/2014fa/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4700/2014fa/)
+- [CS 6700](http://www.cs.cornell.edu/courses/CS6700/2013sp/) **Advanced Artificial Intelligence** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- The design of systems that are among top 10 performers in the world (human, computer, or hybrid human-computer).
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS6700/2013sp/lectures/CS6700-Overview_v2.pptx)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6700/2013sp/)
+	- [Readings](http://www.cs.cornell.edu/courses/CS6700/2013sp/)
+- [6.868J](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/index.htm) **The Society of Mind** *MIT* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course is an introduction, by Prof. [Marvin Minsky](http://www.nytimes.com/2016/01/26/business/marvin-minsky-pioneer-in-artificial-intelligence-dies-at-88.html?_r=0), to the theory that tries to explain how minds are made from collections of simpler processes. It treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. It incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning.
+	- [Lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/video-lectures/)
+	- [Assignments](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/assignments/)
+	- [Readings](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/readings/)
+
+-------
+### Computer Graphics
+- [CAP 5415](http://crcv.ucf.edu/courses/CAP5415/) **Computer Vision** *University of Central Florida* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- An introductory level course covering the basic topics of computer vision, and introducing some fundamental approaches for computer vision research.
+	- [Lectures and Videos](http://crcv.ucf.edu/videos/Lecture_Videos/)
+	- [Assignments](http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php)
+- [CIS 581](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=CIS_581:_Computer_Vision_%26_Computational_Photography) **Computer Vision and Computational Photography** *University of Pennsylvania* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- An introductory course in computer vision and computational photography focusing on four topics: image features, image morphing, shape matching, and image search.
+	- [Lectures](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Schedule)
+	- [Assignments](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Projects)
+- [CMU 462](http://15462.courses.cs.cmu.edu/fall2015) **Computer Graphics** *Carnegie Mellon University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course provides a comprehensive introduction to computer graphics. Focuses on fundamental concepts and techniques, and their cross-cutting relationship to multiple problem domains in graphics (rendering, animation, geometry, imaging). Topics include: sampling, aliasing, interpolation, rasterization, geometric transformations, parameterization, visibility, compositing, filtering, convolution, curves & surfaces, geometric data structures, subdivision, meshing, spatial hierarchies, ray tracing, radiometry, reflectance, light fields, geometric optics, Monte Carlo rendering, importance sampling, camera models, high-performance ray tracing, differential equations, time integration, numerical differentiation, physically-based animation, optimization, numerical linear algebra, inverse kinematics, Fourier methods, data fitting, example-based synthesis.
+	- [Lectures and Readings](http://15462.courses.cs.cmu.edu/fall2015/reading)
+	- [Assignments and Quizes](http://15462.courses.cs.cmu.edu/fall2015/exercises)
+- [CS 378](https://github.com/ut-cs378-vision-2014fall/course-info) **3D Reconstruction with Computer Vision** *UTexas* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- In this lab-based class, we'll dive into practical applications of 3D reconstruction, combining hardware and software to build our own 3D environments from scratch. We'll use open-source frameworks like OpenCV to do the heavy lifting, with the focus on understanding and applying state-of-the art approaches to geometric computer vision
+	- [Lectures](https://github.com/ut-cs378-vision-2014fall/course-info/tree/master/meeting-notes)
+- [CS 4620](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#) **Introduction to Computer Graphics** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
+	- The study of creating, manipulating, and using visual images in the computer.
+	- [Assignments](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#asgn)
+	- [Exams](http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#exams)
+- [CS 4670](http://www.cs.cornell.edu/courses/CS4670/2015sp/) **Introduction to Computer Vision** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- This course will provide an introduction to computer vision, with topics including image formation, feature detection, motion estimation, image mosaics, 3D shape reconstruction, and object and face detection and recognition. Applications of these techniques include building 3D maps, creating virtual characters, organizing photo and video databases, human computer interaction, video surveillance, automatic vehicle navigation, and mobile computer vision. This is a project-based course, in which you will implement several computer vision algorithms throughout the semester.
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4670/2015sp/projects/projects.html)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4670/2015sp/lectures/lectures.html)
+- [CS 6670](https://canvas.instructure.com/courses/904706) **Computer Vision** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Introduction to computer vision. Topics include edge detection, image segmentation, stereopsis, motion and optical flow, image mosaics, 3D shape reconstruction, and object recognition. Students are required to implement several of the algorithms covered in the course and complete a final project.
+	- [Syllabus](https://canvas.instructure.com/courses/904706/assignments/syllabus)
+	- [Lectures](https://canvas.instructure.com/courses/904706)
+	- [Assignments](https://canvas.instructure.com/courses/904706/assignments)
+- [CSCI 1230](http://cs.brown.edu/courses/csci1230/index.html) **Introduction to Computer Graphics** *Brown University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course offers an in-depth exploration of fundamental concepts in 2D and 3D computer graphics. It introduces 2D raster graphics techniques, including scan conversion, simple image processing, interaction techniques and user interface design. The bulk of the course is devoted to 3D modeling, geometric transformations, and 3D viewing and rendering.
+	- [Lectures](http://cs.brown.edu/courses/csci1230/lectures.html)
+	- [Labs](http://cs.brown.edu/courses/csci1230/labs.html)
+	- [Demos](http://cs.brown.edu/courses/csci1230/demos.html)
+- [CSCI-GA.2270-001](https://mrl.nyu.edu/~perlin/courses/fall2015/) **Graduate Computer Graphics** *New York University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
+	- Step-by-step study computer graphics, with reading and homework at each lecture (Fall2015)
+	- [Lectures](https://mrl.nyu.edu/~perlin/courses/fall2015/)
+
+-------
+### Misc
+- [AM 207](http://am207.github.io/2016/index.html) **Monte Carlo Methods and Stochastic Optimization** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" />
+	- This course introduces important principles of Monte Carlo techniques and demonstrates the power of these techniques with simple (but very useful) applications. All of this in Python!
+	- [Lecture Videos](http://cm.dce.harvard.edu/2015/02/24104/publicationListing.shtml)
+	- [Assignments](http://am207.github.io/2016/homework.html)
+	- [Lecture Notes](http://am207.github.io/2016/lectures.html)
+- [CS 75](http://ocw.tufts.edu/Course/75)  **Introduction to Game Development** *Tufts University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- The course taught by [Ming Y. Chow](http://mchow01.github.io) teaches game development initially in PyGame through Python, before moving on to addressing all facets of game development. Topics addressed include game physics, sprites, animation, game development methodology, sound, testing, MMORPGs and online games, and addressing mobile development in Android, HTML5, and iOS. Most to all of the development is focused on PyGame for learning principles
+	- [Text Lectures](http://ocw.tufts.edu/Course/75/Learningunits)
+	- [Assignments](http://ocw.tufts.edu/Course/75/Assignments)
+	- [Labs](http://ocw.tufts.edu/Course/75/Labs)
+- [CS 50](https://cs50.github.io/games/) **Intro to Game Developement** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course picks up where Harvard College’s [CS50](https://cs50.harvard.edu/) leaves off, focusing on the development of 2D and 3D interactive games. Students explore the design of such childhood games as Super Mario Bros., Legend of Zelda, and Portal in a quest to understand how video games themselves are implemented. Via lectures and hands-on projects, the course explores principles of 2D and 3D graphics, animation, sound, and collision detection using frameworks like Unity and [LÖVE 2D](https://love2d.org/), as well as languages like Lua and C#. By class’s end, students will have programmed several of their own games and gained a thorough understanding of the basics of game design and development.
+	- [Assignments](https://cs50.github.io/games/assignments)
+	- [Lecture Videos](https://cs50.github.io/games/lectures)
+- [CS 100](https://github.com/mikeizbicki/ucr-cs100) **Open Source Software Construction** *UC Riverside* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This is a course on how to be a hacker. Your first four homework assignments walk you through the process of building your own unix shell. You'll be developing it as an open source project, and you will collaborate with each other at various points.
+	- [Github Page](https://github.com/mikeizbicki/ucr-cs100)
+	- [Assignments](https://github.com/mikeizbicki/ucr-cs100/tree/2015winter/assignments)
+- [CS 108](http://web.stanford.edu/class/archive/cs/cs108/cs108.1092/) **Object Oriented System Design** *Stanford* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Software design and construction in the context of large OOP libraries. Taught in Java. Topics: OOP design, design patterns, testing, graphical user interface (GUI) OOP libraries, software engineering strategies, approaches to programming in teams.
+- [CS 168](https://inst.eecs.berkeley.edu/~cs168/fa15/) **Computer Networks** *UC Berkeley*<img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This is an undergraduate level course covering the fundamental concepts of networking as embodied in the Internet. The course will cover a wide range of topics; see the lecture schedule for more details. While the class has a textbook, we will not follow its order of presentation but will instead use the text as a reference when covering each individual topic. The course will also have several projects that involve programming (in Python).
+	- You should know programming, data structures, and software engineering. In terms of mathematics, your algebra should be very solid, you need to know basic probability, and you should be comfortable with thinking abstractly. The TAs will spend very little time reviewing material that is not specific to networking. We assume that you either know the material covered in those courses, or are willing to learn the material as necessary. We won't cover any of this material in lecture.
+- [CS 193a](http://web.stanford.edu/class/cs193a/lectures.shtml) **Android App Development, Spring 2016** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Course Description: This course provides an introduction to developing applications for the Android mobile platform.
+	- Prerequisite: CS 106B or equivalent. Java experience highly recommended. OOP highly recommmended.
+	- Devices: Access to an Android phone and/or tablet recommended but not required.
+	- Videos: Videos list can be found [here](http://web.stanford.edu/class/cs193a/videos.shtml)
+	- Other materials: Some codes, handsout, homework ..... and lecture notes are not downloadable on the site due to login requirement. Please head to my Github repo [here](https://github.com/VoLuong/Materials-CS193A-Android-App-Development-Standford) to download them.
+- [CS 193p](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550) **Developing Applications for iOS** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Updated for iOS 7. Tools and APIs required to build applications for the iPhone and iPad platform using the iOS SDK. User interface designs for mobile devices and unique user interactions using multi-touch technologies. Object-oriented design using model-view-controller paradigm, memory management, Objective-C programming language. Other topics include: object-oriented database API, animation, multi-threading and performance considerations.
+	- Prerequisites: C language and object-oriented programming experience
+	- Recommended: [Programming Abstractions](https://itunes.apple.com/us/course/programming-abstractions/id495054099)
+	- [Updated courses for iOS8 - Swift](https://itunes.apple.com/us/course/developing-ios-8-apps-swift/id961180099)
+	- [Updated courses for iOS9 - Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)
+- [CS 223A](https://see.stanford.edu/Course/CS223A) **Introduction to Robotics** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- The purpose of this course is to introduce you to basics of modeling, design, planning, and control of robot systems. In essence, the material treated in this course is a brief survey of relevant results from geometry, kinematics, statics, dynamics, and control.
+- [CS 262a](http://www.cs.berkeley.edu/~brewer/cs262/) **Advanced Topics in Computer Systems** *UC Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- CS262a is the first semester of a year-long sequence on computer systems research, including operating systems, database systems, and Internet infrastructure systems.  The goal of the course is to cover a broad array of research topics in computer systems, and to engage you in top-flight systems research.  The first semester is devoted to basic thematic issues and underlying techniques in computer systems, while the second semester goes deeper into topics related to scalable, parallel and distributed systems.  The class is based on a discussion of important research papers and a research project.  
+	- **Parts**: Some Classics, Persistent Storage, Concurrency, Higher-Level Models, Virtual Machines, Cloud Computing, Parallel and Distributed Computing, Potpourri.   
+	- Prerequisites: The historical prerequisite was to pass an entrance exam in class, which covered undergraduate operating systems material (similar to [UCB's CS162](https://cs162.eecs.berkeley.edu/)). There is no longer an exam. However, if you have not already taken a decent undergrad OS class, you should talk with me before taking this class. The exam had the benefit of "paging in" the undergrad material, which may have been its primary value (since the pass rate was high).
+	- [Readings & Lectures](http://www.cs.berkeley.edu/~brewer/cs262/)
+- [CS 294](http://inst.eecs.berkeley.edu/~cs294-101/sp15/) **Cutting-edge Web Technologies** *Berkeley* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Want to learn what makes future web technologies tick? Join us for the class where we will dive into the internals of many of the newest web technologies, analyze and dissect them. We will conduct survey lectures to provide the background and overview of the area as well as invite guest lecturers from various leading projects to present their technologies.
+- [CS 411](http://video.bilkent.edu.tr/course_videos.php?courseid=10) **Software Architecture Design** *Bilkent University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" />
+	- This course teaches the basic concepts, methods and techniques for designing software architectures. The topics include: rationale for software architecture design, modeling software architecture design, architectural styles/patterns, architectural requirements analysis, comparison and evaluation of architecture design methods, synthesis-based software architecture design, software product-line architectures, domain modeling, domain engineering and application engineering, software architecture implementation, evaluating software architecture designs.
+- [CS 3152](http://www.cs.cornell.edu/courses/CS3152/2014sp/) **Introduction to Computer Game Development** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- A project-based course in which programmers and designers collaborate to make a computer game. This course investigates the theory and practice of developing computer games from a blend of technical, aesthetic, and cultural perspectives. Technical aspects of game architecture include software engineering, artificial intelligence, game physics, computer graphics, and networking. Aesthetic and cultural include art and modeling, sound and music, game balance, and player experience.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS3152/2014sp/about/faq.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS3152/2014sp/lectures/index.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS3152/2014sp/assignments/index.php)
+- [CS 4152](http://www.cs.cornell.edu/courses/CS4152/2014sp/) **Advanced Topics in Computer Game Development** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Project-based follow-up course to CS/INFO 3152. Students work in a multidisciplinary team to develop a game that incorporates innovative game technology. Advanced topics include 3D game development, mobile platforms, multiplayer gaming, and nontraditional input devices. There is a special emphasis on developing games that can be submitted to festivals and competitions, or that can be commercialized.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4152/2014sp/about/faq.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4152/2014sp/sessions/index.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4152/2014sp/assignments/index.php)
+- [CS 4154](http://www.cs.cornell.edu/courses/CS4154/2014fa/) **Analytics-driven Game Design** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- A project-based course in which programmers and designers collaborate to design, implement, and release a video game online through popular game portals. In this course, students will use the internet to gather data anonymously from players. Students will analyze this data in order to improve their game over multiple iterations. Technical aspects of this course include programming, database architecture, and statistical analysis.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4154/2014fa/about/faq.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4154/2014fa/lectures/index.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4154/2014fa/assignments/index.php)
+- [CS 4812](https://courses.cit.cornell.edu/physics4481-7681_2018fa/) **Quantum Information Processing** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	-  Hardware that exploits quantum phenomena can dramatically alter the nature of computation. Though constructing a working quantum computer is a formidable technological challenge, there has been much recent experimental progress. In addition, the theory of quantum computation is of interest in itself, offering strikingly different perspectives on the nature of computation and information, as well as providing novel insights into the conceptual puzzles posed by the quantum theory. The course is intended both for physicists, unfamiliar with computational complexity theory or cryptography, and also for computer scientists and mathematicians, unfamiliar with quantum mechanics. The prerequisites are familiarity (and comfort) with finite dimensional vector spaces over the complex numbers, some standard group theory, and ability to count in binary.
+	- [Syllabus](https://courses.cit.cornell.edu/physics4481-7681_2018fa/)
+	- [Lectures](https://courses.cit.cornell.edu/physics4481-7681_2018fa/)
+- [CS 4860](http://www.cs.cornell.edu/courses/CS4860/2012fa/) **Applied Logic** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- In addition to basic first-order logic, when taught by Computer Science this course involves elements of Formal Methods and Automated Reasoning. Formal Methods is concerned with proving properties of algorithms, specifying programming tasks and synthesizing programs from proofs. We will use formal methods tools such as interactive proof assistants (see [www.nuprl.org](http://www.nuprl.org)). We will also spend two weeks on constructive type theory, the language used by the Coq and Nuprl proof assistants.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS4860/2012fa/schedule.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS4860/2012fa/schedule.php)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS4860/2012fa/schedule.php)
+- [CS 5150](http://www.cs.cornell.edu/courses/CS5150/2014fa/overview.html) **Software Engineering** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Introduction to the practical problems of specifying, designing, building, testing, and delivering reliable software systems
+	- [Lectures](http://www.cs.cornell.edu/courses/CS5150/2014fa/materials.html)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS5150/2014fa/assignments.html)
+- [CS 5220](http://www.cs.cornell.edu/~bindel/class/cs5220-f11/) **Applications of Parallel Computers** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- How do we solve the large-scale problems of science quickly on modern computers? How do we measure the performance of new or existing simulation codes, and what things can we do to make them run faster? How can we best take advantage of features like multicore processors, vector units, and graphics co-processors? These are the types of questions we will address in CS 5220, Applications of Parallel Computers. Topics include:
+		- Single-processor architecture, caches, and serial performance tuning
+		- Basics of parallel machine organization
+		- Distributed memory programming with MPI
+		- Shared memory programming with OpenMP
+		- Parallel patterns: data partitioning, synchronization, and load balancing
+		- Examples of parallel numerical algorithms
+		- Applications from science and engineering
+	- [Lectures](http://www.cs.cornell.edu/~bindel/class/cs5220-f11/lectures.html)
+	- [Assignments](http://www.cs.cornell.edu/~bindel/class/cs5220-f11/assignments.html)
+- [CS 5540](https://sites.google.com/site/cs5540sp2013/) **Computational Techniques for Analyzing Clinical Data** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- CS5540 is a masters-level course that covers a wide range of clinical problems and their associated computational challenges. The practice of medicine is filled with digitally accessible information about patients, ranging from EKG readings to MRI images to electronic health records. This poses a huge opportunity for computer tools that make sense out of this data. Computation tools can be used to answer seemingly straightforward questions about a single patient's test results (“Does this patient have a normal heart rhythm?”), or to address vital questions about large populations (“Is there any clinical condition that affects the risks of Alzheimer”). In CS5540 we will look at many of the most important sources of clinical data and discuss the basic computational techniques used for their analysis, ranging in sophistication from current clinical practice to state-of-the-art research projects.
+	- [Syllabus](https://sites.google.com/site/cs5540sp2013/home/course-description)
+	- [Lectures](https://sites.google.com/site/cs5540sp2013/lectures)
+	- [Assignments](https://sites.google.com/site/cs5540sp2013/assignments)
+- [CS 5724](http://courses2.cit.cornell.edu/cs5724/) **Evolutionary Computation** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course will cover advanced topics in evolutionary algorithms and their application to open-ended computational design. The field of evolutionary computation tries to address large-scale optimization and planning problems through stochastic population-based methods. It draws inspiration from evolutionary processes in nature and in engineering, and also serves as abstract models for these phenomena. Evolutionary processes are generally weak methods that require little information about the problem domain and hence can be applied across a wide variety of applications. They are especially useful for open-ended problem domains for which little formal knowledge exists and the number of parameters is undefined, such as for the general engineering design process. This course will provide insight to a variety of evolutionary computation paradigms, such as genetic algorithms, genetic programming, and evolutionary strategies, as well as governing dynamics of co-evolution, arms races and mediocre stable states. New methods involving symbiosis models and pattern recognition will also be presented. The material will be intertwined with discussions of representations and results for design problems in a variety of problem domains including software, electronics, and mechanics.
+	- [Syllabus](http://courses2.cit.cornell.edu/cs5724/)
+	- [Lectures](http://courses2.cit.cornell.edu/cs5724/schedule.htm)
+	- [Assignments](http://courses2.cit.cornell.edu/cs5724/)
+- [CS 6452](http://www.cs.cornell.edu/courses/CS6452/2012sp/index.php) **Datacenter Networks and Services** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- CS6452 focuses on datacenter networks and services. The emerging demand for web services and cloud computing have created need for large scale data centers. The hardware and software infrastructure for datacenters critically determines the functionality, performance, cost and failure tolerance of applications running on that datacenter. This course will examine design alternatives for both the hardware (networking) infrastructure, and the software infrastructure for datacenters.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS6452/2012sp/lectures.php)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6452/2012sp/lectures.php)
+- [CS 6630](http://www.cs.cornell.edu/courses/CS6630/2012sp/about.stm) **Realistic Image Synthesis** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- CS6630 is an introduction to physics-based rendering at the graduate level. Starting from the fundamentals of light transport we will look at formulations of the Rendering Equation, and a series of Monte Carlo methods, from sequential sampling to multiple importance sampling to Markov Chains, for solving the equation to make pictures. We'll look at light reflection from surfaces and scattering in volumes, illumination from luminaries and environments, and diffusion models for translucent materials. We will build working implementations of many of the algorithms we study, and learn how to make sure they are actually working correctly. It's fun to watch integrals and probability distributions transform into photographs of a slightly too perfect synthetic world.
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS6630/2012sp/about.stm)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6630/2012sp/schedule.stm)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS6630/2012sp/schedule.stm)
+	- [Readings](http://www.cs.cornell.edu/courses/CS6630/2012sp/schedule.stm)
+- [CS 6640](http://www.cs.cornell.edu/courses/CS6640/2012fa/index.shtml#) **Computational Photography** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- A course on the emerging applications of computation in photography. Likely topics include digital photography, unconventional cameras and optics, light field cameras, image processing for photography, techniques for combining multiple images, advanced image editing algorithms, and projector-camera systems.cornell.edu/courses/CS6630/2012sp/about.stm)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6640/2012fa/index.shtml#schedule)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS6640/2012fa/index.shtml#hw)
+- [CS 6650](http://www.cs.cornell.edu/courses/CS6650/2013fa/) **Computational Motion** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Covers computational aspects of motion, broadly construed. Topics include the computer representation, modeling, analysis, and simulation of motion, and its relationship to various areas, including computational geometry, mesh generation, physical simulation, computer animation, robotics, biology, computer vision, acoustics, and spatio-temporal databases. Students implement several of the algorithms covered in the course and complete a final project.  This offering will also explore the special role of motion processing in physically based sound rendering.
+- [CS 6840](http://www.cs.cornell.edu/courses/CS6840/2014sp/) **Algorithmic Game Theory** *Cornell University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments"/> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Algorithmic Game Theory combines algorithmic thinking with game-theoretic, or, more generally, economic concepts. The course will study a range of topics at this interface
+	- [Syllabus](http://www.cs.cornell.edu/courses/CS6840/2014sp/)
+	- [Lectures](http://www.cs.cornell.edu/courses/CS6840/2014sp/)
+	- [Assignments](http://www.cs.cornell.edu/courses/CS6840/2014sp/)
+	- [Readings](http://www.cs.cornell.edu/courses/CS6840/2014sp/)
+- [CSE 154](http://courses.cs.washington.edu/courses/cse154/14au/) **Web Programming** *University of Washington* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course is an introduction to programming for the World Wide Web. Covers use of HTML, CSS, PHP, JavaScript, AJAX, and SQL.
+	- [Lectures](http://courses.cs.washington.edu/courses/cse154/14au/lectures.shtml#today)
+	- [Assignments](http://courses.cs.washington.edu/courses/cse154/14au/homework.shtml)
+- [ESM 296-4F](http://ucsb-bren.github.io/esm296-4f/) **GIS & Spatial Analysis** *UC Santa Barbara* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Taught by [James Frew](http://www.bren.ucsb.edu/people/Faculty/james_frew.htm), [Ben Best](http://mgel.env.duke.edu/people/ben-best/), and [Lisa Wedding](http://www.centerforoceansolutions.org/team/lisa-wedding)
+	- Focuses on specific computational languages (e.g., Python, R, shell) and tools (e.g., GDAL/OGR, InVEST, MGET, ModelBuilder) applied to the spatial analysis of environmental problems
+	- [GitHub ](http://ucsb-bren.github.io/esm296-4f/) (includes lecture materials and labs)
+- [ICS 314](http://philipmjohnson.github.io/ics314f13/) **Software Engineering** *University of Hawaii*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" />
+	- Taught by [Philip Johnson](http://philipmjohnson.org/)
+	- Introduction to software engineering using the ["Athletic Software Engineering" pedagogy](http://philipmjohnson.org/essays/ase-initial-results.html)
+	- [Readings](http://philipmjohnson.github.io/ics314f13/readings/)
+	- [Experiences](http://philipmjohnson.github.io/ics314f13/experiences/)
+	- [Assessments](http://philipmjohnson.github.io/ics314f13/assessments/)
+- [IGME 582](http://hfoss-fossrit.rhcloud.com) **Humanitarian Free & Open Source Software Development** *Rochester Institute of Technology* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This course provides students with exposure to the design, creation and production of Open Source Software projects. Students will be introduced to the historic intersections of technology and intellectual property rights and will become familiar with Open Source development processes, tools and practices.
+- [I485 / H400](http://www.informatics.indiana.edu/rocha/i-bic/) **Biologically Inspired Computation** *Indiana University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- Course taught by [Luis Rocha](http://www.informatics.indiana.edu/rocha/lr_form.html) about the multi-disciplinary field algorithms inspired by naturally occurring phenomenon. This course provides introduces the following areas: L-systems, Cellular Automata, Emergence, Genetic Algorithms, Swarm Intelligence and Artificial Immune Systems. It's aim is to cover the fundamentals and enable readers to build up a proficiency in applying various algorithms to real-world problems.
+	- [Lectures](http://www.informatics.indiana.edu/rocha/i-bic/#materials)
+	- [Assignments](http://www.informatics.indiana.edu/rocha/i-bic/#labs)
+- [Open Sourced Elective: Database and Rails](http://www.schneems.com/ut-rails/) **Intro to Ruby on Rails** *University of Texas* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- An introductory course in Ruby on Rails open sourced by University of Texas' CS Adjunct Professor, Richard Schneeman.
+	- [Lectures](http://www.schneems.com/ut-rails/)
+	- [Assignments](http://www.schneems.com/ut-rails/)
+	- [Videos](https://www.youtube.com/playlist?list=PL7A85FD7803A8CB1F)
+- [SCICOMP](http://mlecture.uni-bremen.de/ml/index.php?option=com_content&view=article&id=233) **An Introduction to Efficient Scientific Computation** *Universität Bremen* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" />
+	- This is a graduate course in scientific computing created and taught by [Oliver Serang](http://colorfulengineering.org/) in 2014, which covers topics in computer science and statistics with applications from biology. The course is designed top-down, starting with a problem and then deriving a variety of solutions from scratch.
+	- Topics include memoization, recurrence closed forms, string matching (sorting, hash tables, radix tries, and suffix tries), dynamic programming (e.g. Smith-Waterman and Needleman-Wunsch), Bayesian statistics (e.g. the envelope paradox), graphical models (HMMs, Viterbi, junction tree, belief propagation), FFT, and the probabilistic convolution tree.
+	- [Lecture videos on Youtube](https://www.youtube.com/user/fillwithlight/videos) and for direct [download](http://mlecture.uni-bremen.de/ml/index.php?option=com_content&view=article&id=233)
+- [14-740](http://www.ini740.rocks/F20) **Fundamentals of Computer Networks** *CMU* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" title="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" title="Readings" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+	- This is an introductory course on Networking for graduate students. It follows a top-down approach to teaching Computer Networks, so it starts with the Application layer which most of the students are familiar with and as the course unravels we learn more about transport, network and link layers of the protocol stack.
+	- As far as prerequisites are concerned - basic computer, programming and probability theory background is required.
+	- The course site contains links to the lecture videos, reading material and assignments.
+
+
+-----
+### Statistics
+
+- [STAT 340](https://andrewpbray.github.io/reg/index.html) **Applied Regression Methods** *Smith College* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" title="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" title="Lecture Notes" />
+
+- This course covers the beautiful and useful tool of regression, which is the central technique of statistical modeling. By the end of this course you will be able to:
+	- Discern research questions and data that are well-suited to regression analysis.
+	- Conduct thorough exploratory data analysis of data in multiple dimensions.
+	- Understand the mathematical foundations of regression.
+	- Perform regression analysis in a modern computing environment.
+	- Interpret your model and communicate what it implies.
+- [Syllabus](https://andrewpbray.github.io/reg/syllabus.html)
+- [Lecture Notes](https://andrewpbray.github.io/reg/index.html)

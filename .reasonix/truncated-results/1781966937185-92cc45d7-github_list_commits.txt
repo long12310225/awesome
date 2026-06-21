@@ -1,0 +1,562 @@
+[
+  {
+    "sha": "d54a9f1769768752bb239e5f376aa01a5114d120",
+    "node_id": "C_kwDOAuF92doAKGQ1NGE5ZjE3Njk3Njg3NTJiYjIzOWU1ZjM3NmFhMDFhNTExNGQxMjA",
+    "commit": {
+      "author": {
+        "name": "ehmicky",
+        "email": "ehmicky@users.noreply.github.com",
+        "date": "2022-08-03T18:48:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-03T18:48:50Z"
+      },
+      "message": "feat: Improve logo in dark mode (#55)",
+      "tree": {
+        "sha": "62f2466314f8d585fa783b8a13a76d5f8443b03e",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/62f2466314f8d585fa783b8a13a76d5f8443b03e"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/d54a9f1769768752bb239e5f376aa01a5114d120",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi6sMSCRBK7hj4Ov3rIwAA7GAIAIH1abxRBsc732JA6pSDgLit\nl8hP42gg66f4QXMcU8uF+MpmjvYNX3uSxgS7X9LlxN2QV50Vfe61RofrbAh7Izm7\njJjIKOKWZg4UjAryQ+Akrvei3433D1QGlIfPnblLyc0PqL22L/YSRdYtgb4g8u+2\nzFyiFmTCjZg3mI+/bnenRkrqqcmjU3MCru0YrPFUDuFxeaerQ2h5Y/uXzDx5DlqA\nERimSyn6NIiTD+DRx+B22svoqQzKwoOfkGQbXDUzo5Dr4tLaXtU9Wd7TGYcK5pvi\nQTfpeJyPBOaGi5W/WmJqQW7mLhSvwj6nuK024FXGWi8pbUDTdURsyQK3cba/eSI=\n=ivxo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 62f2466314f8d585fa783b8a13a76d5f8443b03e\nparent 2738c12efc64741eea9caaef0f59b6344038851f\nauthor ehmicky <ehmicky@users.noreply.github.com> 1659552530 +0200\ncommitter GitHub <noreply@github.com> 1659552530 -0400\n\nfeat: Improve logo in dark mode (#55)\n\n",
+        "verified_at": "2024-11-05T17:40:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/d54a9f1769768752bb239e5f376aa01a5114d120",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/d54a9f1769768752bb239e5f376aa01a5114d120",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/d54a9f1769768752bb239e5f376aa01a5114d120/comments",
+    "author": {
+      "login": "ehmicky",
+      "id": 8136211,
+      "node_id": "MDQ6VXNlcjgxMzYyMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8136211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ehmicky",
+      "html_url": "https://github.com/ehmicky",
+      "followers_url": "https://api.github.com/users/ehmicky/followers",
+      "following_url": "https://api.github.com/users/ehmicky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ehmicky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ehmicky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ehmicky/subscriptions",
+      "organizations_url": "https://api.github.com/users/ehmicky/orgs",
+      "repos_url": "https://api.github.com/users/ehmicky/repos",
+      "events_url": "https://api.github.com/users/ehmicky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ehmicky/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2738c12efc64741eea9caaef0f59b6344038851f",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/2738c12efc64741eea9caaef0f59b6344038851f",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/2738c12efc64741eea9caaef0f59b6344038851f"
+      }
+    ]
+  },
+  {
+    "sha": "2738c12efc64741eea9caaef0f59b6344038851f",
+    "node_id": "C_kwDOAuF92doAKDI3MzhjMTJlZmM2NDc0MWVlYTljYWFlZjBmNTliNjM0NDAzODg1MWY",
+    "commit": {
+      "author": {
+        "name": "ehmicky",
+        "email": "ehmicky@users.noreply.github.com",
+        "date": "2022-08-03T18:48:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-03T18:48:26Z"
+      },
+      "message": "docs: add `human-signals` (#56)",
+      "tree": {
+        "sha": "7bd8929f0acaae4755c9f92fac1646154e9d8e7b",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/7bd8929f0acaae4755c9f92fac1646154e9d8e7b"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/2738c12efc64741eea9caaef0f59b6344038851f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi6sL6CRBK7hj4Ov3rIwAAUFgIAIZXUt3ZgwdZRBlXNPemDIpd\nvuJLMjaMZAM5nl7oXZ1tEx1sBwG0/qUT9vcqIxeeGR60fJZTC+E6jQitPOuuG1fb\n5fVN+OJ3oawkHG4ks5mHZYMMOOrpwv48X9bN7Z+AxZeg7e0M1R/CSnXRgWstVqAJ\nrkDBOb4CLwPeYJJ5mDHYhluN4PY3iB2/xVY+uDKQxc5CPCnMITphwkfX9dOKEN7S\nFSSWVcXZio0IEMjUm7EuUj29uF1BheZTvW6jZRpxQu/IWzDdmO8nQShajh+UNUcs\nq3dkilbNFCzgjmKO5ElqqCXK5GhdVNsDVKyhKShTatLC0LnCLFZsmCgqPEThKCA=\n=jQQk\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7bd8929f0acaae4755c9f92fac1646154e9d8e7b\nparent 077160f10e7b1ead0d16e3b7508b4f6b06847854\nauthor ehmicky <ehmicky@users.noreply.github.com> 1659552506 +0200\ncommitter GitHub <noreply@github.com> 1659552506 -0400\n\ndocs: add `human-signals` (#56)\n\n",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/2738c12efc64741eea9caaef0f59b6344038851f",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/2738c12efc64741eea9caaef0f59b6344038851f",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/2738c12efc64741eea9caaef0f59b6344038851f/comments",
+    "author": {
+      "login": "ehmicky",
+      "id": 8136211,
+      "node_id": "MDQ6VXNlcjgxMzYyMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8136211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ehmicky",
+      "html_url": "https://github.com/ehmicky",
+      "followers_url": "https://api.github.com/users/ehmicky/followers",
+      "following_url": "https://api.github.com/users/ehmicky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ehmicky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ehmicky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ehmicky/subscriptions",
+      "organizations_url": "https://api.github.com/users/ehmicky/orgs",
+      "repos_url": "https://api.github.com/users/ehmicky/repos",
+      "events_url": "https://api.github.com/users/ehmicky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ehmicky/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "077160f10e7b1ead0d16e3b7508b4f6b06847854",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/077160f10e7b1ead0d16e3b7508b4f6b06847854",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/077160f10e7b1ead0d16e3b7508b4f6b06847854"
+      }
+    ]
+  },
+  {
+    "sha": "077160f10e7b1ead0d16e3b7508b4f6b06847854",
+    "node_id": "C_kwDOAuF92doAKDA3NzE2MGYxMGU3YjFlYWQwZDE2ZTNiNzUwOGI0ZjZiMDY4NDc4NTQ",
+    "commit": {
+      "author": {
+        "name": "ehmicky",
+        "email": "ehmicky@users.noreply.github.com",
+        "date": "2022-07-28T02:42:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-28T02:42:13Z"
+      },
+      "message": "feat: add `global-cache-dir` (#57)",
+      "tree": {
+        "sha": "ac72d1392f5bab2101497d87c4ea3b313dafe4fe",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/ac72d1392f5bab2101497d87c4ea3b313dafe4fe"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/077160f10e7b1ead0d16e3b7508b4f6b06847854",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4feFCRBK7hj4Ov3rIwAA0gMIAA1+5nt5euAJcwWqgR6lKjqM\nkDnVm9Ebo8N0tFXJ0qimaGO6wGSLjRod8iTt57gvpeVMkmTY7CDBIF6ZV4QJsBRX\n230U7Shio2Lwd1ETaWC7JzJhPJZe88h5KZ/r2A0InOiad/zJ3o12D9W89TdNdTBB\nwcn0HCzqH6TDM3f7ZVO7DKVkOSCr5YibzGHC7hax+/92vt1uhnz1Uaju0dBpOens\nVSfN88m9b6Kb2r+I/qvr+6iXGSSHTXX22ekag7U90zkBi/XbkwWIoIiqV0uCyTPR\nsRSbVjb/zddF4NZP4f1Fb1j1z5T0RANeV/VvR0F/FJnR/2yd7e4zHaOMLt6Tcf0=\n=3C2v\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ac72d1392f5bab2101497d87c4ea3b313dafe4fe\nparent aaa8eab79b03b8babeab431470247d8dcd6e556b\nauthor ehmicky <ehmicky@users.noreply.github.com> 1658976133 +0200\ncommitter GitHub <noreply@github.com> 1658976133 -0400\n\nfeat: add `global-cache-dir` (#57)\n\n",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/077160f10e7b1ead0d16e3b7508b4f6b06847854",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/077160f10e7b1ead0d16e3b7508b4f6b06847854",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/077160f10e7b1ead0d16e3b7508b4f6b06847854/comments",
+    "author": {
+      "login": "ehmicky",
+      "id": 8136211,
+      "node_id": "MDQ6VXNlcjgxMzYyMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8136211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ehmicky",
+      "html_url": "https://github.com/ehmicky",
+      "followers_url": "https://api.github.com/users/ehmicky/followers",
+      "following_url": "https://api.github.com/users/ehmicky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ehmicky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ehmicky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ehmicky/subscriptions",
+      "organizations_url": "https://api.github.com/users/ehmicky/orgs",
+      "repos_url": "https://api.github.com/users/ehmicky/repos",
+      "events_url": "https://api.github.com/users/ehmicky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ehmicky/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aaa8eab79b03b8babeab431470247d8dcd6e556b",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/aaa8eab79b03b8babeab431470247d8dcd6e556b",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/aaa8eab79b03b8babeab431470247d8dcd6e556b"
+      }
+    ]
+  },
+  {
+    "sha": "aaa8eab79b03b8babeab431470247d8dcd6e556b",
+    "node_id": "MDY6Q29tbWl0NDgzMzIyNDk6YWFhOGVhYjc5YjAzYjhiYWJlYWI0MzE0NzAyNDdkOGRjZDZlNTU2Yg==",
+    "commit": {
+      "author": {
+        "name": "ehmicky",
+        "email": "ehmicky@users.noreply.github.com",
+        "date": "2021-04-07T18:14:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-07T18:14:30Z"
+      },
+      "message": "Add a list of cross-platform terminal characters (#54)",
+      "tree": {
+        "sha": "c0e7b24c482538ff2f416d28e0498cb00f512d7f",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/c0e7b24c482538ff2f416d28e0498cb00f512d7f"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/aaa8eab79b03b8babeab431470247d8dcd6e556b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgbfaGCRBK7hj4Ov3rIwAAdHIIADtAtHDJQBIO8kSD0Quc3kEq\n322pPy25ZM0eUnqIYGt8bj6f4DgVym/rzHeNrjvm3MQlAspPnpaFygSqdxMzp3L0\n7ZPFSecFbDc7TnqNBcwMfVhGGveVLTSx2QxzRg8xFmCqy9thuDiM58VhzH2dZTwG\nAsitvhPsOX2b0A+z3aEe//335y6CC0BNAqIC2FAF3eIAlDD55sDjV8VMTsH3LYYm\nunwww2ja9iaWoLEe+UtFoADQNeYoBQKlc0wPqmPHP18IEDK4C+8iWJGpl+p9qR++\nIQOVRhfZELyLYTX8yKC+5Mb1gxfFgcTot3nq+8LYVPfkokcYZTlSjlDCRuzfMp4=\n=mkDx\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c0e7b24c482538ff2f416d28e0498cb00f512d7f\nparent 754f45154f2d6fa279fea6c4dc0653e068ab8f2d\nauthor ehmicky <ehmicky@users.noreply.github.com> 1617819270 +0200\ncommitter GitHub <noreply@github.com> 1617819270 -0700\n\nAdd a list of cross-platform terminal characters (#54)\n\n",
+        "verified_at": "2024-11-05T17:40:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/aaa8eab79b03b8babeab431470247d8dcd6e556b",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/aaa8eab79b03b8babeab431470247d8dcd6e556b",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/aaa8eab79b03b8babeab431470247d8dcd6e556b/comments",
+    "author": {
+      "login": "ehmicky",
+      "id": 8136211,
+      "node_id": "MDQ6VXNlcjgxMzYyMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8136211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ehmicky",
+      "html_url": "https://github.com/ehmicky",
+      "followers_url": "https://api.github.com/users/ehmicky/followers",
+      "following_url": "https://api.github.com/users/ehmicky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ehmicky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ehmicky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ehmicky/subscriptions",
+      "organizations_url": "https://api.github.com/users/ehmicky/orgs",
+      "repos_url": "https://api.github.com/users/ehmicky/repos",
+      "events_url": "https://api.github.com/users/ehmicky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ehmicky/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "754f45154f2d6fa279fea6c4dc0653e068ab8f2d",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/754f45154f2d6fa279fea6c4dc0653e068ab8f2d",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/754f45154f2d6fa279fea6c4dc0653e068ab8f2d"
+      }
+    ]
+  },
+  {
+    "sha": "754f45154f2d6fa279fea6c4dc0653e068ab8f2d",
+    "node_id": "MDY6Q29tbWl0NDgzMzIyNDk6NzU0ZjQ1MTU0ZjJkNmZhMjc5ZmVhNmM0ZGMwNjUzZTA2OGFiOGYyZA==",
+    "commit": {
+      "author": {
+        "name": "Carlos Ricardo Ziegler",
+        "email": "38855507+CarlosZiegler@users.noreply.github.com",
+        "date": "2020-09-11T17:41:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-11T17:41:38Z"
+      },
+      "message": "docs: add more tool for Continuous Integration (#53)\n\nAdded Github-actions and Gitlab CI",
+      "tree": {
+        "sha": "5341147e2e979aae8d91566932250276299c57c8",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/5341147e2e979aae8d91566932250276299c57c8"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/754f45154f2d6fa279fea6c4dc0653e068ab8f2d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfW7bSCRBK7hj4Ov3rIwAAdHIIADhPx2SfE4bF8/39y6j1d2Uo\nzlXAT10707bqQDHjG/99tzKtf9FKZmNOoeWdfyvHqH/enRdVhR2OtX4EVllh0fOL\nV8rb3XKQWiQNNFtvTg5PHbqcQK3tp6fkXJ7dX2/oXBdbxKHdczZr8Ls1TNG2yKGE\nff8s6X/57WUQht7mAGDIpYjPLJN4VRxAjcqlETcnf4pcezBe21/X6SBNL8SaCQlJ\n+D1vziRr46XFy4roExvghnSOiYE/9NBMJqTbxkmxP0UmCBgeoQ3a6+q6Q9boAMiu\notT8oqh5+vWlC5zo638jUbbXq8DPjPpFU4sRwTX6yV6C4ELI5qK4O4W7KHUoDSI=\n=8ZMd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5341147e2e979aae8d91566932250276299c57c8\nparent 261dd626cd2d745ed8c721009868b70b75a881e9\nauthor Carlos Ricardo Ziegler <38855507+CarlosZiegler@users.noreply.github.com> 1599846098 +0200\ncommitter GitHub <noreply@github.com> 1599846098 -0700\n\ndocs: add more tool for Continuous Integration (#53)\n\nAdded Github-actions and Gitlab CI",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/754f45154f2d6fa279fea6c4dc0653e068ab8f2d",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/754f45154f2d6fa279fea6c4dc0653e068ab8f2d",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/754f45154f2d6fa279fea6c4dc0653e068ab8f2d/comments",
+    "author": {
+      "login": "CarlosZiegler",
+      "id": 38855507,
+      "node_id": "MDQ6VXNlcjM4ODU1NTA3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38855507?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CarlosZiegler",
+      "html_url": "https://github.com/CarlosZiegler",
+      "followers_url": "https://api.github.com/users/CarlosZiegler/followers",
+      "following_url": "https://api.github.com/users/CarlosZiegler/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CarlosZiegler/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CarlosZiegler/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CarlosZiegler/subscriptions",
+      "organizations_url": "https://api.github.com/users/CarlosZiegler/orgs",
+      "repos_url": "https://api.github.com/users/CarlosZiegler/repos",
+      "events_url": "https://api.github.com/users/CarlosZiegler/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CarlosZiegler/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "261dd626cd2d745ed8c721009868b70b75a881e9",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/261dd626cd2d745ed8c721009868b70b75a881e9",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/261dd626cd2d745ed8c721009868b70b75a881e9"
+      }
+    ]
+  },
+  {
+    "sha": "261dd626cd2d745ed8c721009868b70b75a881e9",
+    "node_id": "MDY6Q29tbWl0NDgzMzIyNDk6MjYxZGQ2MjZjZDJkNzQ1ZWQ4YzcyMTAwOTg2OGI3MGI3NWE4ODFlOQ==",
+    "commit": {
+      "author": {
+        "name": "Richie Bendall",
+        "email": "richiebendall@gmail.com",
+        "date": "2019-12-30T18:23:55Z"
+      },
+      "committer": {
+        "name": "Benjamin E. Coe",
+        "email": "bencoe@google.com",
+        "date": "2019-12-30T18:23:55Z"
+      },
+      "message": "feat: add fs-extra",
+      "tree": {
+        "sha": "baf1870e70975b634316fd20b7d7224218a8d88f",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/baf1870e70975b634316fd20b7d7224218a8d88f"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/261dd626cd2d745ed8c721009868b70b75a881e9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/261dd626cd2d745ed8c721009868b70b75a881e9",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/261dd626cd2d745ed8c721009868b70b75a881e9",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/261dd626cd2d745ed8c721009868b70b75a881e9/comments",
+    "author": {
+      "login": "Richienb",
+      "id": 29491356,
+      "node_id": "MDQ6VXNlcjI5NDkxMzU2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29491356?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Richienb",
+      "html_url": "https://github.com/Richienb",
+      "followers_url": "https://api.github.com/users/Richienb/followers",
+      "following_url": "https://api.github.com/users/Richienb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Richienb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Richienb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Richienb/subscriptions",
+      "organizations_url": "https://api.github.com/users/Richienb/orgs",
+      "repos_url": "https://api.github.com/users/Richienb/repos",
+      "events_url": "https://api.github.com/users/Richienb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Richienb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e3f8ff3074dc889ab931e03119b996ab8b194bb4",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/e3f8ff3074dc889ab931e03119b996ab8b194bb4",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/e3f8ff3074dc889ab931e03119b996ab8b194bb4"
+      }
+    ]
+  },
+  {
+    "sha": "e3f8ff3074dc889ab931e03119b996ab8b194bb4",
+    "node_id": "MDY6Q29tbWl0NDgzMzIyNDk6ZTNmOGZmMzA3NGRjODg5YWI5MzFlMDMxMTliOTk2YWI4YjE5NGJiNA==",
+    "commit": {
+      "author": {
+        "name": "ehmicky",
+        "email": "ehmicky@users.noreply.github.com",
+        "date": "2019-08-20T14:54:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-08-20T14:54:57Z"
+      },
+      "message": "Merge pull request #49 from bcoe/sindresorhus-patch-1\n\nAdd random-bytes-readable-stream",
+      "tree": {
+        "sha": "05dfa454098e94fe4e0e519fae04fcbb03e1280a",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/trees/05dfa454098e94fe4e0e519fae04fcbb03e1280a"
+      },
+      "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/git/commits/e3f8ff3074dc889ab931e03119b996ab8b194bb4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdXAnBCRBK7hj4Ov3rIwAAdHIIAGeVIoRz4PttFAQGEni9O9gm\n7DuQ7qidxoJ3fGBf5ZqBYBvF3N2iOJx4sS5JJqodHeKty/FgOqJeyySmp+jszCxv\noyXW23rOo8dj9HUeS5tuGf49shq0H2RdVIovTLWJTbkoGSJOqgDW1GmeScZ9DDlI\nCXFbBg9vz5vVPFGWBXgSnH7R9bfiTl2L4DeY756f7HNJmfroI9BYazm7LMvE7Kon\nxRGeMB/xh7Av44gxVgb4OVQfjk+ln8EYM8EQFbfTLmL+gvh65vBHsYrltjKy1gdh\n0YfWWQw0th7Z5684OnQ0F0lpTC9yMmSfgMvZo8R/09eiPtwc3mwq/0TxwlGL0xo=\n=bV/K\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 05dfa454098e94fe4e0e519fae04fcbb03e1280a\nparent f4cf599585d17e17a240b575331f2bed63aa1081\nparent 3e64b84c92ab3e8720943d94e6fb4910d1bad648\nauthor ehmicky <ehmicky@users.noreply.github.com> 1566312897 -0700\ncommitter GitHub <noreply@github.com> 1566312897 -0700\n\nMerge pull request #49 from bcoe/sindresorhus-patch-1\n\nAdd random-bytes-readable-stream",
+        "verified_at": "2024-11-05T17:40:29Z"
+      }
+    },
+    "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/e3f8ff3074dc889ab931e03119b996ab8b194bb4",
+    "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/e3f8ff3074dc889ab931e03119b996ab8b194bb4",
+    "comments_url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/e3f8ff3074dc889ab931e03119b996ab8b194bb4/comments",
+    "author": {
+      "login": "ehmicky",
+      "id": 8136211,
+      "node_id": "MDQ6VXNlcjgxMzYyMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8136211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ehmicky",
+      "html_url": "https://github.com/ehmicky",
+      "followers_url": "https://api.github.com/users/ehmicky/followers",
+      "following_url": "https://api.github.com/users/ehmicky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ehmicky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ehmicky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ehmicky/subscriptions",
+      "organizations_url": "https://api.github.com/users/ehmicky/orgs",
+      "repos_url": "https://api.github.com/users/ehmicky/repos",
+      "events_url": "https://api.github.com/users/ehmicky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ehmicky/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}
+
+[…truncated 102382 chars — raise BridgeOptions.maxResultChars, or call the tool with a narrower scope (filter, head, pagination)…]
+
+-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1fa24c91e4eafb336623e2242c40055e092fd43f",
+        "url": "https://api.github.com/repos/bcoe/awesome-cross-platform-nodejs/commits/1fa24c91e4eafb336623e2242c40055e092fd43f",
+        "html_url": "https://github.com/bcoe/awesome-cross-platform-nodejs/commit/1fa24c91e4eafb336623e2242c40055e092fd43f"
+      }
+    ]
+  }
+]

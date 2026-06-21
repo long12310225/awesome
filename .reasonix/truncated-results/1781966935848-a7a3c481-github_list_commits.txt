@@ -1,0 +1,568 @@
+[
+  {
+    "sha": "c202eed1aadd11c5cc88bf9968300e24b8f75577",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6YzIwMmVlZDFhYWRkMTFjNWNjODhiZjk5NjgzMDBlMjRiOGY3NTU3Nw==",
+    "commit": {
+      "author": {
+        "name": "Kristoffer Sjögren",
+        "email": "krisskross@users.noreply.github.com",
+        "date": "2018-07-13T14:40:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-13T14:40:57Z"
+      },
+      "message": "Merge pull request #17 from zapov/master\n\nReplace Jsoniter with DSL-JSON",
+      "tree": {
+        "sha": "9f6881cab54dbd596e53d3746fb7adb226cb39af",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/9f6881cab54dbd596e53d3746fb7adb226cb39af"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/c202eed1aadd11c5cc88bf9968300e24b8f75577",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbSLn5CRBK7hj4Ov3rIwAAdHIIAEFxYIbMhf+8CPaYl46C9461\nOmrdqSrxSy2dL0/IhxmxlUzP79iPIMEctnQfMfJGTgfUFEbfqcF5lwF0mjpElOe+\nVAQw//JvfY1meqmSZE+DQYBQM7fPXblhYQ8FhIyISIYBo/jYr5w6JhNV63o8BPOK\n2c1yitnyeAy9QcEuFEXia9PIuTVrCNWYzTWvIyvMaJ0Z6C0Wi/Gy45xfP39SbY3i\npq9aW0d2oOk+hAWX7/0lkGykCEaYQrQlf4P5vQ5hpXcdPmDbCpMEpJvjy6GvRA2i\nuUFQhhq4HlLf1oziCPQO/Z2m+vqEvsi3ARUczh+ejRO8kdf2Ca2mCmDPYlwiMDI=\n=eqiM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9f6881cab54dbd596e53d3746fb7adb226cb39af\nparent d243b6be0128c080f5735825ca074967eb916f5f\nparent 3cdda05aeca715d747f767ab0b174771977a4665\nauthor Kristoffer Sjögren <krisskross@users.noreply.github.com> 1531492857 +0200\ncommitter GitHub <noreply@github.com> 1531492857 +0200\n\nMerge pull request #17 from zapov/master\n\nReplace Jsoniter with DSL-JSON",
+        "verified_at": "2024-11-07T17:38:35Z"
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/c202eed1aadd11c5cc88bf9968300e24b8f75577",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/c202eed1aadd11c5cc88bf9968300e24b8f75577",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/c202eed1aadd11c5cc88bf9968300e24b8f75577/comments",
+    "author": {
+      "login": "krisskross",
+      "id": 414023,
+      "node_id": "MDQ6VXNlcjQxNDAyMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/414023?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/krisskross",
+      "html_url": "https://github.com/krisskross",
+      "followers_url": "https://api.github.com/users/krisskross/followers",
+      "following_url": "https://api.github.com/users/krisskross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/krisskross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/krisskross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/krisskross/subscriptions",
+      "organizations_url": "https://api.github.com/users/krisskross/orgs",
+      "repos_url": "https://api.github.com/users/krisskross/repos",
+      "events_url": "https://api.github.com/users/krisskross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/krisskross/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d243b6be0128c080f5735825ca074967eb916f5f",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/d243b6be0128c080f5735825ca074967eb916f5f",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/d243b6be0128c080f5735825ca074967eb916f5f"
+      },
+      {
+        "sha": "3cdda05aeca715d747f767ab0b174771977a4665",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/3cdda05aeca715d747f767ab0b174771977a4665",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/3cdda05aeca715d747f767ab0b174771977a4665"
+      }
+    ]
+  },
+  {
+    "sha": "3cdda05aeca715d747f767ab0b174771977a4665",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6M2NkZGEwNWFlY2E3MTVkNzQ3Zjc2N2FiMGIxNzQ3NzE5NzdhNDY2NQ==",
+    "commit": {
+      "author": {
+        "name": "Rikard Pavelic",
+        "email": "rikard@ngs.hr",
+        "date": "2018-04-21T06:56:49Z"
+      },
+      "committer": {
+        "name": "Rikard Pavelic",
+        "email": "rikard@ngs.hr",
+        "date": "2018-07-12T06:59:11Z"
+      },
+      "message": "Add DSL-JSON. Note that Jsoniter is a copy of DSL-JSON\n\nJsoniter is a copy of DSL-JSON and since DSL-JSON is an open source project its not really awesome to copy it's architecture + code and then claim to be the fastest ever.\n\nAlso, third party benchmarks show DSL-JSON still as the fastest library:\n\nhttps://github.com/fabienrenaud/java-json-benchmark\nhttps://github.com/kostya/benchmarks\nhttps://github.com/eishay/jvm-serializers/",
+      "tree": {
+        "sha": "aee50d32bbb5b49545f19bd2effb8be72ce60b9c",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/aee50d32bbb5b49545f19bd2effb8be72ce60b9c"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/3cdda05aeca715d747f767ab0b174771977a4665",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/3cdda05aeca715d747f767ab0b174771977a4665",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/3cdda05aeca715d747f767ab0b174771977a4665",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/3cdda05aeca715d747f767ab0b174771977a4665/comments",
+    "author": {
+      "login": "zapov",
+      "id": 1181401,
+      "node_id": "MDQ6VXNlcjExODE0MDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1181401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zapov",
+      "html_url": "https://github.com/zapov",
+      "followers_url": "https://api.github.com/users/zapov/followers",
+      "following_url": "https://api.github.com/users/zapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/zapov/orgs",
+      "repos_url": "https://api.github.com/users/zapov/repos",
+      "events_url": "https://api.github.com/users/zapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zapov",
+      "id": 1181401,
+      "node_id": "MDQ6VXNlcjExODE0MDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1181401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zapov",
+      "html_url": "https://github.com/zapov",
+      "followers_url": "https://api.github.com/users/zapov/followers",
+      "following_url": "https://api.github.com/users/zapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/zapov/orgs",
+      "repos_url": "https://api.github.com/users/zapov/repos",
+      "events_url": "https://api.github.com/users/zapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f99a8281f564f7d512510760775bcaea8c431056",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/f99a8281f564f7d512510760775bcaea8c431056",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/f99a8281f564f7d512510760775bcaea8c431056"
+      }
+    ]
+  },
+  {
+    "sha": "d243b6be0128c080f5735825ca074967eb916f5f",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6ZDI0M2I2YmUwMTI4YzA4MGY1NzM1ODI1Y2EwNzQ5NjdlYjkxNmY1Zg==",
+    "commit": {
+      "author": {
+        "name": "Kristoffer Sjögren",
+        "email": "krisskross@users.noreply.github.com",
+        "date": "2018-07-07T11:59:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-07T11:59:54Z"
+      },
+      "message": "Merge pull request #19 from plokhotnyuk/patch-1\n\nAdd RTree2D",
+      "tree": {
+        "sha": "ee80372499950761b828eab05449d9187c82d736",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/ee80372499950761b828eab05449d9187c82d736"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/d243b6be0128c080f5735825ca074967eb916f5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQKs6CRBK7hj4Ov3rIwAAdHIIACMhH9UmX0TlQRRNo4fA9Vus\noWoH6qk5RmuuLEDONzYf2o7AlooYzkbSEGL/pV5kX58Op6dDrpyGraQN2ofrw/vJ\nqeGl8OG1nB1W+uQ4XMGLoZ5S2Fb2rTGsjTuqNEOpOYZcChE3v5GSdUW9NePDZvdu\ne0ToEwIy4zLdf5TEhISjMcJqYbeJTaxR67Gzkqv+ORRpR38pbi6aLUt1fue5pcew\nwjp8DNvx2PFZhLXj1aqph7jpwfCKvq7XtD/YGqcUsGkm76u2mamIWW5FOKwZVpUG\n0i86G9qaB/FbX7J0dWb/fc10ImKllyw2yjAVe0H5FF8v8yaWttVyXfIFYqEU8j4=\n=bVs9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ee80372499950761b828eab05449d9187c82d736\nparent f99a8281f564f7d512510760775bcaea8c431056\nparent 272ab3a6be8bec9363362fe0288b07fa0bc439fa\nauthor Kristoffer Sjögren <krisskross@users.noreply.github.com> 1530964794 +0200\ncommitter GitHub <noreply@github.com> 1530964794 +0200\n\nMerge pull request #19 from plokhotnyuk/patch-1\n\nAdd RTree2D",
+        "verified_at": "2024-11-07T17:38:35Z"
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/d243b6be0128c080f5735825ca074967eb916f5f",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/d243b6be0128c080f5735825ca074967eb916f5f",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/d243b6be0128c080f5735825ca074967eb916f5f/comments",
+    "author": {
+      "login": "krisskross",
+      "id": 414023,
+      "node_id": "MDQ6VXNlcjQxNDAyMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/414023?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/krisskross",
+      "html_url": "https://github.com/krisskross",
+      "followers_url": "https://api.github.com/users/krisskross/followers",
+      "following_url": "https://api.github.com/users/krisskross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/krisskross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/krisskross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/krisskross/subscriptions",
+      "organizations_url": "https://api.github.com/users/krisskross/orgs",
+      "repos_url": "https://api.github.com/users/krisskross/repos",
+      "events_url": "https://api.github.com/users/krisskross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/krisskross/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f99a8281f564f7d512510760775bcaea8c431056",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/f99a8281f564f7d512510760775bcaea8c431056",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/f99a8281f564f7d512510760775bcaea8c431056"
+      },
+      {
+        "sha": "272ab3a6be8bec9363362fe0288b07fa0bc439fa",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/272ab3a6be8bec9363362fe0288b07fa0bc439fa",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/272ab3a6be8bec9363362fe0288b07fa0bc439fa"
+      }
+    ]
+  },
+  {
+    "sha": "272ab3a6be8bec9363362fe0288b07fa0bc439fa",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6MjcyYWIzYTZiZThiZWM5MzYzMzYyZmUwMjg4YjA3ZmEwYmM0MzlmYQ==",
+    "commit": {
+      "author": {
+        "name": "Andriy Plokhotnyuk",
+        "email": "plokhotnyuk@gmail.com",
+        "date": "2018-07-07T07:30:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-07T07:30:27Z"
+      },
+      "message": "Add dots and fix `targeting`",
+      "tree": {
+        "sha": "ee80372499950761b828eab05449d9187c82d736",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/ee80372499950761b828eab05449d9187c82d736"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/272ab3a6be8bec9363362fe0288b07fa0bc439fa",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQGwTCRBK7hj4Ov3rIwAAdHIIADwfOMRa1HSufiv5/VVH3joQ\n8NCiwNIpJg3kp9Q5I32Nt24ZYwmZ9eLfzgZESnUgKJ7fozPanW0X6i1SMY94fBgO\neRfqDFDBP/f5FVYotGQn2OCnqAsXywQXNFH7IHTWt5OIZDRDK1RQmXjZ1VgAcOGD\nljZ3ylHmajTP+9MAzfw/0B4S3GBO+j9la6K1j0bLsITg9mkzHHS7/gzWjqKYaSWS\naFKeWiZF4KOWop7JPkLKyo7xkIpPI/3p+8eA4a0fQtaLAi4RApN0m8s23TJuCZEf\nu/ZctCp5xs6bXj5wYIikWd9uax8Bto4COY9q36yo5zPW4yd8hacpKcr8+C8KS9g=\n=Ogwa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ee80372499950761b828eab05449d9187c82d736\nparent 4b1940952f51a5b918278e833255b72e63b7985f\nauthor Andriy Plokhotnyuk <plokhotnyuk@gmail.com> 1530948627 +0200\ncommitter GitHub <noreply@github.com> 1530948627 +0200\n\nAdd dots and fix `targeting`",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/272ab3a6be8bec9363362fe0288b07fa0bc439fa",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/272ab3a6be8bec9363362fe0288b07fa0bc439fa",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/272ab3a6be8bec9363362fe0288b07fa0bc439fa/comments",
+    "author": {
+      "login": "plokhotnyuk",
+      "id": 890289,
+      "node_id": "MDQ6VXNlcjg5MDI4OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/890289?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/plokhotnyuk",
+      "html_url": "https://github.com/plokhotnyuk",
+      "followers_url": "https://api.github.com/users/plokhotnyuk/followers",
+      "following_url": "https://api.github.com/users/plokhotnyuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/plokhotnyuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/plokhotnyuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/plokhotnyuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/plokhotnyuk/orgs",
+      "repos_url": "https://api.github.com/users/plokhotnyuk/repos",
+      "events_url": "https://api.github.com/users/plokhotnyuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/plokhotnyuk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b1940952f51a5b918278e833255b72e63b7985f",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/4b1940952f51a5b918278e833255b72e63b7985f",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/4b1940952f51a5b918278e833255b72e63b7985f"
+      }
+    ]
+  },
+  {
+    "sha": "4b1940952f51a5b918278e833255b72e63b7985f",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6NGIxOTQwOTUyZjUxYTViOTE4Mjc4ZTgzMzI1NWI3MmU2M2I3OTg1Zg==",
+    "commit": {
+      "author": {
+        "name": "Andriy Plokhotnyuk",
+        "email": "plokhotnyuk@gmail.com",
+        "date": "2018-07-07T05:01:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-07T05:01:24Z"
+      },
+      "message": "Fix description of the RoboVM fork",
+      "tree": {
+        "sha": "5649f7ba6d6f59b24a7f97591610f8adaf713206",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/5649f7ba6d6f59b24a7f97591610f8adaf713206"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/4b1940952f51a5b918278e833255b72e63b7985f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQEkkCRBK7hj4Ov3rIwAAdHIIAHZaDr8GrAxeoVheWkOvTKBp\nwSftBny9BOTSXd4LdAo7uxX0DIx5a4YpB2RSinEXeu6VV8JUVUh/Z39JHKPkhNq9\nXVrfQslEXU1onQNIl4ABXUwhhC9UCiyqKAGoVd+rx43rABoFPHky/EScsbm5N1NN\n9GcadKaU6HBrKTMqXB5e+y3OzJ5vIRrUqCX/rbpXj5ZOPNITN6Y5BJmBKLnzQofA\nm5zii6lMDoylSQQ9sFYXOSX6f2iiUkn1XjiUuWZFkbEFGmBOLYhx3m64Vyk+W26Y\nVF3UV9HHneVCSPQbLmVqNopOy5At1oflRroykbph/GM9dPiFuLpBlzeTjp2dnOA=\n=V/iL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5649f7ba6d6f59b24a7f97591610f8adaf713206\nparent 5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73\nauthor Andriy Plokhotnyuk <plokhotnyuk@gmail.com> 1530939684 +0200\ncommitter GitHub <noreply@github.com> 1530939684 +0200\n\nFix description of the RoboVM fork",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/4b1940952f51a5b918278e833255b72e63b7985f",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/4b1940952f51a5b918278e833255b72e63b7985f",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/4b1940952f51a5b918278e833255b72e63b7985f/comments",
+    "author": {
+      "login": "plokhotnyuk",
+      "id": 890289,
+      "node_id": "MDQ6VXNlcjg5MDI4OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/890289?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/plokhotnyuk",
+      "html_url": "https://github.com/plokhotnyuk",
+      "followers_url": "https://api.github.com/users/plokhotnyuk/followers",
+      "following_url": "https://api.github.com/users/plokhotnyuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/plokhotnyuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/plokhotnyuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/plokhotnyuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/plokhotnyuk/orgs",
+      "repos_url": "https://api.github.com/users/plokhotnyuk/repos",
+      "events_url": "https://api.github.com/users/plokhotnyuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/plokhotnyuk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73"
+      }
+    ]
+  },
+  {
+    "sha": "5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6NTMwMWE5ZmMzYmJiOGJmMjA4M2JlZGRlNmQxOTgyZWFmOTZlY2Q3Mw==",
+    "commit": {
+      "author": {
+        "name": "Andriy Plokhotnyuk",
+        "email": "plokhotnyuk@gmail.com",
+        "date": "2018-07-07T04:51:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-07T04:51:03Z"
+      },
+      "message": "Fix broken links",
+      "tree": {
+        "sha": "2c6e50e240eb4631eddffde54ac7fc106bbbcb05",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/2c6e50e240eb4631eddffde54ac7fc106bbbcb05"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQEa3CRBK7hj4Ov3rIwAAdHIIAGxLJtX5yOlS2DNyRbv0/FpH\nHZJ3wI8gzMzj+h3cwjBOiZ75lRYcsrTpvTwIpOTDj5MwsdQl1bs8br0huRQsVkwr\nmG53htI/cwIs3uhh6fzPmL+OfXbz1VKsvubV8SdqFMd6bmbzaCgcmJBcZeEl01Vt\ng6YJgVpaFzjREyoAJ5RT3yD/QBLNz6oMDzqN9TbJxR/ly99x7Y6SPLEa3qSxNnrT\nuOfUJxicdDa05OmSQoXQI4uR1F17snjem6fcyzv/YxoMBk7m+YlXjr9GEnjQT2UI\nWX9aF0FLFAzEzSzJV+bl4tdn1VN5Ur2tfgLYYOJnlTsrtCEF1bNI3nBy8xI9voI=\n=hO/Y\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2c6e50e240eb4631eddffde54ac7fc106bbbcb05\nparent 209fcb2f7611dc3775547cc4eb0ec88d4a843d39\nauthor Andriy Plokhotnyuk <plokhotnyuk@gmail.com> 1530939063 +0200\ncommitter GitHub <noreply@github.com> 1530939063 +0200\n\nFix broken links",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/5301a9fc3bbb8bf2083bedde6d1982eaf96ecd73/comments",
+    "author": {
+      "login": "plokhotnyuk",
+      "id": 890289,
+      "node_id": "MDQ6VXNlcjg5MDI4OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/890289?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/plokhotnyuk",
+      "html_url": "https://github.com/plokhotnyuk",
+      "followers_url": "https://api.github.com/users/plokhotnyuk/followers",
+      "following_url": "https://api.github.com/users/plokhotnyuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/plokhotnyuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/plokhotnyuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/plokhotnyuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/plokhotnyuk/orgs",
+      "repos_url": "https://api.github.com/users/plokhotnyuk/repos",
+      "events_url": "https://api.github.com/users/plokhotnyuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/plokhotnyuk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "209fcb2f7611dc3775547cc4eb0ec88d4a843d39",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/209fcb2f7611dc3775547cc4eb0ec88d4a843d39",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/209fcb2f7611dc3775547cc4eb0ec88d4a843d39"
+      }
+    ]
+  },
+  {
+    "sha": "209fcb2f7611dc3775547cc4eb0ec88d4a843d39",
+    "node_id": "MDY6Q29tbWl0NDA2NTkwOTE6MjA5ZmNiMmY3NjExZGMzNzc1NTQ3Y2M0ZWIwZWM4OGQ0YTg0M2QzOQ==",
+    "commit": {
+      "author": {
+        "name": "Andriy Plokhotnyuk",
+        "email": "plokhotnyuk@gmail.com",
+        "date": "2018-06-30T16:39:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-06-30T16:39:56Z"
+      },
+      "message": "Add RTree2D",
+      "tree": {
+        "sha": "7d64f0205f2d5bc67047c841e4af3dd8bc0f1845",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/trees/7d64f0205f2d5bc67047c841e4af3dd8bc0f1845"
+      },
+      "url": "https://api.github.com/repos/deephacks/awesome-jvm/git/commits/209fcb2f7611dc3775547cc4eb0ec88d4a843d39",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbN7JcCRBK7hj4Ov3rIwAAdHIIAI/YTpq3obFJ/N4puAbJ0/jE\nnXQ3iMq+h02Bzt0xn5rzTab90EAAZIBFuIWQ3VFL3g1UNrGUUUtpnwyUS5SC6Tdj\naho5W3VQNgHVemgVrKjnc+oFCGNMeH32bgrL15ScNOUV4s3Ev+sxjzeLpat37XF9\nOTfyNEB0UIt9mO1P4n7BAR8fGvdvz0YrSG1fzwbhNFoSSA1DBQKHv6HJuXnUWbsn\nsFfzTaWIMRRbXOzHad0mmSFTwcbKUfAujUghKY4MgN042QNYgjpGi9GvYE89iG6d\nuzyAYyOIaHwXMZWEzO2r958S/9xmQRoBWJwy/yNtlaby0S9FB1gHTbirJrPXhlg=\n=7aza\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7d64f0205f2d5bc67047c841e4af3dd8bc0f1845\nparent f99a8281f564f7d512510760775bcaea8c431056\nauthor Andriy Plokhotnyuk <plokhotnyuk@gmail.com> 1530376796 +0200\ncommitter GitHub <noreply@github.com> 1530376796 +0200\n\nAdd RTree2D",
+        "verified_at": "2024-01-16T19:59:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/209fcb2f7611dc3775547cc4eb0ec88d4a843d39",
+    "html_url": "https://github.com/deephacks/awesome-jvm/commit/209fcb2f7611dc3775547cc4eb0ec88d4a843d39",
+    "comments_url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/209fcb2f7611dc3775547cc4eb0ec88d4a843d39/comments",
+    "author": {
+      "login": "plokhotnyuk",
+      "id": 890289,
+      "node_id": "MDQ6VXNlcjg5MDI4OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/890289?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/plokhotnyuk",
+      "html_url": "https://github.com/plokhotnyuk",
+      "foll
+
+[…truncated 108357 chars — raise BridgeOptions.maxResultChars, or call the tool with a narrower scope (filter, head, pagination)…]
+
+//api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "16474c6b9e219a0afdac1d574b810333a198565e",
+        "url": "https://api.github.com/repos/deephacks/awesome-jvm/commits/16474c6b9e219a0afdac1d574b810333a198565e",
+        "html_url": "https://github.com/deephacks/awesome-jvm/commit/16474c6b9e219a0afdac1d574b810333a198565e"
+      }
+    ]
+  }
+]

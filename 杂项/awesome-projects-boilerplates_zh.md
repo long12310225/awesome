@@ -1,0 +1,206 @@
+# 很棒的样板[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+用于提高生产力的精选样板和模板列表。
+
+- [很棒的项目样板](#awesome-projects-boilerplates)
+    - [安卓开发](#android-development)
+    - [iOS开发](#ios-development)
+    - [JavaScript](#javascript)
+    - [混合移动应用程序框架](#hybrid-mobile-app-frameworks)
+    - [Microservices](#microservices)
+    - [Python](#python)
+    - [PHP](#php)
+    - [Ruby](#ruby)
+    - [.NET](#net)
+    - [Go](#go)
+    - [浏览器网络扩展](#browser-webextensions)
+    - [Websites](#websites)
+    - [集成开发环境模板](#ide-templates)
+    - [GitHub](#github)
+- [Contributing](#contributing)
+
+
+
+## 安卓开发
+
+*适用于 Android 的样板和模板*
+
+- [Android Bootstrap](https://github.com/AndroidBootstrap/android-bootstrap) 一个模板/bootstrap/boilerplate 应用程序，包含大量优秀的开源工具和框架。
+- [Android Material Drawer Template](https://github.com/kanytu/android-material-drawer-template) 带有导航抽屉的 Android 模板，用于材质设计。
+- [material-design-icons-adt-template](https://github.com/intrications/material-design-icons-adt-template)用于材料设计图标资源的 Android Studio / Eclipse ADT 模板。
+- [AndroidKickststarter](https://github.com/e-biz/androidkickstartr) 框架启动开发，帮助您专注于编码。
+- [Android 注解](https://github.com/excilys/androidannotations) 快速 Android 开发。维护方便。
+- [Android Cookbook Examples](https://github.com/IanDarwin/Android-Cookbook-Examples) 从 O'Reilly Android Cookbook 收集的代码示例。
+- [Android 基本示例](https://github.com/playgameservices/android-basic-samples) 主要面向游戏的示例。
+- [Android Webview 示例应用程序](https://github.com/tscolari/android-webview-sample-app) Webview 示例应用程序
+- [Android 快速入门](https://github.com/googledrive/android-quickstart) 快速入门应用程序，显示适用于 Android 的 Google Drive API。
+- [Android 入门资源](https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources) A​​ndroid 指南。
+- [Universal Music Player](https://github.com/googlesamples/android-UniversalMusicPlayer) Google 示例应用程序展示了如何实现跨多种外形尺寸工作的音频媒体应用程序，并在 Android 手机、平板电脑、汽车、Wear 和 Cast 设备上提供一致的用户体验。
+- [Android 架构蓝图](https://github.com/googlesamples/android-architecture) 演示基本的模型-视图-呈现器架构并展示各种 TODO 应用程序实现。
+
+## IOS开发。
+
+*适用于 IOS 的样板和模板*
+
+- [iOS Boilerplate](https://github.com/gimenete/iOS-boilerplate) Gimeno 的 Boilerplate。
+- [Amaro](https://github.com/crushlovely/Amaro) 功能齐全的 iOS 样板。
+- [Boilerplate-iOS](https://github.com/openapid/Boilerplate-iOS) 由 openaphid 提供的 Boilerplate。
+- [Swift 5 模块模板](https://github.com/fulldecent/swift5-module-template) 可重用 Swift 5 模块的样板。
+
+## JavaScript
+
+*JavaScript 的样板和模板*
+
+- [Yeoman](https://github.com/yeoman) 现代网络应用程序的网络脚手架工具。包括许多可供入门的生成器。
+- [Mega Boilerplate](https://github.com/sahat/megaboilerplate) 全栈样板生成器，支持 Node.js、静态站点或 Electron 应用程序。
+- [NodeJS](#node-js)
+- [Yeoman 节点生成器](https://github.com/yeoman/generator-node) Yeomans 节点生成器
+- [节点模块样板](https://github.com/sindresorhus/node-module-boilerplate) 用于启动创建节点模块的样板
+- [Express Boilerplate](https://github.com/expressjs/generator) Express.js 项目的样板生成器
+- [Hackathon Starter](https://github.com/sahat/hackathon-starter) Node.js Web 应用程序的样板。
+- [Node/Backbone Web 应用程序样板](https://github.com/skaapgif/webapp-boilerplate) 用于具有 Node、Express、MongoDB 后端和 Backbone Marionette、Jade、Require.js 前端的 Web 应用程序的样板。
+- [Nodebootstrap](http://nodebootstrap.io/) Node/Express.js 的不显眼的框架项目，具有预先配置的最佳实践。
+    - [Vue-Express-Mongo Boilerplate](https://github.com/icebob/vue-express-mongo-boilerplate) - 使用 Express、Mongo 和 VueJS 的全栈 JS Web 应用程序样板）
+    - [Node-Express-Mongoose Boilerplate](https://github.com/hagopj13/node-express-mongoose-boilerplate) - 用于使用 Node.js、Express 和 Mongoose 构建生产就绪的 RESTful API 的样板。
+    - [Handlebars-Express Boilerplate](https://github.com/MohamedMoustafaNUIG/NodeExpressHbsScaffold) - 带有 Express 和车把视图引擎设置的 JS Web 应用程序样板。
+
+- [AngularJS](#angular-js)
+- [ng-boilerplate](https://github.com/ngbp/ngbp) AngularJS 项目的固执己见的启动器。
+    - [Yeoman 角度生成器](https://github.com/yeoman/generator-angular)
+- [Angular Laravel CouchDB](https://github.com/melvin0008/laravel-angular) Angular Laravel CouchDB 样板
+- [ReactJS](#react-js)
+- [React Typescript npm 样板](https://github.com/Sivakumar00/react-typescript-npm-boilerplate) 强大的 React Typescript npm 组件样板，使用 rollup.js、storybook、jest 单元测试、tree-shaking 和 airbnb eslint 规则构建
+- [React Boilerplate](https://github.com/petehunt/react-boilerplate) 用于创建 React npm 包的样板
+- [React Boilerplate](https://github.com/rackt/react-boilerplate) 使用 React Router 和 webpack React 样板
+- [React Transform Boilerplate](https://github.com/gaearon/react-transform-boilerplate) 一个新的 Webpack 样板，具有热重载 React 组件以及模块和组件级别的错误处理功能。
+- [Library Boilerplate](https://github.com/gaearon/library-boilerplate) React 库的固定样板，包括 ESLint、Mocha、Babel、Webpack 以及由 Webpack Dev Server 和 React Hot Loader 提供支持的示例
+- [React NPM Component Starter](https://github.com/yogaboll/react-npm-component-starter) 用于构建 NPM React 组件的最小样板
+- [React Isomorphic Starterkit](https://github.com/RickWong/react-isomorphic-starterkit) 同构 starterkit，具有服务器端 React 渲染，具有许多功能
+- [Coffee React 快速入门](https://github.com/KyleAMathews/coffee-react-quickstart) 使用 Coffeescript、Gulp、Webpack 和 React-Router 构建 React 单页应用程序的快速入门
+- [Flask React Boilerplate](https://github.com/alexkuz/flask-react-boilerplate) Flask 和 React Boilerplate
+- [Boilerplate Webpack React](https://github.com/tcoopman/boilerplate-webpack-react) 使用 webpack、gulp 和 stylus 的 Reactjs 的 Boilerplate 项目
+- [React JS 热加载器样板](https://github.com/gaearon/react-hot-loader/tree/master/docs#starter-kits) React 热加载器入门套件
+- [React Redux minimary](https://github.com/flexdinesh/react-redux-boilerplate) 具有所有最佳实践的最小 React-Redux 样板
+- [React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example) 使用express、react、redux、webpack和react-transform的通用Web应用程序的入门样板
+- [post3ree-boilerplate](https://github.com/hex22a/post3ree-boilerplate) 使用 3REE 堆栈（React、Redux、RethinkDB、Express）+ PostCSS 的通用应用程序的样板
+- [HyperApp](#hyperapp)
+- [hyperapp-boilerplate](https://github.com/tzellman/hyperapp-boilerplate) 样板文件展示了如何创建生产就绪的 Hyperapp 应用程序。
+- [Backbone](#backbone)
+- [主干样板](https://github.com/addyosmani/backbone-boilerplates) 主干样板由 Addy Osmani 编写。
+- [Yeoman Backbone 生成器](https://github.com/yeoman/generator-backbone) 用于 Backbone 的 Yeoman 生成器。
+- [benm](https://github.com/shorttompkins/benm) 使用 Backbone.js、ExpressJS、node.js、MongoDB 的 Boilerplate Web 应用程序。
+- [Jquery](#jquery)
+- [Jquery Boilerplate 生成器](https://github.com/jquery-boilerplate/generator-jquery-boilerplate) jQuery Boilerplate 的 Yeoman 生成器。
+- [Polymer](#polymer)
+- [Polymer Starter Kit](https://github.com/PolymerElements/polymer-starter-kit) Polymer 1.0 应用程序的起点。
+- [聚合物种子元素](https://github.com/PolymerElements/seed-element) 为您自己的可重用聚合物元素提供起点的元素。
+- [Yeoman 聚合物生成器](https://github.com/yeoman/generator-polymer) Yeoman 的聚合物生成器
+- [Electron](#electron)
+- [Electron React Boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) 可扩展电子应用程序的基础
+- [Electron Boilerplate](https://github.com/sindresorhus/electron-boilerplate) 电子节点的样板
+- [WhiteStormJS - React/Redux - Three.js - TypeScript 样板](https://github.com/WhitestormJS/whitestorm-typescript-boilerplate) 使用现代技术制作 3D 应用程序的入门套件
+
+## 混合移动应用程序框架
+
+- [Angular Gulp Ionic Boilerplate](https://github.com/MaximAbramchuck/angular-gulp-ionic-boilerplate) 用于使用 Gulp 和 EcmaScript6 编写应用程序的 Ionic 框架样板。
+
+
+## 微服务
+
+- [Webstack-micro](https://github.com/ferbs/webstack-micro) 使用微服务架构的全栈 Web 应用程序的演示/启动器，具有 API 网关、集中式身份验证、后台工作人员和 WebSocket。
+
+
+## 蟒蛇
+
+*Python 的样板和模板*
+- [BeautyNet](https://github.com/cms-flash/beauty-net) PyTorch 的研究项目模板。
+- [Django Hackathon Starter](https://github.com/DrkSephy/django-hackathon-starter) Django Web 应用程序的样板，提供各种社交登录和几个流行的 API 示例。
+- [CookieCutter](https://github.com/audreyr/cookiecutter#python) Audrey 的各种 python 模板列表。
+- [bootstrapy](https://github.com/kirang89/bootstrapy) 一个引导Python应用程序，让您可以专注于编写代码。
+- [Fbone](https://github.com/imwilsonxu/fbone) Fbone（Flask 骨）是一个 Flask（Python 微框架）模板/bootstrap/boilerplate 应用程序。
+- [hasura/hello-python-flask](https://hasura.io/hub/project/hasura/hello-python-flask) 一个样板 Flask 应用程序，可在 3 分钟内部署，具有现成的数据库、身份验证和文件 API。
+- [Flask-Bootstrap](https://github.com/esbullington/flask-bootstrap) 一个 Flask 应用程序模板，集成了 SQLAlchemy、身份验证和 Bootstrap 前端。
+- [Flask Boilerplate](https://github.com/melvin0008/FlaskBoilerplate) 一个非常简单的具有文件夹结构的 Flask 样板。
+- [Flask Foundation](https://github.com/JackStouffer/Flask-Foundation) 使用最佳实践构建的应用程序。
+- [GoogleAppEngine Webapp2 Boilerplate](https://github.com/coto/gae-boilerplate) Google App Engine 上 Python Webapp2 的完整样板
+- [Flask Appengine 模板](https://github.com/kamalgill/flask-appengine-template) Flask 应用引擎模板
+- [Django 入门模板](https://github.com/fasouto/django-starter-template) 一个易于使用的 Django 项目模板，遵循最佳实践。
+- [gae-init](http://gae-init.appspot.com) Google App Engine 基于 Flask、RESTful、Bootstrap 和大量其他很酷的功能。
+- [CherryPy + Mako + Formish + OOOP 样板](https://github.com/kdeldycke/cherrypy_mako_formish_ooop_boilerplate) 目标是将 OpenERP 内容发布到网络上。
+
+
+## PHP
+
+*PHP 的样板和模板*
+
+- [Laravel Angular CouchDB](https://github.com/melvin0008/laravel-angular) Laravel Angular CouchDB 样板
+
+## 红宝石
+
+*Ruby 的样板和模板*
+
+- [AngularJS Rails 模板](https://github.com/pitr/angular-rails-templates)Rails 和 Angular 模板。
+- [AngularJS Sinatra Bootstrap](https://github.com/dannolan/angularjs-sinatra-bootstrap-template) Angular Sinatra Bootstrap 模板。
+- [Rails Composer](http://railsapps.github.io/rails-composer/) 使用 Rails Composer 从 RailsApps 项目生成任何示例应用程序。
+- [Rails Bootstrap](https://github.com/RailsApps/rails-bootstrap) Rails 和 Bootstrap 入门应用程序
+
+## .NET
+
+*适用于 C#.NET 和 ASP.NET 的样板和模板*
+
+- [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) ASP.NET Boilerplate 是使用最佳实践和最流行工具的新现代 Web 应用程序的起点。
+
+
+## 去
+
+*Go 的样板和模板*
+
+- [Go React JSX Boilerplate](https://github.com/sharath/go-react-boilerplate) React + Go Web 应用程序的起始代码
+
+
+## 浏览器网络扩展
+
+*用于为 Chrome、Firefox 和 Safari 等互联网浏览器开发网络扩展的样板和模板*
+
+- [带有 Webpack 的样板](https://github.com/fstanis/webextensions-webpack-boilerplate) 使用 Webpack JS 模块管理器
+
+
+
+## 网站
+
+*网站的样板和模板*
+- [HTML5 Boilerplate](https://html5boilerplate.com/) Web最流行的前端模板
+- [Meteor 样板](https://github.com/Differential/meteor-boilerplate) 流星框架的样板。
+- [Web Starter Kit](https://github.com/google/web-starter-kit) Google 的 Web Starter Kit。
+- [Open Designs](http://www.opendesigns.org/) 开源网页设计模板
+- [开放网页设计](http://www.openwebdesign.org/) 设计师和网站所有者共享免费网页设计模板的社区
+- [OSWD](http://www.oswd.org/) 共享符合标准的免费网页设计模板的平台
+- [Jekyll 入门工具包](https://github.com/nirgn975/generator-jekyll-starter-kit) Jekyll Progressive Web App 生成器样板。
+- [HTML5 UP!](https://html5up.net/) 响应式 HTML5 和 CSS3 网站模板。
+- [Gulp front](https://zoxon.github.io/gulp-front/) 基于 gulp、pug、stylus 和 babel 的前端样板和框架
+- [HTML 网站模板](https://github.com/fulldecent/html-website-template) 协作编辑 HTML 网站的起点
+- [Nextjs 博客入门](https://creativedesignsguru.com/demo/Nextjs-Blog-Boilerplate/) 基于 Next.js 框架的博客入门代码
+
+## 集成开发环境
+
+*适用于不同 IDE 的模板系统*
+
+- [Yasnippet](https://github.com/capitaomorte/yasnippet) Emacs 的模板系统。
+- [Vim 模板](https://github.com/aperezdc/vim-template) 简单的 Vim 模板插件。
+
+## GitHub
+
+*样板文件和模板文件*
+
+- [GitHub 模板指南](https://github.com/cezaraugusto/github-template-guidelines) 用于编写可维护的 GitHub 项目的指南和样板文件集合。
+- [Pollinate](https://github.com/everysquare/pollinate) 模板化您的基本文件并从 GitHub 生成它们。
+
+# [贡献](https://github.com/melvin0008/awesome-projects-boilerplates/blob/master/CONTRIBUTING.MD)
+
+随时欢迎您的贡献！
+
+## 许可证
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+在法律允许的范围内，[Melvin Philips](http://melvinphilips.com) 已放弃本作品的所有版权以及相关或邻接权。

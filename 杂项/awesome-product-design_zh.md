@@ -1,0 +1,219 @@
+<div align="center" style="margin: 12px">
+  <a href="https://en.wikipedia.org/wiki/Digital_product_design">
+    <img src="./images/apd-icon.png" width="140">
+  </a>
+</div>
+
+# 很棒的产品设计 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+
+> 为产品设计师提供的书签、资源和文章的集合。
+
+[数字产品设计](https://en.wikipedia.org/wiki/Digital_product_design)是一个迭代设计过程，通过正式的解决方案来解决功能问题。数字产品设计师识别真正的问题，提供最佳的解决方案，并将其投放到对该特定解决方案有需求的市场。
+
+请随意通过拉取请求[添加一些有趣的内容](contributing.md)。
+
+## 内容
+- [Research](#research)
+- [UX](#ux)
+- [UI](#ui)
+- [Visual](#visual)
+- [Prototype](#prototype)
+- [Accessibility](#accessibility)
+- [Writing](#writing)
+- [Data](#data)
+- [IoT](#iot)
+
+## 研究
+#### 方法
+###### 决策
+- [Untools](https://untools.co) - 帮助您解决问题、做出决策和理解系统的思维工具和框架。
+###### 研究计划
+- [Smashing Magazine](https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/) - 利益相关者喜爱的用户体验研究计划。
+- [NN Group](https://www.nngroup.com/articles/pm-research-plan/) - 用户研究的项目管理：计划。
+- [Interaction Design](https://www.interaction-design.org/literature/article/a-one-page-user-research-plan) - 一页用户研究计划。
+- [Branding5](https://www.branding5.com/) - 将品牌定位作为您设计的基础。
+###### 用户访谈
+- [NN Group](https://www.nngroup.com/articles/interviewing-users/) - 尽管存在许多缺点，访谈仍然是探索性用户研究的一种有价值的方法。
+- [UXDesign.cc](https://uxdesign.cc/how-to-get-the-most-out-of-user-interviews-c5d0cd4499b5) - 如何充分利用用户访谈。
+###### 利益相关者访谈
+- [Boxes and Arrows](https://boxesandarrows.com/a-stakeholder-interview-checklist/) - 采访利益相关者的备忘单。
+- [UX Apprentice](https://www.uxapprentice.com/resources/stakeholder-interview-template/) - 利益相关者访谈模板。
+- [Interaction Design](https://www.interaction-design.org/literature/article/preparing-for-ux-stakeholder-interviews) - 准备用户体验利益相关者访谈。
+###### 研究综合
+- [UX Movement](https://uxmovement.com/thinking/how-to-turn-user-research-into-usable-data/) - 如何将用户研究转化为可用数据。
+- [SlideShare](https://www.slideshare.net/HJKwon3/design-research-synthesis) - 设计研究综合。
+- [Medium](https://medium.com/product-labs/using-trello-for-user-research-synthesis-fb1abdfc7c4b) - 使用 Trello 进行用户研究综合。
+- [Tuts+](https://webdesign.tutsplus.com/tutorials/how-to-prepare-and-use-an-affinity-diagram--cms-28388) - 如何准备和使用亲和图。
+- [Medium](https://medium.com/learning-ux/affinity-diagrams-tips-and-tricks-6225e8c1f0df) - 亲和图：提示和技巧。
+###### 竞品分析
+- [Xtensio](https://xtensio.com/how-to-create-a-competitive-analysis/) - 如何：创建竞争分析。
+- [Hootsuite](https://blog.hootsuite.com/the-ultimate-competitive-analysis-template/) - 竞争分析模板可帮助您智取竞争对手。
+###### 待完成的工作
+- [Intercom](https://blog.intercom.com/using-job-stories-design-features-ui-ux/) - 使用工作故事设计功能。
+- [JTBD](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27) - 用工作故事代替用户故事。
+###### 角色
+- [Usability.Gov](https://www.usability.gov/how-to-and-tools/methods/personas.html) - 人物角色的目的是为关键受众创建可靠且真实的表现。
+- [UX Mag](https://uxmag.com/articles/personas-the-foundation-of-a-great-user-experience) - 角色：良好用户体验的基础。
+- [Tuts+](https://webdesign.tutsplus.com/articles/defining-and-applying-personas-to-ux-design--webdesign-7561) - 定义角色并将其应用于用户体验设计。
+###### 同理心地图
+- [UX Pin](https://www.uxpin.com/studio/blog/the-practical-guide-to-empathy-maps-creating-a-10-minute-persona/) - 移情图实用指南：10 分钟用户角色。
+- [Boagworld](https://boagworld.com/usability/adapting-empathy-maps-for-ux-design/) - 调整移情图以进行用户体验设计。
+###### 故事板
+- [UX Magazine](https://uxmag.com/articles/storyboarding-in-the-software-design-process) - 软件设计过程中的故事板。
+- [Medium](https://uxplanet.org/storyboarding-in-ux-design-b9d2e18e5fab) - 用户体验设计中的故事板。
+- [NN Group](https://www.nngroup.com/articles/customer-journey-mapping/) - 何时以及如何创建客户旅程地图。
+- [UX Lady](https://www.ux-lady.com/experience-maps-user-journey-and-more-exp-map-layout/) - 体验地图、用户旅程等。
+- [Smashing Magazine](https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/) - 关于客户旅程地图您需要了解的一切。
+- [Medium](https://medium.com/@wnialloconnor/how-to-build-an-experience-map-5e55b7ee4f32) - 如何构建体验地图。
+#### 文章
+- [Smashing Magazine](https://www.smashingmagazine.com/2013/04/rainbow-spreadsheet-collaborative-ux-research-tool/) - Rainbow Spreadsheet：协作精益用户体验研究工具。
+- [Coglode](https://coglode.com/) - 一口大小的行为研究分析。
+#### 测试
+- [User Testing](https://www.usertesting.com/) - 解锁客户洞察并增加您的收入。
+- [Optimal Workshop](https://www.optimalworkshop.com/) - 用户研究平台可帮助您和您的团队自信地做出设计决策。
+- [Measure Success](https://www.sitepoint.com/how-do-you-measure-the-success-or-failure-of-your-ux-design/) - 您如何衡量用户体验设计的成功（或失败）？
+- [Lookback](https://lookback.io/) - 简单而强大的用户研究。
+- [Full Story](https://www.fullstory.com/) - 关于您的客户体验，您想了解什么？
+- [Desinion](https://www.desinion.com/) - 为您的公司或您客户的公司做出明智且明智的设计决策。
+- [Survey Monkey](https://www.surveymonkey.com/) - 将直觉转化为洞察力。
+- [Etnio](https://ethn.io/) - 拦截真人以进行用户研究。
+
+## 用户体验
+#### 指南
+- [The UX Bookmark](https://www.theuxbookmark.com/) - 全球最佳用户体验网站的集合。
+- [Gov.Uk](https://www.gov.uk/service-manual/) - 帮助政府团队创建和运营出色的数字服务。
+- [Methods 18F](https://methods.18f.gov/) - 将以人为本的设计引入您的项目的工具集合。
+- [Guides 18F](https://guides.18f.gov/) - 18F 指南是我们团队最佳实践的存储库。
+- [Usability.Gov](https://www.usability.gov/) - 改善用户体验。
+- [Medial Lab Amsterdam](https://medialabamsterdam.com/toolkit/) - 设计方法工具包。
+- [Design Kit IDEO](https://www.designkit.org/methods) - 释放创造力的分步指南。
+- [Gamestorming](https://gamestorming.com/) - Gamestorming 是世界各地创新者使用的一套共同创造工具。
+#### 文章
+- [UX Magazine](https://uxmag.com/) - UX Magazine 是一个免费的社区资源，探索体验设计的各个方面。
+- [UX Booth](https://www.uxbooth.com/) - UX Booth 是用户体验社区的出版物。
+- [UX Mastery](https://uxmastery.com/) - 我们帮助用户体验专业人员入门并变得更好。
+- [UX Myths](https://uxmyths.com/) - 根据证据而不是错误的信念来构建您的产品。
+- [A List Apart](https://alistapart.com/) - List Apart 探索网页内容的设计、开发和含义。
+- [52 Weeks of UX](https://52weeksofux.com/) - 关于为真人设计的过程的讨论。
+- [UX Pin](https://www.uxpin.com/studio/) - 探索用户体验设计各个方面的指南、文章和电子书。
+- [The IxD Library](https://theixdlibrary.com/) - 与交互设计相关的材料集合。
+- [LukeW](https://www.lukew.com/ff) - 有关数字产品设计背后的关键细节和大局的出版物。
+- [NN Group](https://www.nngroup.com/articles/) - 循证用户体验研究、培训和咨询。
+- [Information Design](https://www.informationdesign.org/) - InfoDesign 自 1997 年起精心挑选。
+- [Intercom](https://blog.intercom.com/) - 设计、客户成功和初创博客。
+- [UXDesign.cc](https://uxdesign.cc/) - 用户体验、可用性、产品设计。关注 UXDesign.cc。
+- [UX Reactions](https://uxreactions.com/) - 有趣的东西。
+#### 工具
+- [UX Recipe](https://uxrecipe.github.io/) - 这个项目是反对“用户体验”一词客观化的个人宣言。
+- [UX Checklist](https://uxchecklist.github.io/) - 用户体验项目清单。
+- [UX Stackexchange](https://ux.stackexchange.com/) - UX Stack Exchange 是一个问答网站。
+
+## 用户界面
+#### 指南
+- [Ant Design](https://ant.design) - 用于企业应用程序的 UI 设计语言。
+- [iOS Guidelines](https://developer.apple.com/design/) - 获取深入的信息和 UI 资源，以设计与 Apple 平台无缝集成的出色应用程序。
+- [Google Material](https://material.io/) - Material Design 是一个统一的系统，结合了用于打造数字体验的理论、资源和工具。
+- [Google Design](https://design.google.com/) - Google Design 是由 Google 的一群设计师、作家和开发人员共同领导的成果。
+- [Facebook Design](https://facebook.design/) - Facebook 设计师制作的文章、视频和资源的集合。
+- [UsTwo](https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3/) - 像素完美精度手册 3。
+#### 灵感
+- [Pttrns](https://pttrns.com/) - 所有设计资源之母。
+- [Call To Idea](https://www.calltoidea.com/) - 点亮你的想象力！
+- [Android Niceties](https://androidniceties.tumblr.com/) - 旨在为 Android UI 约定提供灵感和见解。
+- [Lovely UI](https://www.lovelyui.com/) - 移动 UI 元素的集合。
+- [Brian Lovin](https://www.brianlovin.com/) - 最佳产品的视觉探索。
+- [Sloppy UI](https://sloppyui.tumblr.com/) - 这一切都是关于知识分子的诚实，而不是恶搞。
+#### 工具
+- [Pattern Lab](https://patternlab.io/) - 使用模式实验室创建原子设计系统。
+- [Huge](https://hugeinc.github.io/styleguide/index.html) - 使创建和维护样式指南变得容易的工具。
+- [Figma Bootstrap 5 UI Kit](https://themeselection.com/products/free-figma-bootstrap-ui-kit/) - UI 套件包含 300 多个有组织的 Bootstrap 5 组件，使用原子设计系统和自动布局构建。
+- [Sketch Bootstrap 5 UI Kit](https://themeselection.com/products/free-sketch-bootstrap-ui-kit/) - UI 套件包含 300 多个有序的 Bootstrap 5 组件，采用原子设计系统和智能布局构建。
+
+## 视觉
+#### 资源
+- [Design Principles FTW](https://www.designprinciplesftw.com/) - 互联网上最大的设计原则集合。
+- [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems) - 设计系统、模式库以及介于两者之间的所有内容的精选列表。
+- [Awesome Sketch](https://github.com/diessica/awesome-sketch) - 为设计师、开发人员或两者都提供的精彩 Sketch 视频、文章、插件等内容的精选列表。
+#### 图标
+- [Icon Finder](https://www.iconfinder.com/) - 搜索 1,739,045 个图标或浏览 42,226 个图标集。
+- [We Love Icon Font](https://weloveiconfonts.com/) - 这是一个免费的开源图标字体托管服务。
+- [The Noun Project](https://thenounproject.com/) - 一切的图标。
+- [Iconmonstr](https://iconmonstr.com/) - 发现 263 个集合中的 3847+ 个免费简单图标。
+#### 字体铸造厂
+- [Open Foundry](https://open-foundry.com/) - 无噪音环境中开源字体的新平台。
+- [Use & Modify](https://usemodify.com/) - 提供一组根据自由或开源许可证分发的现代字体，由排版和自由文化爱好者手工挑选。
+- [Font Fabric](https://www.fontfabric.com/) - Fontfabric是一家独立的字体代工厂。
+- [Font Squirrel](https://www.fontsquirrel.com/) - 免费字体乌托邦。
+- [Play Type](https://playtype.com/) - 浏览我们精选的一百多种字体和近 500 种不同的字体粗细。
+#### 版式
+- [NN Group](https://www.nngroup.com/articles/typography-terms-ux/) - 版式术语备忘单。
+#### 颜色
+- [Coolors](https://coolors.co/) - 超快的配色方案生成器！
+- [Colour Lovers](https://www.colourlovers.com/) - 创意社区。
+- [Color Hunt](https://colorhunt.co/) - Color Hunt 是一个为所有热爱色彩的人提供的社交平台。
+- [Atmos](https://atmos.style/) - 创建调色板所需的一切
+- [Branition Colors](https://branition.com/colors) - 手工策划的最适合品牌推广的调色板集合。
+
+#### 库存图片
+- [Unsplash](https://unsplash.com/) - 免费（做任何你想做的事）- 高分辨率照片。
+- [StockSnap](https://stocksnap.io/) - 每周添加数百张高分辨率图像。
+- [Pixbay](https://pixabay.com/) - 您可以在任何地方使用的免费图像和视频。
+- [Jay Mantry](https://jaymantri.com/) - 免费图片（CC0）。
+- [Get Refe](https://getrefe.tumblr.com/) - 免版税、高品质、真实生活照片。
+- [ISO Republic](https://isorepublic.com/) - ISO Republic 为创意专业人士提供免费的库存照片。
+- [All The Free Stock](https://allthefreestock.com/) - 在一处获取所有免费图片、视频、音乐和图标。
+- [Pexels](https://www.pexels.com) - 各种风格的免费库存图片，包括过滤的、自然的和商业的。
+- [unDraw](https://undraw.co) - 为您可以想象和创建的每个项目提供开源插图。
+#### 库存视频
+- [Vimeo](https://vimeo.com/channels/freestockfootage/) - 免版税库存视频供个人、公司或商业免费使用。
+#### 工具
+- [Polarr](https://photoeditor.polarr.co/) - 照片编辑器。
+- [Licecap](https://www.cockos.com/licecap/) - 简单的动画屏幕截图。
+- [Hand Brake](https://handbrake.fr/) - HandBrake 是一款用于将视频从几乎任何格式转换为一系列广泛支持的现代编解码器的工具。
+
+## 原型
+#### 文章
+- [The 12 Principles](https://the12principles.tumblr.com/) - 动画的 12 条基本原则是由华特迪士尼工作室的“老人”制定的。
+- [Hoverstat](https://hoverstat.es/) - 另类数字设计之家。
+- [Microinteractions](https://microinteractions.com/) - 细节设计。
+- [Motion UI Design](https://github.com/fliptheweb/motion-ui-design) - 灵感资源、软件列表、库以及与 Motion UI 设计、动画和过渡相关的其他内容。
+#### 软件
+- [Pop](https://marvelapp.com/pop/) - POP 帮助您将笔和纸的想法转化为交互式 iPhone 或 Android 原型。
+- [Invision](https://www.invisionapp.com/) - 世界领先的原型设计、协作和工作流程平台。
+- [Marvel](https://marvelapp.com/) - 简单的设计、原型制作和协作。
+- [Flinto](https://www.flinto.com/) - Flinto 可让设计人员快速制作移动、桌面或网络应用程序的交互式原型。
+- [Origami Studio](https://origami.design/) - 探索、迭代并测试您的想法。
+- [Framer](https://framer.com/) - 一体化设计工作流程。
+- [Proto](https://proto.io/) - 创建完全交互式的高保真原型，其外观和工作方式与您的应用程序完全相同。无需编码。
+- [ProtoPie](https://www.protopie.io) - ProtoPie 是构建高级、高度交互原型的最简单的原型设计工具。
+
+#### 工具
+- [Lottie](https://airbnb.design/lottie/) - 轻松将高质量动画添加到任何本机应用程序。
+- [Keynotopia](https://keynotopia.com/) - Keynotopia 将 Keynote 和 PowerPoint 转变为用于创建移动、Web 和桌面 UI 模型的最佳快速原型设计工具。
+
+## 无障碍
+#### 文章
+- [Gov.Uk](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) - 让您的服务触手可及：简介。
+- [Smashing Magazine](https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/) - 色彩对比以及为什么你应该重新思考它。
+- [Medium](https://medium.com/@GarronEngstrom/accessibility-101-56f87f3d726e) - 设计师的可访问性。注意你的 RGB。
+- [Web Credible](https://www.webcredible.com/blog/visual-design-and-colour-accessibility/) - 视觉设计和颜色可访问性。
+- [A List Apart](https://alistapart.com/blog/post/easy-color-contrast-testing) - 简单的颜色对比测试。
+#### 工具
+- [WAVE](https://wave.webaim.org/) - 网络可访问性评估工具。
+- [Contrast Ratio](https://6220119.github.io/contrast-ratio/#/black-on-white) - 计算任意两种有效 CSS 颜色之间对比度的工具。
+- [Snook](https://snook.ca/technical/colour_contrast/colour.html#fg=515A5F,bg=FFFFFF) - 颜色对比检查。
+
+## 写作
+- [Google trends](https://trends.google.com/trends/) - 故事现在很流行。
+- [Google Ngram](https://books.google.com/ngrams/) - 在 Google 图书 Ngram 查看器中输入短语，它会显示一个图表，显示这些短语在图书语料库中的出现情况。
+- [Hemingway](https://www.hemingwayapp.com/) - 海明威应用程序让您的写作大胆而清晰。
+- [Readable](https://readable.io/) - 你有 7 秒的时间来吸引别人的注意力。 Readable.io 可以帮助您消除噪音。
+- [The Writer](https://www.thewriter.com/what-we-think/readability-checker/) - 你的写作的可读性如何？
+- [Taskade](https://www.taskade.com/) - 协作编辑器和大纲者。
+
+## 数据
+- [London Datastore](https://data.london.gov.uk/) - 伦敦数据存储是一个免费开放的数据共享门户。
+- [YouGov](https://yougov.com/) - 我们相信参与的力量。
+- [Data.Gov](https://data.gov.uk/) - 查找政府部门和机构、公共机构和地方当局发布的数据。
+- [The Tate Collection](https://github.com/tategallery/collection) - 在这里，我们展示了大约 70,000 件艺术品的元数据。
+- [NASA](https://open.nasa.gov/open-data/) - 我们免费设置数据、代码和 API。

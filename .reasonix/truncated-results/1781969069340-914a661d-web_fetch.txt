@@ -1,0 +1,252 @@
+https://raw.githubusercontent.com/stn1slv/awesome-integration/master/README.md
+
+# Awesome Integration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of awesome system integration software, patterns and resources.
+
+System integration is the process of linking together different IT systems (components) to functionally cooperate as a whole.
+
+## Contents
+- [Projects](#projects)
+  - [AI Gateway](#ai-gateway)
+  - [API Management](#api-management)
+  - [API Design](#api-design)
+  - [API Documentation](#api-documentation)
+  - [API Gateway](#api-gateway)
+  - [API Testing](#api-testing)
+  - [B2B Integration](#b2b-integration)
+  - [Business Rules Engine](#business-rules-engine)
+  - [Business Process Management](#business-process-management)
+  - [Change Data Capture](#change-data-capture)
+  - [Data Integration](#data-integration)
+  - [Data Mapping Solution](#data-mapping-solution)
+  - [Enterprise Service Bus](#enterprise-service-bus)
+  - [Integration Frameworks](#integration-frameworks)
+  - [Integration Platform as a Service](#integration-platform-as-a-service)
+  - [Messaging as a Service](#messaging-as-a-service)
+  - [Managed File Transfer](#managed-file-transfer)
+  - [Master Data Management](#master-data-management)
+  - [Message Broker](#message-broker)
+  - [Robotic Process Automation](#robotic-process-automation)
+  - [Schema Registry](#schema-registry)
+  - [Self-Service Integration](#self-service-integration)
+  - [Stream Processing](#stream-processing)
+  - [Webhook Infrastructure](#webhook-infrastructure)
+  - [Workflow Engine](#workflow-engine)
+- [Integration Patterns](#integration-patterns)
+  - [Enterprise Integration Patterns](#enterprise-integration-patterns)
+  - [Integration Architecture Patterns](#integration-architecture-patterns)
+  - [Microservice API Patterns](#microservice-api-patterns)
+  - [SOA Patterns](#soa-patterns)
+- [Resources](#resources)
+  - [API Specification](#api-specification)
+  - [API Style Guides](#api-style-guides)
+  - [Articles](#articles)
+  - [Books](#books)
+  - [Certifications](#certifications)
+  - [Connectors](#connectors)
+  - [Data Formats](#data-formats)
+  - [Integration Styles](#integration-styles)
+  - [Market Analysis](#market-analysis)
+  - [Protocols](#protocols)
+  - [Standard APIs](#standard-apis)
+  - [Structure and Validation](#structure-and-validation)
+
+---
+## Projects
+### AI Gateway
+*AI gateways apply API gateway concepts to AI workloads. They provide a unified entry point to multiple LLM providers and agent tools, handling cross-cutting concerns such as routing, failover, rate limiting, cost tracking, guardrails, and observability — increasingly including agent-oriented protocols like MCP and A2A.*
+- [agentgateway (⭐3.2k)](https://github.com/agentgateway/agentgateway) - An open-source data plane for agentic AI connectivity, providing security, observability, and governance for agent-to-tool (MCP) and agent-to-agent (A2A) communication.
+- [Envoy AI Gateway (⭐1.7k)](https://github.com/envoyproxy/ai-gateway) - An open-source gateway built on Envoy Proxy to manage request traffic from application clients to GenAI services with unified API access and usage limits.
+- [Kong AI Gateway](https://konghq.com/products/kong-ai-gateway) - Multi-LLM AI gateway built on Kong Gateway, offering semantic caching, prompt security, and AI observability through dedicated plugins.
+- [LiteLLM (⭐50k)](https://github.com/BerriAI/litellm) - An LLM gateway that exposes 100+ model providers through a unified OpenAI-compatible API, with spend tracking, fallbacks, and rate limiting.
+- [Portkey AI Gateway (⭐12k)](https://github.com/Portkey-AI/gateway) - A fast AI gateway that routes to 250+ LLMs with guardrails, caching, retries, and load balancing via a single API.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### API Management
+*API Management solutions offer a comprehensive approach to handling the entire API lifecycle. They enable developers to create, publish, secure, and monitor APIs, ensuring efficient and reliable communication between systems. With features such as authentication, rate limiting, and analytics, these tools provide centralized control and enhanced security, making it easier to manage and scale APIs across different platforms and environments.*
+- [Akana API Management Platform](https://www.akana.com/products/api-platform) - Provides comprehensive lifecycle management, enabling rapid digital transformation and robust compliance across multi-cloud environments.
+- [Amazon API Management](https://aws.amazon.com/api-gateway/api-management/) - Leverages AWS scalability and security to efficiently create, monitor, and manage APIs.
+- [Amplify API Management Platform](https://www.axway.com/en/products/amplify-api-management-platform) - Offers an open, agile approach to API management with robust integration and flexible deployment options.
+- [Anypoint Platform](https://www.mulesoft.com/platform/api/manager) - Combines API design, integration, and management into one unified platform, streamlining connectivity and development.
+- [Apigee](https://cloud.google.com/apigee) - Delivers powerful analytics, security, and scalability for enterprise-grade API management from Google.
+- [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud solution that simplifies API lifecycle management with comprehensive security and analytics.
+- [Boomi API Management](https://boomi.com/platform/api-management/) - Cloud-native API management within the Boomi Enterprise Platform, covering the full API lifecycle with centralized control across environments.
+- [DigitMarket API Manager](https://www.torryharris.com/products/digitmarket-api-manager-for-api-management) - Transforms APIs into strategic business tools through end-to-end lifecycle management and enhanced operational insights.
+- [Gravitee.io API Management (⭐421)](https://github.com/gravitee-io/gravitee-api-management) - A lightweight, open-source platform offering flexible API governance, robust security, and straightforward configuration.
+- [IBM API Connect](https://www.ibm.com/cloud/api-connect) - Provides a scalable, secure, and intuitive environment for creating, managing, and monetizing APIs across clouds.
+- [IBM webMethods API Management](https://www.ibm.com/products/webmethods-api-management) - Offers a comprehensive suite for API lifecycle management that seamlessly integrates on-premises and cloud systems.
+- [Kong Enterprise](https://konghq.com/products/kong-enterprise) - A cloud-native, enterprise-grade solution that enhances API connectivity, microservices orchestration, and security via a rich plugin architecture.
+- [Layer7 API Management](https://www.broadcom.com/products/software/api-management) - Ensures secure and efficient API development with continuous lifecycle management and advanced integration features.
+- [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale) - Simplifies API monetization and governance with a cloud-native approach and powerful scaling capabilities.
+- [Sensedia API Management](https://www.sensedia.com/api-management-platform) - Provides a full-lifecycle API solution with advanced security, performance monitoring, and streamlined integration.
+- [Traefik API Management](https://traefik.io/traefik-hub) - Provides an API Management as Code platform to DevOps and Platform Engineering Teams who favor less ClickOps and more GitOps-driven API lifecycle workflows.
+- [Tyk API Management](https://tyk.io/api-lifecycle-management/) - Delivers high-performance, open-source API management focused on flexibility, robust security, and scalability.
+- [WSO2 API Manager (⭐986)](https://github.com/wso2/product-apim) - A fully open-source API platform offering robust governance, flexible deployment, and community-driven innovation.
+- [Zuplo API Management](https://zuplo.com) - A developer-centric, lightweight platform featuring GitOps integration, rapid edge deployment, extensive OpenAPI support, and seamless monetization.
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### API Design
+*API design, documentation, and life-cycle automation tools streamline the process of creating, maintaining, and evolving APIs. These tools offer efficient means to design consistent and scalable APIs, generate comprehensive documentation, and automate various stages of the API life-cycle, enhancing developer experience and promoting API adoption.*
+- [Apicurio Studio (⭐1k)](https://github.com/apicurio/apicurio-studio) - A web-based, open-source API design tool that leverages the OpenAPI specification.
+- [Dredd (⭐4.2k)](https://github.com/apiaryio/dredd) - Validate API description docs against backend implementation using this language-agnostic CLI tool.
+- [oasdiff (⭐1.2k)](https://github.com/oasdiff/oasdiff) - Compare OpenAPI specs and detect breaking changes, with changelog generation in multiple output formats.
+- [OpenAPI Diff (⭐1k)](https://github.com/OpenAPITools/openapi-diff) - Compare OpenAPI specs with version control and visualize the differences in HTML or Markdown format.
+- [OpenAPI Generator (⭐26k)](https://github.com/OpenAPITools/openapi-generator) - Automate the creation of API client libraries, server stubs, documentation and config files with this powerful OpenAPI Spec tool.
+- [OpenAPI Style Validator (⭐237)](https://github.com/OpenAPITools/openapi-style-validator) - Ensure that your OpenAPI specs meet your organization's standards with this flexible and customizable style validator.
+- [OpenAPI-GUI (⭐1.4k)](https://github.com/Mermade/openapi-gui) - Create and validate OpenAPI specs with ease using this intuitive graphical user interface.
+- [Redocly CLI (⭐1.4k)](https://github.com/Redocly/redocly-cli) - Lint, bundle, and preview OpenAPI descriptions with configurable rulesets and plugins.
+- [Spectral (⭐3.1k)](https://github.com/stoplightio/spectral) - Detect and fix errors in your JSON/YAML files using this linter tool that supports OpenAPI 3.0 & 2.0 and AsyncAPI.
+- [Swagger Editor (⭐9.4k)](https://github.com/swagger-api/swagger-editor) - Create, describe, and document your API with ease using this open source editor built specifically for OpenAPI-based APIs.
+- [vacuum (⭐1k)](https://github.com/daveshanley/vacuum) - An ultra-fast OpenAPI linter and quality analysis tool, compatible with Spectral rulesets.
+- [Zally (⭐944)](https://github.com/zalando/zally) - Ensure the quality of your OpenAPI specs with this linter tool that provides extensive analysis and feedback.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### API Documentation
+*Explore a collection of tools and platforms designed to create, maintain, and present clear, concise, and user-friendly documentation for APIs. These resources facilitate seamless collaboration between developers and enable effective communication of API functionalities and specifications.*
+- [Bump.sh](https://bump.sh/) - Generates hosted API documentation and changelogs from OpenAPI and AsyncAPI definitions, with automatic breaking-change detection.
+- [DapperDox (⭐417)](https://github.com/DapperDox/dapperdox) - Generates elegant, interactive API documentation from OpenAPI/Swagger specs with easy customization and automated updates.
+- [Fern (⭐3.6k)](https://github.com/fern-api/fern) - Generates SDKs and interactive API documentation from OpenAPI or its own API definition format.
+- [OpenAPI Explorer (⭐349)](https://github.com/Rhosys/openapi-explorer) - Creates intuitive, interactive user interfaces from OpenAPI specs, simplifying API exploration and testing.
+- [RapiDoc (⭐1.8k)](https://github.com/rapi-doc/RapiDoc) - Produces highly customizable, interactive API documentation with responsive design and rich configuration options.
+- [ReadMe](https://readme.com/) - Hosted developer hubs that turn OpenAPI definitions into interactive, personalized API documentation with usage metrics.
+- [Redoc (⭐25k)](https://github.com/Redocly/redoc) - Delivers clean, modern documentation with advanced theming, multi-language support, and seamless integration.
+- [Scalar (⭐15k)](https://github.com/scalar/scalar) - Renders modern, interactive API references from OpenAPI/Swagger documents, with an integrated API client and broad framework integrations.
+- [Slate (⭐36k)](https://github.com/slatedocs/slate) - Converts markdown into stylish, static API documentation with intuitive navigation and clear code examples.
+- [SpectaQL (⭐1.2k)](https://github.com/anvilco/spectaql) - Generates static, customizable documentation for GraphQL schemas, making complex API structures easy to understand.
+- [Stoplight Elements (⭐2.4k)](https://github.com/stoplightio/elements) - Provides modular, attractive UI components for building comprehensive API reference and tutorial documentation.
+- [SwaggerHub](https://swagger.io/tools/swaggerhub/) - An integrated API design and documentation hub that enhances team collaboration, version control, and automated testing.
+- [Swagger UI (⭐28k)](https://github.com/swagger-api/swagger-ui) - Offers an interactive, in-browser tool for visualizing and testing APIs directly from OpenAPI specifications.
+- [Zudoku (⭐543)](https://github.com/zuplo/zudoku) - A customizable framework built on OpenAPI, focused on delivering exceptional developer experiences through quality documentation.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### API Gateway
+*API Gateways act as intermediaries between client applications and backend services, enabling key features such as request routing, authentication, rate limiting, and caching. They simplify the process of managing, securing, and monitoring APIs by providing a unified entry point for various services.*
+- [Apinto (⭐1.6k)](https://github.com/eolinker/apinto) - A Golang-based gateway that offers dynamic routing, multi-tenancy, and robust API access control for modern architectures.
+- [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway/) - A Kubernetes-native API gateway designed for high-scale environments with flexible routing and advanced security features.
+- [Apache APISIX (⭐16k)](https://github.com/apache/apisix) - A high-performance, dynamic gateway featuring real-time traffic management and powerful plugin integrations.
+- [Apache ShenYu (⭐8.7k)](https://github.com/apache/shenyu) - A Java-native gateway excelling in protocol conversion, service proxying, and comprehensive API governance.
+- [Envoy Gateway (⭐2.7k)](https://github.com/envoyproxy/gateway) - CNCF Envoy-based gateway with Gateway API, mTLS, JWT, and other built-ins.
+- [Gloo Edge (⭐161)](https://github.com/solo-io/gloo) - An Envoy Proxy–based gateway offering advanced traffic control, enhanced security, and observability for microservices ecosystems.
+- [Higress (⭐8.6k)](https://github.com/higress-group/higress) - A next-generation cloud-native gateway based on Envoy and Istio, offering high performance, easy-to-use, and rich plugin extensibility.
+- [Kong API Gateway (⭐43k)](https://github.com/Kong/kong) - A scalable, cloud-native gateway that simplifies API management through extensive plugin support and seamless microservices integration.
+- [KrakenD API Gateway (⭐2.6k)](https://github.com/devopsfaith/krakend-ce) - An ultra-high performance gateway with efficient middleware configuration, robust security, and seamless scaling.
+- [Ocelot (⭐8.7k)](https://github.com/ThreeMammals/Ocelot) - A .NET-based gateway offering intuitive routing and easy integration for lightweight API management.
+- [Spring Cloud Gateway (⭐4.8k)](https://github.com/spring-cloud/spring-cloud-gateway) - Leverages the Spring ecosystem to deliver robust routing, filtering, and security for microservices.
+- [Traefik API Gateway (⭐63k)](https://github.com/traefik/traefik) - Combines Traefik Proxy, a fully declarative application proxy with enterprise-grade access control, distributed security, and premium integrations.
+- [Tyk API Gateway (⭐10k)](https://github.com/TykTechnologies/tyk) - An enterprise-grade, open-source gateway supporting REST, GraphQL, TCP, and gRPC with advanced rate limiting and analytics.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### API Testing
+*The API testing tools section provides a list of software tools and frameworks that developers can use to test REST APIs and message brokers. This section includes GUI clients for testing REST APIs and message brokers, contract testing tools for verifying compatibility between API consumers and providers, mocking tools for simulating API responses, as well as various testing tools and frameworks to automate testing processes.*
+- API clients
+   - [Bruno (⭐44k)](https://github.com/usebruno/bruno) - A fast, offline API client designed for git-friendly workflows and seamless testing.
+   - [curl (⭐42k)](https://github.com/curl/curl) - A versatile command-line tool for data transfer across multiple protocols, essential for quick API testing.
+   - [curlie (⭐3.6k)](https://github.com/rs/curlie) - A modern, user-friendly frontend to curl that combines simplicity with powerful performance.
+   - [gRPC UI (⭐5.9k)](https://github.com/fullstorydev/grpcui) - An interactive web-based tool for gRPC APIs, providing a browser-based interface for testing and exploring gRPC services with dynamic form generation.
+   - [grpcurl (⭐12k)](https://github.com/fullstorydev/grpcurl) - A command-line tool for interacting with gRPC servers, enabling inspection and invocation of RPC methods with support for server reflection and protocol buffer files.
+   - [Hoppscotch (⭐79k)](https://github.com/hoppscotch/hoppscotch) - A lightweight, web-based API development tool offering real-time testing with an intuitive interface.
+   - [HTTPie (⭐38k)](https://github.com/httpie/httpie) - An intuitive CLI HTTP client that simplifies crafting API requests and inspecting responses.
+   - [HttpMaster](https://www.httpmaster.net/) - Free and lightweight desktop tool for HTTP testing and debugging.
+   - [Insomnia (⭐38k)](https://github.com/Kong/insomnia) - A cross-platform client that streamlines API debugging and testing for both REST and GraphQL services.
+   - [posting (⭐12k)](https://github.com/darrenburns/posting) - A modern, terminal-based API client designed for efficient and seamless API interactions.
+   - [Postman](https://www.postman.com/product/api-client/) - The industry-standard tool for API development and testing, featuring automation, mock servers, and collaborative documentation.
+   - [Requestly (⭐6.7k)](https://github.com/requestly/requestly) - Lightweight Git-Friendly API Client Built for Modern Developers.
+   - [resty (⭐2.6k)](https://github.com/micha/resty) - A tiny command-line REST client implemented as shell functions around curl, handy for quick API exploration from the terminal.
+   - [SoapUI (⭐1.6k)](https://github.com/SmartBear/soapui) - A comprehensive open-source solution for testing both SOAP and REST web services with extensive automation features.
+   - [Wombat (⭐1.4k)](https://github.com/rogchap/wombat) - A cross-platform desktop gRPC client with automatic proto parsing, TLS support, and intuitive UI for testing unary, streaming, and bidirectional gRPC requests.
+   - [xh (⭐7.8k)](https://github.com/ducaale/xh) - A fast, friendly CLI HTTP client that reimplements HTTPie's design with improved performance, HTTP/2 support, and built-in curl translation.
+   - [Yaade (⭐1.9k)](https://github.com/EsperoTech/yaade) - A self-hosted, collaborative API development environment designed for team sharing with multi-user support, persistent storage, and support for REST, WebSockets, and Markdown documentation.
+   - [Yaak (⭐18k)](https://github.com/mountain-loop/yaak) - A fast, privacy-first desktop API client for REST, GraphQL, WebSocket, Server-Sent Events, and gRPC with offline-first design, built with Tauri and React.
+- Contract testing
+   - [Pact](https://docs.pact.io/) - The de-facto standard for consumer-driven contract testing, with implementations in most major languages and a broker for sharing contracts between teams.
+   - [Specmatic (⭐381)](https://github.com/specmatic/specmatic) - Turns OpenAPI, AsyncAPI, and gRPC specifications into executable contracts for contract-driven development and testing.
+   - [Spring Cloud Contract (⭐730)](https://github.com/spring-cloud/spring-cloud-contract) - Consumer-driven contract testing for JVM applications, generating tests and stubs from Groovy or YAML contract definitions.
+- MQ clients
+   - [JMSToolBox (⭐228)](https://github.com/jmstoolbox/jmstoolbox) - A universal JMS client offering broad compatibility and streamlined messaging testing across various brokers.
+   - [kcat (⭐5.7k)](https://github.com/edenhill/kcat) - A lightweight command-line tool for Apache Kafka, providing efficient message production and consumption.
+   - [MQTT Explorer (⭐3.9k)](https://github.com/thomasnordquist/MQTT-Explorer) - A detailed MQTT client delivering structured topic visualization and intuitive debugging.
+   - [Offset Explorer](https://www.kafkatool.com) - A comprehensive GUI for managing Apache Kafka clusters with user-friendly monitoring and administration tools.
+   - [Service Bus Explorer (⭐2.1k)](https://github.com/paolosalvatori/ServiceBusExplorer) - An advanced GUI for Azure Service Bus that enables in-depth testing and seamless management of topics, queues, and subscriptions.
+- Mocking tools
+   - [Hoverfly (⭐2.4k)](https://github.com/SpectoLabs/hoverfly) - A lightweight API simulation tool that enables rapid HTTP(S) service virtualization for efficient testing.
+   - [Imposter (⭐410)](https://github.com/outofcoffee/imposter) - A flexible mock server supporting REST, OpenAPI, SOAP, and more to simulate diverse API behaviors.
+   - [Microcks (⭐1.9k)](https://github.com/microcks/microcks) - A Kubernetes-native tool for API mocking and testing that supports AsyncAPI, OpenAPI, and Postman Collections.
+   - [Mock Service Worker (MSW) (⭐17k)](https://github.com/mswjs/msw) - A seamless API mocking library for browser and Node.js that intercepts requests at the network level.
+   - [Mockable](https://www.mockable.io/) - An easy-to-configure service for creating custom HTTP responses, ideal for rapid prototyping and testing.
+   - [Mockbin (⭐140)](https://github.com/zuplo/mockbin) - A simple endpoint generator for testing HTTP requests with real-time logging and feedback.
+   - [Mockoon (⭐8.2k)](https://github.com/mockoon/mockoon) - A user-friendly tool for designing and running mock REST APIs with real-time simulation and easy setup.
+   - [MockServer (⭐4.8k)](https://github.com/mock-server/mockserver) - A powerful solution for mocking any HTTP/HTTPS-based service, streamlining integration testing.
+   - [Mocky (⭐2k)](https://github.com/MockyAbstract/Mocky) - A free online service that generates custom HTTP responses for testing API endpoints.
+   - [Prism (⭐4.9k)](https://github.com/stoplightio/prism) - An open-source HTTP mock server that replicates API behavior for early testing and validation.
+   - [WireMock (⭐7.2k)](https://github.com/wiremock/wiremock) - A robust and flexible API mocking tool delivering reliable, real-time simulation for comprehensive testing.
+- Testing tools and frameworks
+   - [Apache JMeter (⭐9.4k)](https://github.com/apache/jmeter) - A feature-rich tool for load testing and performance analysis across diverse web applications and services.
+   - [Artillery (⭐8.9k)](https://github.com/artilleryio/artillery) - A complete load testing platform supporting HTTP, WebSocket, Socket.io, gRPC, and more, with cloud-native serverless scaling on AWS Lambda and Fargate.
+   - [Gatling (⭐6.9k)](https://github.com/gatling/gatling) - A powerful load testing framework with a developer-friendly DSL that delivers detailed performance metrics.
+   - [Hurl (⭐19k)](https://github.com/Orange-OpenSource/hurl) - A command-line tool for running HTTP requests with plain text syntax, excellent for both API testing and CI/CD integration with support for chaining, capturing values, and comprehensive assertions.
+   - [Keploy (⭐17k)](https://github.com/keploy/keploy) - A developer-centric API and integration testing tool that auto-generates tests and data-mocks from real traffic using eBPF, supporting any language without code changes.
+   - [ghz (⭐3.3k)](https://github.com/bojand/ghz) - A simple gRPC benchmarking and load testing tool with support for various load schedules, concurrency control, and detailed performance metrics.
+   - [Grafana k6 (⭐30k)](https://github.com/grafana/k6) - Open-source, JS-scriptable load-testing tool for CI/CD.
+   - [Karate (⭐8.8k)](https://github.com/karatelabs/karate) - A unified testing framework that merges API automation, mocking, and performance testing with simple, expressive syntax.
+   - [Pyresttest (⭐1.1k)](https://github.com/svanoort/pyresttest) - A Python-based testing tool offering easy YAML/JSON-driven REST API testing and microbenchmarking.
+   - [REST Assured (⭐7.1k)](https://github.com/rest-assured/rest-assured) - A Java DSL that simplifies REST API testing with intuitive syntax and seamless integration into CI pipelines.
+   - [RESTler (⭐2.9k)](https://github.com/microsoft/restler-fuzzer) - A stateful REST API fuzzing tool that automatically discovers security and reliability bugs by intelligently inferring producer-consumer dependencies from OpenAPI specifications.
+   - [Schemathesis (⭐3.3k)](https://github.com/schemathesis/schemathesis) - A Python library for property-based testing of API schemas, ensuring reliability through robust edge-case detection.
+   - [Taurus (⭐2.1k)](https://github.com/Blazemeter/taurus) - An open-source automation framework that simplifies continuous testing with intuitive configuration and integration support.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### B2B Integration
+*Business-to-business (B2B) integration tools enable the electronic exchange of business documents (such as orders, invoices, and shipping notices) between trading partners, typically using EDI standards like X12 and EDIFACT over transport protocols such as AS2 and AS4.*
+- [OpenAS2 (⭐232)](https://github.com/OpenAS2/OpenAs2App) - Java-based open-source implementation of the AS2 protocol for secure, signed, and encrypted document exchange over HTTP.
+- [phase4 (⭐221)](https://github.com/phax/phase4) - Embeddable, lightweight Java library implementing the AS4 messaging protocol, including the Peppol and CEF/eDelivery profiles.
+- [Smooks (⭐416)](https://github.com/smooks/smooks) - Extensible Java framework for processing and transforming structured data such as EDI, XML, CSV, and JSON.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Business Rules Engine
+*Business Rules Engines and Business Rules Management Systems (BRMS) are software systems that allow organizations to define, manage, and execute business rules. These rules are used to automate decision-making processes, enforce business policies, and ensure regulatory compliance. A BRMS provides a way for organizations to centrally manage their business rules and make changes to them quickly and easily, without requiring changes to the underlying code. It is a valuable tool for businesses that need to be agile and respond quickly to changing market conditions.*
+- [Drools (⭐6.2k)](https://github.com/apache/incubator-kie-drools) - Open-source engine that supports advanced Decision Model and Notation (DMN) with Eclipse IDE integration for efficient rule development.
+- [FICO Blaze Advisor](https://www.fico.com/en/products/fico-blaze-advisor) - Enterprise-grade decision engine that empowers both business and technical users with an intuitive interface for fast rule creation and management.
+- [IBM ODM](https://www.ibm.com/products/operational-decision-manager) - Scalable decision management system that streamlines rule authoring, testing, and updates while ensuring compliance and agility.
+- [NxBRE (⭐133)](https://github.com/ddossot/NxBRE) - Specialized .NET open-source rule engine offering efficient rule processing tailored for Microsoft environments.
+- [OpenL Tablets (⭐198)](https://github.com/openl-tablets/openl-tablets) - Flexible open-source decision management system that simplifies defining and executing business rules and decision tables.
+- [Progress Corticon](https://www.progress.com/corticon) - Model-driven BRMS enabling rapid, no-code rule creation that delivers high-performance automated decisions with guaranteed integrity.
+- [ZEN Engine (⭐1.7k)](https://github.com/gorules/zen) - A cross-platform, open-source Business Rules Engine written in Rust that executes JSON Decision Models through interconnected graphs of decision tables, functions, and expressions.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Business Process Management
+*BPM solutions are software tools that help businesses streamline and automate their operational processes to improve efficiency and productivity. These solutions typically provide features such as process modeling, workflow management, task automation, and reporting. They can be used to automate a wide range of processes, from simple tasks like data entry to complex workflows involving multiple departments and stakeholders.*
+- [Appian BPM Suite](https://appian.com/platform/complete-automation/business-process-management-bpm.html) - Low-code BPM platform that empowers both IT and citizen developers to quickly build process- and case-centric applications.
+- [IBM Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) - Integrated platform combining workflow automation and BPM to optimize operational processes and decision-making.
+- [Oracle BPM Suite](https://www.oracle.com/middleware/technologies/bpm.html) - Comprehensive solution offering robust process modeling, workflow automation, and real-time analytics to drive operational excellence.
+- [Pega Platform](https://www.pega.com/products/platform) - Advanced BPM and RPA platform featuring intelligent process automation and workforce analytics to streamline operations.
+- [TIBCO BPM Enterprise](https://www.tibco.com/products/business-process-management) - Enterprise BPM solution delivering process automation, documentation, and predictive analytics to enhance performance and decision-making.
+
+<!--lint disable-->
+**[⬆ back to top](#contents)**
+<!--lint enable-->
+### Change Data Capture
+*Change Data Capture (CDC) solutions enable real-time identification and capture of changes made to data in databases, data warehouses, and other data sources. These tools continuously monitor data changes and propagate them to downstream systems, enabling real-time data synchronization, event-driven architectures, and maintaining data consistency across distributed systems. CDC is essential for modern data architectures, microservices, and real-time analytics.*
+- [AWS Database Migration Service](https://aws.amazon.com/dms/) - Managed migration and replication service with CDC support for keeping databases, data warehouses, and data lakes in sync.
+- [Debezium (⭐12k)](https://github.com/debezium/debezium) - Open-source distributed platform for change data capture that turns your existing databases into event streams for real-time data integration.
+- [IBM InfoSphere CDC](https://www.ibm.com/products/infosphere-change-data-capture) - Enterprise CDC solution that captures and delivers data changes with minimal impact on source systems and low latency.
+- [Maxwell's daemon (⭐4.2k)](https://github.com/zendesk/maxwell) - An open-source CDC tool for MySQL that reads database binlogs and streams row-level changes as JSON to systems like Kafka, Kinesis, or other destinations.
+- [Oracle GoldenGate](https://www.oracle.com/integration/goldengate/) - Enterprise-grade real-time data integration and replication solution that provides comprehensive CDC capabilities for heterogeneous databases and cloud platforms.
+- [PeerDB (⭐3.1k)](https://github.com/PeerDB-
+
+[… truncated 130358 chars …]

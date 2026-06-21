@@ -1,0 +1,701 @@
+$ powershell -Command "
+$files = Get-ChildItem -Recurse -Filter '*_zh.md' | Where-Object { $_.FullName -notmatch '\\node_modules\\' }
+$results = @()
+foreach ($f in $files) {
+    $lines = Get-Content $f.FullName -TotalCount 60 -ErrorAction SilentlyContinue
+    # Extract headings
+    $headings = @()
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+        if ($lines[$i] -match '^#{1,4}\s+(.+)') { 
+            $headings += $matches[1] -replace '\[.*?\]\(.*?\)', '' -replace '`', ''
+        }
+        # Setext headings
+        if ($i -gt 0 -and $lines[$i] -match '^[=]{3,}$') { 
+            $headings += $lines[$i-1].Trim()
+        }
+    }
+    
+    # Get the first few headings (title + section headers)
+    $firstHeadings = $headings | Select-Object -First 8
+    $headingText = ($firstHeadings) -join ' '
+    $hasChinese = $headingText -match '[\u4e00-\u9fff\u3400-\u4dbf]'
+    
+    if (-not $hasChinese -and $headings.Count -gt 0) {
+        $rel = $f.FullName.Replace('G:\work\github\awesome\', '')
+        $results += @{Path=$rel; Headings=$headings.Count; Title=$firstHeadings[0]}
+    }
+}
+Write-Output '=== Files where headings (first 8) have no Chinese ==='
+$results | Sort-Object Path | ForEach-Object { 
+    $title = $_.Title
+    if ($title.Length -gt 70) { $title = $title.Substring(0,70) + '...' }
+    '{0}' -f $_.Path
+}
+"
+[exit 0]
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.ArgumentException
+ 
+正在分析“\node_modules\”－ \ 在模式末尾非法。
+所在位置 行:2 字符: 68
++ ... r '*_zh.md' | Where-Object { $_.FullName -notmatch '\node_modules\' }
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], ArgumentException
+    + FullyQualifiedErrorId : System.Argumen
+
+[… truncated 194432 chars …]

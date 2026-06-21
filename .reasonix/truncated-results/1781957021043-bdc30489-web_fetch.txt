@@ -1,0 +1,456 @@
+https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/main/readme.md
+
+<div align="center">
+	<div>
+		<img width="500" src="media/logo.svg" alt="Awesome Node.js">
+		<br>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<p>
+		<p>
+			<sup>
+				<a href="https://github.com/sponsors/sindresorhus">My open source work is supported by the community</a>
+			</sup>
+		</p>
+		<sup>Special thanks to:</sup>
+		<br>
+		<br>
+		<br>
+		<a href="https://depot.dev?utm_source=github&utm_medium=sindresorhus">
+			<div>
+				<picture>
+					<source width="180" media="(prefers-color-scheme: dark)" srcset="https://sindresorhus.com/assets/thanks/depot-logo-dark.svg">
+					<source width="180" media="(prefers-color-scheme: light)" srcset="https://sindresorhus.com/assets/thanks/depot-logo-light.svg">
+					<img width="180" src="https://sindresorhus.com/assets/thanks/depot-logo-light.svg" alt="Depot logo">
+				</picture>
+			</div>
+			<b>Fast remote container builds and GitHub Actions runners.</b>
+		</a>
+		<br>
+		<br>
+		<br>
+		<a href="https://circleback.ai?utm_source=sindresorhus&utm_medium=sponsorship&utm_campaign=awesome-list&utm_id=awesome-nodejs">
+			<div>
+				<img width="340" src="https://sindresorhus.com/assets/thanks/circleback-logo.png?x" alt="Circleback logo">
+			</div>
+			<b>Get the most out of every conversation.</b>
+			<div>
+				<sup>AI-powered meeting notes, automations, and search. Give AI agents the context they need to get things done.</sup>
+			</div>
+		</a>
+		<br>
+		<br>
+		<br>
+	</p>
+	<hr>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<a href="https://awesome.re">
+		<img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
+	</a>
+	<p>
+		<sub>Just type <a href="https://node.cool"><code>node.cool</code></a> to go here. Follow me on <a href="https://twitter.com/sindresorhus">Twitter</a>.</sub>
+	</p>
+	<br>
+	<p>
+		<a href="https://en.wikipedia.org/wiki/Node.js">Node.js</a> is an open-source, cross-platform, JavaScript runtime for writing servers and command-line tools.
+	</p>
+	<br>
+</div>
+
+## Contents
+
+- [Official](#official)
+- [Packages](#packages)
+	- [Mad science](#mad-science)
+	- [Command-line apps](#command-line-apps)
+	- [Functional programming](#functional-programming)
+	- [HTTP](#http)
+	- [Debugging / Profiling](#debugging--profiling)
+	- [Logging](#logging)
+	- [Command-line utilities](#command-line-utilities)
+	- [Build tools](#build-tools)
+	- [Hardware](#hardware)
+	- [Templating](#templating)
+	- [Web frameworks](#web-frameworks)
+	- [Documentation](#documentation)
+	- [Filesystem](#filesystem)
+	- [Control flow](#control-flow)
+	- [Streams](#streams)
+	- [Real-time](#real-time)
+	- [Image](#image)
+	- [Text](#text)
+	- [Number](#number)
+	- [Math](#math)
+	- [Date](#date)
+	- [URL](#url)
+	- [Data validation](#data-validation)
+	- [Parsing](#parsing)
+	- [Humanize](#humanize)
+	- [Compression](#compression)
+	- [Network](#network)
+	- [Database](#database)
+	- [Testing](#testing)
+	- [Security](#security)
+	- [Benchmarking](#benchmarking)
+	- [Minifiers](#minifiers)
+	- [Authentication](#authentication)
+	- [Authorization](#authorization)
+	- [Email](#email)
+	- [Job queues](#job-queues)
+	- [Node.js management](#nodejs-management)
+	- [Cross-platform integration](#cross-platform-integration)
+	- [Natural language processing](#natural-language-processing)
+	- [Process management](#process-management)
+	- [Automation](#automation)
+	- [AST](#ast)
+	- [Static site generators](#static-site-generators)
+	- [Content management systems](#content-management-systems)
+	- [Forum](#forum)
+	- [Blogging](#blogging)
+	- [Weird](#weird)
+	- [Serialization](#serialization)
+	- [Miscellaneous](#miscellaneous)
+- [Package Manager](#package-manager)
+- [Resources](#resources)
+	- [Tutorials](#tutorials)
+	- [Discovery](#discovery)
+	- [Articles](#articles)
+	- [Newsletters](#newsletters)
+	- [Videos](#videos)
+	- [Books](#books)
+	- [Blogs](#blogs)
+	- [Courses](#courses)
+	- [Cheatsheets](#cheatsheets)
+	- [Tools](#tools)
+	- [Community](#community)
+	- [Miscellaneous](#miscellaneous-1)
+- [Related lists](#related-lists)
+
+## Official
+
+- [Website](https://nodejs.org)
+- [Documentation](https://nodejs.org/dist/latest/docs/api/)
+- [Repository](https://github.com/nodejs/node)
+
+## Packages
+
+### Mad science
+
+- [webtorrent](https://github.com/webtorrent/webtorrent) - Streaming torrent client for Node.js and the browser.
+- [peerflix](https://github.com/mafintosh/peerflix) - Streaming torrent client.
+- [ipfs](https://github.com/ipfs/helia) - Distributed file system that seeks to connect all computing devices with the same system of files.
+- [stackgl](https://github.com/stackgl) - Open software ecosystem for WebGL, built on top of browserify and npm.
+- [peerwiki](https://github.com/mafintosh/peerwiki) - All of Wikipedia on BitTorrent.
+- [peercast](https://github.com/mafintosh/peercast) - Stream a torrent video to Chromecast.
+- [BitcoinJS](https://github.com/bitcoinjs/bitcoinjs-lib) - Clean, readable, proven Bitcoin library.
+- [Bitcore](https://github.com/bitpay/bitcore) - Pure and powerful Bitcoin library.
+- [PDFKit](https://github.com/foliojs/pdfkit) - PDF generation library.
+- [turf](https://github.com/Turfjs/turf) - Modular geospatial processing and analysis engine.
+- [webcat](https://github.com/mafintosh/webcat) - p2p pipe across the web using WebRTC that uses your GitHub private/public key for authentication.
+- [NodeOS](https://github.com/NodeOS/NodeOS) - The first operating system powered by npm.
+- [YodaOS](https://github.com/yodaos-project/yodaos) - AI operating system.
+- [Brain.js](https://github.com/BrainJS/brain.js) - Machine-learning framework.
+- [Pipcook](https://github.com/alibaba/pipcook) - Front-end algorithm framework to create a machine learning pipeline.
+- [Cytoscape.js](https://github.com/cytoscape/cytoscape.js) - Graph theory (a.k.a. network) modeling and analysis.
+- [js-git](https://github.com/creationix/js-git) - JavaScript implementation of Git.
+- [xlsx](https://github.com/SheetJS/sheetjs) - Pure JS Excel spreadsheet reader and writer.
+- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - Pure JavaScript implementation of Git.
+
+### Command-line apps
+
+- [np](https://github.com/sindresorhus/np) - Better `npm publish`.
+- [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
+- [gh-home](https://github.com/sindresorhus/gh-home) - Open the GitHub page of the repo in the current directory.
+- [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
+- [trash](https://github.com/sindresorhus/trash) - Safer alternative to `rm`.
+- [speed-test](https://github.com/sindresorhus/speed-test) - Test your internet connection speed and ping.
+- [pageres](https://github.com/sindresorhus/pageres) - Capture website screenshots.
+- [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+- [vtop](https://github.com/MrRio/vtop) - More better top, with nice charts.
+- [empty-trash](https://github.com/sindresorhus/empty-trash) - Empty the trash.
+- [is-up](https://github.com/sindresorhus/is-up) - Check whether a website is up or down.
+- [is-online](https://github.com/sindresorhus/is-online) - Check if the internet connection is up.
+- [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address.
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Copy & paste on the terminal.
+- [XO](https://github.com/xojs/xo) - Enforce strict code style using the JavaScript happiness style.
+- [ESLint](https://github.com/eslint/eslint) - The pluggable linting utility for JavaScript.
+- [David](https://github.com/alanshaw/david) - Tells you when your package npm dependencies are out of date.
+- [http-server](https://github.com/http-party/http-server) - Simple, zero-config command-line HTTP server.
+- [Live Server](https://github.com/tapio/live-server) - Development HTTP-server with livereload capability.
+- [bcat](https://github.com/kessler/node-bcat) - Pipe command output to web browsers.
+- [normit](https://github.com/pawurb/normit) - Google Translate with speech synthesis in your terminal.
+- [fkill](https://github.com/sindresorhus/fkill-cli) - Fabulously kill processes. Cross-platform.
+- [pjs](https://github.com/danielstjules/pjs) - Pipeable JavaScript. Quickly filter, map, and reduce from the terminal.
+- [license-checker](https://github.com/davglass/license-checker) - Check licenses of your app's dependencies.
+- [browser-run](https://github.com/juliangruber/browser-run) - Easily run code in a browser environment.
+- [tmpin](https://github.com/sindresorhus/tmpin) - Adds stdin support to any CLI app that accepts file input.
+- [wallpaper](https://github.com/sindresorhus/wallpaper) - Change the desktop wallpaper.
+- [pen](https://github.com/hatashiro/pen) - Live Markdown preview in the browser from your favorite editor.
+- [dark-mode](https://github.com/sindresorhus/dark-mode) - Toggle the macOS Dark Mode.
+- [Jsome](https://github.com/Javascipt/Jsome) - Pretty prints JSON with configurable colors and indentation.
+- [mobicon](https://github.com/samverschueren/mobicon-cli) - Mobile app icon generator.
+- [mobisplash](https://github.com/samverschueren/mobisplash-cli) - Mobile app splash screen generator.
+- [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli) - Pretty git diff to HTML generator.
+- [trymodule](https://github.com/victorb/trymodule) - Try out npm packages in the terminal.
+- [jscpd](https://github.com/kucherenko/jscpd) - Copy/paste detector for source code.
+- [atmo](https://github.com/Raathigesh/Atmo) - Server-side API mocking.
+- [auto-install](https://github.com/siddharthkp/auto-install) - Auto installs dependencies as you code.
+- [cost-of-modules](https://github.com/siddharthkp/cost-of-modules) - Find out which dependencies are slowing you down.
+- [localtunnel](https://github.com/localtunnel/localtunnel) - Expose your localhost to the world.
+- [svg-term-cli](https://github.com/marionebl/svg-term-cli) - Share terminal sessions via SVG.
+- [gtop](https://github.com/aksakalli/gtop) - System monitoring dashboard for the terminal.
+- [themer](https://github.com/themerdev/themer) - Generate themes for your editor, terminal, wallpaper, Slack, and more.
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
+- [cash-cli](https://github.com/xxczaki/cash-cli) - Convert between 170 currencies.
+- [taskbook](https://github.com/klaussinani/taskbook) - Tasks, boards & notes for the command-line habitat.
+- [discharge](https://github.com/brandonweiss/discharge) - Easily deploy static websites to Amazon S3.
+- [npkill](https://github.com/voidcosmos/npkill) - Easily find and remove old and heavy node_modules folders.
+
+### Functional programming
+
+- [lodash](https://github.com/lodash/lodash) - Utility library delivering consistency, customization, performance, & extras. A better and faster Underscore.js.
+- [immutable](https://github.com/immutable-js/immutable-js) - Immutable data collections.
+- [Ramda](https://github.com/ramda/ramda) - Utility library with a focus on flexible functional composition enabled by automatic currying and reversed argument order. Avoids mutating data.
+- [Mout](https://github.com/mout/mout) - Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead.
+- [RxJS](https://github.com/reactivex/rxjs) - Functional reactive library for transforming, composing, and querying various kinds of data.
+- [Kefir.js](https://github.com/kefirjs/kefir) - Reactive library with focus on high performance and low memory usage.
+
+### HTTP
+
+- [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
+- [undici](https://github.com/nodejs/undici) - High performance HTTP client written from scratch with zero dependencies.
+- [ky-universal](https://github.com/sindresorhus/ky-universal) - Universal HTTP client based on Fetch.
+- [node-fetch](https://github.com/node-fetch/node-fetch) - `window.fetch` for Node.js.
+- [axios](https://github.com/axios/axios) - Promise based HTTP client (works in the browser too).
+- [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
+- [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+- [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
+- [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
+- [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
+- [smoke](https://github.com/sinedied/smoke) - File-based HTTP mock server with recording abilities.
+- [purest](https://github.com/simov/purest) - REST client.
+
+### Debugging / Profiling
+
+- [debug](https://github.com/debug-js/debug) - Tiny debugging utility.
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why?
+- [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function.
+- [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams.
+- [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies.
+- [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables.
+- [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
+- [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
+- [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
+- [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process.
+- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
+- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
+- [NiM](https://github.com/june07/nim) - Manages DevTools debugging workflow.
+- [dats](https://github.com/immobiliare/dats) - Minimalistic and zero-dependencies [StatsD](https://github.com/statsd/statsd) client.
+
+### Logging
+
+- [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan.
+- [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
+- [console-log-level](https://github.com/watson/console-log-level) - The most simple logger imaginable with support for log levels and custom prefixes.
+- [storyboard](https://github.com/guigrpa/storyboard) - End-to-end, hierarchical, real-time, colorful logs and stories.
+- [consola](https://github.com/unjs/consola) - Console logger.
+
+### Command-line utilities
+
+- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
+- [meow](https://github.com/sindresorhus/meow) - CLI app helper.
+- [yargs](https://github.com/yargs/yargs) - Command-line parser that automatically generates an elegant user-interface.
+- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
+- [get-stdin](https://github.com/sindresorhus/get-stdin) - Easier stdin.
+- [log-update](https://github.com/sindresorhus/log-update) - Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc.
+- [Ink](https://github.com/vadimdemedes/ink) - React for interactive command-line apps.
+- [listr2](https://github.com/listr2/listr2) - Terminal task list.
+- [conf](https://github.com/sindresorhus/conf) - Simple config handling for your app or module.
+- [ansi-escapes](https://github.com/sindresorhus/ansi-escapes) - ANSI escape codes for manipulating the terminal.
+- [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
+- [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows CMD fallbacks.
+- [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
+- [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
+- [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal.
+- [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it.
+- [cli-truncate](https://github.com/sindresorhus/cli-truncate) - Truncate a string to a specific width in the terminal.
+- [blessed](https://github.com/chjj/blessed) - Curses-like library.
+- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Interactive command-line prompt.
+- [yn](https://github.com/sindresorhus/yn) - Parse yes/no like values.
+- [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables.
+- [drawille](https://github.com/madbence/node-drawille) - Draw on the terminal with unicode braille characters.
+- [ascii-charts](https://github.com/jstrace/chart) - ASCII bar chart in the terminal.
+- [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar.
+- [insight](https://github.com/yeoman/insight) - Helps you understand how your tool is being used by anonymously reporting usage metrics to Google Analytics.
+- [cli-cursor](https://github.com/sindresorhus/cli-cursor) - Toggle the CLI cursor.
+- [cli-columns](https://github.com/shannonmoeller/cli-columns) - Columnated unicode and ansi-safe text lists.
+- [cfonts](https://github.com/dominikwilkowski/cfonts) - Sexy ASCII fonts for the console.
+- [multispinner](https://github.com/codekirei/node-multispinner) - Multiple, simultaneous, individually controllable CLI spinners.
+- [omelette](https://github.com/f/omelette) - Shell autocompletion helper.
+- [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
+- [shelljs](https://github.com/shelljs/shelljs) - Portable Unix shell commands.
+- [sudo-block](https://github.com/sindresorhus/sudo-block) - Block users from running your app with root permissions.
+- [sparkly](https://github.com/sindresorhus/sparkly) - Generate sparklines `▁▂▃▅▂▇`.
+- [Bit](https://github.com/teambit/bit) - Create, maintain, find and use small modules and components across repositories.
+- [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
+- [oclif](https://github.com/oclif/oclif) - CLI framework complete with parser, automatic documentation, testing, and plugins.
+- [terminal-size](https://github.com/sindresorhus/terminal-size) - Reliably get the terminal window size.
+- [Cliffy](https://github.com/drew-y/cliffy) - Framework for interactive CLIs.
+- [zx](https://github.com/google/zx) - Write shell scripts in JavaScript.
+
+### Build tools
+
+- [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler.
+- [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
+- [rollup](https://github.com/rollup/rollup) - Next-generation ES2015 module bundler.
+- [gulp](https://github.com/gulpjs/gulp) - Streaming and fast build system that favors code over config.
+- [Broccoli](https://github.com/broccolijs/broccoli) - Fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions.
+- [Brunch](https://github.com/brunch/brunch) - Front-end web app build tool with simple declarative config, fast incremental compilation, and an opinionated workflow.
+- [FuseBox](https://github.com/fuse-box/fuse-box) - Fast build system that combines the power of webpack, JSPM and SystemJS, with first-class TypeScript support.
+- [pkg](https://github.com/vercel/pkg) - Package your Node.js project into an executable.
+- [Vite](https://github.com/vitejs/vite) - Front-end build tool with hot module replacement and static asset bundling.
+
+### Hardware
+
+- [johnny-five](https://github.com/rwaldron/johnny-five) - Firmata based Arduino Framework.
+- [serialport](https://github.com/serialport/node-serialport) - Access serial ports for reading and writing.
+- [usb](https://github.com/node-usb/node-usb) - USB library.
+- [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C serial bus access.
+- [onoff](https://github.com/fivdi/onoff) - GPIO access and interrupt detection.
+- [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access.
+- [pigpio](https://github.com/fivdi/pigpio) - Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi.
+- [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
+- [modbus-serial](https://github.com/yaacov/node-modbus-serial) - A pure JavaScript implementation of MODBUS-RTU (serial and TCP).
+
+### Templating
+
+- [marko](https://github.com/marko-js/marko) - HTML-based templating engine that compiles templates to CommonJS modules and supports streaming, async rendering and custom tags.
+- [nunjucks](https://github.com/mozilla/nunjucks) - Templating engine with inheritance, asynchronous control, and more (jinja2 inspired).
+- [handlebars.js](https://github.com/handlebars-lang/handlebars.js) - Superset of Mustache templates which adds powerful features like helpers and more advanced blocks.
+- [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language.
+- [Pug](https://github.com/pugjs/pug) - High-performance template engine heavily influenced by Haml.
+
+### Web frameworks
+
+- [Fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework.
+- [Next.js](https://github.com/vercel/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
+- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps.
+- [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services.
+- [Micro](https://github.com/vercel/micro) - Minimalistic microservice framework with an async approach.
+- [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
+- [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
+- [Feathers](https://github.com/feathersjs/feathers) - Microservice framework built in the spirit of Express.
+- [LoopBack](https://github.com/loopbackio/loopback-next) - Powerful framework for creating REST APIs and easily connecting to backend data sources.
+- [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-JavaScript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
+- [Restify](https://github.com/restify/node-restify) - Enables you to build correct REST web services.
+- [ThinkJS](https://github.com/thinkjs/thinkjs) - Framework with ES2015+ support, WebSockets, REST API.
+- [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients.
+- [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices.
+- [AdonisJs](https://github.com/adonisjs/core) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container.
+- [Moleculer](https://github.com/moleculerjs/moleculer) - Fast & powerful microservices framework.
+- [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps.
+- [TypeGraphQL](https://github.com/MichalLytek/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
+- [Tinyhttp](https://github.com/tinyhttp/tinyhttp) - Modern and fast Express-like web framework.
+- [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
+- [Lad](https://github.com/ladjs/lad) - Framework made by a former Express TC and Koa member that bundles web, API, job, and proxy servers.
+- [Ts.ED](https://github.com/tsedio/tsed) - Intuitive  TypeScript framework for building server-side apps on top of Express.js or Koa.js.
+- [Hono](https://github.com/honojs/hono) - Small and fast web framework.
+
+### Documentation
+
+- [documentation.js](https://github.com/documentationjs/documentation) - API documentation generator with support for ES2015+ and flow annotation.
+- [Docco](https://github.com/jashkenas/docco) - Documentation generator which produces an HTML document that displays your comments intermingled with your code.
+- [JSDoc](https://github.com/jsdoc/jsdoc) - API documentation generator similar to JavaDoc or PHPDoc.
+- [Docusaurus](https://github.com/facebook/docusaurus) - Documentation website generator that leverages React and Markdown, and comes with translation and versioning features.
+
+### Filesystem
+
+- [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
+- [globby](https://github.com/sindresorhus/globby) - Glob files with support for multiple patterns.
+- [chokidar](https://github.com/paulmillr/chokidar) - Filesystem watcher which stabilizes events from `fs.watch` and `fs.watchFile` as well as using native `fsevents` on macOS.
+- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories.
+- [proper-lockfile](https://github.com/moxystudio/node-proper-lockfile) - Inter-process and inter-machine lockfile utility.
+- [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
+- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
+- [fs-write-stream-atomic](https://github.com/npm/fs-write-stream-atomic) - Like `fs.createWriteStream()`, but atomic.
+- [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid filename.
+- [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary.
+- [fs-jetpack](https://github.com/szwacz/fs-jetpack) - Completely redesigned file system API for convenience in everyday use.
+- [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+- [package-directory](https://github.com/sindresorhus/package-directory) - Find the root directory of an npm package.
+- [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
+- [move-file](https://github.com/sindresorhus/move-file) - Move a file, even works across devices.
+- [tempy](https://github.com/sindresorhus/tempy) - Get a random temporary file or directory path.
+
+### Control flow
+
+- Promises
+	- [pify](https://github.com/sindresorhus/pify) - Promisify a callback-style function.
+	- [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
+	- [promise-memoize](https://github.com/nodeca/promise-memoize) - Memoize promise-returning functions, with expire and prefetch.
+	- [valvelet](https://github.com/lpinca/valvelet) - Limit the execution rate of a promise-returning function.
+	- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently.
+	- [More…](https://github.com/sindresorhus/promise-fun)
+- Observables
+	- [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming.
+	- [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - Convert an Observable to a Promise.
+	- [More…](https://github.com/sindresorhus/awesome-observables)
+- Streams
+	- [Highland.js](https://github.com/caolan/highland) - Manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
+
+### Streams
+
+- [get-stream](https://github.com/sindresorhus/get-stream) - Get a stream as a string or buffer.
+- [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, inspired by `through2`.
+- [into-stream](https://github.com/sindresorhus/into-stream) - Convert a buffer/string/array/object into a stream.
+- [duplexify](https://github.com/mafintosh/duplexify) - Turn a writeable and readable stream into a single streams2 duplex stream.
+- [pumpify](https://github.com/mafintosh/pumpify) - Combine an array of streams into a single duplex stream.
+- [peek-stream](https://github.com/mafintosh/peek-stream) - Transform stream that lets you peek the first line before deciding how to parse it.
+- [binary-split](https://github.com/maxogden/binary-split) - Newline (or any delimiter) splitter stream.
+- [byline](https://github.com/jahewson/node-byline) - Super-simple line-by-line Stream reader.
+- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - Transform the first chunk in a stream.
+- [pad-stream](https://github.com/sindresorhus/pad-stream) - Pad each line in a stream.
+- [multistream](https://github.com/feross/multistream) - Combine multiple streams into a single stream.
+- [readable-stream](https://github.com/nodejs/readable-stream) - Mirror of Streams2 and Streams3 implementations in core.
+- [through2-concurrent](https://github.com/almost/through2-concurrent) - Transform object streams concurrently.
+
+### Real-time
+
+- [µWebSockets](https://github.com/uNetworking/uWebSockets) - Highly scalable WebSocket server & client library.
+- [Socket.io](https://github.com/socketio/socket.io) - Enables real-time bidirectional event-based communication.
+- [Faye](https://github.com/faye/faye) - Real-time client-server message bus, based on Bayeux protocol.
+- [SocketCluster](https://github.com/SocketCluster/socketcluster) - Scalable HTTP + WebSocket engine which can run on multiple CPU cores.
+- [Primus](https://github.com/primus/primus) - An abstraction layer for real-time frameworks to prevent module lock-in.
+- [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework.
+- [Kalm](https://github.com/kalm/kalm.js) - Low-level socket router and middleware framework.
+- [MQTT.js](https://github.com/mqttjs/MQTT.js) - Client for MQTT - Pub-sub based messaging protocol for use on top of TCP/IP.
+- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets.
+- [Aedes](https://github.com/moscajs/aedes) - Barebone MQTT server that can run on any stream server.
+
+### Image
+
+- [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images.
+- [image-type](https://github.com/sindresorhus/image-type) - Detect the type of an image.
+- [image-dimensions](https://github.com/sindresorhus/image-dimensions) - Get the dimensions of an image.
+- [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
+- [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
+- [jimp](https://github.com/oliver-moran/jimp) - Image processing in pure JavaScript.
+- [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator.
+- [ImageScript](https://github.com/matmen/ImageScript) - Image processing in JavaScript, utilizing WebAssembly for performance.
+
+### Text
+
+- [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
+- [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
+- [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
+- [escape-string-regexp](https://github.com/sindresorhus/escape
+
+[… truncated 36820 chars …]
