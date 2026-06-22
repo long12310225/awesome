@@ -111,28 +111,28 @@
 
 |组件|描述|
 |-----------|-------------|
-|** 0**|使用LLMs确定采取哪些行动的决策系统|
-|** 0**|LLMs的统一接口和跨提供商嵌入模型|
-|** 0**|组件之间的结构化通信格式|
-|** [Tools](https://docs.langchain.com/oss/python/langchain/tools)**|代理的外部功能调用和集成|
-|** 0**|用于维护对话上下文的工作记忆|
-|** [Streaming](https://docs.langchain.com/oss/python/langchain/streaming)**|部分结果的实时响应处理|
+|**🤖 [Agents](https://docs.langchain.com/oss/python/langchain/agents)**|使用LLMs确定采取哪些行动的决策系统|
+|**🧠 [Models](https://docs.langchain.com/oss/python/langchain/models)**|LLMs的统一接口和跨提供商嵌入模型|
+|**💬 [Messages](https://docs.langchain.com/oss/python/langchain/messages)**|组件之间的结构化通信格式|
+|**🛠️ [Tools](https://docs.langchain.com/oss/python/langchain/tools)**|代理的外部功能调用和集成|
+|**🧭 [Short-term Memory](https://docs.langchain.com/oss/python/langchain/short-term-memory)**|用于维护对话上下文的工作记忆|
+|**⚡ [Streaming](https://docs.langchain.com/oss/python/deepagents/streaming)**|部分结果的实时响应处理|
 
 ### 高级用法
 * 复杂人工智能应用程序的先进能力和技术 *
 
 |特征|描述|
 |---------|-------------|
-|** 0**|在整个会话中存在的持久记忆|
-|** [Guardrails](https://docs.langchain.com/oss/python/langchain/guardrails)**|针对代理输入、输出和工具使用的安全检查和政策执行|
-|** 0**|优化提示和上下文管理的技术|
-|** 0**|以特定格式和模式生成响应|
-|** 0**|标准化工具集成和上下文共享|
-|** 0**|针对敏感代理操作的审批工作流和基于中断的人工监督|
-|** 0**|具有多个人工智能代理的协调系统|
-|** 0**|高级文档检索和RAG模式|
-|** [Runtime](https://docs.langchain.com/oss/python/langchain/runtime)**️|生产部署和运行时管理|
-|** 0**|自定义处理层和请求/响应修改|
+|**🧠 [Long-term Memory](https://docs.langchain.com/oss/python/langchain/long-term-memory)**|在整个会话中存在的持久记忆|
+|**🛡️ [Guardrails](https://docs.langchain.com/oss/python/langchain/guardrails)**|针对代理输入、输出和工具使用的安全检查和政策执行|
+|**🎯 [Context Engineering](https://docs.langchain.com/oss/python/langchain/context-engineering)**|优化提示和上下文管理的技术|
+|**📋 [Structured Output](https://docs.langchain.com/oss/python/langchain/structured-output)**|以特定格式和模式生成响应|
+|**🔗 [Model Context Protocol](https://docs.langchain.com/oss/python/langchain/mcp)**|标准化工具集成和上下文共享|
+|**✋ [Human-in-the-Loop](https://docs.langchain.com/oss/python/deepagents/human-in-the-loop)**|针对敏感代理操作的审批工作流和基于中断的人工监督|
+|**🤝 [Multi-agent](https://docs.langchain.com/oss/python/langchain/multi-agent)**|具有多个人工智能代理的协调系统|
+|**🔍 [Retrieval](https://docs.langchain.com/oss/python/langchain/retrieval)**|高级文档检索和RAG模式|
+|**⚙️ [Runtime](https://docs.langchain.com/oss/python/langchain/runtime)**|生产部署和运行时管理|
+|**🔧 [Middleware](https://docs.langchain.com/oss/python/langchain/middleware)**|自定义处理层和请求/响应修改|
 
 </details>
 
@@ -207,8 +207,8 @@
 |** 时间旅行 **|浏览代理执行历史记录和状态|状态调试、执行回放、历史分析|
 |** 添加和管理内存 **|针对有状态代理的全面内存管理|短期工作记忆、长期坚持、记忆优化|
 |** T27**|用于复杂工作流程组合的嵌套图形结构|模块化工作流程、可重用组件、分层执行|
-|** 0**|具有单元和部分执行测试模式的地理图行为|节点测试、部分执行、基于检查指针的测试设置|
-|** 0**|使用LangSmith跟踪和调试图形执行|执行跟踪、状态检查、运行时监控|
+|**📊 Subgraphs**|具有单元和部分执行测试模式的地理图行为|节点测试、部分执行、基于检查指针的测试设置|
+|**🧪 [Testing](https://docs.langchain.com/oss/python/langgraph/test)**|使用LangSmith跟踪和调试图形执行|执行跟踪、状态检查、运行时监控|
 
 </details>
 
@@ -264,14 +264,14 @@
 
 |能力|描述|关键特征|
 |------------|-------------|--------------|
-|** [Planning & Task Decomposition](https://docs.langchain.com/oss/python/deepagents/overview)**|将大型任务分解为可管理的步骤并跟踪进展|内置待办事项系统、自适应规划、多步骤执行|
-|** 0**|通过文件系统工具卸载和管理大型上下文|虚拟文件系统、文件读/写/编辑工具、上下文压缩|
-|** 0**|将工作委托给专业代理进行上下文隔离|内置任务委托、专门的子任务、更清晰的主代理上下文|
-|** 0**|跨线程和会话持久有用信息|长期记忆、记忆储存、跨线程回忆|
-|** [Human-in-the-Loop](https://docs.langchain.com/oss/python/deepagents/human-in-the-loop)**|为敏感操作添加审批检查点|批准控制、可预见的执行、工具级监督|
-|** 0**|需要时在隔离环境中执行代码|沙箱后端、安全执行、远程运行时选项|
-|** [Streaming](https://docs.langchain.com/oss/python/deepagents/streaming)**|实时流媒体中间输出和代理进度|实时进度更新、流式响应、响应式用户体验|
-|** [Skills](https://docs.langchain.com/oss/python/deepagents/skills)**|具有可重复使用的特定任务专业知识扩展代理|技能目录、渐进披露、自定义说明|
+|**🗂️ [Planning & Task Decomposition](https://docs.langchain.com/oss/python/deepagents/overview)**|将大型任务分解为可管理的步骤并跟踪进展|内置待办事项系统、自适应规划、多步骤执行|
+|**🗂️ [Planning & Task Decomposition](https://docs.langchain.com/oss/python/deepagents/overview)**|通过文件系统工具卸载和管理大型上下文|虚拟文件系统、文件读/写/编辑工具、上下文压缩|
+|**📁 [Context Management](https://docs.langchain.com/oss/python/deepagents/backends)**|将工作委托给专业代理进行上下文隔离|内置任务委托、专门的子任务、更清晰的主代理上下文|
+|**🧩 [Subagents](https://docs.langchain.com/oss/python/deepagents/subagents)**|跨线程和会话持久有用信息|长期记忆、记忆储存、跨线程回忆|
+|**✋ [Human-in-the-Loop](https://docs.langchain.com/oss/python/deepagents/human-in-the-loop)**|为敏感操作添加审批检查点|批准控制、可预见的执行、工具级监督|
+|**✋ [Human-in-the-Loop](https://docs.langchain.com/oss/python/deepagents/human-in-the-loop)**|需要时在隔离环境中执行代码|沙箱后端、安全执行、远程运行时选项|
+|**⚡ [Streaming](https://docs.langchain.com/oss/python/deepagents/streaming)**|实时流媒体中间输出和代理进度|实时进度更新、流式响应、响应式用户体验|
+|**🛠️ [Skills](https://docs.langchain.com/langsmith/fleet/skills)**|具有可重复使用的特定任务专业知识扩展代理|技能目录、渐进披露、自定义说明|
 
 </details>
 
@@ -327,11 +327,11 @@
 |特征|描述|关键能力|
 |---------|-------------|-----------------|
 |* *🚀|将代理部署为生产就绪Agent Servers|托管部署、扩展、代理运行时、生产托管|
-|** 0**|了解您的应用程序为更快地调试和提高可靠性而采取的每个步骤|跟踪、仪表板、警报、见解、自动化|
-|** 0**|随着时间的推移测量和跟踪应用程序质量|离线实验，在线评估器，LLM-作为法官，评估器工具|
-|** [Prompt Engineering](https://docs.langchain.com/langsmith/prompt-engineering)**️|通过内置版本控制和协作迭代提示|即时测试、版本控制、协作、提交历史记录|
-|** 0**|在视觉界面中设计、测试和完善端到端应用程序|视觉开发、提示迭代、调试工作流程|
-|** [Sandboxes](https://docs.langchain.com/langsmith/sandboxes)**|在隔离的执行环境中运行代码和工具|安全执行、沙箱SDK、受控运行时环境|
+|**Unified LangChain Docs**|了解您的应用程序为更快地调试和提高可靠性而采取的每个步骤|跟踪、仪表板、警报、见解、自动化|
+|**🚀 [Deployment](https://docs.langchain.com/langsmith/deployment)**|随着时间的推移测量和跟踪应用程序质量|离线实验，在线评估器，LLM-作为法官，评估器工具|
+|**✏️ [Prompt Engineering](https://docs.langchain.com/langsmith/prompt-engineering)**|通过内置版本控制和协作迭代提示|即时测试、版本控制、协作、提交历史记录|
+|**📈 [Evaluation](https://docs.langchain.com/langsmith/evaluation)**|在视觉界面中设计、测试和完善端到端应用程序|视觉开发、提示迭代、调试工作流程|
+|**🧪 [Sandboxes](https://docs.langchain.com/oss/python/deepagents/sandboxes)**|在隔离的执行环境中运行代码和工具|安全执行、沙箱SDK、受控运行时环境|
 |** 平台 设置 **|配置LangSmith用于云、混合或自托管使用|管理控制、合规性、数据治理、基础设施选项|
 
 </details>
@@ -378,7 +378,7 @@
 
 ** 将LangSmith跟踪和可观察性直接集成到Claude代码工作流程中。**将Claude代码会话连接到LangSmith，以在IDE内捕获跟踪、监视运行并评估代理行为。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`langsmith-claude-code-plugins`](https://github.com/langchain-ai/langsmith-claude-code-plugins)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langsmith-claude-code-plugins?style=social)|
@@ -410,12 +410,12 @@
 
 |特征|描述|关键能力|
 |---------|-------------|-----------------|
-|** 0**|无需编写代码即可创建和管理代理|基于模板的设置、AI辅助配置、可编辑指令|
-|** 0**|通过应用程序集成将上下文和操作带入代理|Gmail、Google Calendar、Slack、Tavily、Exa、远程MCP服务器|
-|** 0**|使用您的团队已经工作的代理|Slack与Microsoft Teams集成、渠道内工作流程|
-|** [Schedules](https://docs.langchain.com/langsmith/fleet/schedules)**|自动运行重复性任务|每日简报、定期报告、定时自动化|
-|** [Access & Oversight](https://docs.langchain.com/langsmith/fleet/access-and-oversight)**|让人类控制重要操作|审批流程、监督控制、更安全的自动化|
-|** [Skills](https://docs.langchain.com/langsmith/fleet/skills)**|具有可重复使用的特定于任务的行为扩展代理|专业指令、可重复使用的工作流程、范围内的能力|
+|**GitHub Stars**|无需编写代码即可创建和管理代理|基于模板的设置、AI辅助配置、可编辑指令|
+|**Last Commit**|通过应用程序集成将上下文和操作带入代理|Gmail、Google Calendar、Slack、Tavily、Exa、远程MCP服务器|
+|**🧱 [No-Code Agent Builder](https://docs.langchain.com/langsmith/fleet)**|使用您的团队已经工作的代理|Slack与Microsoft Teams集成、渠道内工作流程|
+|**🗓️ [Schedules](https://docs.langchain.com/langsmith/fleet/schedules)**|自动运行重复性任务|每日简报、定期报告、定时自动化|
+|**✅ [Access & Oversight](https://docs.langchain.com/langsmith/fleet/access-and-oversight)**|让人类控制重要操作|审批流程、监督控制、更安全的自动化|
+|**🛠️ [Skills](https://docs.langchain.com/langsmith/fleet/skills)**|具有可重复使用的特定于任务的行为扩展代理|专业指令、可重复使用的工作流程、范围内的能力|
 
 </details>
 
@@ -596,7 +596,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 用于自动化计算机交互和图形用户界面任务的高级代理。**为复杂的桌面自动化工作流程提供复杂的屏幕交互功能、点击/打字自动化和视觉推理。
 
-| | |
+|||
 |---|---|
 |**Python**|[`langgraph-cua-py`](https://github.com/langchain-ai/langgraph-cua-py)|
 |**TypeScript**|[`langgraph-cua`](https://github.com/langchain-ai/langgraphjs/tree/main/libs/langgraph-cua)|
@@ -610,7 +610,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 用于分布式任务执行的多代理协调系统。**实现多个专业代理之间的动态任务分配和集体智能，共同解决复杂问题。
 
-| | |
+|||
 |---|---|
 |**Python**|[`langgraph-swarm-py`](https://github.com/langchain-ai/langgraph-swarm-py)|
 |**TypeScript**|[`langgraph-swarm`](https://github.com/langchain-ai/langgraphjs/tree/main/libs/langgraph-swarm)|
@@ -624,7 +624,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 代理编排和工作流程监督系统。**为复杂的分层代理架构提供高级的多代理协调、任务委托和工作流程管理。
 
-| | |
+|||
 |---|---|
 |**Python**|[`langgraph-supervisor-py`](https://github.com/langchain-ai/langgraph-supervisor-py)|
 |**TypeScript**|[`langgraph-supervisor`](https://github.com/langchain-ai/langgraphjs/tree/main/libs/langgraph-supervisor)|
@@ -638,7 +638,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** LangChain代理的模型上下文协议集成。**提供工具兼容性和协议桥接，以无缝集成Anthropic MCP工具与代理工作流程。
 
-| | |
+|||
 |---|---|
 |**Python**|[`langchain-mcp-adapters`](https://github.com/langchain-ai/langchain-mcp-adapters)|
 |**TypeScript**|--|
@@ -652,7 +652,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 先进的内存管理系统，用于持久的代理学习。**为随着时间的推移而学习和改进的代理提供内存管理、体验回放和适应。
 
-| | |
+|||
 |---|---|
 |**Python**|[`langmem`](https://github.com/langchain-ai/langmem)|
 |**TypeScript**|--|
@@ -666,7 +666,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 大规模刀具管理优化系统。**提供先进的刀具管理和智能选择优化，以高效处理复杂的刀具生态系统。
 
-| | |
+|||
 |---|---|
 |**Python**|[`langgraph-bigtool`](https://github.com/langchain-ai/langgraph-bigtool)|
 |**TypeScript**|--|
@@ -680,7 +680,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 先进的代理，用于复杂、长期的规划和执行。**具有复杂的规划工具、子代理编排、文件系统访问以及用于处理复杂多步骤任务的详细提示。
 
-| | |
+|||
 |---|---|
 |**Python**|[`deepagents`](https://github.com/langchain-ai/deepagents)|
 |**TypeScript**|--|
@@ -694,7 +694,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 可配置深度研究代理，用于自动化研究任务。**通过多模型支持、MCP兼容性和评估基准跨多个来源执行全面研究。在深度研究平台排行榜上取得与流行研究代理相当的表现。
 
-| | |
+|||
 |---|---|
 |**Python**|[`open_deep_research`](https://github.com/langchain-ai/open_deep_research)|
 |**TypeScript**|--|
@@ -719,7 +719,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 托管RAG服务与FastAPI和PostgreSQL/pgvector集成。**具有文档收集管理、语义搜索和对生产就绪RAG应用程序的Docker部署支持。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`langconnect`](https://github.com/langchain-ai/langconnect)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langconnect?style=social)|
@@ -732,7 +732,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 文档助手由RAG提供支持，基于语义搜索，具有智能查询分析。**具有自动内容索引、防重复、GenUI和复杂的文档跟踪系统。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`chat-langchain`](https://github.com/langchain-ai/chat-langchain)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/chat-langchain?style=social)|
@@ -745,7 +745,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 用于人工智能代理交互的集中式界面，具有实时通信。**包括适用于本地和云部署的中断处理和可配置响应系统。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`agent-inbox`](https://github.com/langchain-ai/agent-inbox)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agent-inbox?style=social)|
@@ -758,7 +758,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 一体化聊天机器人模板，将React风格的代理与现代UI相结合。**采用FastHTML组件和Claude 3构建，具有单一部署架构和可扩展工具。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`langgraph-fullstack-python`](https://github.com/langchain-ai/langgraph-fullstack-python)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph-fullstack-python?style=social)|
@@ -771,7 +771,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 **Next.js入门模板展示LangChain.js模块。**包括流聊天、结构化输出、多步骤代理以及与Vercel AI SDK集成的RAG实施。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`langchain-nextjs-template`](https://github.com/langchain-ai/langchain-nextjs-template)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain-nextjs-template?style=social)|
@@ -784,7 +784,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 使用LangGraph和Gemini 2.5模型系列进行研究和播客生成工作流程。**具有视频理解、Google搜索集成和多说话者文本转语音功能，用于创建全面的研究报告和音频播客。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`multi-modal-researcher`](https://github.com/langchain-ai/multi-modal-researcher)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/multi-modal-researcher?style=social)|
@@ -797,7 +797,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 **Next.js接口，用于Deep Agents，具有流媒体支持和LangGraph平台集成。**通用人工智能代理能够通过可定制的UI组件处理不同复杂性的任务。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`deep-agents-ui`](https://github.com/langchain-ai/deep-agents-ui)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/deep-agents-ui?style=social)|
@@ -810,7 +810,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 一个生成式UI Web应用程序，用于与Computer Use Agent（CUA）交互。**使用'@langchain/langgraph-cua '预构建包，并具有计算机自动化和任务管理的现代化界面。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`gen-ui-computer-use`](https://github.com/bracesproul/gen-ui-computer-use)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/bracesproul/gen-ui-computer-use?style=social)|
@@ -823,7 +823,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 从URL生成Twitter和LinkedIn帖子，并可选择进行人工审查。**具有内容分析、平台特定的格式化和社交媒体内容创建的审批工作流程。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`social-media-agent`](https://github.com/langchain-ai/social-media-agent)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/social-media-agent?style=social)|
@@ -836,7 +836,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 基于LangGraph构建的开源同步编码代理，用于长期运行的自主软件工程任务。**支持Anthropic和OpenAI模型，专为复杂的多步骤代码生成和修改工作流程而设计。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`open-swe`](https://github.com/langchain-ai/open-swe)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/open-swe?style=social)|
@@ -858,7 +858,7 @@ Fleet包括用于实际工作流程的现成模板，例如：
 
 ** 用于LangGraph项目的自动代码生成工具。**将YML配置初始化为工作代码，提供项目脚手架，并自动创建模板以实现快速开发。
 
-| | |
+|||
 |---|---|
 |** 仓库 **|[`langgraph-gen-py`](https://github.com/langchain-ai/langgraph-gen-py)|
 |**GitHub星星 **|![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph-gen-py?style=social)|
