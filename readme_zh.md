@@ -82,6 +82,7 @@
 - [前端开发](#前端开发)
 - [后端开发](#后端开发)
 - [计算机科学](#计算机科学)
+- [人工智能](#人工智能)
 - [大数据](#大数据)
 - [理论](#理论)
 - [书籍](#书籍)
@@ -429,6 +430,10 @@
 - [对话式 AI](https://github.com/jyguyomarch/awesome-conversational-ai#readme) [📄本地](计算机科学/awesome-conversational-ai_zh.md) - 构建出色的聊天机器人和数字助手。
 - [生成式 AI](https://github.com/steven2358/awesome-generative-ai#readme) [📄本地](计算机科学/awesome-generative-ai_zh.md) - 自动生成文本、图像和音频格式的各种独特内容。
 - [基于位置的量子密码学](https://github.com/Renaller/awesome-position-based-quantum-cryptography#readme) [📄本地](计算机科学/awesome-position-based-quantum-cryptography_zh.md) - 利用狭义相对论约束在特定条件下实现量子安全性的量子密码学理论。
+
+## 人工智能
+
+- [Awesome LangGraph & LangChain 生态系统](https://github.com/von-development/awesome-LangGraph#readme) [📄本地](人工智能/LangGraph/README_zh.md) - LangGraph/LangChain 生态系统的框架、模板和真实项目精选索引（中文翻译版）。
 
 ## 大数据
 
